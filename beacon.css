@@ -18,14 +18,6 @@
     display: grid;
 }
 
-.charsheet .sheet-tabstoggle[value=character] ~main.sheet-gen{
-    display: grid;
-}
-
-.charsheet .sheet-tabstoggle[value=npc] ~main.sheet-npcgen{
-    display: grid;
-}
-
 .charsheet div.tab-buttons {
   display: flex;
   gap: 10px;
@@ -448,38 +440,44 @@ main.sheet-npcgen {
 .sheet-rolltemplate-darkmode .inlinerollresult{
     color: #FFFFFF;
 }
+
 .sheet-tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 2px dotted green;
+  border-bottom: 1px dotted #000;
+  cursor: help;
 }
 
-.sheet-tooltip .sheet-tooltiptext {
+.sheet-tooltip .sheet-tooltip-text {
   visibility: hidden;
-  width: auto;
-  background-color: black;
+  width: 220px;
+  background-color: #000;
   color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
   position: absolute;
   z-index: 1;
-  top: 150%;
-  left: 50%;
-  margin-left: -120px;
+  bottom: 100%;
+  left: 100%;
+  margin-left: 35px;
+  margin-bottom: 2px;
+  transform: translateX(-50%);
 }
 
-.sheet-tooltip .sheet-tooltiptext::after {
+.sheet-tooltip .sheet-tooltip-text::before {
   content: "";
   position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
+  top: 100%;
+  left: 30%;
+  margin-left: -10px;
   border-width: 5px;
+  transform: translateX(-50%);
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: black transparent transparent transparent;
 }
 
-.sheet-tooltip:hover .sheet-tooltiptext {
+.sheet-tooltip:hover .sheet-tooltip-text {
   visibility: visible;
 }
+
