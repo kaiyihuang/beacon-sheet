@@ -450,7 +450,7 @@ main.sheet-npcgen {
 
 .sheet-tooltip .sheet-tooltip-text {
   visibility: hidden;
-  width: 220px;
+  width: 225px;
   background-color: #000;
   color: #fff;
   text-align: left;
@@ -480,4 +480,3 @@ main.sheet-npcgen {
 .sheet-tooltip:hover .sheet-tooltip-text {
   visibility: visible;
 }
-
