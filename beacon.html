@@ -1,0 +1,1266 @@
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="character">
+
+<div class="tab-buttons middle center">
+  <button type="action" name="act_character">Character</button>
+  <button type="action" name="act_gen">General Rules</button>
+  <button type="action" name="act_npc">NPC</button>
+  <button type="action" name="act_npcgen">NPC General Rules</button>
+</div>
+
+
+<main class="sheet-character">
+
+  <section class="header f-center">
+    <h1><div class="sheet-tooltip">BEACON RPG
+        <span class="sheet-tooltiptext" style="color: rgb(114, 172, 57);">
+            ⠄⠄⠄⠄⠄⠄⠄⢀⣀⡠⣒⣶⣖⣲⡤⣀⠄⣠⣴⣶⣶⣶⣖⡤⡄⠄⠄⠄⠄⠄
+            ⠄⠄⣀⢄⣐⡦⢤⣴⣓⠢⣬⣿⣿⠿⣋⣑⣂⣀⠠⢤⣬⣽⡛⢿⣷⣽⢤⡀⠄⠄
+            ⢀⠰⡁⠴⠲⠶⣶⣶⣾⣅⡐⠭⠑⠄⠭⣿⣿⣿⣍⣒⠍⡻⢿⣶⣾⣿⣷⣷⣀⠄
+            ⢈⢰⠁⢰⠆⠂⢹⣿⣿⣿⠁⠎⢠⣄⣤⠘⣿⣿⣿⣿⣷⣌⣉⢻⣿⣿⣿⣿⡞⠄
+            ⠘⠠⠓⠦⠤⠾⠿⠿⢛⣣⣤⠣⡌⠁⢂⣰⣿⣿⣿⡿⢛⣣⣴⣿⣿⣿⣿⣿⣿⡀
+            ⠄⠄⠢⢅⣒⣒⣀⣩⣿⣿⣿⣓⠮⠍⠉⠉⠉⠩⠵⠶⣛⣱⣾⣿⣿⣿⣿⣿⣿⡇
+            ⠄⢸⢘⣻⣿⣿⣿⣿⣛⣛⣛⠛⠿⢶⣶⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+            ⠄⠈⢬⡻⡉⠄⠄⠈⠉⠙⠛⠛⠛⠿⢿⣶⣦⣭⣝⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+            ⠄⠄⠄⣧⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠉⠙⢿⡇⣿⣿⣿⣿⣿⣿⣿⣿⡟⠃
+            ⠄⠄⠄⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣤⡼⢡⣿⣿⣿⣿⣿⣿⣿⣿⢳⠄
+            ⠄⠄⠄⣿⡿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣠⡿⢟⣱⣿⣿⣿⣿⣿⣿⣿⣿⠷⠃⠄
+            ⠄⠄⠄⣿⣿⣄⣀⣀⠄⠄⢀⣀⣠⣶⢟⣹⣶⣿⣿⣿⣿⣿⣿⣿⡿⢟⠕⠁⠄⠄
+            ⠄⠄⠄⠡⣍⣛⣛⣛⣻⣿⣿⣯⣭⣴⣿⣿⣿⣿⣿⣿⣿⡿⢟⡻⠕⠉⠄⠄⠄⠄
+            ⠄⠄⠄⠄⠄⠉⠒⠯⠽⠟⠛⠛⠛⠛⠛⠻⠿⠭⠽⠒⠉⠁⠄⠄⠄⠄⠄⠄⠄⠄</span></div></h1>
+  </section>
+
+<section class="skill">
+    <span>Name<input name="attr_character_name" type="text" style="width: 50%; center"></span><br>
+    <div class="f-row nowrap">
+      <div>Bulk</div>
+        <input type="number" name="attr_bulk" value="0" min="0" max="6" step="1">
+        <button type="roll" name="roll_bulk" value="&{template:default} {{title=bulk}}   {{roll= [[1d20+@{bulk} +?{Accuracy/Difficulty|0}d6k1]]}}"> </button>
+      </div>
+      <div class="f-row nowrap">
+        <div>Agility</div>
+        <input type="number" name="attr_agility" value="0" min="0" max="6" step="1">
+        <button type="roll" name="roll_agility" value="&{template:default} {{title=agility}}   {{roll= [[d20+@{agility}[agility] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+      </div>
+      <div class="f-row nowrap">
+        <div>Mind</div>
+        <input type="number" name="attr_mind" value="0" min="0" max="6" step="1">
+        <button type="roll" name="roll_mind" value="&{template:default} {{title=mind}}   {{roll= [[d20+@{mind}[mind] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+      </div>
+      <div class="f-row nowrap">
+        <div>Magic</div>
+        <input type="number" name="attr_magic" value="0" min="0" max="6" step="1">
+        <button type="roll" name="roll_magic" value="&{template:default} {{title=magic}}   {{roll= [[d20+@{magic}[magic] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+      </div>
+      <br>
+      <br>
+    <span>Current Job</span>
+    <select name="attr_job">
+        <option value="Aegis">Aegis</option>
+        <option value="Alchemist">Alchemist</option>
+        <option value="Arsenal">Arsenal</option>
+        <option value="Assassin">Assassin</option>
+        <option value="Berserker">Berserker</option>
+        <option value="Chronomancer">Chronomancer</option>
+        <option value="Demon_Hunter">Demon Hunter</option>
+        <option value="Demonologist">Demonologist</option>
+        <option value="Dragon_Rider">Dragon Rider</option>
+        <option value="Druid">Druid</option>
+        <option value="Equinox">Equinox</option>
+        <option value="Gravewalker">Gravewalker</option>
+        <option value="Gunslinger">Gunslinger</option>
+        <option value="Hexblade">Hexblade</option>
+        <option value="Knightmare">Knightmare</option>
+        <option value="Lifeweaver">Lifeweaver</option>
+        <option value="Paladin">Paladin</option>
+        <option value="Phoenix">Phoenix</option>
+        <option value="Riftblade">Riftblade</option>
+        <option value="Rimeguard">Rimeguard</option>
+        <option value="Seeker">Seeker</option>
+        <option value="Shadebinder">Shadebinder</option>
+        <option value="Shadow_Dancer">Shadow Dancer</option>
+        <option value="Shapeshifter">Shapeshifter</option>
+        <option value="Skald">Skald</option>
+        <option value="Thunderclaw">Thunderclaw</option>
+        <option value="Tidecaller">Tidecaller</option>
+        <option value="Warden">Warden</option>
+        <option value="Warlord">Warlord</option>
+    </select>
+    <br>
+    <span>Ancestry</span> 
+    <select name="attr_ancestry">
+        <option value="Avian">Avian</option>
+        <option value="Cambion">Cambion</option>
+        <option value="Dragonborn">Dragonborn</option>
+        <option value="Dwarf">Dwarf</option>
+        <option value="Elemental">Elemental</option>
+        <option value="Elf">Elf</option>
+        <option value="Gigan">Gigan</option>
+        <option value="Gnome">Gnome</option>
+        <option value="Goblin">Goblin</option>
+        <option value="Halfling">Halfling</option>
+        <option value="Human">Human</option>
+        <option value="Kobold">Kobold</option>
+        <option value="Lycanthrope">Lycanthrope</option>
+        <option value="Machina">Machina</option>
+        <option value="Orc">Orc</option>
+        <option value="Custom">Custom</option>
+    </select>
+    </section>
+    <br>
+
+  <section class="stats common">
+      <div>Level</div><input name="attr_level" type="number" value="1" min="1" max="12">
+      <div>Grit</div><input name="attr_grit" type="number" value="0" min="0" max="6"><br/>
+      <div>Size</div><input name="attr_size" type="number" value="1" min="1" max="6">
+      <div>Dodge</div><input name="attr_dodge" type="number" value="0" min="0" max="99"><br/>
+      <div>A-Defense</div><input name="attr_a_def" type="number" value="0" min="0" max="99">
+      <div>Save Target</div><input name="attr_save" type="number" value="0" min="0" max="99"><br/>
+      <div>Scope</div><input name="attr_scope" type="number" value="0" min="0" max="99">
+      <div>Speed</div><input name="attr_speed" type="number" value="0" min="0" max="99">
+  </section>
+  
+  <section class="ult">
+    <h3>Limit Break</h3>
+    <input type="checkbox" class="sheet-toggle-show">
+    <button type="roll" name="roll_anc" value="&{template:default} {{Name=@{lb_name}}} {{Description=@{lb_info}}}"></button>
+    <Label>Name <input type=text class=text160 name="attr_lb_name" readonly></label>
+    <div class="sheet-body">
+        <textarea name="attr_lb_info"></textarea>
+    </div>
+  </section>
+
+  <section class="bars">
+    <table class="b">
+        <tr class="b">
+            <td class="b"><div>Armor</div><input type="number" name="attr_armor" value="0" min="0" max="99"></td>
+            <td class="b"><div>Focus</div><input type="number" name="attr_focus" value="0" min="0" max="99"></td>
+        </tr>
+        <tr class="b">
+            <td class="b"><div>Temp HP</div><input type="number" name="attr_temphp" value="0" min="0" max="99"></td>
+            <td class="b"><div>Memory</div><input type="number" name="attr_memory_max" value="0" min="0" max="99" readonly></span></td>
+        </tr>
+        <tr class="b">
+            <td class="b"><div>HP</div><input type="number" name="attr_hp" value="0" min="0" max="99"><span>/</span><input type="number" name="attr_hp_max" value="0" min="0" max="99" readonly></td>
+            <td class="b"><div>Wounds</div><input type="number" name="attr_wound" value="4" min="0" max="4"><span>/</span><input type="number" name="attr_wound_max" value="4" min="0" max="4" readonly></span></td>
+        </tr>
+        <tr class="b">
+            <td class="b"><div>Stress</div><input type="number" name="attr_stress" value="0" min="0" max="99">/<input type="number" name="attr_stress_max" value="0" min="0" max="99" readonly></td>
+            <td class="b"><div>Overstress</div><input type="number" name="attr_overstress" value="4" min="0" max="4"><span>/</span><input type="number" name="attr_overstress_max" value="4" min="0" max="4" readonly></span></td>
+        </tr>
+        <tr class="b">
+            <td class="b"><div>Mana</div><input type="number" name="attr_mana" value="0" min="0" max="99">/<input type="number" name="attr_mana_max" value="0" min="0" max="99" readonly></td>
+        </tr>
+        <tr class="b">
+            <td class="b"><div>Recoveries</div><input type="number" name="attr_recoveries" value="0" min="0" max="99">/<input type="number" name="attr_recoveries_max" value="0" min="0" max="99" readonly></td>
+        </tr>
+      </table>
+  </section>
+
+  <section class="attack">
+    <h3>Weapon & Spells</h3>
+    <span><input name="attr_slots1" type="text" list="wpn_slots" style="width: 38%; text-align;">
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 15%; text-align">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        <input name="attr_slots2" type="text" list="wpn_slots" style="width: 41%; text-align;"></select></span>
+    <span><input name="attr_slots3" type="text" list="wpn_slots" style="width: 38%; text-align;">
+    <select name="attr_slots4" type="text" list="linked" class=linkedBox style="width: 15%; text-align">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        <input name="attr_slots4" type="text" list="wpn_slots" style="width: 41%; text-align;"></select></span>
+    <span><input name="attr_slots5" type="text" list="wpn_slots" style="width: 38%; text-align;">
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 15%; text-align">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        <input name="attr_slots6" type="text" list="wpn_slots" style="width: 41%; text-align;"></select></span>
+    <span><input name="attr_slots7" type="text" list="wpn_slots" style="width: 38%; text-align;">
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 15%; text-align">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        <input name="attr_slots8" type="text" list="wpn_slots" style="width: 41%; text-align;"></select></span>   
+    <h3>Custom</h3>
+    <fieldset class="repeating_attacks">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_attack" value="&{template:default} {{title=@{attackname}}} {{Type=@{attacktype}}} {{Range=@{attackrange}}} {{Tags=@{attacktags}}} {{To Hit= [[1d20+@{npctohit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage}]] @{damagetype}}} {{Effect=@{attackeffects}}}" ></button>
+        <input type="text" class=text160 name="attr_attackname" value=""><span>Range<input type="text" class=text105 name="attr_attackrange" value=""></span><br>
+        <div class="sheet-body">
+        <span>Type<input type="text" name="attr_attacktype" value=""></span><br>
+        <span>To Hit<input type="text" name="attr_npctohit" class=smallerTextbox value=""></span><span>Damage<input type="text" class=smallerTextbox name="attr_attackdamage" value=""></span><span>Type<input type="text" name="attr_damagetype" class=resizedTextbox value=""></span><br>
+        <span>Tags<input type="text" name="attr_attacktags" value=""></span>Effects? <input type="checkbox" class="sheet-toggle-show"><br>
+        <div class="sheet-body">
+        <textarea class=textAtks name="attr_attackeffects" value=""></textarea></div>
+        </div>
+        </div>
+    </fieldset>
+  </section>
+
+<section class="power">
+    <h3>Spells & Techniques</h3>
+    <center><h3><div>Used Memory</div><input name="attr_memory" type="number" value="0" min="0" max="99" style="width: auto; center"><span>/</span><input name="attr_memory_max" type="number" value="0" min="0" max="99" style="width: auto; center" readonly></td></h3>
+    <fieldset class="repeating_powers">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}}   {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{Effect=@{powereffects}}}" > </button>
+        <input type="text" class=resizedTextbox name="attr_powername" value=""><br>
+        <div class="sheet-body">
+        <span>Type<input type="text" class=text40 name="attr_powertype" value=""style="width:28%"></span><span>Action<input type="text" class=text80 Textbox name="attr_poweraction" value="" style="width:28%"></span><br><span>Range<input type="text" class=text105 name="attr_powerrange" value="" style="width:95%"></span><br>
+        <span>Tags<input type="text" name="attr_powertags" value="" style="width:95%"></span><br>
+        <span>Description<textarea name="attr_powereffects" style="width:95%"></textarea></span>
+        </div>
+    </fieldset>
+  </section>
+
+<section class="inv">
+    <h3>Support Items</h3>
+    <span><input name="attr_inv_slots1" type="text" list="inv_slots" style="width: auto; text-align;"> <span><input name="attr_inv_slots2" type="text" list="inv_slots" style="width: auto; text-align;"></span><br>
+    <span><input name="attr_inv_slots3" type="text" list="inv_slots" style="width: auto; text-align;"> <span><input name="attr_inv_slots4" type="text" list="inv_slots" style="width: auto; text-align;"></span><br>
+    <fieldset class="repeating_support">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_support" value="&{template:default} {{title=@{supportname}}} {{Type=@{supporttype}}} {{Tags=@{supporttags}}} {{Effects=@{supporteffects}}}"> </button>
+        <input type="text" name="attr_supportname" value="">
+        <div class="sheet-body">
+        <span>Type<input type="text" name="attr_supporttype" value=""></span><br>
+        <span>Tags<input type="text" name="attr_supporttags" value=""></span><br>
+        <textarea name="attr_supporteffects"></textarea>
+        </div>
+    </fieldset>
+  </section>
+
+ <section class="talent">
+    <h3>Talents</h3>
+   <fieldset class="repeating_talent">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_talent" value="&{template:default} {{title=@{talent_name}}} {{Description=@{talent_info}}}"> </button>
+        <input type="text" class="resizedTextbox" name="attr_talent_name" value="">
+        <div class="sheet-body">
+        <textarea name="attr_talent_info"></textarea>
+        </div>
+</section>
+
+<section class="misc">
+    <h3>Ancestry</h3>
+    <input type="checkbox" class="sheet-toggle-show">
+    <button type="roll" name="roll_anc" value="&{template:default} {{title=@{anc_trait_name}}} {{Description=@{anc_trait_info}}}"></button>
+    <Label>Trait<input type=text class=text160 name="attr_anc_trait_name"></label>
+    <div class="sheet-body">
+        <textarea name="attr_anctrait_info"></textarea>
+    </div>
+    <br>
+    <h3>Job</h3>
+    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_job1" value="&{template:default} {{title=@{job_trait1}}} {{Description=@{job_trait1_info}}}" ></button>
+    <Label>Trait<input type=text class=text160 name="attr_job_trait1" readonly></label>
+    <div class="sheet-body1">
+        <textarea name="attr_job_trait1_info"></textarea>
+    </div>
+    <br>
+    <input type="checkbox" class="sheet-toggle-show2">
+    <button type="roll" name="roll_job2" value="&{template:default} {{title=@{job_trait2}}} {{Description=@{job_trait2_info}}}" ></button>
+    <Label>Trait<input type=text class=text160 name="attr_job_trait2" readonly></label>
+    <div class="sheet-body2">
+        <textarea name="attr_job_trait2_info"></textarea>
+    </div>
+    <br>
+    <input type="checkbox" class="sheet-toggle-show3">
+    <button type="roll" name="roll_job3" value="&{template:default} {{title=@{job_trait3}}} {{Description=@{job_trait3_info}}}" ></button>
+    <Label>Trait<input type=text class=text160 name="attr_job_trait3" readonly></label>
+    <div class="sheet-body3">
+        <textarea name="attr_job_trait3_info"></textarea>
+    </div>
+    <br>
+</section>
+
+  <footer class="f-col f-center">
+    <span >BEACON created by Tim Gonzalez & Pirate Gonzalez Games. This sheet is a modification of Anduh's Roll20-grid-template - thank you very much for the template. </span>
+  </footer>
+
+</main>
+
+<!-- NPC Sheet -->
+
+
+<main class="sheet-npc">
+
+    <section class="header f-center">
+        <h1><div class="sheet-tooltip">BEACON RPG
+            <span class="sheet-tooltiptext" style="color: rgb(114, 172, 57);">
+                ⠄⠄⠄⠄⠄⠄⢀⣠⣶⣾⣿⣿⣶⣶⣦⢀⣀⣤⣶⣶⣶⣶⡀⠄⠄⠄⠄⠄⠄⠄
+                ⠄⠄⠄⠄⢀⣴⣿⣿⢛⣿⣭⣵⣬⣭⣿⡘⢿⠿⢟⣛⣛⣛⠿⠧⠄⠄⠄⠄⠄⠄
+                ⠄⠄⠄⣀⣸⣿⣿⣿⣿⣯⣭⡿⢿⣿⣿⣭⠤⢿⣿⠿⢿⣛⠫⣭⣶⣢⣄⡀⠄⠄
+                ⠄⣠⣾⣿⣿⣿⣿⣟⠭⡵⢒⣮⣭⣷⣶⠝⢛⣒⢐⣻⡯⢖⣻⣯⣶⠖⣬⣥⠄⠄
+                ⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣭⣭⣭⡭⠭⢽⣶⣣⣶⣮⣽⣿⣿⣿⡭⠶⠆⠄⠄
+                ⣿⠛⣹⣿⣿⣿⡿⢟⣛⣛⣿⠷⠶⣤⣬⣽⢋⣿⣿⣿⣿⣭⣿⣿⢖⡀⠄⠄⠄⠄
+                ⣿⣿⣿⣿⢯⣶⠟⠋⠄⠄⠄⠉⠉⠛⠛⠶⠾⠿⢯⠭⠽⠶⠿⠿⠋⠁⠴⠆⠄⠄
+                ⣿⠟⢻⡏⣿⡏⠄⠄⠄⠄⠄⢠⣤⣶⣶⣤⣤⣀⡀⠄⠄⢀⣤⣴⣶⣶⣶⡆⠰⠂
+                ⣿⣾⣿⣿⣿⡇⠄⠄⠄⠄⢠⣿⠋⠄⠄⠄⠉⠙⠛⠛⠛⠛⠉⠄⠄⠄⣤⠔⠂⠄
+                ⢉⢿⣿⣿⡽⠧⣄⣤⠤⠤⠼⠿⠶⣶⣶⣤⣴⣶⣶⣶⣶⣶⣶⣶⠄⢀⣀⡀⠄⠄
+                ⣿⣷⣮⣽⣿⣟⣛⣛⣛⠛⣯⣾⣛⡊⣽⠶⠶⠶⣖⠒⠊⠉⠉⠄⣠⣼⣿⣾⡟⠄
+                ⣿⣿⣿⣿⣿⡿⣟⣫⣶⣿⣿⠿⣿⣻⣭⣾⣿⣿⣿⣿⣆⣤⣴⣾⣿⣿⠿⠿⠟⠁</span></div></h1>
+
+  </section>
+
+<section class="npc-base">
+    <div>Name <input name="attr_character_name" type="text" class=resizedTextbox></div>
+    <div><span>Tier </span><input name="attr_tier" type="number" value="1" min="1" max="99" ><span>Size</span><input name="attr_size" type="number" value="1" min="1" max="5"></div>
+    <div>Initiative<input name="attr_initiative" type="number" value="1" min="1" max="7"></div>
+    <div class="f-row nowrap">
+      <div>Bulk</div>
+      <input type="number" name="attr_bulk" value=" ">
+      <button type="roll" name="roll_bulk" value="&{template:default} {{title=bulk}}   {{roll= [[1d20+@{bulk} +?{Accuracy/Difficulty|0}d6k1]]}}"> </button>
+    </div>
+    <div class="f-row nowrap">
+      <div>Agility</div>
+      <input type="number" name="attr_agility" value=" ">
+      <button type="roll" name="roll_agility" value="&{template:default} {{title=agility}}   {{roll= [[d20+@{agility}[agility] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+    </div>
+    <div class="f-row nowrap">
+      <div>Mind</div>
+      <input type="number" name="attr_mind" value="3">
+      <button type="roll" name="roll_mind" value="&{template:default} {{title=mind}}   {{roll= [[d20+@{mind}[mind] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+    </div>
+    <div class="f-row nowrap">
+      <div>Magic</div>
+      <input type="number" name="attr_magic" value="3">
+      <button type="roll" name="roll_magic" value="&{template:default} {{title=magic}}   {{roll= [[d20+@{magic}[magic] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
+    </div>
+  </section>
+
+  <section class="npc-stats common">
+      <div>Dodge</div><input name="attr_dodge" type="number">
+      <div>A-Defense</div><input name="attr_a_def" type="number"><br/>
+      <div>Save Target</div><input name="attr_save" type="number">
+      <div>Scope</div><input name="attr_scope" type="number"><br/>
+      <div>Speed</div><input name="attr_speed" type="number">
+  </section>
+
+  <section class="npc-bar">
+      <div>Armor</div> <input type="number" name="attr_armor" value="">
+      <div>Temp HP</div> <input type="number" name="attr_temphp" value=" "><br/>
+      <div>HP</div> <input type="number" name="attr_hp" value=" "> <span>/</span> <input type="number" name="attr_hp_max" value=" "><br/>
+      <div>Stress</div> <input type="number" name="attr_stress" value=" "> / <input type="number" name="attr_stress_max" value=" "><br/>
+      <div>Mana</div> <input type="number" name="attr_mana" value=" "> / <input type="number" name="attr_mana_max" value=" "><br/>
+  </section>
+
+
+  <section class="npc-atk">
+    <h3>Attacks</h3>
+    <fieldset class="repeating_attacks">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_attack" value="&{template:default} {{title=@{attackname}}}   {{Type=@{attacktype}}} {{Range=@{attackrange}}} {{Tags=@{attacktags}}} {{To Hit= [[1d20+@{npctohit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage}]] @{damagetype}}} {{Effect=@{attackeffects}}}" > </button>
+        <input type="text" class=text160 name="attr_attackname" value=""><span>Range<input type="text" class=text105 name="attr_attackrange" value=""></span><br>
+        <div class="sheet-body">
+        <span>Type<input type="text" name="attr_attacktype" value=""></span><br>
+        <span>To Hit<input type="text" name="attr_npctohit" class=smallerTextbox value=""></span><span>Damage<input type="text" class=smallerTextbox name="attr_attackdamage" value=""></span><span>Type<input type="text" name="attr_damagetype" class=resizedTextbox value=""></span><br>
+        <span>Tags<input type="text" name="attr_attacktags" value=""></span>Effects? <input type="checkbox" class="sheet-toggle-show"><br>
+        <div class="sheet-body">
+        <textarea class=textAtks name="attr_attackeffects" value=""></textarea></div>
+        </div>
+        </div>
+    </fieldset>
+  </section>
+  
+  <section class="npc-actions">
+    <h3>Skills & Spells</h3>
+    <fieldset class="repeating_powers">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}}   {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{Effect=@{powereffects}}}" > </button>
+        <input type="text" class=resizedTextbox name="attr_powername" value="">
+        <div class="sheet-body">
+        <label>Type<input type="text" name="attr_powertype" value=""></label>
+        <label>Action<input type="text" name="attr_poweraction" value=""></label>
+        <label>Range<input type="text" name="attr_powerrange" value=""></label>
+        <label>Tags<input type="text" name="attr_powertags" value=""></label>
+        <textarea name="attr_powereffects"></textarea>
+        </div>
+    </fieldset>
+  </section>
+  
+  <section class="npc-trts">
+    <h3>Traits</h3>
+    <fieldset class="repeating_trait">
+    <input type="checkbox" class="sheet-toggle-show" >
+    <button type="roll" name="roll_trait" value="&{template:default} {{title=@{traitname}}}   {{Effect=@{traiteffect}}}" ></button>
+    <input name="attr_traitname", type="text" class=resizedTextbox> 
+    <div class="sheet-body">
+    <textarea name="attr_traiteffect"></textarea> </div>
+    </fieldset>
+  </section>
+  
+  <section class="npc-inventory">
+    <h3>Support Items</h3>
+    <fieldset class="repeating_support">
+        <input type="checkbox" class="sheet-toggle-show" >
+        <button type="roll" name="roll_support" value="&{template:default} {{title=@{supportname}}}   {{Type=@{supporttype}}} {{Tags=@{supporttags}}} {{Effect=@{supporteffects}}}"> </button>
+        <input type="text" name="attr_supportname" value="">
+        <div class="sheet-body">
+        <label>Type<input type="text" name="attr_supporttype" value=""></label>
+        <label>Tags<input type="text" name="attr_supporttags" value=""></label>
+        <label>Effect</label>
+        <textarea name="attr_supporteffects"></textarea>
+        </div>
+  </section>
+
+  
+</main>
+
+<!-- General Rules Tab -->
+
+<main class="sheet-gen">
+    
+    <section class="header f-center">
+        <h1><div class="sheet-tooltip">BEACON RPG
+            <span class="sheet-tooltiptext" style="color: rgb(114, 172, 57);">
+                ⠄⠄⠄⠄⠄⠄⢀⣀⣤⣾⣿⣶⣦⣄⡀⠄⣀⣠⣤⣦⣤⣤⣀⠄⠄⠄⠄⠄⠄⠄
+                ⠄⠄⠄⠄⣠⣶⣋⣿⢟⣭⣭⣶⣶⣭⣛⡳⠝⡿⠿⠟⣛⣓⣚⣛⠢⠄⠄⠄⠄⠄
+                ⠄⠄⠄⣼⣿⣟⣯⣴⡾⢋⣭⣭⣤⣶⣬⣍⡂⢶⣾⠿⣛⣩⣭⣭⣙⡒⠶⡄⠄⠄
+                ⠄⠄⣼⡿⢻⣿⣿⠛⣴⣿⣿⣿⣿⣿⣿⣿⣿⣦⠱⣾⣿⣿⣿⣿⣿⣿⣷⣦⡄⠄
+                ⣠⡆⣿⣇⣸⡿⢡⣾⣿⣿⣿⣿⣿⣿⡟⠉⠈⢻⡆⢸⣿⣿⣿⣿⣿⣿⠋⠄⢻⡆
+                ⢿⣿⣿⣿⣿⣿⣎⢻⣿⣿⣿⣿⣿⣿⡇⠰⠆⡸⠃⣸⣿⣿⣿⣿⣿⣿⠄⠇⡸⡁
+                ⣸⣿⣿⣿⣿⣿⣿⣶⣝⠻⢿⣿⣿⠿⠿⠖⣪⡵⣈⡛⠿⢿⣿⣿⠿⠿⣓⣤⠊⠄
+                ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⡶⢟⣋⣥⣾⣿⠿⢿⣶⣶⠶⠾⠿⠟⠁⠄⠄
+                ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⣷⣶⣶⣿⣿⣿⣦⠄⠄⠄
+                ⣿⣿⣿⣿⣿⣿⠿⣛⣉⣉⣉⣛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⣛⡀⠄⠄
+                ⣿⣿⣿⣿⣿⣇⠾⠿⣭⣭⣭⣭⣭⣍⣒⣒⠢⠤⠭⠭⣬⡭⠴⠶⠾⣛⠋⠁⠄⠄
+                ⣿⣿⣿⣿⣝⡻⣷⣶⣶⣦⣤⣤⣭⣙⣛⣛⡻⠿⠿⠿⠶⠶⢿⣿⡿⠟⠁⠄⠄⠄
+                ⢝⡻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠃⠄⠄⠄⠄⠄⠄⠄
+                ⣷⣤⣝⣒⡠⠬⠭⣛⣛⣛⣛⣛⣛⣛⣛⣛⠛⠛⣋⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+                ⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⣷⣄⠄⠄⠄⠄⠄⠄⠄⠄</span></div></h1>
+</section>
+
+
+<section class="rerolltable">
+    <h3>Reroll Table</h3>
+    <button type="action" name="act_reset">Reset Round</button>
+    <p>When you make an attack roll, ability check, or saving throw, you can use the reroll table to try again. Each option can only be chosen 1/round.
+    You can use the reroll table after finding out if the roll would succeed, but before it actually occurs. All ACC or DIF are also rerolled.</p>
+    <p><button type="roll" name="roll_rerollstress" value="&{template:default} {{title=Reroll Table}}   {{=[[1d3]] Stress}}"></button><input type="checkbox" name="attr_reroll1"> A: Take 1d3 Stress</p>
+    <p><button type="roll" name="roll_rerollmark" value="&{template:default} {{title=Reroll Table}}   {{=Become MARKED. This doesn't count as a condition you've given yourself.}}"></button><input type="checkbox" name="attr_reroll2"> B: Become MARKED. You can't use this option if you are MARKED. This doesn't count as a condition you've given yourself.</p>
+    <p><button type="roll" name="roll_rerollopp" value="&{template:default} {{title=Reroll Table}}   {{=If you are adjacent to an enemy or within Reach of an enemy's weapon, they can choose to A) Opportunity Attack you or B) deal [[3]] Physical to you as a reaction.}}"></button><input type="checkbox" name="attr_reroll3"> C: If you are adjacent to an enemy or within one of their weapon's REACH, they can choose to a) Opportunity Attack you or b) deal 3 Physical to you as a Reaction.</p>
+</section>
+
+<section class="surge">
+    <h3><button type="roll" name="roll_surge" value="&{template:default} {{title=Surge}}   {{=?{Surge Level|1,[[2]] Stress|2,[[1d3+1]] Stress|3,[[1d6+2]] Stress|4+,[[1d6+4]] Stress}}}"></button>Surge</h3>
+    <p>You can surge 1/round to take a 2nd turn. A surge counts as a turn for all effects that start or end at the character's next turn.
+    You gain your standard movement, standard action, and minor action as normal.</p>
+    <center>
+    <table>
+        <tr>
+            <th>Surge #</th>
+            <th>Stress Cost</th>
+        </tr>
+        <tr>
+            <td>1   <input type="checkbox"></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2   <input type="checkbox"></td>
+            <td>1d3+1</td>
+        </tr>
+        <tr>
+            <td>3   <input type="checkbox"></td>
+            <td>1d6+2</td>
+        </tr>
+        <tr>
+            <td>4+  <input type="checkbox"></td>
+            <td>1d6+4</td>
+        </tr>
+    </table>
+    </center>
+</section>
+
+<section class="reactions">
+    <h3>Reactions</h3>
+    <div>Focus<input type="number" name="attr_focus" value=" "></div>
+    <label><button type="roll" name="roll_counter" value="&{template:default} {{title=Counterattack}}   {{Action=Reaction, 1/round}} {{Tags=Focus 1}} {{Trigger=You are hit by an attack from a character within reach of one of your weapons or spells.}} {{Effect=You can VOLLEY or FIGHT with one of those weapons or spells against that character.}}"></button><input type="checkbox" name="attr_counter1"> Counterattack
+    </label>
+    <p><b>Focus 1, 1/Round</b></p>
+    <p>Trigger: You are hit by an attack from a character within one of your weapon or spell’s Reach.</p>
+    <label><button type="roll" name="roll_interpose" value="&{template:default} {{title=Interpose}}   {{Action=Reaction}} {{Tags = Focus 1}} {{Trigger=An ally within Range 3 is targeted by an attack.}} {{Effect=You can move up to 2 spaces, ignoring reactions. If you end this movement next to the targeted ally, you can choose to become the target instead. An attack roll can only be interposed once.}}"></button> Interpose
+    </label>
+    <p><b>Focus 1</b></p>
+    <p>Trigger: An ally within Range 3 is targeted by an attack.</p>
+    <label><button type="roll" name="roll_oppatk" value="&{template:default} {{title=Opportunity Attack}}   {{Action=Reaction, 1/round}} {{Trigger=A hostile character begins a movement or standard movement within reach of one of your weapons or techniques.}} {{Effect=You can VOLLEY or FIGHT against them with one of those weapons or techniques.}}"></button><input type="checkbox" name="attr_opp1"> Opportunity Attack
+    </label>
+    <p><b>1/Round</b></p>
+    <p>Trigger: A hostile character begins a movement or standard movement within one of your weapon or technique's Reach.</p>
+</section>
+
+<section class="gen_misc">
+    <h3>Other Actions</h3>
+    <label><button type="roll" name="roll_defend" value="&{template:default} {{title=Defend}}   {{Action=(1) BOLSTER}} {{=Gain [[1d3+@{armor}]] Focus. Until the start of your next turn, attacks against you gain +1 DIF.}}"></button>(1) Defend</label>
+    <label><button type="roll" name="roll_recover" value="&{template:default} {{title=Recover}}   {{Action=(1) BOLSTER}} {{=Choose one: 
+    • Spend a Recovery to regain all your HP
+    • Clear all your Stress
+    • Regain all your Mana
+    
+    Then choose one: 
+    • Reload all reloading weapons/abilities
+    • Clear all Discord on yourself
+    • Clear a condition or effect on you that wasn't caused by yourself
+    • Clear a condition or effect on an adjacent ally that wasn't caused by them}}"></button>(1) Recover</label>
+    <label><button type="roll" name="roll_mark" value="&{template:default} {{title=Mark}}   {{Action=(3) SKIRMISH}} {{Scope=@{scope}}} {{=A character within your Scope and Line of Sight gains the MARKED condition.}}"></button>(3) Mark</label>
+    <label><button type="roll" name="roll_hide" value="&{template:default} {{title=Hide}}   {{Action=(4) REPOSITION}} {{=You gain the HIDDEN condition. To hide, you can't be ENGAGED and either must be A) outside of enemy Line of Sight, B) benefiting from cover against enemies that have Line of Sight to you, or C) INVISIBLE.}}"></button>(4) Hide</label>
+    <label><button type="roll" name="roll_rush" value="&{template:default} {{title=Rush}}   {{Action=(4) REPOSITION}} {{=You can either (A) Move up to your Speed, or (B) until the end of the turn, ignore ENGAGEMENT and don’t provoke reactions from movement.}}"></button>(4) Rush</label>
+    <label><button type="roll" name="roll_improvised" value="&{template:default} {{title=Improvised Attack}}   {{Action=(5) FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[1d3]] Physical}}"></button>(5) Improvised Attack</label>
+    <label><button type="roll" name="roll_grapple" value="&{template:default} {{title=Grapple}}   {{Action=(5) FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Effect=On a hit, both characters are GRAPPLED.}}"></button>(5) Grapple</label>
+    <label><button type="roll" name="roll_grapple_ref" value="&{template:default} {{title=GRAPPLED Reference}} {{=While grappled, both characters count as ENGAGED and can't take Reactions. The larger character can move normally. The smaller character is IMMOBILIZED, but is drug along by the larger character. If you are the same size as the target, you count as the larger one during the turn you grapple them. Characters that are the same size can make a contested Bulk check during their turn to see if they count as the larger one that turn.
+    
+    GRAPPLED ends if the characters are no longer adjacent to each other, the initiator ends it as a free action, or the grapple target succeeds on an opposed Bulk check as a Minor Action.}}"></button>GRAPPLED Ref</label>
+    <label><button type="roll" name="roll_shove" value="&{template:default} {{title=Shove}}   {{Action=(5) FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Effect=On a hit, you can either Push them 1 space, or knock them PRONE}}"></button>(5) Shove</label>
+</section>
+
+<section class="wounds">
+    <h3><button type="roll" name=roll_wound value="&{template:default} {{title=Wound/Overstress Roll}}   {{=[[1d6]]}}"></button>Wounds and Overstress</h3>
+    <br>
+    <table>
+        <tr>
+            <th>  3 Wound   </th>
+            <th>  2 Wounds  </th>
+            <th>  1 Wounds  </th>
+            <th>  0 Wounds  </th>
+            <th>Outcome</th>
+        </tr>
+        <tr>
+            <td>5-6</td>
+            <td>6</td>
+            <td>-</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Dazed-
+               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>3-4</td>
+            <td>4-5</td>
+            <td>5-6</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Weapon-
+               <span class="sheet-tooltiptext">Destroy one of your weapons. Limited or
+                Consumable equipment can’t be selected if they don’t have
+                any charges left. If you can’t destroy a weapon, this becomes
+                the BROKEN SUPPORT result. If you can’t destroy either, this
+                becomes the STUNNED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>1-2</td>
+            <td>2-3</td>
+            <td>3-4</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Support-
+               <span class="sheet-tooltiptext">Destroy one of your support items.
+                Limited or Consumable equipment can’t be selected if they
+                don’t have any charges left. If you can’t destroy a support item,
+                this becomes the BROKEN WEAPON result. If you can’t
+                destroy either, this becomes the STUNNED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>1</td>
+            <td>1-2</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Staggered-
+               <span class="sheet-tooltiptext">You are SLOWED and STUNNED until the end
+                of your next turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1-6</td>
+            <td><div class="sheet-tooltip">-Defeated-
+               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>  3 Over<br>Stress   </th>
+            <th>  2 Over<br>Stress  </th>
+            <th>  1 Over<br>Stress  </th>
+            <th>  0 Over<br>Stress  </th>
+            <th>Outcome</th>
+        </tr>
+        <tr>
+            <td>5-6</td>
+            <td>6</td>
+            <td>-</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Dazed-
+               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>3-4</td>
+            <td>4-5</td>
+            <td>5-6</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Tech-
+               <span class="sheet-tooltiptext">Destroy one of your
+                techniques. Limited or Consumable
+                techniques can’t be selected if they don’t have
+                any charges left. If you can’t destroy a
+                technique, this becomes the LOST MANA
+                result. If you can’t do either, this becomes the
+                EXPOSED result.
+                </span></div></td>
+        </tr>
+        <tr>
+            <td>1-2</td>
+            <td>2-3</td>
+            <td>3-4</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Lost Mana-
+               <span class="sheet-tooltiptext">Your current and maximum
+                mana is reduced by 1 until fixed during a
+                REST. If your mana maximum is 0, choose the
+                BROKEN TECH option. If you can’t do either,
+                this becomes the EXPOSED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>1</td>
+            <td>1-2</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Exposed-
+               <span class="sheet-tooltiptext">You are VULNERABLE and
+                WEAKENED until the end of your next turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1-6</td>
+            <td><div class="sheet-tooltip">-Defeated-
+               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+        </tr>
+    </table>
+
+</section>
+
+<section class=phase>
+    <h3>Phase Reference</h3>
+    <table>
+        <tr>
+            <th>PHASE</th>
+            <th>Standard Action</th>
+        </tr>
+        <tr>
+            <td>(1) BOLSTER</td>
+            <td>Defend / Recover</td>
+        </tr>
+        <tr>
+            <td>(2) CHANNEL</td>
+            <td>Channel</td>
+        </tr>
+        <tr>
+            <td>(3) SKIRMISH</td>
+            <td>Volley / Mark / Search </td>
+        </tr>
+        <tr>
+            <td>(4) REPOSITION</td>
+            <td>Rush / Hide</td>
+        </tr>
+        <tr>
+            <td>(5) BRAWL</td>
+            <td>Fight / Shove / Grapple</td>
+        </tr>
+        <tr>
+            <td>(6) RELEASE</td>
+            <td>Release</td>
+        </tr>
+        <tr>
+            <td>(7) FULL ATTACK</td>
+            <td>Full Attack</td>
+        </tr>
+        <tr>
+            <td>(8) DELAY</td>
+            <td>Any</td>
+        </tr>
+    </table>
+</section>
+
+</main>
+
+<!-- NPC Gen -->
+
+<main class="sheet-npcgen">
+
+<section class="header f-center">
+    <h1><div class="sheet-tooltip">BEACON RPG
+        <span class="sheet-tooltiptext" style="color: rgb(114, 172, 57);">
+            ⠄⠄⠄⠄⠄⢀⣴⣶⣾⣿⠶⠦⠄⠄⠄⠄⠄⣀⣴⣶⣶⣶⡶⠦⠄⠄⠄⠄⠄⠄
+            ⠄⠄⠄⠄⣀⣿⣿⣿⣿⡿⠛⠛⠛⢉⠉⠁⠐⢿⣿⣿⣿⠿⠛⠛⠛⠉⢁⣀⠄⠄
+            ⠄⣰⣾⣿⣿⣿⣿⣿⣿⣇⠈⠿⠿⠇⠃⠼⠷⠄⣿⠿⢷⠐⠶⡿⠿⡱⠆⠿⠇⠄
+            ⢸⣿⣿⣿⣿⣿⣿⣿⣿⠿⠷⠶⠶⣶⣶⣶⣶⣶⣿⣿⣮⡳⣶⣦⣤⣤⣤⣶⡄⠄
+            ⠻⣿⣿⣿⣿⣿⣿⣿⣿⡜⡉⠉⠁⠒⠒⠦⠭⠭⣭⣝⣛⣛⣛⣛⣛⣫⠭⢀⡀⠄
+            ⠄⠙⢿⣿⣿⣿⣿⣿⣿⣧⡹⣦⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣀⡀⠄⠉⣿⡆
+            ⠄⠄⠄⠙⠻⣿⣿⣿⣿⣿⣷⣍⡻⢦⣀⡰⠾⠿⣿⣿⣿⣷⣄⢿⣿⣷⠄⢀⡯⠁
+            ⠄⠄⠄⠄⠄⠄⠹⣿⣿⣿⣿⣿⣿⣶⣮⣍⣙⡳⠶⢶⣬⣉⣉⣉⣉⣉⠴⢛⠁⠄
+            ⠄⠄⠄⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⡶⠛⠁⠄⠄
+            ⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠙⠻⠿⠿⢿⣿⣿⣿⣿⣿⠿⠛⠋⠁⠄⠄⠄⠄⠄</span></div></h1>
+</section>
+
+
+<section class="npc_gen">
+    <h3>Other Actions</h3>
+    <label><button type="roll" name="roll_npcdefend" value="&{template:default} {{title=Defend}}   {{Action=BOLSTER}} {{=Attacks against this unit have +1 DIF until the start of their next turn.}}"></button>Defend</label>
+    <label><button type="roll" name="roll_npcrecover" value="&{template:default} {{title=Recover}}   {{Action=BOLSTER}} {{=Choose one: 
+    • Clear all Stress
+    • Regain all Mana
+    
+    Then choose one: 
+    • Reload all reloading weapons/abilities
+    • Clear a condition on you that wasn't caused by yourself}}"></button>Recover</label>
+    <label><button type="roll" name="roll_mark" value="&{template:default} {{title=Mark}}   {{Action=SKIRMISH}} {{Scope=@{scope}}} {{=A character within your Scope and Line of Sight gains the MARKED condition.}}"></button>Mark</label>
+    <label><button type="roll" name="roll_hide" value="&{template:default} {{title=Hide}}   {{Action=REPOSITION}} {{=You gain the HIDDEN condition. To hide, you can't be ENGAGED and either must be A) outside of enemy Line of Sight, B) benefiting from cover against enemies that have Line of Sight to you, or C) INVISIBLE.}}"></button>Hide</label>
+    <label><button type="roll" name="roll_rush" value="&{template:default} {{title=Rush}}   {{Action=REPOSITION}} {{=You can either (A) Move up to your Speed, or (B) until the end of the turn, ignore ENGAGEMENT and don’t provoke reactions from movement.}}"></button>Rush</label>
+    <label><button type="roll" name="roll_npcimprovised" value="&{template:default} {{title=Improvised Attack}}   {{Action=FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{tier} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[1d3]] Physical}}"></button>Improvised Attack</label>
+    <label><button type="roll" name="roll_npcgrapple" value="&{template:default} {{title=Grapple}}   {{Action=FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{tier} +?{Accuracy/Difficulty|0}d6k1]]}} {{Effect=On a hit, both characters are GRAPPLED.}}"></button>Grapple</label>
+    <label><button type="roll" name="roll_grapple_ref" value="&{template:default} {{title=GRAPPLED Reference}} {{=While grappled, both characters count as ENGAGED and can't take Reactions. The larger character can move normally. The smaller character is IMMOBILIZED, but is drug along by the larger character. If you are the same size as the target, you count as the larger one during the turn you grapple them. Characters that are the same size can make a contested Bulk check during their turn to see if they count as the larger one that turn.
+    
+    GRAPPLED ends if the characters are no longer adjacent to each other, the initiator ends it as a free action, or the grapple target succeeds on an opposed Bulk check as a Minor Action.}}"></button>GRAPPLED Ref</label>
+    <label><button type="roll" name="roll_npcshove" value="&{template:default} {{title=Shove}}   {{Action=FIGHT}} {{Range=Adjacent}} {{To Hit= [[1d20+@{tier} +?{Accuracy/Difficulty|0}d6k1]]}} {{Effect=On a hit, you can either Push them 1 space, or knock them PRONE}}"></button>Shove</label>
+</section>
+
+<section class="wounds">
+    <h3><button type="roll" name=roll_wound value="&{template:default} {{title=Wound/Overstress Roll}}   {{=[[1d6]]}}"></button>Wounds and Overstress</h3>
+    <br>
+    <table>
+        <tr>
+            <th>  3 Wound   </th>
+            <th>  2 Wounds  </th>
+            <th>  1 Wounds  </th>
+            <th>  0 Wounds  </th>
+            <th>Outcome</th>
+        </tr>
+        <tr>
+            <td>5-6</td>
+            <td>6</td>
+            <td>-</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Dazed-
+               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>3-4</td>
+            <td>4-5</td>
+            <td>5-6</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Weapon-
+               <span class="sheet-tooltiptext">Destroy one of your weapons. Limited or
+                Consumable equipment can’t be selected if they don’t have
+                any charges left. If you can’t destroy a weapon, this becomes
+                the BROKEN SUPPORT result. If you can’t destroy either, this
+                becomes the STUNNED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>1-2</td>
+            <td>2-3</td>
+            <td>3-4</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Support-
+               <span class="sheet-tooltiptext">Destroy one of your support items.
+                Limited or Consumable equipment can’t be selected if they
+                don’t have any charges left. If you can’t destroy a support item,
+                this becomes the BROKEN WEAPON result. If you can’t
+                destroy either, this becomes the STUNNED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>1</td>
+            <td>1-2</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Staggered-
+               <span class="sheet-tooltiptext">You are SLOWED and STUNNED until the end
+                of your next turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1-6</td>
+            <td><div class="sheet-tooltip">-Defeated-
+               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>  3 Over<br>Stress   </th>
+            <th>  2 Over<br>Stress  </th>
+            <th>  1 Over<br>Stress  </th>
+            <th>  0 Over<br>Stress  </th>
+            <th>Outcome</th>
+        </tr>
+        <tr>
+            <td>5-6</td>
+            <td>6</td>
+            <td>-</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Dazed-
+               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>3-4</td>
+            <td>4-5</td>
+            <td>5-6</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Broken Tech-
+               <span class="sheet-tooltiptext">Destroy one of your
+                techniques. Limited or Consumable
+                techniques can’t be selected if they don’t have
+                any charges left. If you can’t destroy a
+                technique, this becomes the LOST MANA
+                result. If you can’t do either, this becomes the
+                EXPOSED result.
+                </span></div></td>
+        </tr>
+        <tr>
+            <td>1-2</td>
+            <td>2-3</td>
+            <td>3-4</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Lost Mana-
+               <span class="sheet-tooltiptext">Your current and maximum
+                mana is reduced by 1 until fixed during a
+                REST. If your mana maximum is 0, choose the
+                BROKEN TECH option. If you can’t do either,
+                this becomes the EXPOSED result.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>1</td>
+            <td>1-2</td>
+            <td>-</td>
+            <td><div class="sheet-tooltip">-Exposed-
+               <span class="sheet-tooltiptext">You are VULNERABLE and
+                WEAKENED until the end of your next turn.</span></div></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1-6</td>
+            <td><div class="sheet-tooltip">-Defeated-
+               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+        </tr>
+    </table>
+
+</section>
+
+</main>
+
+
+<!-- roll template -->
+
+<rolltemplate class="sheet-rolltemplate-rolls">
+  <div class="sheet-container">
+    <div class="sheet-header">
+      {{#title}}<div class="sheet-title">{{title}}</div>{{/title}}
+      {{#name}}<div class="sheet-name">{{name}}</div>{{/name}}
+      {{#subtitle}}<div class="sheet-subtitle">{{subtitle}}</div>{{/subtitle}}
+    </div>
+    <div class="sheet-content">
+      {{#allprops() title name subtitle desc}}
+      <div class="sheet-key">{{key}}</div>
+      <div class="sheet-value">{{value}}</div>
+      {{/allprops() title name subtitle desc}}
+      {{#desc}}<div class="sheet-desc">{{desc}}</div>{{/desc}}
+    </div>
+  </div>
+</rolltemplate>
+
+<!-- hidden lists -->
+
+<datalist id="starting_weapons">
+    <option value="Aetherbreaker">Aetherbreaker</option>
+    <option value="Bloodpike">Bloodpike</option>
+    <option value="Hammer">Hammer</option>
+    <option value="Maul">Maul</option>
+    <option value="Moonknife">Moonknife</option>
+    <option value="Photon-Axe">Photon Axe</option>
+    <option value="Rapier">Rapier</option>
+    <option value="Runespear">Runespear</option>
+    <option value="Sword">Sword</option>
+    <option value="Whip">Whip</option>
+    <option value="Crossbow">Crossbow</option>
+    <option value="Crystal-Staff">Crystal Staff</option>
+    <option value="Forbidden-Tome">Forbidden-Tome</option>
+    <option value="Lunar-Cannon">Lunar-Cannon</option>
+    <option value="Shardgun-Pistol">Shardgun-Pistol</option>
+    <option value="Shardgun-Rifle">Shardgun-Rifle</option>
+    <option value="Shardshredder">Shardshredder</option>
+    <option value="Shortbow">Shortbow</option>
+    <option value="Starwand">Starwand</option>
+    <option value="Stormbow">Stormbow</option>
+</datalist>
+
+<!-- Script Block -->
+
+<script type="text/worker">
+
+	on("sheet:opened", function(){
+		console.log("Loaded JSON");
+		setAttrs(
+		{
+			"starting_weapons_data": JSON.parse('[{"id":"missing_weapon","name":"ERR: DATA NOT FOUND","size":"Main","type":"Blade","damage":[],"range":[],"tags":[],"class_level":0,"description":"This is likely the result of a missing or outdated content pack."},{"id":"w_aetherbreaker","name":"Aetherbreaker","size":"Main","type":"Club","damage":[{"type":"Force","val":"2d6+1"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_inaccurate"}],"source":"starting","class_level":0},{"id":"w_bloodpike","name":"Bloodpike","size":"Heavy","type":"Longarm","damage":[{"type":"Force","val":"2d6+1"}],"range":[{"type":"Reach","val":2}],"tags":[],"source":"starting","class_level":0},{"id":"w_hammer","name":"Hammer","size":"Light","type":"Club","damage":[{"type":"Physical","val":"1d3+1"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_thrown","val":5}],"source":"starting","class_level":0},{"id":"w_maul","name":"Maul","size":"Heavy","type":"Club","damage":[{"type":"Physical","val":"3d6"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_push","val":1},{"id":"tg_inaccurate"}],"source":"starting","class_level":0},{"id":"w_moonknife","name":"Moonknife","size":"Light","type":"Blade","damage":[{"type":"Lunar","val":"1d3"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_thrown","val":3},{"id":"tg_accurate"}],"source":"starting","class_level":0},{"id":"w_photon_axe","name":"Photon Axe","size":"Heavy","type":"Blade","damage":[{"type":"Astral","val":"1d6+7"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_reliable","val":4}],"source":"starting","class_level":0},{"id":"w_rapier","name":"Rapier","size":"Light","type":"Blade","damage":[{"type":"Physical","val":"2"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_piercing"}],"source":"starting","class_level":0},{"id":"w_rapier","name":"Rapier","size":"Light","type":"Blade","damage":[{"type":"Physical","val":"2"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_piercing"}],"source":"starting","class_level":0},{"id":"w_runespear","name":"Runespear","size":"Main","type":"Longarm","damage":[{"type":"Force","val":"1d6+1"}],"range":[{"type":"Reach","val":2}],"tags":[{"id":"tg_thrown","val":3}],"source":"starting","class_level":0},{"id":"w_sword","name":"Sword","size":"Main","type":"Blade","damage":[{"type":"Physical","val":"1d6+1"}],"range":[{"type":"Reach","val":1}],"tags":[{"id":"tg_reliable","val":2}],"source":"starting","class_level":0},{"id":"w_whip","name":"Whip","size":"Light","type":"Longarm","damage":[{"type":"Physical","val":"1d3"}],"range":[{"type":"Reach","val":3}],"tags":[],"source":"starting","class_level":0},{"id":"w_crossbow","name":"Crossbow","size":"Heavy","type":"Bow","damage":[{"type":"Physical","val":"2d6+3"}],"range":[{"type":"Range","val":10}],"tags":[{"id":"tg_piercing"},{"id":"tg_reloading"}],"source":"starting","class_level":0},{"id":"w_crystal_staff","name":"Crystal Staff","size":"Heavy","type":"Artifact","damage":[{"type":"Lunar","val":"2d6"}],"range":[{"type":"Range","val":10},{"type":"Blast","val":2}],"tags":[{"id":"tg_aetheric"},{"id":"tg_mana","val":2}],"source":"starting","class_level":0},{"id":"w_forbidden_tome","name":"Forbidden Tome","size":"Main","type":"Artifact","damage":[{"type":"Lunar","val":"1d3+1"}],"range":[{"type":"Range","val":15},{"type":"Blast","val":1}],"tags":[{"id":"tg_aetheric"},{"id":"tg_mana","val":1},{"id":"tg_arcing"}],"source":"starting","class_level":0},{"id":"w_lunar_cannon","name":"Lunar Cannon","size":"Heavy","type":"Magitech","damage":[{"type":"Lunar","val":"3d6+3"}],"range":[{"type":"Line","val":15}],"tags":[{"id":"tg_reliable","val":4},{"id":"tg_reloading"},{"id":"tg_slow"}],"source":"starting","class_level":0},{"id":"w_shardgun_pistol","name":"Shardgun Pistol","size":"Light","type":"Magitech","damage":[{"type":"Force","val":"1d3"}],"range":[{"type":"Range","val":5},{"type":"Reach","val":3}],"tags":[{"id":"tg_reliable","val":1}],"source":"starting","class_level":0},{"id":"w_shardgun_rifle","name":"Shardgun Rifle","size":"Main","type":"Magitech","damage":[{"type":"Force","val":"1d6+1"}],"range":[{"type":"Range","val":10}],"tags":[{"id":"tg_reliable","val":2}],"source":"starting","class_level":0},{"id":"w_shardshredder","name":"Shardshredder","size":"Main","type":"Magitech","damage":[{"type":"Force","val":"2d3"}],"range":[{"type":"Range","val":5},{"type":"Reach","val":3}],"tags":[],"source":"starting","class_level":0},{"id":"w_shortbow","name":"Shortbow","size":"Main","type":"Bow","damage":[{"type":"Physical","val":"1d6"}],"range":[{"type":"Range","val":10}],"tags":[{"id":"tg_arcing"}],"source":"starting","class_level":0},{"id":"w_starwand","name":"Starwand","size":"Light","type":"Artifact","damage":[{"type":"Astral","val":"1d3"}],"range":[{"type":"Range","val":5}],"tags":[{"id":"tg_accurate"},{"id":"tg_aetheric"}],"source":"starting","class_level":0},{"id":"w_stormbow","name":"Stormbow","size":"Heavy","type":"Bow","damage":[{"type":"Astral","val":"2d6"}],"range":[{"type":"Range","val":15}],"tags":[{"id":"tg_arcing"},{"id":"tg_push","val":1}],"source":"starting","class_level":0}]')
+		});  
+		})
+
+	
+	on("change:attr_attackname", function() {
+		console.log("changing stuff");
+		getAttrs(["attr_attackname"], function(value) {
+		
+		let weapon_data = getAttr("starting_weapons_data").find(element => element.name === value);
+		setAttrs({
+			"attr_attackrange":value.range[0].val+" "+value.range[0].type,
+			"attr_attacktype": value.size+" "+value.type,
+			"attr_attackdamage": value.damage[0].val + " " + value.damage[0].type,
+			"attr_damagetype": value.damage[0].type
+		});
+	  });
+	})
+ 
+    on("change:bulk change:agility change:mind change:magic change:grit", function(v) {
+        
+        const source_attribute = v.sourceAttribute;
+        const previous_value = parseInt(v.previousValue);
+        const new_value = parseInt(v.newValue);
+
+        switch (v.sourceAttribute) {
+            
+            case "bulk":
+                getAttrs(["hp", "hp_max", "grit", "recoveries", "recoveries_max"], function(t) {
+
+                    const current_hp = parseInt(t.hp);
+                    const current_grit = parseInt(t.grit);
+
+                    const hp_modifier = ((new_value * 2) + current_grit);
+                    const new_hp_max = current_hp + hp_modifier;
+
+                    setAttrs({ hp_max: new_hp_max});
+
+                    const current_recoveries = parseInt(t.recoveries);
+                    const recoveries_modifier = Math.floor(new_value / 2);
+                    const new_recoveries_max = current_recoveries + recoveries_modifier;
+
+                    setAttrs({recoveries_max: new_recoveries_max});
+                });
+            break;
+
+            case "agility"
+                getAttrs(["dodge", "speed"], function(t) {
+
+                 });
+            break;
+
+            case "mind"
+            getAttrs(["stress", "stress_max", "memory", "memory_max", "grit"], function(t) {
+
+             });
+        break;
+
+        case "magic"
+        getAttrs(["a-def", "mana"], function(t) {
+
+         });
+    break;
+
+
+            case "grit":
+                 getAttrs(["hp", "hp_max", "bulk"], function(t) {
+
+                console.log(t);
+
+                let current_hp = parseInt(t.hp);
+                let current_hp_max = parseInt(t.hp_max);
+                let current_bulk = parseInt(t.bulk);
+
+                let hp_modifier = ((current_bulk * 2) + new_value);
+
+                console.log(hp_modifier);
+
+                new_hp_max = current_hp + hp_modifier;
+
+                setAttrs({ hp_max: new_hp_max})
+            });
+        break;
+
+            default:
+        // math
+        break;
+        }
+    });
+
+    const buttonlist = ["character","npc","gen","npcgen"];
+    buttonlist.forEach(button => {
+    on(`clicked:${button}`, function() {
+        setAttrs({
+            sheetTab: button
+            });
+        });
+    });
+ 
+    on('clicked:reset', () => {
+        setAttrs({
+            reroll1: 0,
+            reroll2: 0,
+            reroll3: 0,
+            counter1: 0,
+            opp1: 0
+        });
+    });
+ 
+    const attribute_array_total = ["level", "character_name", "job", "ancestry", "size", "bulk", "agility", "mind", "magic", "hp", "wound", "stress", "overstress", "temphp", "focus", "armor", "mana", "recoveries", "Memory", "grit", "hp_max", "recoveries_max", "stress_max", "memory_max", "a_def", "mana_max", "dodge", "speed", "save", "scope", "wound_max", "overstress_max"];
+    const attribute_array_numerical = ["level", "size", "bulk", "agility", "mind", "magic", "hp", "wound", "stress", "overstress", "temphp", "focus", "armor", "mana", "recoveries", "memory", "grit", "hp_max", "recoveries_max", "stress_max", "memory_max", "a_def", "mana_max", "dodge", "speed", "save", "scope", "wound_max", "overstress_max"];
+ 
+    on("sheet:opened", function(v) {
+        console.log("Sheet Opened");
+    });
+ 
+    on("change:job", function(v) {  
+ 
+        console.log("Job Change: " + v.newValue)
+ 
+        switch (v.newValue) {
+ 
+ 
+ 
+            case "Aegis":
+                console.log("User Changed Job to 'Aegis'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5});
+                setAttrs( { job_trait1:"MANA SHIELDS", job_trait1_info: "The Aegis can spend Mana as if it were Focus."});
+                setAttrs( { job_trait2:"ABJURER’S WARD", job_trait2_info: "Gain the Ward reaction."});
+                setAttrs( { job_trait3:"-----", job_trait3_info:"-----"});
+                setAttrs( { lb_name:"Perfect Shield", lb_info: "This Limit Break can be activated at any time during a combat scene. When activated, the Aegis chooses an ally within Scope and Line of Sight. Until the end of this Phase in the next round, all damage and {Stress} the ally receives is reduced to 0."});
+                break;
+            case "Alchemist":
+                console.log("User Changed Job to 'Alchemist'");
+                setAttrs( { scope:8, hp:7, hp_max:7, recoveries:5, recoveries_max:5, dodge:7, speed:5, save:11, stress:6, stress_max:6, Memory:5, Memory_max:5, a_def:8, mana:3, mana_max:3 });
+                setAttrs( { job_trait1:"POTION BELT", job_trait1_info:"The Alchemist gains +1 charges with any ability with the Consumable tag. During a SHORT REST, they can spend 1 Recovery to regain all charges of a Consumable ability."});
+                setAttrs( { job_trait2:"POTION INJECTOR", job_trait2_info:"As their Standard Action during PHASE 3: SKIRMISH or later, the Alchemist can use a Support Item with a Minor Action activation. The Alchemist’s Consumable abilities can be used up to [Range 8], and effects that would only apply to the Alchemist (like healing potions) can apply to willing allies within that range."});
+                setAttrs( { job_trait3:"SANITIZING VAPORS", job_trait3_info:"At the end of the Alchemist’s turn, an ally within [Range 3] can clear up to 1 Stress, or up to 2 if the ally is BREAKING."});
+                setAttrs( { lb_name:"Philosopher Stone", lb_info:"As a Minor Action, the Alchemist reveals their Philosopher’s Stone. It has 6 charges. The Alchemist and allies in the scene can use the Philosopher’s Stone charges in place of spending CONSUMABLE charges or mana, at a rate of 1 Philosopher’s Stone charge per CONSUMABLE charge or single point of mana. Items/abilities with no charges left can still be used if they use the Philosopher’s Stone’s charges.													"});
+                break;
+            case "Arsenal":
+                console.log("User Changed Job to 'Arsenal'");
+                setAttrs( { scope:5, hp:10, hp_max:10, recoveries:5, recoveries_max:5, dodge:8, speed:5, save:10, stress:5, stress_max:5, Memory:5, Memory_max:5, a_def:6, mana:3, mana_max:3 });
+                setAttrs( { job_trait1:"FLEX WEAPONS", job_trait1_info:"The Arsenal can choose to treat any of their MAIN weapon slots as LIGHT/LIGHT slots, or their HEAVY slots as MAIN/LIGHT slots."});
+                setAttrs( { job_trait2:"ARMIGER", job_trait2_info:"The Arsenal has the Phantom Armory Innate weapon, which is equipped for free."});
+                setAttrs( { job_trait3:"WALKING ARMORY", job_trait3_info:"When the Arsenal uses (1) REFRESH, they can spend 1 mana to repair one of their destroyed weapons or support items. During a SHORT REST, they can repair one weapon and support item for free."});
+                setAttrs( { lb_name:"Cycle Weapons", lb_info:" {5} BRAWL. The Arsenal repairs all their destroyed weapons, reloads all weapons, and regains all Phantom Armory profiles. They can make an attack with every weapon they have, including SLOW weapons."});
+                break;
+            case "Assassin":
+                console.log("User Changed Job to 'Assassin'");
+                setAttrs( { scope:8, hp:8, hp_max:8, recoveries:3, recoveries_max:3, dodge:11, speed:6, save:10, stress:5, stress_max:5, Memory:6, Memory_max:6, a_def:7, mana:2, mana_max:2 });
+                setAttrs( { job_trait1:"ASSASSINATE", job_trait1_info:"1/round, the Assassin can deal +1d6 bonus damage on a hit with a melee attack roll if the Assassin is HIDDEN or if the Assassin is the only character adjacent to them."});
+                setAttrs( { job_trait2:"PREPARATION", job_trait2_info:"At the end of each of their turns while HIDDEN, the Assassin gains 1 Prep, to a maximum of 6. After they make an attack roll, they can decide to spend any their Prep, gaining a +1 bonus on the attack roll per point of Prep spent. Prep lasts until the end of the scene or until spent."});
+                setAttrs( { job_trait3:"-----", job_trait3_info:"-----"});
+                setAttrs( { lb_name:"Exterminate", lb_info:"~Free Action.~ Until the end of the scene, the Assassin’s Preparation trait grants 1 Prep at the end of each of their turns, or 2 if they are HIDDEN, which replaces their normal Prep gain. Assassinate now deals 1d6+X bonus damage, where X = the amount of Preparation spent on the attack."});
+                break;
+            case "Berserker":
+                console.log("User Changed Job to 'Berserker'");
+                setAttrs( { scope:5, hp:16, hp_max:16, recoveries:6, recoveries_max:6, dodge:8, speed:6, save:10, stress:6, stress_max:6, Memory:4, Memory_max:4, a_def:6, mana:1, mana_max:1 });
+                setAttrs( { job_trait1:"ENDLESS ENDURANCE", job_trait1_info:"Removing a WOUND or OVERSTRESS during a SHORT REST only costs the Berserker 1 Recovery."});
+                setAttrs( { job_trait2:"RECKLESS", job_trait2_info:"1/round, the Berserker can deal +1d6 bonus damage on a hit with a melee attack roll. If the Berserker uses this ability, attack rolls against the Berserker gain +1 ACC until the end of its next turn."});
+                setAttrs( { job_trait3:"RELENTLESS", job_trait3_info:"1/round when the Berserker scores a critical hit, they can make an additional attack with the same weapon/support item/technique."});
+                setAttrs( { lb_name:"Primal Strike", lb_info:"When you hit with a melee attack, you can activate this Ultimate. All damage dice from the attack, including bonus damage and extra sources of damage, are treated as if they had rolled the maximum value once. "});
+                break;            
+            case "Chronomancer":
+                console.log("User Changed Job to 'Chronomancer'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:7, speed:5, save:12, stress:6, stress_max:6, Memory:6, Memory_max:6, a_def:9, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:"UNDO", job_trait1_info:"1/round, the Chronomancer can take actions from an earlier phase, instead of during PHASE 8: DELAY. They take 1 Stress for every phase that has passed since the action’s normal phase. For example, if the Chronomancer uses (1) DEFEND during PHASE 5: BRAWL, they would take 4 Stress."});
+                setAttrs( { job_trait2:"PLUCK THE THREADS OF TIME", job_trait2_info:"Gain the Pluck the Threads of Time reaction."});
+                setAttrs( { job_trait3:"-----", job_trait3_info:"-----"});
+                setAttrs( { lb_name:"Time Stop", lb_info:"At the start of a round, the Chronomancer can activate this ultimate to restructure the Phase order that round. They can put the Phases in any order that round, with the exception of PHASE 8: DELAY, which is always the last phase in a round. These changes last for 1 round."});
+                break;
+            case "Demon_Hunter":
+                console.log("User Changed Job to 'Demon_Hunter'");
+                setAttrs( { scope:8, hp:10, hp_max:10, recoveries:4, recoveries_max:4, dodge:8, speed:6, save:10, stress:9, stress_max:9, Memory:5, Memory_max:5, a_def:8, mana:2, mana_max:2 });
+                setAttrs( { job_trait1:"CORRUPTION", job_trait1_info:"The Demon Hunter has a Corruption Die, a d6 that starts at 1. When they take Stress, increase the corruption die by 1, to a maximum of 6. At 2 Corruption, the Demon Hunter gains +1 Force bonus damage on hits with weapon and spell attacks. This increases to +2 Force bonus damage at 4 Corruption. At 6 Corruption, they can activate their Demon Form trait."});
+                setAttrs( { job_trait2:"DEMON FORM", job_trait2_info:"Free Action | Polymorph If the Demon Hunter has 6 Corruption, they can reset their Corruption Die to 1 and assume a demonic form until the start of their next turn. While in this form, they gain the following benefits: *Bonus damage from Corruption increases to +3 Force bonus damage. *Bonus damage from any source becomes Discord. *Gain Resistance to Stress from other characters. *They can Fly. *Gain +1 Armor."});
+                setAttrs( { job_trait3:"INFERNAL AETHER", job_trait3_info:"As a Minor Action, the Demon Hunter can give themself Stress to regain mana. Every [3 Stress] they take allows them to regain 1 mana."});
+                setAttrs( { lb_name:"Become the Monster", lb_info:"~Free Action.~ The Demon Hunter immediately assumes its Demon Form regardless of its current Corruption Die. Until the end of the scene, their Corruption Die resets to 3 instead of 1. Reset the Corruption Die."});
+                break;
+            case "Demonologist":
+                console.log("User Changed Job to 'Demonologist'");
+                setAttrs( { scope:12, hp:7, hp_max:7, recoveries:2, recoveries_max:2, dodge:7, speed:5, save:11, stress:6, stress_max:6, Memory:6, Memory_max:6, a_def:12, mana:4, mana_max:4 });
+                setAttrs( { job_trait1:"DEMON LEXICON", job_trait1_info:"The Demonologist has the following demons, which are creatures with the SUMMON tag. They can be summoned as a VOLLEY action, costing 2 mana. These summons have the Demonologist’s Dodge and A-Def, can move up to their speed during the Demonologist’s turn, and add the Demonologist’s GRIT to their HP. The Demonologist can only summon one of these demons at a time. The Demonologist can dismiss these summons as a free action. (*)Flameskipper. (Size ½, 5 HP, 0 armor, Dodge/A-Def=yours, Speed 3) At the end of the Demonologist’s turn, the Flameskipper chooses one target within Range 5. They must pass a MGK save or take [3 Astral]. (*)Painlash. (Size 1, 8 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) At the end of the Demonologist’s turn, enemies adjacent to the Painlash must pass a BLK save or be DAZED and SLOWED until the end of their next turn. (*)Soultracker. (Size 1, 5 HP, 0 Armor, Dodge/A-Def=yours, Speed 5) Enemies that start their turn adjacent to this summon are MARKED. (*)Voidheart. (Size 2, 10 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) 1/round the Voidheart can INTERPOSE without spending Focus."});
+                setAttrs( { job_trait2:"SACRIFICE", job_trait2_info:"As a Minor Action, the Demonologist can destroy one of their summons within Scope. When they do so, they can choose one of the following: (*) Boost. The Demonologist gains +1 ACC on attacks, checks, and saves until the end of their next turn. (*) Essence Explosion. All characters within Burst 1 of the summon must make an AGI save, taking [2d6 Force] on a failed save, or half damage on a success. (*) Life Link. The Demonologist gains 4 temporary HP and regains 1 Mana."});
+                setAttrs( { job_trait3:"-----", job_trait3_info:"-----"});
+                setAttrs( { lb_name:"Legion", lb_info:" (3) VOLLEY|Mana 1 The Demonologist can immediately create up to 4 summons drawn from all of their abilities that create summons, ignoring the normal summon limit per ability, and summoning them within the ability’s normal summoning restrictions. At the end of each of the Demonologist’s turns, if there are any summons that exceed an ability’s normal summon limit, one of those summons in the scene is automatically affected by the Demonologist’s Sacrifice trait, regardless of range and Line of Sight. Until the end of the scene, if the defeat of one of the Demonologist’s summons would result in the destruction of the underlying ability (like Gert’s Backbone), the ability is only destroyed if the last copy of that summon is defeated."});
+                break;
+            case "Dragon_Rider":
+                console.log("User Changed Job to 'Dragon_Rider'");
+                setAttrs( { scope:5, hp:9, hp_max:9, recoveries:5, recoveries_max:5, dodge:7, speed:6, save:11, stress:4, stress_max:4, Memory:5, Memory_max:5, a_def:7, mana:3, mana_max:3 });
+                setAttrs( { job_trait1:"FORCEFUL JAB", job_trait1_info:"When the Dragon Rider hits with a non-thrown melee longarm attack, they can Push the target until they are a number of spaces away from the Dragon Rider equal to the weapon’s Reach."});
+                setAttrs( { job_trait2:"SKYHUNTER", job_trait2_info:"The Dragon Rider has +1 ACC on attacks against flying characters, ignores the DIF for making melee attacks against Flying characters, and causes ENGAGEMENT against them as normal."});
+                setAttrs( { job_trait3:"SKYTHRUST", job_trait3_info:"As a Minor Action, the Dragon Rider can take [1 Stress] to fly up to half their Speed in a straight line. If they fly at least 2 spaces, their next melee attack that turn against an adjacent character gains +1 ACC."});
+                setAttrs( { lb_name:"Dragon Echo", lb_info:"(Dragon: Size 3, 15 + Your Grit HP, 10 Dodge/ A-Def, Speed 6)The Dragon Rider summons an echo of their dragon in free spaces within Scope. The Dragon is a Summon that can Fly, and can move up to its Speed during the Dragon Rider’s turn. Allies of the Dragon can share spaces with the dragon, and any allies fully within the dragon’s spaces can move with it when it moves. The Dragon lasts until the end of the scene or until defeated. The dragon echo gains a standard action it can use during the Dragon Rider’s turn. It can only use its standard action on the following attack, adding the Dragon Rider’s GRIT to the attack roll. (Dragon Echo Breath Weapon) [Melee Weapon] [CLOSE BLAST 2] [1d6+2 ASTRAL]."});
+                break;
+            case "Druid":
+                console.log("User Changed Job to 'Druid'");
+                setAttrs( { scope:10, hp:9, hp_max:9, recoveries:4, recoveries_max:4, dodge:7, speed:4, save:11, stress:6, stress_max:6, Memory:6, Memory_max:6, a_def:9, mana:4, mana_max:4 });
+                setAttrs( { job_trait1:"BRIAR PATCH", job_trait1_info:"When the Druid subjects a character to forced movement, a briar patch is created in the spaces the character occupied and moved through (excluding their ending positions). Briar patches are considered difficult terrain, and enemies that enter one for the first time in a turn take [3 Piercing Physical]. The Druid can remove any briar patches of their choice within Scope as a Minor Action."});
+                setAttrs( { job_trait2:"NATURE'S PATH", job_trait2_info:"When the Druid Pushes, Pulls, or Slides a character, they can spend mana to increase the amount of the forced movement by +1 for every mana spent. The Druid can’t use this trait if they are SILENCED or STUNNED."});
+                setAttrs( { job_trait3:"ROOT", job_trait3_info:"When the Druid hits with an Opportunity Attack, instead of dealing damage, the Druid can choose to IMMOBILIZE the target until the start of the target’s next turn."});
+                setAttrs( { lb_name:"Tempest Storm", lb_info:"Channel a furious storm.Channel: All adjacent characters of your choice are pushed 1 space away from you. If you stop channeling this ability before releasing for any reason, the ultimate is not expended. Release: Create a 4x4 zone within Scope. Characters in one of the zone’s spaces when it is created or those that enter one of its spaces take [1d6+4 Physical]. A character can’t take this damage more than 1/turn. If a character ends their turn in one of the zone’s spaces, you can SLIDE them up to 3 spaces. The area inside the storm is Difficult Terrain. As a Minor Action, you can spend 1 mana to move the zone up to 3 spaces in a straight line. The zone lasts until the end of the scene."});
+                break;            
+            case "Equinox":
+                console.log("User Changed Job to 'Equinox'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Gravewalker":
+                console.log("User Changed Job to 'Gravewalker'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Gunslinger":
+                console.log("User Changed Job to 'Gunslinger'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Hexblade":
+                console.log("User Changed Job to 'Hexblade'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Knightmare":
+                console.log("User Changed Job to 'Knightmare'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;            
+            case "Lifeweaver":
+                console.log("User Changed Job to 'Lifeweaver'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Paladin":
+                console.log("User Changed Job to 'Paladin'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Phoenix":
+                console.log("User Changed Job to 'Phoenix'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Riftblade":
+                console.log("User Changed Job to 'Riftblade'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Rimeguard":
+                console.log("User Changed Job to 'Rimeguard'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;            
+            case "Seeker":
+                console.log("User Changed Job to 'Seeker'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Shadebinder":
+                console.log("User Changed Job to 'Shadebinder'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Shadow_Dancer":
+                console.log("User Changed Job to 'Shadow_Dancer'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Shapeshifter":
+                console.log("User Changed Job to 'Shapeshifter'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Skald":
+                console.log("User Changed Job to 'Skald'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;            
+            case "Thunderclaw":
+                console.log("User Changed Job to 'Thunderclaw'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Tidecaller":
+                console.log("User Changed Job to 'Tidecaller'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Warden":
+                console.log("User Changed Job to 'Warden'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            case "Warlord":
+                console.log("User Changed Job to 'Warlord'");
+                setAttrs( { scope:10, hp:6, hp_max:6, recoveries:3, recoveries_max:3, dodge:6, speed:4, save:10, stress:7, stress_max:7, Memory:7, Memory_max:7, a_def:10, mana:5, mana_max:5 });
+                setAttrs( { job_trait1:" ", job_trait1_info:" "});
+                setAttrs( { job_trait2:" ", job_trait2_info:" "});
+                setAttrs( { job_trait3:" ", job_trait3_info:" "});
+                setAttrs( { lb_name:" ", lb_info:" "});
+                break;
+            default:
+            console.log("Job Change Error. Unknown Value: " + v.newValue);
+                break;
+        }
+    });
+
+
+</script>

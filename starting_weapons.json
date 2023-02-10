@@ -1,0 +1,585 @@
+[
+  {
+    "id": "missing_weapon",
+    "name": "ERR: DATA NOT FOUND",
+    "size": "Main",
+    "type": "Blade",
+    "damage": [],
+    "range": [],
+    "tags": [],
+    "class_level": 0,
+    "description": "This is likely the result of a missing or outdated content pack."
+  },
+  {
+    "id": "w_aetherbreaker",
+    "name": "Aetherbreaker",
+    "size": "Main",
+    "type": "Club",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "2d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_bloodpike",
+    "name": "Bloodpike",
+    "size": "Heavy",
+    "type": "Longarm",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "2d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 2
+      }
+    ],
+    "tags": [
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_hammer",
+    "name": "Hammer",
+    "size": "Light",
+    "type": "Club",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "1d3+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_maul",
+    "name": "Maul",
+    "size": "Heavy",
+    "type": "Club",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "3d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_push",
+        "val": 1
+      },
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_moonknife",
+    "name": "Moonknife",
+    "size": "Light",
+    "type": "Blade",
+    "damage": [
+      {
+        "type": "Lunar",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 3
+      },
+      {
+        "id": "tg_accurate"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_photon_axe",
+    "name": "Photon Axe",
+    "size": "Heavy",
+    "type": "Blade",
+    "damage": [
+      {
+        "type": "Astral",
+        "val": "1d6+7"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 4
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_rapier",
+    "name": "Rapier",
+    "size": "Light",
+    "type": "Blade",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_piercing"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_rapier",
+    "name": "Rapier",
+    "size": "Light",
+    "type": "Blade",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_piercing"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_runespear",
+    "name": "Runespear",
+    "size": "Main",
+    "type": "Longarm",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 3
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_sword",
+    "name": "Sword",
+    "size": "Main",
+    "type": "Blade",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_whip",
+    "name": "Whip",
+    "size": "Light",
+    "type": "Longarm",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Reach",
+        "val": 3
+      }
+    ],
+    "tags": [],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_crossbow",
+    "name": "Crossbow",
+    "size": "Heavy",
+    "type": "Bow",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "2d6+3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_piercing"
+      },
+      {
+        "id": "tg_reloading"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_crystal_staff",
+    "name": "Crystal Staff",
+    "size": "Heavy",
+    "type": "Artifact",
+    "damage": [
+      {
+        "type": "Lunar",
+        "val": "2d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_aetheric"
+      },
+      {
+        "id": "tg_mana",
+        "val": 2
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_forbidden_tome",
+    "name": "Forbidden Tome",
+    "size": "Main",
+    "type": "Artifact",
+    "damage": [
+      {
+        "type": "Lunar",
+        "val": "1d3+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_aetheric"
+      },
+      {
+        "id": "tg_mana",
+        "val": 1
+      },
+      {
+        "id": "tg_arcing"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_lunar_cannon",
+    "name": "Lunar Cannon",
+    "size": "Heavy",
+    "type": "Magitech",
+    "damage": [
+      {
+        "type": "Lunar",
+        "val": "3d6+3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 15
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 4
+      },
+      {
+        "id": "tg_reloading"
+      },
+      {
+        "id": "tg_slow"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_shardgun_pistol",
+    "name": "Shardgun Pistol",
+    "size": "Light",
+    "type": "Magitech",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Reach",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 1
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_shardgun_rifle",
+    "name": "Shardgun Rifle",
+    "size": "Main",
+    "type": "Magitech",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_shardshredder",
+    "name": "Shardshredder",
+    "size": "Main",
+    "type": "Magitech",
+    "damage": [
+      {
+        "type": "Force",
+        "val": "2d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Reach",
+        "val": 3
+      }
+    ],
+    "tags": [],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_shortbow",
+    "name": "Shortbow",
+    "size": "Main",
+    "type": "Bow",
+    "damage": [
+      {
+        "type": "Physical",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_arcing"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_starwand",
+    "name": "Starwand",
+    "size": "Light",
+    "type": "Artifact",
+    "damage": [
+      {
+        "type": "Astral",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_accurate"
+      },
+      {
+        "id": "tg_aetheric"
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  },
+  {
+    "id": "w_stormbow",
+    "name": "Stormbow",
+    "size": "Heavy",
+    "type": "Bow",
+    "damage": [
+      {
+        "type": "Astral",
+        "val": "2d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_push",
+        "val": 1
+      }
+    ],
+    "source": "starting",
+    "class_level": 0
+  }
+]

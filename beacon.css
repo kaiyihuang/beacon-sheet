@@ -1,0 +1,485 @@
+/*----------------- Main Layout ------------------*/
+
+/* A CSS Grid example using "grid-template-areas"
+  https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+*/
+
+.charsheet main.sheet-character,
+.charsheet main.sheet-gen,
+.charsheet main.sheet-npc,
+.charsheet main.sheet-npcgen{
+    display: none;
+}
+
+.charsheet .sheet-tabstoggle[value=character] ~ main.sheet-character,
+.charsheet .sheet-tabstoggle[value=npc] ~ main.sheet-npc,
+.charsheet .sheet-tabstoggle[value=gen] ~main.sheet-gen,
+.charsheet .sheet-tabstoggle[value=npcgen] ~main.sheet-npcgen{
+    display: grid;
+}
+
+.charsheet .sheet-tabstoggle[value=character] ~main.sheet-gen{
+    display: grid;
+}
+
+.charsheet .sheet-tabstoggle[value=npc] ~main.sheet-npcgen{
+    display: grid;
+}
+
+.charsheet div.tab-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.charsheet .text160{width:160px;}
+.charsheet .resizedTextbox{width:120px;}
+.charsheet .text80{width:80px;}
+.charsheet .text60{width:60px;}
+.charsheet .jobBox{width:100px;}
+.charsheet .ancestryBox{width:100px;}
+.charsheet .text105{width:105px;}
+.charsheet .text40{width:40px;}
+
+.charsheet textArea{
+    height: 60px;
+    width: auto;
+    background-color: white;
+}
+
+.charsheet textArea.textAtks{
+    height: 40px;
+    width: auto;
+    background-color: white;
+}
+
+table {
+    margin-left: auto;margin-right:auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+  white-space: nowrap;
+  padding: 5px;
+}
+
+table.b, th.b, td.b {
+    border: none
+}
+
+th.b, td.b {
+    text-align: left;
+}
+
+th.b {
+  padding: 0px;
+}
+
+main.sheet-character {
+  display: grid;
+  width: 1000px;
+  height: 900px;
+  grid-gap: 4px;
+  grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90px 1fr 1fr 1fr 15px;
+  grid-template-areas:"header   header  header  header  header  header"
+                      "skill    skill   bars    bars    power   power"
+                      "stats    stats   attack  attack  power   power"
+                      "ult      ult     attack  attack  power   power"
+                      "misc     misc    inv     inv     talent  talent"
+                      "misc     misc    inv     inv     talent  talent"
+                      "misc     misc    inv     inv     talent  talent"
+                      "footer   footer  footer  footer  footer  footer";
+}
+
+
+.charsheet{
+	background-color:white;
+	color:black;
+}
+
+/*----------------- GENERAL CSS ------------------*/
+
+section {
+    padding: 5px;
+    border-style: solid;
+}
+
+
+/*loren*/
+section.stats div {width:70px; display:inline-block;}
+section.stats input {margin-right:55px;}
+section.skill div {width:70px; display:inline-block;}
+section.skill div.f-row {text-align:center;}
+section.skill input {width:70%;}
+section.skill div div {width:70px; display:inline-block;}
+
+section.bars div {width:70px; display:inline-block;}
+section.bars div.f-row {text-align:center;}
+section.bars div div {width:70px; display:inline-block;}
+
+section.npc-stats div {width:100px; display:inline-block;}
+section.npc-stats div.f-row {text-align:center;}
+section.npc-stats div div {width:100px; display:inline-block;}
+
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    text-align:center;
+}
+/*loren*/
+
+
+/* CSS Flexbox styling, used for adjusting how content inside section behaves */
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.f-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.sheet-flex-gauge-column
+{
+    flex-shrink:0;
+    display:flex;
+    flex-flow:column;
+}
+
+.ancestryBox{width:80px;
+}
+.jobBox{width:100px;
+}
+.smallerTextbox{width:50px;
+}
+
+/*----------------- Text & Input styling -----------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Lexend&display=swap");
+
+
+/* these are for overwriting default CSS that comes from Roll20 */
+
+.charsheet * {
+  font-family: "Lexend";
+}
+
+.charsheet h3{
+  text-align: center;
+}
+.charsheet label{
+  margin: 3px;
+  padding: 3px 0 0 0;
+}
+
+.charsheet input[type="text"], input[type="number"]{
+  margin: 2px 4px;
+}
+
+.charsheet input[type="number"]{
+    width:40px !important;}
+
+.charsheet input.sheet-toggle-show:not(:checked) ~ div.sheet-body,
+.charsheet input.sheet-toggle-hide:checked ~ div.sheet-body {
+    display: none;
+}
+.charsheet input.sheet-toggle-show1:not(:checked) ~ div.sheet-body1,
+.charsheet input.sheet-toggle-hide1:checked ~ div.sheet-body1 {
+    display: none;
+}
+.charsheet input.sheet-toggle-show2:not(:checked) ~ div.sheet-body2,
+.charsheet input.sheet-toggle-hide2:checked ~ div.sheet-body2 {
+    display: none;
+}
+.charsheet input.sheet-toggle-show3:not(:checked) ~ div.sheet-body3,
+.charsheet input.sheet-toggle-hide3:checked ~ div.sheet-body3 {
+    display: none;
+}
+.charsheet input[type="checkbox"]{
+    min-width:0;
+}
+
+/*------------- Section-specific CSS -------------*/
+
+.header {
+  grid-area: header;
+  flex-direction: column;
+}
+
+.skill {
+  grid-area: skill;
+}
+
+.common {
+  grid-area: common;
+}
+
+.ult {
+    grid-area: ult;
+    background-color: #E3854D;
+}
+
+.power {
+  grid-area: power;
+  background-color: #80B8E0;
+}
+
+.power .repcontainer[data-groupname="repeating_power"]{
+  padding-bottom: 0.2em;
+}
+
+.power .repcontainer[data-groupname="repeating_power"] .repitem{
+  margin: 4px 0px;
+}
+
+.talent {
+  grid-area: talent;
+}
+
+.bars {
+    grid-area: bars;
+}
+
+.stats {
+    grid-area: stats;
+}
+
+.attack {
+  grid-area: attack;
+  background-color: #a0a0a0;
+}
+
+.inv {
+  grid-area: inv;
+  background-color: #C1916A;
+}
+
+.misc {
+  grid-area: misc;
+  background-color: #CE4D51;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightgray;
+}
+
+/* NPC SHEET *\
+\*           */
+main.sheet-npc {
+    display: grid;
+    width: 1000px;
+    height:900px;
+    grid-gap: 4px;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 1fr 1fr 1fr 20px;
+    grid-template-areas: "header    header      header  header"
+                         "npc-base  npc-stats   npc-bar npc-actions"
+                         "npc-trts  npc-atk     npc-atk npc-actions"
+                         "npc-trts  npc-inv     npc-inv npc-actions";
+}
+
+.npc-base {
+    grid-area: npc-base;
+}
+
+.npc-stats {
+    grid-area: npc-stats;
+}
+
+.npc-atk {
+    grid-area: npc-atk;
+    background-color: #a0a0a0;
+}
+
+.npc-trts {
+    grid-area: npc-trts;
+    background-color: #CE4D51;
+}
+
+.npc-actions {
+    grid-area: npc-actions;
+    background-color: #80B8E0;
+}
+
+.npc-inv {
+    grid-area: npc-inv;
+    background-color: #C1916A;
+}
+
+.npc-bar {
+    grid-area: npc-bar
+}
+
+
+/* GENERAL RULES TAB *\
+\*                   */
+main.sheet-gen {
+    display: grid;
+    width: 1000px;
+    grid-gap: 4px;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 20px;
+    grid-template-areas: "header    header      header      header  header"
+                         "gen-misc  reactions   reactions   surge   surge"
+                         "phase     rerolltable rerolltable wounds  wounds";}
+
+.rerolltable {
+    grid-area: rerolltable
+}
+
+.surge {
+    grid-area: surge
+}
+
+.reactions {
+    grid-area: reactions
+}
+
+.gen_misc {
+    grid-area: gen-misc
+}
+
+.wounds {
+    grid-area: wounds
+}
+
+.phase {
+    grid-area: phase
+}
+
+
+/* NPC GENERAL RULES *\
+\*                   */
+main.sheet-npcgen {
+    display: grid;
+    width: 1000px;
+    height:900px;
+    grid-gap: 4px;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 20px;
+    grid-template-areas: "header    header  header"
+                         "npc-gen   npc-gen npc-gen"
+                         "wounds    wounds  wounds";
+}
+
+.npc_gen {
+    grid-area: npc-gen
+}
+
+.wounds {
+    grid-area: wounds
+}
+
+
+/*------------------------------------*\
+  #ROLL TEMPLATES
+\*------------------------------------*/
+
+.sheet-rolltemplate-rolls {
+  font-family: "Lexend";
+}
+.sheet-rolltemplate-rolls .sheet-container {
+  border: 3px solid black;
+  border-radius: 3px;
+}
+.sheet-rolltemplate-rolls .sheet-header {
+  background-color: var(--header-bg-color, #a83521);
+  color: var(--header-text-color, #FFF);
+  text-align: left;
+  text-transform: capitalize;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.sheet-rolltemplate-rolls .sheet-title,
+.sheet-rolltemplate-rolls .sheet-name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.sheet-rolltemplate-rolls .sheet-subtitle {
+  font-size: 1em;
+}
+.sheet-rolltemplate-rolls .sheet-container {
+  --header-bg-color: #a83521;
+  --header-text-color: #FFF;
+}
+
+.sheet-rolltemplate-rolls .sheet-content {
+  display: grid;
+  background: rgb(31, 31, 31);
+  grid-template-columns: auto auto;
+  line-height: 1.4em;
+  color: #000;
+}
+.sheet-rolltemplate-rolls .sheet-content > div {
+  padding: 5px;
+}
+.sheet-rolltemplate-rolls .sheet-content .sheet-key {
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: right;
+  color: #000000;
+}
+.sheet-rolltemplate-rolls .sheet-content :nth-child(4n+3),
+.sheet-rolltemplate-rolls .sheet-content :nth-child(4n) {
+  background: rgb(63, 63, 63);
+}
+
+.sheet-rolltemplate-darkmode .inlinerollresult{
+    color: #FFFFFF;
+}
+.sheet-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted green;
+}
+
+.sheet-tooltip .sheet-tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -120px;
+}
+
+.sheet-tooltip .sheet-tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.sheet-tooltip:hover .sheet-tooltiptext {
+  visibility: visible;
+}
