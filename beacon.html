@@ -179,50 +179,205 @@
             <td class="b"><div>Recoveries</div><input type="number" name="attr_recoveries" value="0" min="0" max="99">/<input type="number" name="attr_recoveries_max" value="0" min="0" max="99" ></td>
         </tr>
       </table>
-  </section>
-
+  </section> 
   <section class="attack">
-    <h3>Weapon & Spells</h3>
-    <input type="checkbox" class="sheet-toggle-show">
-    <button type="roll" name="roll_attack" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype}}} {{Range=@{attackrange}}} {{Tags=@{attacktags}}} {{To Hit= [[1d20+@{npctohit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage}]] @{damagetype}}} {{Effect=@{attackeffects}}}"></button>
-    <input type="text" name="attr_slots1" value="" style="width: 25%;">
-    <div class="sheet-body">
-    <span>Weapon Type<input type="text" name="attr_attacktype" value="" style="width: 20%;"></span><span>Range<input type="text" name="attr_attackrange" value="" style="width: 20%;"></span><span>To Hit<input type="text" name="attr_npctohit" value="" style="width: 15%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags" value="" style="width: 35%;"></span><br>
-    Description or Effects? <input type="checkbox" class="sheet-toggle-show"><br>
-    <div class="sheet-body">
-    <textarea class=textAtks name="attr_attackeffects" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
-    </div>
-    </div>
-    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left">
-        <option value="Unlinked"></option>
-        <option value="Linked">🔗</option>
+    <strong><h3>Weapon Attacks</h3></strong><input type="checkbox" class="sheet-toggle-show" style="margin-right: 4px;"> (Weapon Slot Information)  ---   
+    
+   (Weapon Input Instructions<span class="sheet-tooltip"><span><strong>Here</strong>)</span>
+    <span class="sheet-tooltip-text">
+        <p>Input the name of the weapon or spell your using into one of the fields below.
+           This will fill in the appropriate infromation for you automatically.</p>
+        <p>Make sure the name is spelled correctly, however the name is not case or space sensative.</p>
+        <p>Example1: Sword, sword, and sWoRd are CORRECT.</p>
+        <p>Example2: Forbidden Tome, ForbiddenTome, and foRbiDdentoMe are CORRECT.</p>
+    </span>
+  </span>  
+    <div class="sheet-body" style="margin-left: 50px;">
+        <span><input name="attr_slotsize1" type="text" list="inv_slots" style="width: 40%;"> <span><input name="attr_slotsize2" type="text" list="inv_slots" style="width: 40%;"></span><br>
+        <span><input name="attr_slotsize3" type="text" list="inv_slots" style="width: 40%;"> <span><input name="attr_slotsize4" type="text" list="inv_slots" style="width: 40%;"></span><br>
+        <span><input name="attr_slotsize5" type="text" list="inv_slots" style="width: 40%;"> <span><input name="attr_slotsize6" type="text" list="inv_slots" style="width: 40%;"></span><br>
+        <span><input name="attr_slotsize7" type="text" list="inv_slots" style="width: 40%;"> <span><input name="attr_slotsize8" type="text" list="inv_slots" style="width: 40%;"></span><br></div>
+    <br> 
     <input type="checkbox" class="sheet-toggle-show1">
-    <button type="roll" name="roll_attack" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype}}} {{Range=@{attackrange}}} {{Tags=@{attacktags}}} {{To Hit= [[1d20+@{npctohit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage}]] @{damagetype}}} {{Effect=@{attackeffects}}}"></button>
-    <input type="text" name="attr_slots1" value="" style="width: 25%;">
-    <div class="sheet-body">
-    <span>Weapon Type<input type="text" name="attr_attacktype" value="" style="width: 20%;"></span><span>Range<input type="text" name="attr_attackrange" value="" style="width: 20%;"></span><span>To Hit<input type="text" name="attr_npctohit" value="" style="width: 15%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags" value="" style="width: 35%;"></span><br>
-    Description or Effects? <input type="checkbox" class="sheet-toggle-show"><br>
-    <div class="sheet-body">
-    <textarea class=textAtks name="attr_attackeffects" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
     </div>
     </div>
-    <span><input name="attr_slots3" type="text" list="wpn_slots" style="width: 38%;">
-    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left">
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
-        <input name="attr_slots4" type="text" list="wpn_slots" style="width: 41%;"></select></span>
-    <span><input name="attr_slots5" type="text" list="wpn_slots" style="width: 38%;">
-    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left">
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <input type="checkbox" class="sheet-toggle-show3">
+    <button type="roll" name="roll_attack3" style="margin-left: -1px;" value="&{template:default} {{title=@{slots3}}} {{Type=@{attacktype3}}} {{Range=@{attackrange3}}} {{Tags=@{attacktags3}}} {{To Hit= [[1d20+@{hitbonus3}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage3}]] @{damagetype3}}} {{Effect=@{attackeffects3}}}"></button>
+    <input type="text" name="attr_slots3" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body3">
+    <span>Type<input type="text" name="attr_attacktype3" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange3" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus3" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage3" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype3" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags3" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show3"><br>
+    <div class="sheet-body3">
+    <textarea class=textAtks name="attr_attackeffects3" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
-        <input name="attr_slots6" type="text" list="wpn_slots" style="width: 41%;"></select></span>
-    <span><input name="attr_slots7" type="text" list="wpn_slots" style="width: 38%;">
-    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left">
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
-        <input name="attr_slots8" type="text" list="wpn_slots" style="width: 41%;"></select></span>   
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <strong><h3>Spell Attacks</h3></strong>
+    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>    <input type="checkbox" class="sheet-toggle-show1">
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
+    <div class="sheet-body1">
+    <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
+    <div class="sheet-body1">
+    <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>
+    <select name="linked" type="text" list="linked" class=linkedBox style="width: 13%; text-align:left; margin-right: 4px;">
+        <option value="Unlinked"></option>
+        <option value="Linked">🔗</option>
+        </select>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
+    <div class="sheet-body2">
+    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
+    <div class="sheet-body2">
+    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    </div>
+    </div>   
   </section>
 
 <section class="power">
@@ -523,58 +678,70 @@
             <td>6</td>
             <td>-</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Dazed-
-               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Dazed</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are DAZED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>3-4</td>
             <td>4-5</td>
             <td>5-6</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Weapon-
-               <span class="sheet-tooltiptext">Destroy one of your weapons. Limited or
-                Consumable equipment can’t be selected if they don’t have
-                any charges left. If you can’t destroy a weapon, this becomes
-                the BROKEN SUPPORT result. If you can’t destroy either, this
-                becomes the STUNNED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Weapon</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>Destroy one of your weapons. 
+                    <li>Limited or Consumable equipment can’t be selected if they don’t have any charges left.</li>
+                    <li>If you can’t destroy a weapon, this becomes the BROKEN SUPPORT result.</li>
+                    <li>If you can’t destroy either, this becomes the STUNNED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>1-2</td>
             <td>2-3</td>
             <td>3-4</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Support-
-               <span class="sheet-tooltiptext">Destroy one of your support items.
-                Limited or Consumable equipment can’t be selected if they
-                don’t have any charges left. If you can’t destroy a support item,
-                this becomes the BROKEN WEAPON result. If you can’t
-                destroy either, this becomes the STUNNED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Support</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>Destroy one of your support items.
+                    <li>Limited or Consumable equipment can’t be selected if they don’t have any charges left.</li>
+                    <li>If you can’t destroy a support item, this becomes the BROKEN WEAPON result.</li>
+                    <li>If you can’t destroy either, this becomes the STUNNED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>1</td>
             <td>1-2</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Staggered-
-               <span class="sheet-tooltiptext">You are SLOWED and STUNNED until the end
-                of your next turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Staggered</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are SLOWED and STUNNED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>1-6</td>
-            <td><div class="sheet-tooltip">-Defeated-
-               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Defeated</strong>  
+                <span class="sheet-tooltip-text">
+              <img src="https://media.giphy.com/media/TbONGqAdpTWQW3Hz5V/giphy.gif" alt="You Died"></td>
+                </span>
+              </span>
         </tr>
     </table>
     <br>
     <table>
         <tr>
-            <th>  3 Over<br>Stress   </th>
-            <th>  2 Over<br>Stress  </th>
-            <th>  1 Over<br>Stress  </th>
-            <th>  0 Over<br>Stress  </th>
+            <th>  3 Over Stress  </th>
+            <th>  2 Over Stress  </th>
+            <th>  1 Over Stress  </th>
+            <th>  0 Over <br> Stress  </th>
             <th>Outcome</th>
         </tr>
         <tr>
@@ -582,52 +749,60 @@
             <td>6</td>
             <td>-</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Dazed-
-               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Dazed</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are DAZED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>3-4</td>
             <td>4-5</td>
             <td>5-6</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Tech-
-               <span class="sheet-tooltiptext">Destroy one of your
-                techniques. Limited or Consumable
-                techniques can’t be selected if they don’t have
-                any charges left. If you can’t destroy a
-                technique, this becomes the LOST MANA
-                result. If you can’t do either, this becomes the
-                EXPOSED result.
-                </span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Tech</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>Destroy one of your techniques.
+                        <li>Limited or Consumable techniques can’t be selected if they don’t have any charges left.</li>
+                        <li>If you can’t destroy technique, this becomes the LOST MANA result.</li>
+                        <li>If you can’t destroy either, this becomes the EXPOSED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>1-2</td>
             <td>2-3</td>
             <td>3-4</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Lost Mana-
-               <span class="sheet-tooltiptext">Your current and maximum
-                mana is reduced by 1 until fixed during a
-                REST. If your mana maximum is 0, choose the
-                BROKEN TECH option. If you can’t do either,
-                this becomes the EXPOSED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Lost Mana</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>Your current and maximum mana is reduced by 1 until fixed during a REST.
+                        <li> If your mana maximum is 0, choose the BROKEN TECH option.</li>
+                        <li>If you can’t do either, this becomes the EXPOSED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>1</td>
             <td>1-2</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Exposed-
-               <span class="sheet-tooltiptext">You are VULNERABLE and
-                WEAKENED until the end of your next turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Exposed</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>You are VULNERABLE and WEAKENED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>1-6</td>
-            <td><div class="sheet-tooltip">-Defeated-
-               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Defeated</strong>  
+                <span class="sheet-tooltip-text">
+              <img src="https://media.giphy.com/media/TbONGqAdpTWQW3Hz5V/giphy.gif" alt="You Died"></td>
+                </span>
+              </span>
         </tr>
     </table>
 
@@ -722,58 +897,70 @@
             <td>6</td>
             <td>-</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Dazed-
-               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Dazed</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are DAZED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>3-4</td>
             <td>4-5</td>
             <td>5-6</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Weapon-
-               <span class="sheet-tooltiptext">Destroy one of your weapons. Limited or
-                Consumable equipment can’t be selected if they don’t have
-                any charges left. If you can’t destroy a weapon, this becomes
-                the BROKEN SUPPORT result. If you can’t destroy either, this
-                becomes the STUNNED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Weapon</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>Destroy one of your weapons. 
+                    <li>Limited or Consumable equipment can’t be selected if they don’t have any charges left.</li>
+                    <li>If you can’t destroy a weapon, this becomes the BROKEN SUPPORT result.</li>
+                    <li>If you can’t destroy either, this becomes the STUNNED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>1-2</td>
             <td>2-3</td>
             <td>3-4</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Support-
-               <span class="sheet-tooltiptext">Destroy one of your support items.
-                Limited or Consumable equipment can’t be selected if they
-                don’t have any charges left. If you can’t destroy a support item,
-                this becomes the BROKEN WEAPON result. If you can’t
-                destroy either, this becomes the STUNNED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Support</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>Destroy one of your support items.
+                    <li>Limited or Consumable equipment can’t be selected if they don’t have any charges left.</li>
+                    <li>If you can’t destroy a support item, this becomes the BROKEN WEAPON result.</li>
+                    <li>If you can’t destroy either, this becomes the STUNNED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>1</td>
             <td>1-2</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Staggered-
-               <span class="sheet-tooltiptext">You are SLOWED and STUNNED until the end
-                of your next turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Staggered</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are SLOWED and STUNNED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>1-6</td>
-            <td><div class="sheet-tooltip">-Defeated-
-               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Defeated</strong>  
+                <span class="sheet-tooltip-text">
+              <img src="https://media.giphy.com/media/TbONGqAdpTWQW3Hz5V/giphy.gif" alt="You Died"></td>
+                </span>
+              </span>
         </tr>
     </table>
     <br>
     <table>
         <tr>
-            <th>  3 Over<br>Stress   </th>
-            <th>  2 Over<br>Stress  </th>
-            <th>  1 Over<br>Stress  </th>
-            <th>  0 Over<br>Stress  </th>
+            <th>  3 Over Stress  </th>
+            <th>  2 Over Stress  </th>
+            <th>  1 Over Stress  </th>
+            <th>  0 Over <br> Stress  </th>
             <th>Outcome</th>
         </tr>
         <tr>
@@ -781,52 +968,60 @@
             <td>6</td>
             <td>-</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Dazed-
-               <span class="sheet-tooltiptext">You are DAZED until the end of yournext turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Dazed</strong>  
+                <span class="sheet-tooltip-text">
+                 <p>You are DAZED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>3-4</td>
             <td>4-5</td>
             <td>5-6</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Broken Tech-
-               <span class="sheet-tooltiptext">Destroy one of your
-                techniques. Limited or Consumable
-                techniques can’t be selected if they don’t have
-                any charges left. If you can’t destroy a
-                technique, this becomes the LOST MANA
-                result. If you can’t do either, this becomes the
-                EXPOSED result.
-                </span></div></td>
+            <td><span class="sheet-tooltip"><strong>Broken Tech</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>Destroy one of your techniques.
+                        <li>Limited or Consumable techniques can’t be selected if they don’t have any charges left.</li>
+                        <li>If you can’t destroy technique, this becomes the LOST MANA result.</li>
+                        <li>If you can’t destroy either, this becomes the EXPOSED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>1-2</td>
             <td>2-3</td>
             <td>3-4</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Lost Mana-
-               <span class="sheet-tooltiptext">Your current and maximum
-                mana is reduced by 1 until fixed during a
-                REST. If your mana maximum is 0, choose the
-                BROKEN TECH option. If you can’t do either,
-                this becomes the EXPOSED result.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Lost Mana</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>Your current and maximum mana is reduced by 1 until fixed during a REST.
+                        <li> If your mana maximum is 0, choose the BROKEN TECH option.</li>
+                        <li>If you can’t do either, this becomes the EXPOSED result.</li></p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>1</td>
             <td>1-2</td>
             <td>-</td>
-            <td><div class="sheet-tooltip">-Exposed-
-               <span class="sheet-tooltiptext">You are VULNERABLE and
-                WEAKENED until the end of your next turn.</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Exposed</strong>  
+                <span class="sheet-tooltip-text">
+                    <p>You are VULNERABLE and WEAKENED until the end of your next turn.</p></td>
+                </span>
+              </span>
         </tr>
         <tr>
             <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>1-6</td>
-            <td><div class="sheet-tooltip">-Defeated-
-               <span class="sheet-tooltiptext">~ YOU DIED ~</span></div></td>
+            <td><span class="sheet-tooltip"><strong>Defeated</strong>  
+                <span class="sheet-tooltip-text">
+              <img src="https://media.giphy.com/media/TbONGqAdpTWQW3Hz5V/giphy.gif" alt="You Died"></td>
+                </span>
+              </span>
         </tr>
     </table>
 
