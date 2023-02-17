@@ -29,7 +29,7 @@
                 "desc": "The Aegis can spend Mana as if it were Focus. "
             },
             {
-                "name": "ABJURER\u00e2\u20ac\u2122S WARD",
+                "name": "ABJURER\u2019S WARD",
                 "desc": "Gain the Ward reaction."
             },
             {
@@ -80,17 +80,17 @@
             },
             {
                 "name": "POTION INJECTOR",
-                "desc": "The Alchemist\u00e2\u20ac\u2122s Consumable abilities can be used up to [Range 8], and effects that would only apply to the Alchemist (like healing potions) can apply to willing allies within that range.\r\nAs their Standard Action during PHASE (3): SKIRMISH or later, the Alchemist can use a Support Item with a Minor Action activation. "
+                "desc": "The Alchemist\u2019s Consumable abilities can be used up to [Range 8], and effects that would only apply to the Alchemist (like healing potions) can apply to willing allies within that range. As their Standard Action during PHASE (3): SKIRMISH or later, the Alchemist can use a Support Item with a Minor Action activation. "
             },
             {
                 "name": "SANITIZING VAPORS",
-                "desc": "At the end of the Alchemist\u00e2\u20ac\u2122s turn, an ally within [Range 3] can clear up to 1 Stress, or up to 2 if the ally is BREAKING."
+                "desc": "At the end of the Alchemist\u2019s turn, an ally within [Range 3] can clear up to 1 Stress, or up to 2 if the ally is BREAKING."
             }
         ],
         "limit_break": {
             "name": "Philosopher Stone",
             "action": "Limit Break, Minor",
-            "desc": "As a Minor Action, the Alchemist reveals their Philosopher\u00e2\u20ac\u2122s Stone. It has 6 charges. The Alchemist and allies in the scene can use the Philosopher\u00e2\u20ac\u2122s Stone charges in place of spending CONSUMABLE charges or mana, at a rate of 1 Philosopher\u00e2\u20ac\u2122s Stone charge per CONSUMABLE charge or single point of mana. Items/abilities with no charges left can still be used if they use the Philosopher\u00e2\u20ac\u2122s Stone\u00e2\u20ac\u2122s charges."
+            "desc": "As a Minor Action, the Alchemist reveals their Philosopher\u2019s Stone. It has 6 charges. The Alchemist and allies in the scene can use the Philosopher\u2019s Stone charges in place of spending CONSUMABLE charges or mana, at a rate of 1 Philosopher\u2019s Stone charge per CONSUMABLE charge or single point of mana. Items/abilities with no charges left can still be used if they use the Philosopher\u2019s Stone\u2019s charges."
         }
     },
     {
@@ -120,7 +120,7 @@
         "traits": [
             {
                 "name": "ARMIGER",
-                "desc": "The Arsenal has the Phantom Armory Innate weapon, which is equipped for free.\n\nPhantom Armory        Melee or Ranged Weapon: Innate, Unique\nRanged Profiles\n        Any Artifact: Aetheric [Range 10] [1d6 Astral]\n        Any Bow: Arcing [Range 10] [1d6 Physical]\n        Any Magitech: Reliable 2 [Range 5, Reach 3]         [1d6 Force]\nMelee Profiles\n        Any Blade: Accurate [Reach 1] [1d6+1 Physical]\n        Any Club: Push 2 [Reach 1] [1d6+1 Physical]\n        Any Longarm: [Reach 2] [1d6+1 Physical]\nAs a Minor Action, this weapon gains one of the above profiles and a Size of your choice, which last until the end of the scene or until changed. 1/round when the Arsenal would take damage from a non-aetheric attack, they can choose one of the profiles and roll its damage, reducing the damage taken by that amount (after armor and resistance). That profile can\u00e2\u20ac\u2122t be used until the end of the scene. The Arsenal can\u00e2\u20ac\u2122t use this effect if they are unable to take Reactions."
+                "desc": "The Arsenal has the Phantom Armory Innate weapon, which is equipped for free.  Phantom Armory        Melee or Ranged Weapon: Innate, Unique Ranged Profiles         Any Artifact: Aetheric [Range 10] [1d6 Astral]         Any Bow: Arcing [Range 10] [1d6 Physical]         Any Magitech: Reliable 2 [Range 5, Reach 3]         [1d6 Force] Melee Profiles         Any Blade: Accurate [Reach 1] [1d6+1 Physical]         Any Club: Push 2 [Reach 1] [1d6+1 Physical]         Any Longarm: [Reach 2] [1d6+1 Physical] As a Minor Action, this weapon gains one of the above profiles and a Size of your choice, which last until the end of the scene or until changed. 1/round when the Arsenal would take damage from a non-aetheric attack, they can choose one of the profiles and roll its damage, reducing the damage taken by that amount (after armor and resistance). That profile can\u2019t be used until the end of the scene. The Arsenal can\u2019t use this effect if they are unable to take Reactions."
             },
             {
                 "name": "FLEX WEAPONS",
@@ -178,7 +178,7 @@
         "limit_break": {
             "name": "Exterminate",
             "action": "Limit Break, Free Action",
-            "desc": "Until the end of the scene, the Assassin\u00e2\u20ac\u2122s Preparation trait grants 1 Prep at the end of each of their turns, or 2 if they are HIDDEN, which replaces their normal Prep gain. Assassinate now deals 1d6+X bonus damage, where X = the amount of Preparation spent on the attack."
+            "desc": "Until the end of the scene, the Assassin\u2019s Preparation trait grants 1 Prep at the end of each of their turns, or 2 if they are HIDDEN, which replaces their normal Prep gain. Assassinate now deals 1d6+X bonus damage, where X = the amount of Preparation spent on the attack."
         }
     },
     {
@@ -252,7 +252,7 @@
         "traits": [
             {
                 "name": "UNDO",
-                "desc": "1/round, the Chronomancer can take actions from an earlier phase, instead of during PHASE 8: DELAY. They take 1 Stress for every phase that has passed since the action\u00e2\u20ac\u2122s normal phase. For example, if the Chronomancer uses (1) DEFEND during PHASE 5: BRAWL, they would take 4 Stress. "
+                "desc": "1/round, the Chronomancer can take actions from an earlier phase, instead of during PHASE 8: DELAY. They take 1 Stress for every phase that has passed since the action\u2019s normal phase. For example, if the Chronomancer uses (1) DEFEND during PHASE 5: BRAWL, they would take 4 Stress. "
             },
             {
                 "name": "PLUCK THE THREADS OF TIME",
@@ -306,7 +306,7 @@
             },
             {
                 "name": "DEMON FORM",
-                "desc": "Free Action | Polymorph\r\nIf the Demon Hunter has 6 Corruption, they can reset their Corruption Die to 1 and assume a demonic form until the start of their next turn. While in this form, they gain the following benefits:\r\n\u00e2\u20ac\u00a2\tBonus damage from Corruption increases to +3 Force bonus damage.\r\n\u00e2\u20ac\u00a2\tBonus damage from any source becomes Discord.\r\n\u00e2\u20ac\u00a2\tGain Resistance to Stress from other characters.\r\n\u00e2\u20ac\u00a2\tThey can Fly.\r\n\u00e2\u20ac\u00a2\tGain +1 Armor."
+                "desc": "Free Action | Polymorph If the Demon Hunter has 6 Corruption, they can reset their Corruption Die to 1 and assume a demonic form until the start of their next turn. While in this form, they gain the following benefits: \u2022Bonus damage from Corruption increases to +3 Force bonus damage. \u2022Bonus damage from any source becomes Discord. \u2022Gain Resistance to Stress from other characters. \u2022They can Fly. \u2022Gain +1 Armor."
             },
             {
                 "name": "Infernal Aether",
@@ -346,21 +346,21 @@
         "traits": [
             {
                 "name": "DEMON LEXICON",
-                "desc": "The Demonologist has the following demons, which are creatures with the SUMMON tag. They can be summoned as a VOLLEY action, costing 2 mana. These summons have the Demonologist\u00e2\u20ac\u2122s Dodge and A-Def, can move up to their speed during the Demonologist\u00e2\u20ac\u2122s turn, and add the Demonologist\u00e2\u20ac\u2122s GRIT to their HP. The Demonologist can only summon one of these demons at a time. The Demonologist can dismiss these summons as a free action.\n\u00e2\u20ac\u00a2 Flameskipper. (Size \u00c2\u00bd, 5 HP, 0 armor, Dodge/A-Def=yours, Speed 3) At the end of the Demonologist\u00e2\u20ac\u2122s turn, the Flameskipper chooses one target within Range 5. They must pass a MGK save or take [3 Astral]."
+                "desc": "The Demonologist has the following demons, which are creatures with the SUMMON tag. They can be summoned as a VOLLEY action, costing 2 mana. These summons have the Demonologist\u2019s Dodge and A-Def, can move up to their speed during the Demonologist\u2019s turn, and add the Demonologist\u2019s GRIT to their HP. The Demonologist can only summon one of these demons at a time. The Demonologist can dismiss these summons as a free action. \u2022 Flameskipper. (Size \u00bd, 5 HP, 0 armor, Dodge/A-Def=yours, Speed 3) At the end of the Demonologist\u2019s turn, the Flameskipper chooses one target within Range 5. They must pass a MGK save or take [3 Astral]."
             },
             {
                 "name": "DEMON LEXICON (CONTINUED)",
-                "desc": "\u00e2\u20ac\u00a2 Painlash. (Size 1, 8 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) At the end of the Demonologist\u00e2\u20ac\u2122s turn, enemies adjacent to the Painlash must pass a BLK save or be DAZED and SLOWED until the end of their next turn. \n Soultracker. (Size 1, 5 HP, 0 Armor, Dodge/A-Def=yours, Speed 5) Enemies that start their turn adjacent to this summon are MARKED.\n Voidheart. (Size 2, 10 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) 1/round the Voidheart can INTERPOSE without spending Focus."
+                "desc": "\u2022 Painlash. (Size 1, 8 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) At the end of the Demonologist\u2019s turn, enemies adjacent to the Painlash must pass a BLK save or be DAZED and SLOWED until the end of their next turn.   Soultracker. (Size 1, 5 HP, 0 Armor, Dodge/A-Def=yours, Speed 5) Enemies that start their turn adjacent to this summon are MARKED.  Voidheart. (Size 2, 10 HP, 0 Armor, Dodge/A-Def=yours, Speed 4) 1/round the Voidheart can INTERPOSE without spending Focus."
             },
             {
                 "name": "SACRIFICE",
-                "desc": "As a Minor Action, the Demonologist can destroy one of their summons within Scope. When they do so, they can choose one of the following:\n\u00e2\u20ac\u00a2 Boost. The Demonologist gains +1 ACC on attacks, checks, and saves until the end of their next turn.\n\u00e2\u20ac\u00a2 Essence Explosion. All characters within Burst 1 of the summon must make an AGI save, taking [2d6 Force] on a failed save, or half damage on a success.\n\u00e2\u20ac\u00a2 Life Link. The Demonologist gains 4 temporary HP and regains 1 Mana."
+                "desc": "As a Minor Action, the Demonologist can destroy one of their summons within Scope. When they do so, they can choose one of the following: \u2022 Boost. The Demonologist gains +1 ACC on attacks, checks, and saves until the end of their next turn. \u2022 Essence Explosion. All characters within Burst 1 of the summon must make an AGI save, taking [2d6 Force] on a failed save, or half damage on a success. \u2022 Life Link. The Demonologist gains 4 temporary HP and regains 1 Mana."
             }
         ],
         "limit_break": {
             "name": "LEGION",
             "action": "Limit Break | (3) VOLLEY | Mana 1",
-            "desc": "The Demonologist can immediately create up to 4 summons drawn from all of their abilities that create summons, ignoring the normal summon limit per ability, and summoning them within the ability\u00e2\u20ac\u2122s normal summoning restrictions. At the end of each of the Demonologist\u00e2\u20ac\u2122s turns, if there are any summons that exceed an ability\u00e2\u20ac\u2122s normal summon limit, one of those summons in the scene is automatically affected by the Demonologist\u00e2\u20ac\u2122s Sacrifice trait, regardless of range and Line of Sight.\r\nUntil the end of the scene, if the defeat of one of the Demonologist\u00e2\u20ac\u2122s summons would result in the destruction of the underlying ability (like Gert\u00e2\u20ac\u2122s Backbone), the ability is only destroyed if the last copy of that summon is defeated."
+            "desc": "The Demonologist can immediately create up to 4 summons drawn from all of their abilities that create summons, ignoring the normal summon limit per ability, and summoning them within the ability\u2019s normal summoning restrictions. At the end of each of the Demonologist\u2019s turns, if there are any summons that exceed an ability\u2019s normal summon limit, one of those summons in the scene is automatically affected by the Demonologist\u2019s Sacrifice trait, regardless of range and Line of Sight. Until the end of the scene, if the defeat of one of the Demonologist\u2019s summons would result in the destruction of the underlying ability (like Gert\u2019s Backbone), the ability is only destroyed if the last copy of that summon is defeated."
         }
     },
     {
@@ -390,7 +390,7 @@
         "traits": [
             {
                 "name": "FORCEFUL JAB",
-                "desc": "When the Dragon Rider hits with a non-thrown melee longarm attack, they can Push the target until they are a number of spaces away from the Dragon Rider equal to the weapon\u00e2\u20ac\u2122s Reach."
+                "desc": "When the Dragon Rider hits with a non-thrown melee longarm attack, they can Push the target until they are a number of spaces away from the Dragon Rider equal to the weapon\u2019s Reach."
             },
             {
                 "name": "SKYHUNTER",
@@ -404,7 +404,7 @@
         "limit_break": {
             "name": "Dragon Echo",
             "action": "Limit Break, Summon, Minor",
-            "desc": "(Dragon: Size 3, 15 + Your Grit HP, 10 Dodge/ A-Def, Speed 6)\nThe Dragon Rider summons an echo of their dragon in free spaces within Scope. The Dragon is a Summon that can Fly, and can move up to its Speed during the Dragon Rider\u00e2\u20ac\u2122s turn. Allies of the Dragon can share spaces with the dragon, and any allies fully within the dragon\u00e2\u20ac\u2122s spaces can move with it when it moves. The Dragon lasts until the end of the scene or until defeated.\nThe dragon echo gains a standard action it can use during the Dragon Rider\u00e2\u20ac\u2122s turn. It can only use its standard action on the following attack, adding the Dragon Rider\u00e2\u20ac\u2122s GRIT to the attack roll.  \nDragon Echo Breath Weapon. [Melee Weapon] [Close Blast 2] [3 Astral + 1 Discord]."
+            "desc": "(Dragon: Size 3, 15 + Your Grit HP, 10 Dodge/ A-Def, Speed 6) The Dragon Rider summons an echo of their dragon in free spaces within Scope. The Dragon is a Summon that can Fly, and can move up to its Speed during the Dragon Rider\u2019s turn. Allies of the Dragon can share spaces with the dragon, and any allies fully within the dragon\u2019s spaces can move with it when it moves. The Dragon lasts until the end of the scene or until defeated. The dragon echo gains a standard action it can use during the Dragon Rider\u2019s turn. It can only use its standard action on the following attack, adding the Dragon Rider\u2019s GRIT to the attack roll.   Dragon Echo Breath Weapon. [Melee Weapon] [Close Blast 2] [3 Astral + 1 Discord]."
         }
     },
     {
@@ -434,21 +434,21 @@
         "traits": [
             {
                 "name": "BRIAR PATCH",
-                "desc": "When the Druid subjects a character to forced movement, a briar patch is created in the spaces the character occupied and moved through (excluding their ending positions). Briar patches are considered difficult terrain, and enemies that enter one for the first time in a turn take [3 Piercing Physical]. \r\nThe Druid can remove any briar patches of their choice within Scope as a Minor Action."
+                "desc": "When the Druid subjects a character to forced movement, a briar patch is created in the spaces the character occupied and moved through (excluding their ending positions). Briar patches are considered difficult terrain, and enemies that enter one for the first time in a turn take [3 Piercing Physical].  The Druid can remove any briar patches of their choice within Scope as a Minor Action."
             },
             {
-                "name": "NATURE'S PATH",
-                "desc": "When the Druid Pushes, Pulls, or Slides a character, they can spend mana to increase the amount of the forced movement by +1 for every mana spent. The Druid can\u00e2\u20ac\u2122t use this trait if they are SILENCED or STUNNED."
+                "name": "NATURE`S PATH",
+                "desc": "When the Druid Pushes, Pulls, or Slides a character, they can spend mana to increase the amount of the forced movement by +1 for every mana spent. The Druid can\u2019t use this trait if they are SILENCED or STUNNED."
             },
             {
                 "name": "ROOT",
-                "desc": "When the Druid hits with an Opportunity Attack, instead of dealing damage, the Druid can choose to IMMOBILIZE the target until the start of the target\u00e2\u20ac\u2122s next turn."
+                "desc": "When the Druid hits with an Opportunity Attack, instead of dealing damage, the Druid can choose to IMMOBILIZE the target until the start of the target\u2019s next turn."
             }
         ],
         "limit_break": {
             "name": "Tempest Storm",
             "action": "Limit Break, Channel",
-            "desc": "Channel a furious storm.\nChannel: All adjacent characters of your choice are pushed 1 space away from you. If you stop channeling this ability before releasing for any reason, the ultimate is not expended. \nRelease: Create a 4x4 zone within Scope. Characters in one of the zone\u00e2\u20ac\u2122s spaces when it is created or those that enter one of its spaces take [1d6+4 Physical]. A character can\u00e2\u20ac\u2122t take this damage more than 1/turn. If a character ends their turn in one of the zone\u00e2\u20ac\u2122s spaces, you can SLIDE them up to 3 spaces. The area inside the storm is Difficult Terrain. \nAs a Minor Action, you can spend 1 mana to move the zone up to 3 spaces in a straight line. The zone lasts until the end of the scene."
+            "desc": "Channel a furious storm. Channel: All adjacent characters of your choice are pushed 1 space away from you. If you stop channeling this ability before releasing for any reason, the ultimate is not expended.  Release: Create a 4x4 zone within Scope. Characters in one of the zone\u2019s spaces when it is created or those that enter one of its spaces take [1d6+4 Physical]. A character can\u2019t take this damage more than 1/turn. If a character ends their turn in one of the zone\u2019s spaces, you can SLIDE them up to 3 spaces. The area inside the storm is Difficult Terrain.  As a Minor Action, you can spend 1 mana to move the zone up to 3 spaces in a straight line. The zone lasts until the end of the scene."
         }
     },
     {
@@ -478,11 +478,11 @@
         "traits": [
             {
                 "name": "DAY / NIGHT CYCLE",
-                "desc": "The Equinox has two special resources, Sun and Moon. The Equinox can only have one of these resources at a time, and loses them at the end of a combat scene.\nAs a Minor Action, the Equinox can go to 1 Sun, 1 Moon, or remove all their Sun and Moon. If they already have Sun or Moon, they can instead increase it by +1, to a maximum of 2.\nSun and Moon apply the following effects to certain abilities when they are used.\nSun. The Equinox\u00e2\u20ac\u2122s spells and artifact weapons that have an AOE have their size increased by +1 (Line AOEs have their width increased by +1) for each Sun they have. However, they must spend 1 mana each time they use a spell or artifact weapon with an AOE. If they can\u00e2\u20ac\u2122t, they immediately lose all their Sun. \nMoon. The Equinox\u00e2\u20ac\u2122s Scope and range with artifact weapons increase by +4 for each Moon they have. However, they take [1 Stress] each time they target something with a spell or artifact weapon attack beyond their normal Scope or weapon\u00e2\u20ac\u2122s range.\n"
+                "desc": "The Equinox has two special resources, Sun and Moon. The Equinox can only have one of these resources at a time, and loses them at the end of a combat scene. As a Minor Action, the Equinox can go to 1 Sun, 1 Moon, or remove all their Sun and Moon. If they already have Sun or Moon, they can instead increase it by +1, to a maximum of 2. Sun and Moon apply the following effects to certain abilities when they are used. Sun. The Equinox\u2019s spells and artifact weapons that have an AOE have their size increased by +1 (Line AOEs have their width increased by +1) for each Sun they have. However, they must spend 1 mana each time they use a spell or artifact weapon with an AOE. If they can\u2019t, they immediately lose all their Sun.  Moon. The Equinox\u2019s Scope and range with artifact weapons increase by +4 for each Moon they have. However, they take [1 Stress] each time they target something with a spell or artifact weapon attack beyond their normal Scope or weapon\u2019s range. "
             },
             {
                 "name": "MAGE TOWER",
-                "desc": "If the Equinox hasn\u00e2\u20ac\u2122t moved since the start of their last turn, they gain the following benefits, which don\u00e2\u20ac\u2122t stack:\r\nSurecast. Ranged spell attacks and artifact weapon attacks gain +1 Accuracy. \r\nSharpcast. CHANNEL spells impose +1 Difficulty on any saves it triggers."
+                "desc": "If the Equinox hasn\u2019t moved since the start of their last turn, they gain the following benefits, which don\u2019t stack: Surecast. Ranged spell attacks and artifact weapon attacks gain +1 Accuracy.  Sharpcast. CHANNEL spells impose +1 Difficulty on any saves it triggers."
             },
             {
                 "name": "",
@@ -492,7 +492,7 @@
         "limit_break": {
             "name": "TETRAFLARE",
             "action": "Limit Break | (2) CHANNEL | Arcing, Mana 1",
-            "desc": "If the Equinox stops channeling this ability before releasing for any reason, the Limit Break is not expended\r\nRelease: The Equinox can apply any amount of sun and moon to this ability, to a maximum of 2 each, and it is affected by both as if it were a spell. The Equinox creates a [Blast 1] area within Scope. A character in the center point of the blast is auto-hit by a spell attack for [2d6+2 Force] damage. All other characters in the blast area are auto-hit for half as much damage. The Equinox can spend up to 3 additional mana when they release this ability, increasing the damage by [1d6 Force] for each additional mana spent."
+            "desc": "If the Equinox stops channeling this ability before releasing for any reason, the Limit Break is not expended Release: The Equinox can apply any amount of sun and moon to this ability, to a maximum of 2 each, and it is affected by both as if it were a spell. The Equinox creates a [Blast 1] area within Scope. A character in the center point of the blast is auto-hit by a spell attack for [2d6+2 Force] damage. All other characters in the blast area are auto-hit for half as much damage. The Equinox can spend up to 3 additional mana when they release this ability, increasing the damage by [1d6 Force] for each additional mana spent."
         }
     },
     {
@@ -526,7 +526,7 @@
             },
             {
                 "name": "TOMBSTONE",
-                "desc": "As a Minor Action, the Gravewalker can spend 1 mana to summon a tombstone in a free space within Scope. The tombstone is a summon (Size \u00c2\u00bd, 5 HP, Dodge/A-Def 10). The Gravewalker can have up to 2 tombstones summoned at a time, and can dismiss any of them as a free action.\n\nGain the Written Name reaction."
+                "desc": "As a Minor Action, the Gravewalker can spend 1 mana to summon a tombstone in a free space within Scope. The tombstone is a summon (Size \u00bd, 5 HP, Dodge/A-Def 10). The Gravewalker can have up to 2 tombstones summoned at a time, and can dismiss any of them as a free action.  Gain the Written Name reaction."
             },
             {
                 "name": "",
@@ -542,7 +542,7 @@
         "limit_break": {
             "name": "THAT WHICH IS ALREADY DEAD",
             "action": "Limit Break, Special",
-            "desc": "This Limit Break can be activated at any time during a combat scene. Until the end of the scene, the Gravewalker can\u00e2\u20ac\u2122t take a 4th Wound, and doesn\u00e2\u20ac\u2122t make any Wound Rolls. When they would take their 4th wound, they return to their HP maximum and carry over any excess damage."
+            "desc": "This Limit Break can be activated at any time during a combat scene. Until the end of the scene, the Gravewalker can\u2019t take a 4th Wound, and doesn\u2019t make any Wound Rolls. When they would take their 4th wound, they return to their HP maximum and carry over any excess damage."
         }
     },
     {
@@ -592,7 +592,7 @@
         "limit_break": {
             "name": "Customized Ammo",
             "action": "Limit Break, Free Action",
-            "desc": "Until the end of the scene, you gain access to the following special ammunition types. Each piece of ammunition can be used once. You can choose to us a piece of ammunition when making a ranged weapon attack.\n\u00e2\u20ac\u00a2 Hotshot. Draw a straight line between the Gunslinger and the attack\u00e2\u20ac\u2122s target, and place a [Blast 2] area centered on any point of this line. Characters in the area must make an AGI save, taking [2d6 Astral] on a failure, or half damage on a success. The area becomes dangerous terrain (AGI Save, 5 Astral damage) until the end of the scene\n\u00e2\u20ac\u00a2 Mindjack Round. On Hit: Until the end of the target\u00e2\u20ac\u2122s next turn or until they are dealt damage by you or your allies, they consider you and your allies as its allies, and its former allies as enemies. On Miss: The target is unable to target you with hostile effects until the end of its next turn.\n\u00e2\u20ac\u00a2 Piercer. The attack gains PIERCING and becomes a Line attack with a distance up to the attack\u00e2\u20ac\u2122s range. The attack gains Reliable 10 against objects and terrain.\n\u00e2\u20ac\u00a2 Shock Round. On Hit: The target is STUNNED and SLOWED until the end of their next turn. On Miss: The target is SLOWED and can\u00e2\u20ac\u2122t take Reactions until the end of their next turn."
+            "desc": "Until the end of the scene, you gain access to the following special ammunition types. Each piece of ammunition can be used once. You can choose to us a piece of ammunition when making a ranged weapon attack. \u2022 Hotshot. Draw a straight line between the Gunslinger and the attack\u2019s target, and place a [Blast 2] area centered on any point of this line. Characters in the area must make an AGI save, taking [2d6 Astral] on a failure, or half damage on a success. The area becomes dangerous terrain (AGI Save, 5 Astral damage) until the end of the scene \u2022 Mindjack Round. On Hit: Until the end of the target\u2019s next turn or until they are dealt damage by you or your allies, they consider you and your allies as its allies, and its former allies as enemies. On Miss: The target is unable to target you with hostile effects until the end of its next turn. \u2022 Piercer. The attack gains PIERCING and becomes a Line attack with a distance up to the attack\u2019s range. The attack gains Reliable 10 against objects and terrain. \u2022 Shock Round. On Hit: The target is STUNNED and SLOWED until the end of their next turn. On Miss: The target is SLOWED and can\u2019t take Reactions until the end of their next turn."
         }
     },
     {
@@ -622,7 +622,7 @@
         "traits": [
             {
                 "name": "HEX",
-                "desc": "The Hexblade gains the following Innate spell, which is equipped for free.\r\n\r\nHex\t[Ranged Spell Attack]\r\nMinor Action | Auto-Hit, Innate, Mana 1, Unique\r\n[Range = Scope]\r\nThis attack auto-hits. The target is hexed, which lasts until the end of the scene or until the Hexblade uses this ability again. When you defeat your hexed target, you regain 1 mana. \r\n1/round the Hexblade can deal +1d6 bonus damage on a successful weapon attack roll against a hexed enemy. \r\n1/round when the Hexblade inflicts a condition on a hexed enemy, they can also inflict the condition on a different enemy within [Range 5] of the hexed target. This spread condition lasts until the end of the non-hexed target\u00e2\u20ac\u2122s next turn."
+                "desc": "The Hexblade gains the following Innate spell, which is equipped for free.  Hex[Ranged Spell Attack] Minor Action | Auto-Hit, Innate, Mana 1, Unique [Range = Scope] This attack auto-hits. The target is hexed, which lasts until the end of the scene or until the Hexblade uses this ability again. When you defeat your hexed target, you regain 1 mana.  1/round the Hexblade can deal +1d6 bonus damage on a successful weapon attack roll against a hexed enemy.  1/round when the Hexblade inflicts a condition on a hexed enemy, they can also inflict the condition on a different enemy within [Range 5] of the hexed target. This spread condition lasts until the end of the non-hexed target\u2019s next turn."
             },
             {
                 "name": "MISERY",
@@ -636,7 +636,7 @@
         "limit_break": {
             "name": "Doom Hex",
             "action": "Limit Break, Free Action",
-            "desc": "A character affected by the Hexblade\u00e2\u20ac\u2122s Hex becomes DAZED, MARKED, BLINDED, SUNDERED, SILENCED, SLOWED, and WEAKENED. At the end of each of their turns while they have one of these conditions, they make a MAGIC save. On a success, they remove one of these conditions of their choice."
+            "desc": "A character affected by the Hexblade\u2019s Hex becomes DAZED, MARKED, BLINDED, SUNDERED, SILENCED, SLOWED, and WEAKENED. At the end of each of their turns while they have one of these conditions, they make a MAGIC save. On a success, they remove one of these conditions of their choice."
         }
     },
     {
@@ -670,7 +670,7 @@
             },
             {
                 "name": "THE INESCAPABLE NIGHTMARE",
-                "desc": "When the Knightmare would be able to make a melee reaction attack, they can instead make a (5) GRAPPLE attack instead. \r\n1/round if an enemy would lose the GRAPPLED status by breaking adjacency with the Knightmare, the Knightmare can spend 1 mana after their movement ends to teleport them to a free space adjacent to the Knightmare. The Knightmare can\u00e2\u20ac\u2122t use this trait if they are STUNNED."
+                "desc": "When the Knightmare would be able to make a melee reaction attack, they can instead make a (5) GRAPPLE attack instead.  1/round if an enemy would lose the GRAPPLED status by breaking adjacency with the Knightmare, the Knightmare can spend 1 mana after their movement ends to teleport them to a free space adjacent to the Knightmare. The Knightmare can\u2019t use this trait if they are STUNNED."
             },
             {
                 "name": "THE WEIGHT OF INEVITABILITY",
@@ -686,7 +686,7 @@
         "limit_break": {
             "name": "Trapped in a Dream",
             "action": "Limit Break | (5) GRAPPLE",
-            "desc": "All enemies of the Knightmare\u00e2\u20ac\u2122s choice within [Range 5] of it are pulled to the closest spaces adjacent to it and are GRAPPLED by it. Escaping from this grapple requires a Standard Action during any Phase instead of a Minor Action. Enemies grappled by this ability must include the Knightmare as one of their targets whenever they attack."
+            "desc": "All enemies of the Knightmare\u2019s choice within [Range 5] of it are pulled to the closest spaces adjacent to it and are GRAPPLED by it. Escaping from this grapple requires a Standard Action during any Phase instead of a Minor Action. Enemies grappled by this ability must include the Knightmare as one of their targets whenever they attack."
         }
     },
     {
@@ -715,12 +715,12 @@
         ],
         "traits": [
             {
-                "name": "HEALER'S PACT",
+                "name": "HEALER`S PACT",
                 "desc": "During a SHORT REST or when an ally within [Range 5] spends or loses a recovery, the Lifeweaver can choose to spend their recoveries for the ally instead."
             },
             {
                 "name": "QUICK STITCH",
-                "desc": "As a Reaction, when a BLOODIED ally within the Lifeweaver\u00e2\u20ac\u2122s Scope starts their turn, the Lifeweaver can spend 1 mana to restore up to 1d6 HP to the ally."
+                "desc": "As a Reaction, when a BLOODIED ally within the Lifeweaver\u2019s Scope starts their turn, the Lifeweaver can spend 1 mana to restore up to 1d6 HP to the ally."
             },
             {
                 "name": "PURGE MALADY",
@@ -730,7 +730,7 @@
         "limit_break": {
             "name": "Second Life",
             "action": "Limit Break, Channel",
-            "desc": "(2) CHANNEL\n(6) Release: If the Lifeweaver stops channeling this ability before releasing for any reason, the limit break is not expended. Choose either an ally within Scope or name a defeated ally. The ally is restored to their HP maximum, regains all of their recoveries and mana, clears all their Stress, conditions, Discord, and clears two WOUNDS and OVERSTRESS. If the ally was defeated, they return to play in free spaces adjacent to the Lifeweaver."
+            "desc": "(2) CHANNEL (6) Release: If the Lifeweaver stops channeling this ability before releasing for any reason, the limit break is not expended. Choose either an ally within Scope or name a defeated ally. The ally is restored to their HP maximum, regains all of their recoveries and mana, clears all their Stress, conditions, Discord, and clears two WOUNDS and OVERSTRESS. If the ally was defeated, they return to play in free spaces adjacent to the Lifeweaver."
         }
     },
     {
@@ -760,7 +760,7 @@
         "traits": [
             {
                 "name": "LAYERED AURAS",
-                "desc": "The Paladin gains the Aura of Inspiration Innate spell, which is equipped for free. The Paladin can have two auras active at once, but they must be from different abilities.\r\n\r\nAura of Inspiration [Spell]\r\nFree Action | Aura 5, Innate, Unique\r\nThis aura affects the Paladin an all allies within its Range. \r\nAura of Inspiration. Characters gain +1 {Accuracy} on checks and saves."
+                "desc": "The Paladin gains the Aura of Inspiration Innate spell, which is equipped for free. The Paladin can have two auras active at once, but they must be from different abilities.  Aura of Inspiration [Spell] Free Action | Aura 5, Innate, Unique This aura affects the Paladin an all allies within its Range.  Aura of Inspiration. Characters gain +1 {Accuracy} on checks and saves."
             },
             {
                 "name": "GUARDIAN ANGEL",
@@ -768,13 +768,13 @@
             },
             {
                 "name": "RETRIBUTION",
-                "desc": "That Paladin can COUNTERATTACK 2/round instead of 1/round. \r\n1/Round as part of the INTERPOSE reaction, the Paladin can COUNTERATTACK the attacker before the triggering attack happens. This COUNTERATTACK doesn\u00e2\u20ac\u2122t require Focus."
+                "desc": "That Paladin can COUNTERATTACK 2/round instead of 1/round.  1/Round as part of the INTERPOSE reaction, the Paladin can COUNTERATTACK the attacker before the triggering attack happens. This COUNTERATTACK doesn\u2019t require Focus."
             }
         ],
         "limit_break": {
             "name": "Bastion of Resolve",
             "action": "Limit Break, Special",
-            "desc": "This Limit Break can be activated at any time during a combat scene. When activated, the Paladin gains the following benefits, which last until the end of this Phase in the next round.\n\u00e2\u20ac\u00a2        They clear all their Conditions.\n\u00e2\u20ac\u00a2        They gain Resistance to all damage.\n\u00e2\u20ac\u00a2        Their Reach with weapons that have Reach increases by +2.\n\u00e2\u20ac\u00a2        They can use Guardian Angel on all allies."
+            "desc": "This Limit Break can be activated at any time during a combat scene. When activated, the Paladin gains the following benefits, which last until the end of this Phase in the next round. \u2022        They clear all their Conditions. \u2022        They gain Resistance to all damage. \u2022        Their Reach with weapons that have Reach increases by +2. \u2022        They can use Guardian Angel on all allies."
         }
     },
     {
@@ -818,7 +818,7 @@
         "limit_break": {
             "name": "Supervolcano",
             "action": "Limit Break, (2) CHANNEL | Mana 2",
-            "desc": "Create a Size 3 volcano within Scope (ignoring Line of Sight), which counts as a piece of terrain. The volcano destroys any non-objective terrain and objects in its spaces. Characters in its spaces are considered on top of the volcano. \nMark 6 spaces as lava flows, which must be adjacent to each other or the volcano. These spaces are Dangerous Terrain (AGI, 5 Discord).\nAs a Minor Action on subsequent turns, you can spend 1 mana to add up to 3 more lava flow spaces, or remove up to 3 existing lava flow spaces. \nThe volcano and lava flows last until the end of the scene."
+            "desc": "Create a Size 3 volcano within Scope (ignoring Line of Sight), which counts as a piece of terrain. The volcano destroys any non-objective terrain and objects in its spaces. Characters in its spaces are considered on top of the volcano.  Mark 6 spaces as lava flows, which must be adjacent to each other or the volcano. These spaces are Dangerous Terrain (AGI, 5 Discord). As a Minor Action on subsequent turns, you can spend 1 mana to add up to 3 more lava flow spaces, or remove up to 3 existing lava flow spaces.  The volcano and lava flows last until the end of the scene."
         }
     },
     {
@@ -848,11 +848,11 @@
         "traits": [
             {
                 "name": "RIFT",
-                "desc": "As a Minor Action, the Riftblade can spend 2 mana to place a rift in a free space within [Range 20], which doesn\u00e2\u20ac\u2122t require Line of Sight. \r\nRange, Reach, and Line of Sight for everything (except placing another rift) can be drawn both to and from the Riftblade as if the Riftblade were standing in the rift\u00e2\u20ac\u2122s space. \r\nThe rift\u00e2\u20ac\u2122s space is considered occupied by the Riftblade. The rift itself is not an object and cannot be directly interacted with or affected by anything. Rifts last until the end of the scene or until the Riftblade uses this ability again."
+                "desc": "As a Minor Action, the Riftblade can spend 2 mana to place a rift in a free space within [Range 20], which doesn\u2019t require Line of Sight.  Range, Reach, and Line of Sight for everything (except placing another rift) can be drawn both to and from the Riftblade as if the Riftblade were standing in the rift\u2019s space.  The rift\u2019s space is considered occupied by the Riftblade. The rift itself is not an object and cannot be directly interacted with or affected by anything. Rifts last until the end of the scene or until the Riftblade uses this ability again."
             },
             {
                 "name": "RIFTCUTTER",
-                "desc": "The Riftblade gains the following Innate weapon, which is equipped for free.\nRiftcutter\n[WEAPON, Melee] Light Magitech, Accurate, Piercing, Innate, Unique\n[Reach 1] [3 Physical]\nThis weapon ignores Resistances and Immunities."
+                "desc": "The Riftblade gains the following Innate weapon, which is equipped for free. Riftcutter [WEAPON, Melee] Light Magitech, Accurate, Piercing, Innate, Unique [Reach 1] [3 Physical] This weapon ignores Resistances and Immunities."
             },
             {
                 "name": "",
@@ -862,7 +862,7 @@
         "limit_break": {
             "name": "Gateway",
             "action": "Limit Break, Minor Action",
-            "desc": "The Riftblade creates two Size 3 gateways on free solid surfaces within [Range 15], which don\u00e2\u20ac\u2122t require Line of Sight, aren\u00e2\u20ac\u2122t obstructions, and don\u00e2\u20ac\u2122t block Line of Sight. 1/turn when a character fully enters a gateway, they are immediately teleported to the other gateway in spaces of their choice so they are fully within the gateway. If they cannot end this teleport fully within the gateway (because too many spaces are occupied), the teleport fails. Gateways last until the end of the scene."
+            "desc": "The Riftblade creates two Size 3 gateways on free solid surfaces within [Range 15], which don\u2019t require Line of Sight, aren\u2019t obstructions, and don\u2019t block Line of Sight. 1/turn when a character fully enters a gateway, they are immediately teleported to the other gateway in spaces of their choice so they are fully within the gateway. If they cannot end this teleport fully within the gateway (because too many spaces are occupied), the teleport fails. Gateways last until the end of the scene."
         }
     },
     {
@@ -892,11 +892,11 @@
         "traits": [
             {
                 "name": "FROST ARMOR",
-                "desc": "As a Minor Action, the Rimeguard can spend 1 Focus to give an ally within Scope temp HP equal to half the Rimeguard\u00e2\u20ac\u2122s current temp HP (to a minimum of 1). The Rimeguard can increase this amount by reducing their own temp HP by 1 for every +1 temp HP, to a maximum of 10 temp HP received."
+                "desc": "As a Minor Action, the Rimeguard can spend 1 Focus to give an ally within Scope temp HP equal to half the Rimeguard\u2019s current temp HP (to a minimum of 1). The Rimeguard can increase this amount by reducing their own temp HP by 1 for every +1 temp HP, to a maximum of 10 temp HP received."
             },
             {
                 "name": "ICY VEINS",
-                "desc": "The Rimeguard has Resistance to Lunar damage.\r\nThe Rimeguard starts each combat scene with 6 temp HP, and refreshes this amount whenever they take a Wound. When the Rimeguard gains Focus, they can choose for any amount of it to become temp HP. Temp HP on the Rimeguard can stack to a maximum of 10 temp HP. The Rimeguard can exceed this amount of temp HP if a single source of temp HP would put them over this amount, but they can\u00e2\u20ac\u2122t stack additional temp HP past it."
+                "desc": "The Rimeguard has Resistance to Lunar damage. The Rimeguard starts each combat scene with 6 temp HP, and refreshes this amount whenever they take a Wound. When the Rimeguard gains Focus, they can choose for any amount of it to become temp HP. Temp HP on the Rimeguard can stack to a maximum of 10 temp HP. The Rimeguard can exceed this amount of temp HP if a single source of temp HP would put them over this amount, but they can\u2019t stack additional temp HP past it."
             },
             {
                 "name": "RIMEHEART",
@@ -935,11 +935,11 @@
         ],
         "traits": [
             {
-                "name": "MARKSMAN'S EYE",
-                "desc": "The Seeker's allies gain +2 ACC instead of +1 ACC when consuming a MARK on an attack against a target within the Seeker\u00e2\u20ac\u2122s Scope."
+                "name": "MARKSMAN`S EYE",
+                "desc": "The Seeker`s allies gain +2 ACC instead of +1 ACC when consuming a MARK on an attack against a target within the Seeker\u2019s Scope."
             },
             {
-                "name": "SEEKER'S SIGHT",
+                "name": "SEEKER`S SIGHT",
                 "desc": "The Seeker can spend 1 mana to (3) MARK as a Minor Action."
             },
             {
@@ -949,14 +949,14 @@
             {
                 "name": "Guided Shot",
                 "freq": "Reaction",
-                "trigger": "Trigger: A ranged or thrown attack roll against an enemy in the Seeker\u00e2\u20ac\u2122s Scope misses.",
-                "effect": "Effect: The attack roll misses, but the attacker can reroll the attack roll against a different target within [Range 5] of the original target. A target can\u00e2\u20ac\u2122t be hit more than once by the same attack."
+                "trigger": "Trigger: A ranged or thrown attack roll against an enemy in the Seeker\u2019s Scope misses.",
+                "effect": "Effect: The attack roll misses, but the attacker can reroll the attack roll against a different target within [Range 5] of the original target. A target can\u2019t be hit more than once by the same attack."
             }
         ],
         "limit_break": {
             "name": "Heavenly Starfall",
             "action": "Limit Break, (3) SKIRMISH",
-            "desc": "Create 3 [Blast 2] zones within [Range 40] that can\u00e2\u20ac\u2122t overlap, and don\u00e2\u20ac\u2122t require Line of Sight. All enemies in one of those zones must make an AGI save, taking [1d3+1 Force] on a failure, or half damage on a success. Enemies only take this damage once, regardless of how many zones they are in. As a Minor Action while any zones exist, the Seeker can spend 1 mana to (3) MARK all enemies in the zones and make them DAZED until the end of their next turn. At the end of each of the Seeker\u00e2\u20ac\u2122s turns, one of the zones disappears."
+            "desc": "Create 3 [Blast 2] zones within [Range 40] that can\u2019t overlap, and don\u2019t require Line of Sight. All enemies in one of those zones must make an AGI save, taking [1d3+1 Force] on a failure, or half damage on a success. Enemies only take this damage once, regardless of how many zones they are in. As a Minor Action while any zones exist, the Seeker can spend 1 mana to (3) MARK all enemies in the zones and make them DAZED until the end of their next turn. At the end of each of the Seeker\u2019s turns, one of the zones disappears."
         }
     },
     {
@@ -986,11 +986,11 @@
         "traits": [
             {
                 "name": "COMMAND PARTNER",
-                "desc": "Once during each of the Shadebinder\u00e2\u20ac\u2122s turns, one of their summons within Scope can use one of the Shadebinder\u00e2\u20ac\u2122s actions against a target within the Shadebinder\u00e2\u20ac\u2122s Scope. The Shadebinder spends the action and pays any costs, like mana or consumable charges, but the summon is considered to be the one activating it. If the action is a (2) CHANNEL action, the summon is the one that concentrations and can release during PHASE (6) RELEASE.\r\nThe Shadebinder\u00e2\u20ac\u2122s summon can benefit from their talents when using this trait.\r\n"
+                "desc": "Once during each of the Shadebinder\u2019s turns, one of their summons within Scope can use one of the Shadebinder\u2019s actions against a target within the Shadebinder\u2019s Scope. The Shadebinder spends the action and pays any costs, like mana or consumable charges, but the summon is considered to be the one activating it. If the action is a (2) CHANNEL action, the summon is the one that concentrations and can release during PHASE (6) RELEASE. The Shadebinder\u2019s summon can benefit from their talents when using this trait. "
             },
             {
                 "name": "COMPANION SHADE",
-                "desc": "The Shadebinder has a friendly shade. As a Minor Action, the Shadebinder can summon this shade in a free space within Scope. Choose one of the following profiles when summoned, which gives the Shadebinder a special Reaction. They can only have one shade summoned at a time.\nThe shade keeps its current HP value when dismissed, and regains all HP during a Rest. If the shade is defeated, it can\u00e2\u20ac\u2122t be resummoned unless The Shadebinder spends a Recovery, at which point it regains all its HP.\n(Tags: Summon, Size 1/2, 8 {HP} + your GRIT, Dodge/A-Def=10 + your GRIT, Speed 4)\nDewdrop. Reaction (1/round). Trigger: An enemy adjacent to the Shade starts their turn. Effect: They are MARKED by the Shade and must pass a MGK save or lose 2 mana.\nFirestarter. Reaction (1/round). Trigger: An enemy adjacent to the Shade takes damage or Stress. Effect: They take [1d6 Discord] from the Shade.\nVinecutter. Reaction (1/round). Trigger: An enemy within [Range 2] of the Shade starts a movement. Effect: They take [2 Stress] from the Shade and the Shade can Slide them 2 spaces."
+                "desc": "The Shadebinder has a friendly shade. As a Minor Action, the Shadebinder can summon this shade in a free space within Scope. Choose one of the following profiles when summoned, which gives the Shadebinder a special Reaction. They can only have one shade summoned at a time. The shade keeps its current HP value when dismissed, and regains all HP during a Rest. If the shade is defeated, it can\u2019t be resummoned unless The Shadebinder spends a Recovery, at which point it regains all its HP. (Tags: Summon, Size 1/2, 8 {HP} + your GRIT, Dodge/A-Def=10 + your GRIT, Speed 4) Dewdrop. Reaction (1/round). Trigger: An enemy adjacent to the Shade starts their turn. Effect: They are MARKED by the Shade and must pass a MGK save or lose 2 mana. Firestarter. Reaction (1/round). Trigger: An enemy adjacent to the Shade takes damage or Stress. Effect: They take [1d6 Discord] from the Shade. Vinecutter. Reaction (1/round). Trigger: An enemy within [Range 2] of the Shade starts a movement. Effect: They take [2 Stress] from the Shade and the Shade can Slide them 2 spaces."
             },
             {
                 "name": "",
@@ -1000,7 +1000,7 @@
         "limit_break": {
             "name": "Aetheric Evolution",
             "action": "Limit Break, (3) VOLLEY",
-            "desc": "The Shadebinder targets one of their summons within Scope, empowering them with an influx of aether. The summon is fully healed and gains the following benefits, which last until the end of the scene or the summon is defeated and remain even if the summon is dismissed.\n\u00e2\u20ac\u00a2        Size increased by +1\n\u00e2\u20ac\u00a2        +10 current and maximum HP.\n\u00e2\u20ac\u00a2        If they didn\u00e2\u20ac\u2122t have a Speed, they gain Speed 4. Otherwise, they gain +2 Speed.\nThe summon gains the following abilities, which use the summon\u00e2\u20ac\u2122s Standard Action. \nHyper Ray        Spell\nThe summon creates a [Line 15] area. All characters in the area must make an AGI save, taking [10 Force] on a failure, or [5 Force] on a success. After using this action, the summon can\u00e2\u20ac\u2122t move or take any actions during the Shadebinder\u00e2\u20ac\u2122s next turn, and can\u00e2\u20ac\u2122t be dismissed until the end of the Shadebinder\u00e2\u20ac\u2122s next turn.\nSlash        Skill\nAn adjacent enemy takes [3 Piercing Physical] and is SUNDERED until the end of their next turn.\nSnarl        Skill\nAn enemy within [Range 5] is MARKED by the summon and must pass a MIND save or be WEAKENED until the end of their next turn.\nRecover        Skill\nThe summon regains all of its HP, clears a condition, and gains Hard Cover until the end of the summoner\u00e2\u20ac\u2122s next turn.\n"
+            "desc": "The Shadebinder targets one of their summons within Scope, empowering them with an influx of aether. The summon is fully healed and gains the following benefits, which last until the end of the scene or the summon is defeated and remain even if the summon is dismissed. \u2022        Size increased by +1 \u2022        +10 current and maximum HP. \u2022        If they didn\u2019t have a Speed, they gain Speed 4. Otherwise, they gain +2 Speed. The summon gains the following abilities, which use the summon\u2019s Standard Action.  Hyper Ray        Spell The summon creates a [Line 15] area. All characters in the area must make an AGI save, taking [10 Force] on a failure, or [5 Force] on a success. After using this action, the summon can\u2019t move or take any actions during the Shadebinder\u2019s next turn, and can\u2019t be dismissed until the end of the Shadebinder\u2019s next turn. Slash        Skill An adjacent enemy takes [3 Piercing Physical] and is SUNDERED until the end of their next turn. Snarl        Skill An enemy within [Range 5] is MARKED by the summon and must pass a MIND save or be WEAKENED until the end of their next turn. Recover        Skill The summon regains all of its HP, clears a condition, and gains Hard Cover until the end of the summoner\u2019s next turn. "
         }
     },
     {
@@ -1030,7 +1030,7 @@
         "traits": [
             {
                 "name": "SHADOW CLONES",
-                "desc": "Whenever the Shadow Dancer teleports, they leave a Shadow Clone in the space they left. The shadow clone is the same size as the Shadow Dancer. 1/round when the Shadow Dancer or an ally deals damage to a target adjacent to a shadow clone, the Shadow Dancer can cause the ability to deal +1d6 bonus damage. The Shadow Dancer can have an unlimited number of Shadow Clones, which last until the end of the scene or until the Shadow Dancer is defeated. Shadow Clones don\u00e2\u20ac\u2122t cause obstruction and aren\u00e2\u20ac\u2122t characters or objects."
+                "desc": "Whenever the Shadow Dancer teleports, they leave a Shadow Clone in the space they left. The shadow clone is the same size as the Shadow Dancer. 1/round when the Shadow Dancer or an ally deals damage to a target adjacent to a shadow clone, the Shadow Dancer can cause the ability to deal +1d6 bonus damage. The Shadow Dancer can have an unlimited number of Shadow Clones, which last until the end of the scene or until the Shadow Dancer is defeated. Shadow Clones don\u2019t cause obstruction and aren\u2019t characters or objects."
             },
             {
                 "name": "SHADOW REALM",
@@ -1044,7 +1044,7 @@
         "limit_break": {
             "name": "Eclipse",
             "action": "Limit Break, Free Action",
-            "desc": "For the rest of the scene, the Shadow Dancer can teleport when they use their Standard Movement or the basic (4) RUSH action\u00e2\u20ac\u2122s movement option, and can split up movement as normal. They can only create 1 Shadow Clone per standard movement or RUSH action.\nUntil the end of the scene, Shadow Realm costs 0 mana."
+            "desc": "For the rest of the scene, the Shadow Dancer can teleport when they use their Standard Movement or the basic (4) RUSH action\u2019s movement option, and can split up movement as normal. They can only create 1 Shadow Clone per standard movement or RUSH action. Until the end of the scene, Shadow Realm costs 0 mana."
         }
     },
     {
@@ -1074,7 +1074,7 @@
         "traits": [
             {
                 "name": "BEAST WEAPONS",
-                "desc": "The Shapeshifter gains the following Innate weapon, which is equipped for free. It cannot be destroyed, DISARMED, or enchanted. \nBeast Weapons\n[WEAPON, Melee] Light Club | Innate, Unique\n[Reach 1] [1d3 Physical]\nAt the end of your turn, if you didn\u00e2\u20ac\u2122t make an attack that turn, you can attack with this weapon once as a Free Action."
+                "desc": "The Shapeshifter gains the following Innate weapon, which is equipped for free. It cannot be destroyed, DISARMED, or enchanted.  Beast Weapons [WEAPON, Melee] Light Club | Innate, Unique [Reach 1] [1d3 Physical] At the end of your turn, if you didn\u2019t make an attack that turn, you can attack with this weapon once as a Free Action."
             },
             {
                 "name": "FORM FOR THE OCCASION",
@@ -1082,13 +1082,13 @@
             },
             {
                 "name": "SOOTHE",
-                "desc": "When an ally within Scope consumes a MARK, the Shapeshifter can clear 1 {STRESS} from them as long as they aren\u00e2\u20ac\u2122t\u00e2\u20ac\u2122 STUNNED."
+                "desc": "When an ally within Scope consumes a MARK, the Shapeshifter can clear 1 {STRESS} from them as long as they aren\u2019t\u2019 STUNNED."
             }
         ],
         "limit_break": {
             "name": "Perfect Form",
             "action": "Limit Break, Free Action",
-            "desc": "The Shapeshifter can choose up to 4 of the following options. These benefits last until the end of the scene. 1/turn as a free action the Shapeshifter can reselect up to 4 options. Each option can only be selected once at a time.\nAdaptive Body. You gain +1 ACC on all checks and saves. \nDire Beast Weapons. Beast Weapon deals 1d6+2 damage instead.\nEagle Eye. You can (3) MARK as a Minor Action.\nExpert Form for Every Occasion. Form for the Occasion no longer causes Stress, and the Shapeshifter can fly at any time, not just when moving.\nHunter\u00e2\u20ac\u2122s Eye. Gain 1 Focus at the start of your turn.\nInsulated Hide. Gain Resistance to Physical, Astral, Lunar, Force, Stress, or Discord from other characters.\nPredator Weapons. You gain +1 ACC on attack rolls.\nResized. Gain a size between \u00c2\u00bd and 4. Characters are pushed to make space for your new size.\nSneaky. You can (4) HIDE as a Minor Action.\nWalking Wall. You count as Hard Cover for your allies.\n"
+            "desc": "The Shapeshifter can choose up to 4 of the following options. These benefits last until the end of the scene. 1/turn as a free action the Shapeshifter can reselect up to 4 options. Each option can only be selected once at a time. Adaptive Body. You gain +1 ACC on all checks and saves.  Dire Beast Weapons. Beast Weapon deals 1d6+2 damage instead. Eagle Eye. You can (3) MARK as a Minor Action. Expert Form for Every Occasion. Form for the Occasion no longer causes Stress, and the Shapeshifter can fly at any time, not just when moving. Hunter\u2019s Eye. Gain 1 Focus at the start of your turn. Insulated Hide. Gain Resistance to Physical, Astral, Lunar, Force, Stress, or Discord from other characters. Predator Weapons. You gain +1 ACC on attack rolls. Resized. Gain a size between \u00bd and 4. Characters are pushed to make space for your new size. Sneaky. You can (4) HIDE as a Minor Action. Walking Wall. You count as Hard Cover for your allies. "
         }
     },
     {
@@ -1138,7 +1138,7 @@
         "limit_break": {
             "name": "BALLAD",
             "action": "Limit Break, Free Action",
-            "desc": "The Skald begins weaving a legendary performance. When this limit break is activated and at the start of each of the Skald\u00e2\u20ac\u2122s turns, pick a verse. The effects of chosen verses are applied to the Skald and all allies within their Scope. Each verse can only be chosen once. Instead of picking a verse, or when there are no more verses to select, the Skald selects a Finale. The finale affects the Skald and all allies within Scope. After the finale, the limit break ends. If the Skald is SILENCED, the effects of all verses are suppressed, and the Skald doesn\u00e2\u20ac\u2122t choose any new verses or finales until the SILENCED condition is removed.\r\nVerses\r\n\u00e2\u20ac\u00a2\tVerse of Heroes. +1 Accuracy on attack rolls.\r\n\u00e2\u20ac\u00a2\tVerse of Journey. +2 Speed.\r\n\u00e2\u20ac\u00a2\tVerse of Relaxation. Gain resistance to Stress.\r\n\u00e2\u20ac\u00a2\tVerse of Teamwork. +1 Accuracy on all checks and saves.\r\nFinale\r\n\u00e2\u20ac\u00a2\tThe Last Stand. Gain 1d6+4 Focus.\r\n\u00e2\u20ac\u00a2\tThe Storm Fades. Regain all mana.\r\n\u00e2\u20ac\u00a2\tLegends Never Die. Regain all HP.\r\n\u00e2\u20ac\u00a2\tA New Beginning. Clear all Stress and remove all conditions. \r\n\u00e2\u20ac\u00a2\tThe New World. Each character can Shift up to their speed.\r\n"
+            "desc": "The Skald begins weaving a legendary performance. When this limit break is activated and at the start of each of the Skald\u2019s turns, pick a verse. The effects of chosen verses are applied to the Skald and all allies within their Scope. Each verse can only be chosen once. Instead of picking a verse, or when there are no more verses to select, the Skald selects a Finale. The finale affects the Skald and all allies within Scope. After the finale, the limit break ends. If the Skald is SILENCED, the effects of all verses are suppressed, and the Skald doesn\u2019t choose any new verses or finales until the SILENCED condition is removed. Verses \u2022Verse of Heroes. +1 Accuracy on attack rolls. \u2022Verse of Journey. +2 Speed. \u2022Verse of Relaxation. Gain resistance to Stress. \u2022Verse of Teamwork. +1 Accuracy on all checks and saves. Finale \u2022The Last Stand. Gain 1d6+4 Focus. \u2022The Storm Fades. Regain all mana. \u2022Legends Never Die. Regain all HP. \u2022A New Beginning. Clear all Stress and remove all conditions.  \u2022The New World. Each character can Shift up to their speed. "
         }
     },
     {
@@ -1182,7 +1182,7 @@
         "limit_break": {
             "name": "LIVING LIGHTNING",
             "action": "Limit Break, Free Action",
-            "desc": "The Thunderclaw channels lightning directly into their body, pushing them past their physical limits. The Thunderclaw immediately gains 6 Flurry. Until the end of the scene, their Fast as Lightning trait doesn\u00e2\u20ac\u2122t cost mana. When they spend 6 Flurry to make a Stunning Strike, the target automatically fails the save."
+            "desc": "The Thunderclaw channels lightning directly into their body, pushing them past their physical limits. The Thunderclaw immediately gains 6 Flurry. Until the end of the scene, their Fast as Lightning trait doesn\u2019t cost mana. When they spend 6 Flurry to make a Stunning Strike, the target automatically fails the save."
         }
     },
     {
@@ -1212,21 +1212,21 @@
         "traits": [
             {
                 "name": "DOWNRIVER",
-                "desc": "As a Minor Action, the Tidecaller can spend 1 mana to create a [Line 6] zone within Scope. This is a River Current, and it lasts until the Tidecaller creates a new one, is defeated, or becomes STUNNED.\r\nThe River Current suppresses the effects of any Difficult and Dangerous Terrain within its zone. \r\n1/turn whenever an ally enters a River Current, they can choose to slide to a free space in the zone. \r\nThe Tidecaller has an Aquatic Adaptation."
+                "desc": "As a Minor Action, the Tidecaller can spend 1 mana to create a [Line 6] zone within Scope. This is a River Current, and it lasts until the Tidecaller creates a new one, is defeated, or becomes STUNNED. The River Current suppresses the effects of any Difficult and Dangerous Terrain within its zone.  1/turn whenever an ally enters a River Current, they can choose to slide to a free space in the zone.  The Tidecaller has an Aquatic Adaptation."
             },
             {
                 "name": "RISING TIDE",
-                "desc": "1/turn when the Tidecaller inflicts forced movement on an enemy, they can allow an ally within Scope to Shift a number of spaces equal to the number of spaces the enemy was moved. The Tidecaller can\u00e2\u20ac\u2122t use this trait if they are STUNNED."
+                "desc": "1/turn when the Tidecaller inflicts forced movement on an enemy, they can allow an ally within Scope to Shift a number of spaces equal to the number of spaces the enemy was moved. The Tidecaller can\u2019t use this trait if they are STUNNED."
             },
             {
                 "name": "WATER MELD",
-                "desc": "When an ally uses a River Current, the Tidecaller can spend 1 mana as a Reaction to make them INVISIBLE until the start of the ally\u00e2\u20ac\u2122s next turn. If the ally is attacked while outside of the River Current, INVISIBLE ends after that attack."
+                "desc": "When an ally uses a River Current, the Tidecaller can spend 1 mana as a Reaction to make them INVISIBLE until the start of the ally\u2019s next turn. If the ally is attacked while outside of the River Current, INVISIBLE ends after that attack."
             }
         ],
         "limit_break": {
             "name": "Tidal Wave",
             "action": "Limit Break, (3) SKIRMISH",
-            "desc": "A wave of water washes from one side of the map to the other. Choose one side of the map. All enemies in the scene must make a BULK save. Failure: Enemies are Pushed 6 spaces in a straight line towards the chosen side of the map, are DAZED and DISARMED until the end of their next turn, and knocked PRONE. Success: Enemies are pushed half as many spaces and are knocked PRONE. \r\nEnemies that hit a character or obstruction when being pushed by this ability take [5 Physical] and are SUNDERED until cleared."
+            "desc": "A wave of water washes from one side of the map to the other. Choose one side of the map. All enemies in the scene must make a BULK save. Failure: Enemies are Pushed 6 spaces in a straight line towards the chosen side of the map, are DAZED and DISARMED until the end of their next turn, and knocked PRONE. Success: Enemies are pushed half as many spaces and are knocked PRONE.  Enemies that hit a character or obstruction when being pushed by this ability take [5 Physical] and are SUNDERED until cleared."
         }
     },
     {
@@ -1256,11 +1256,11 @@
         "traits": [
             {
                 "name": "GRASPING VINES",
-                "desc": "When an enemy starts their turn adjacent to the Warden, they can spend 1 Focus to make that enemy SLOWED until the end of their next turn. The Warden can\u00e2\u20ac\u2122t use this ability if they are DISARMED, SILENCED, or STUNNED. This effect can apply after Earthen Slide if they are moved adjacent to the Warden."
+                "desc": "When an enemy starts their turn adjacent to the Warden, they can spend 1 Focus to make that enemy SLOWED until the end of their next turn. The Warden can\u2019t use this ability if they are DISARMED, SILENCED, or STUNNED. This effect can apply after Earthen Slide if they are moved adjacent to the Warden."
             },
             {
                 "name": "EARTHEN SLIDE",
-                "desc": "When the Warden uses INTERPOSE, if they end their movement adjacent to the attacker, the Warden can choose to make them SLOWED until the end of their next turn.\nGain the earthen slide reaction."
+                "desc": "When the Warden uses INTERPOSE, if they end their movement adjacent to the attacker, the Warden can choose to make them SLOWED until the end of their next turn. Gain the earthen slide reaction."
             },
             {
                 "name": "",
@@ -1274,9 +1274,9 @@
             }
         ],
         "limit_break": {
-            "name": "Gaia's Wrath",
+            "name": "Gaia`s Wrath",
             "action": "Limit Break, Free Action",
-            "desc": "The Warden becomes an avatar of nature. They gain the following benefits, which last until the end of the scene or until they end it as a Free Action. \n\u00e2\u20ac\u00a2        Your size increases by 1 (max of 3) and any adjacent characters are pushed to the nearest free space to accommodate your new size.\n\u00e2\u20ac\u00a2        You gain 2 Focus at the start of each of your turns. \n\u00e2\u20ac\u00a2        When you hit a character with any attack, they are SLOWED until the end of their next turn. A character that is already SLOWED is also IMMOBILIZED until the end of their next turn."
+            "desc": "The Warden becomes an avatar of nature. They gain the following benefits, which last until the end of the scene or until they end it as a Free Action.  \u2022        Your size increases by 1 (max of 3) and any adjacent characters are pushed to the nearest free space to accommodate your new size. \u2022        You gain 2 Focus at the start of each of your turns.  \u2022        When you hit a character with any attack, they are SLOWED until the end of their next turn. A character that is already SLOWED is also IMMOBILIZED until the end of their next turn."
         }
     },
     {
@@ -1306,11 +1306,11 @@
         "traits": [
             {
                 "name": "FOCUSED PLAN",
-                "desc": "1/round when the Warlord makes a character MARKED, an ally of the Warlord\u00e2\u20ac\u2122s choice can (3) VOLLEY or take a PHASE (5) BRAWL action against the marked character as a Reaction with +1 DIF."
+                "desc": "1/round when the Warlord makes a character MARKED, an ally of the Warlord\u2019s choice can (3) VOLLEY or take a PHASE (5) BRAWL action against the marked character as a Reaction with +1 DIF."
             },
             {
                 "name": "TAKE A BREATHER",
-                "desc": "When the Warlord or an ally within Scope uses (1) REFRESH, another character of the Warlord's choice within [Range 10] of the REFRESHing character gains 1d6+1 temp HP."
+                "desc": "When the Warlord or an ally within Scope uses (1) REFRESH, another character of the Warlord`s choice within [Range 10] of the REFRESHing character gains 1d6+1 temp HP."
             },
             {
                 "name": "",
