@@ -1,0 +1,512 @@
+[
+    {
+        "origin": "Avian",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Flight",
+                "desc": "You can Fly.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Flock Tactics",
+                "desc": "1/round you gain +1 ACC on a melee attack roll if the target has one of your allies adjacent to them.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Get The Flock Outta There",
+                "desc": "[Reaction, 1/round] Trigger: You take damage or Stress not caused by yourself. Effect: You Shift up to half your speed.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Gust",
+                "desc": "You gain the following spell, which is equipped for free. Gust | Melee Spell Attack {5} FIGHT | Innate, Push 1, Unique [Reach 1, Line 5] | [1d6 Force]",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Dragonborn",
+        "size": "2",
+        "traits": [
+            {
+                "name": "Dragonfire",
+                "desc": "You gain the following weapon, which is equipped for free.  Dragonfire |        Melee Weapon (3) VOLLEY or (5) FIGHT| Main Artifact: Innate, Unique [Reach 1, Close Blast 1] | [2 Discord] You can (3) VOLLEY or (5) FIGHT with this weapon, and can use it even while DISARMED.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Dragon Scales",
+                "desc": "You gain either astral or lunar resistance.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Inner Fire",
+                "desc": "When you take the (1) REFRESH action, you regain 1d6 HP before choosing any effects.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Draconic Wings",
+                "desc": "You can Fly.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Dwarf",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Keep Moving Forward",
+                "desc": "Your Speed and Dodge isn\u2019t reduced by support items with the [armor] tag (not calculated automatically by this spreadsheet), and you are immune to the SLOWED condition unless granted by yourself.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Resilience",
+                "desc": "You have resistance to lunar damage and +1 ACC on BLK saves.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Unyielding",
+                "desc": "1/scene you can (1) REFRESH as a free action. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Sturdy",
+                "desc": "When you would be forcibly moved, such as from a push, pull, or slide, you can move one space less than normal. If this reduces the forced movement to 0, the movement doesn\u2019t happen. If you would be knocked PRONE, you can make a BLK check to avoid that status.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Elemental",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Energy Resistance",
+                "desc": "You gain either astral or lunar resistance.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Energy Aura",
+                "desc": "Reaction Trigger: You are hit by an attack from an adjacent enemy.  Effect: Deal [2 Piercing Astral or Lunar] to them (chosen when this trait is selected)",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Elemental Nova",
+                "desc": "You gain the following spell attack, which is equipped for free. Elemental Nova | Melee Spell Attack (5) FIGHT | Innate, Unique [Burst 1] | [1d6 Astral or Lunar] On Attack: The area, including your spaces, becomes a zone of Soft Cover until the start of your next turn.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Elemental Form",
+                "desc": "You have Resistance to damage from Dangerous Terrain. When you become BLOODIED or BREAKING, you gain Hard Cover until the start of your next turn.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Elf",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Elven Accuracy",
+                "desc": "1/round when you use the REROLL TABLE on an attack roll, you can roll an extra d20 and use either result. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Nature Step",
+                "desc": "You ignore the movement penalties of Difficult Terrain, and have +1 ACC on Dangerous Terrain checks. As a Minor Action while in a space of Difficult Terrain, you can spend 1 mana to become INVISIBLE until the start of your next turn or until you are no longer in Difficult Terrain.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Fast Movement",
+                "desc": "+1 speed",
+                "armor": "0",
+                "HP": "0",
+                "speed": "1"
+            },
+            {
+                "name": "Fey Step",
+                "desc": "1/scene, you can teleport 5 spaces as a free action.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Gigan",
+        "size": "2",
+        "traits": [
+            {
+                "name": "Big Equipment",
+                "desc": "One support slot increases by one size (LIGHT to MAIN, MAIN to HEAVY).",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Endure",
+                "desc": "1/scene, gain resistance to all damage until the end of your next turn.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Oversized Weapons",
+                "desc": "1/scene you can ignore the SLOW tag on a weapon.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Giant Lineage",
+                "desc": "You gain either astral or lunar resistance.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Gnome",
+        "size": "1/2",
+        "traits": [
+            {
+                "name": "Instinctual Stealth",
+                "desc": "You can start each combat scene HIDDEN, and can\u2019t lose it until the end of your 1st turn.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Fade Away",
+                "desc": "Reaction (1/round) | Mana 2 Trigger: You are targeted by an attack. Effect: You become INVISIBLE before any attack rolls from the attack, and INVISIBLE lasts until the end of your next turn.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Tumble",
+                "desc": "You can move through the space of hostile characters that are larger than you, and becoming ENGAGED doesn\u2019t stop or end your movement.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Tinker Toy",
+                "desc": "1/scene as a Minor Action, you create a summon within Scope. Allies making an attack roll against a target adjacent to your summon gain +1 {ACC} on the attack. (Size \u00bd, 5 {HP}, Dodge/A-def 10, Tags: SUMMON).",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Goblin",
+        "size": "1/2",
+        "traits": [
+            {
+                "name": "Scurry",
+                "desc": "When an attack misses you, you can Shift 1.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Swarm",
+                "desc": "Your base Size is 2, but you can still benefit from Size 1 or larger cover. You have resistance to physical damage, but are always VULNERABLE to force damage. Each recovery can represent a goblin in your swarm.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Nimble Escape",
+                "desc": "1/scene you can RUSH as a free action.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Bite",
+                "desc": "You deal [1 Piercing physical] at the start of your turn to any character grappling or grappled by you unless you are STUNNED. As a Minor Action, you deal [1 Physical] to an adjacent enemy.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Halfling",
+        "size": "1/2",
+        "traits": [
+            {
+                "name": "Lucky",
+                "desc": "Reaction (1/round) | Stress 2 (Self) Trigger: You are hit by an attack roll.  Effect: You force the attacker to reroll the attack roll, using the 2nd result. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Nimble",
+                "desc": "Reaction attack rolls against you have +1 DIF. 1/scene when you would trigger a reaction from an enemy, the reaction doesn\u2019t trigger.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Brave",
+                "desc": "You gain +1 ACC on all attacks, checks, and saves during the turn you SURGE.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Tumble",
+                "desc": "You can move through the space of hostile characters that are larger than you, and becoming ENGAGED doesn\u2019t stop or end your movement.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Human",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Strong Saves",
+                "desc": "You gain +1 ACC on all saves ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Hang in There",
+                "desc": "1/scene you can ignore the effects of a WOUND or OVERSTRESS roll. You still take the WOUND or OVERSTRESS.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Hearty",
+                "desc": "You gain +3 HP",
+                "armor": "0",
+                "HP": "3",
+                "speed": "0"
+            },
+            {
+                "name": "Adrenaline",
+                "desc": "1/scene you can SURGE without increasing the SURGE cost.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Kobold",
+        "size": "1/2",
+        "traits": [
+            {
+                "name": "Trap Array",
+                "desc": "You gain the following support item, which is equipped for free. Trap Array        Support Minor | Consumable 2, Innate, Trap, Unique As a Minor Action, you can use one of the following traps. \u2022        Explosive Trap. When triggered, creates a [Burst 1] area. All characters in the area take [1d6+3 Force].  \u2022        Paint Marker. When triggered, creates a [Burst 1] area. All characters in the area are MARKED.  \u2022        Snare Trap. When triggered, creates a [Burst 1] area. All characters in area must pass an AGI save or be IMMOBILIZED until cleared. A character can make a BLK check as a Minor Action to clear the condition, but only after they\u2019ve ended a turn IMMOBILIZED by this ability.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Distract",
+                "desc": "1/scene as a Free Action, you can (3) MARK all enemies in a [Burst 2] area around you.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Trapmaster",
+                "desc": "You can automatically open locks as a free action and have +1 ACC when disabling traps or on saves triggered by traps.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Evasive",
+                "desc": "You have Resistance to damage and stress from AOEs, and have +1 Accuracy on saves from AOE effects. 1/turn you can spend 1 Focus to reroll a failed save",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Lycanthrope",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Defender Strain",
+                "desc": "1/scene as a Free Action, you manifest your lycanthropic heritage. You gain 2 Focus.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "1/round you gain +1 ACC on a melee attack roll if the target has one of your allies adjacent to them.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Sneaky Form",
+                "desc": "Minor | Polymorph You assume a small sneaky form. Your size becomes \u00bd if it was larger and you can (4) HIDE as a free action 1/turn. You can\u2019t activate spells or make attacks in this form. You can revert to your normal form as a Minor Action. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Travel Form",
+                "desc": "Minor | Polymorph You assume a travel form. Your speed increases by +2, but you can\u2019t activate spells or make attacks. You can revert to your normal form as a Minor Action. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Machina",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Mechanical Body",
+                "desc": "You have +1 ACC on Discord checks, and have resistance to Discord damage.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Armored",
+                "desc": "You have +1 armor while you aren\u2019t BLOODIED.",
+                "armor": "1",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "System Repair",
+                "desc": "1/scene when you (1) REFRESH, you can choose any number of options.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Integrated Weapon",
+                "desc": "Choose a LIGHT starting weapon. You can equip that weapon for free, and it is Innate. You can use that weapon while DISARMED.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Orc",
+        "size": "2",
+        "traits": [
+            {
+                "name": "Second Wind",
+                "desc": "1/scene when you become BLOODIED, gain 4 + your GRIT temp HP. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Rushdown",
+                "desc": "When you RUSH and choose the movement option, you can move +2 spaces. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Furious",
+                "desc": "1/turn you can take 1d3 Stress to reroll all the dice from one of your damage rolls. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Work Out Routine",
+                "desc": "You gain +1 ACC on BLK checks and saves. You are considered 1 size larger for (5) GRAPPLE and (5) SHOVE.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "Cambion",
+        "size": "1",
+        "traits": [
+            {
+                "name": "Bloodhunter",
+                "desc": "You gain +1 ACC on attack rolls against BLOODIED characters. ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Infernal Resistance",
+                "desc": "You gain either astral or lunar resistance.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Wrath",
+                "desc": "You gain +1 ACC on attacks against a character if they hit or damaged you since the end of your last turn.  ",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            },
+            {
+                "name": "Fiendish Wings",
+                "desc": "You can Fly.",
+                "armor": "0",
+                "HP": "0",
+                "speed": "0"
+            }
+        ]
+    }
+]
