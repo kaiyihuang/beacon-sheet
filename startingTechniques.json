@@ -1,0 +1,359 @@
+[
+    {
+        "name": "Adaptive Caster",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you (6) Release a channeled effect, you can choose to (6) Release a different effect than the one you were channeling. You take [2 Stress] when doing so, and you must pay the costs of both abilities. Both abilities count as being used or expended.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Arcane Bolt",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "force",
+                "val": "1d3"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "-",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Arcane Explosion",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: All characters within a Blast 1 area within Scope are auto-hit, taking [5 force]. You can spend 1 mana to increase the damage to [1d6+5 force].",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Block",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "Reaction, 1/round",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Trigger: You are hit by an attackEffect: Increase your DODGE by 1 against the triggering attack. You can increase your DODGE by +1 for every additional Focus you spend. If this brings your DODGE above the attack roll, the attack misses.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Bolster Aether",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "Reaction, 1/round",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Trigger: You are hit by an attackEffect: Increase your A-DEF by 1 against the triggering attack. You can increase your A-DEF by +1 for every additional Focus you spend. If this brings your A-DEF above the attack roll, the attack misses.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Endurance",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "+2 HP",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "2",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Glancing Blow",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/turn when you would take Physical, Force, Astral, or Lunar damage, you can reduce the damage by 1 for every point of Focus you spend, after armor and resistances. You can\u2019t use this ability if you are unable to take Reactions.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Hinder Spell",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "On Hit: Target is DAZED until the end of their next turn. On Miss: You can spend 1 mana to inflict [2 Stress] to the target.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Magic Missile",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "For every mana spent, a different character you can see within Scope takes [1d6 Force]. Roll the damage once for all targets.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Power Attack",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain +1 Difficulty on your next melee attack roll before the start of your next turn. On a successful hit, you deal +3 bonus damage.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Resolve",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/turn when you make a saving throw, you can increase the result by +1 for each additional point of Focus spent. You can\u2019t use this ability if you are unable to take Reactions.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shield Bash",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you use INTERPOSE, if you end the INTERPOSE movement next to the attacker, you can Push them 1 space after the attack. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shocking Grasp",
+        "profile": "Melee Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "On Hit: Target can\u2019t take Reactions until the end of their next turn.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Support Training, Basic",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can equip a MAIN support item in a LIGHT slot. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Support Training, Heavy",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can equip a HEAVY support item in a MAIN slot.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Two Weapon Fighting",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/round immediately after you (3) VOLLEY or (5) FIGHT with a LIGHT weapon, you can make an attack with a different LIGHT weapon as a free action. The extra attack can\u2019t include a weapon used as part of the original action, and doesn\u2019t trigger additional linked attacks. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Weapon Training, Basic",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can equip a single MAIN weapon in a LIGHT slot, or to occupy both weapons in a LIGHT\u221eLIGHT slot.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Weapon Training, Heavy",
+        "profile": "Skill",
+        "memory_cost": "4",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can equip a single HEAVY weapon in a MAIN slot, or to occupy both weapons in a MAIN\u221eLIGHT slot.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    }
+]

@@ -1,0 +1,2318 @@
+[
+    {
+        "name": "Ablative Armor",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: One ally within Scope gains armor equal to the Focus you spend using this ability. An ally\u2019s armor cannot exceed 4. Whenever they take damage, their armor is reduced by 1, to a minimum of its normal value.",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Aetheric Cube",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "Minor or Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Gain the following abilities: Minor: Create 1 piece of Size 1 soft cover in a free space within Scope. It isn`t an obstruction.(6) Release: Create up to 3 pieces of Size 1 hard cover in free spaces within Scope. ",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Barrier",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(1) BOLSTER",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Target a character within Scope and place one of the following protective barriers on them. The effects last until the start of this phase next round.Protect: The target has Resistance to Physical, Astral, Lunar, and Force damage.Shell: The target has Resistance to Stress and Discord from other characters.",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Dome Barrier",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Tags: Summon, Size 4, 20 HP, Dodge/A-Def 5)(6) Release: Place a Size 4 Summon within Scope. Characters can share spaces with this summon. 1/turn when a character or object fully within the barrier is targeted by an attack from outside the barrier, you can roll a d6. On a 4+, the attack instead targets the barrier. This Summon can\u2019t take any actions or reactions.",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Offensive Shielding",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Gain the following options if you hit with this spell attack. Shield Crush: The target is SUNDERED until the end of their next turn.Stasis Field: The target must make a MGK save. Failure: They are IMMOBILIZED + SLOWED until the end of their next turn. Success: They are SLOWED until the end of their next turn. ",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Proximity Shield",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Tags: Summon, Size \u00bd, 5 HP, Dodge/A-Def 10) Minor: You can place a proximity shield in a space within Scope, including occupied ones. Characters can share spaces with this summon. A character partially in this space gains soft cover. This Summon can\u2019t take any actions or reactions.",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Warding Wall",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(1) BOLSTER",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Create a [Line 1], [Line 2], or [Line 3] zone in free spaces within Scope facing any direction. Attacks that pass through this zone gain +1 Difficulty. The zone counts as Difficult Terrain, and 1/turn characters that enter the zone take [2 Stress]. Warding Walls last until the end of the scene, until dismiss as a free action, or until you use this ability again.",
+        "origin": "Aegis",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Life Essence Extract",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: You can spend 1 Recovery to regain all uses of a single consumable.",
+        "origin": "Alchemist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Smelling Salts",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "One character in Scope can immediately stand up if PRONE, and can move up to their speed. This movement doesn\u2019t trigger reactions.",
+        "origin": "Alchemist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Transmutation Circle",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Create a [Blast 1] zone within Scope and choose one of the following effects. The zone lasts until the end of the scene, you use this ability again, or you become SILENCED, STUNNED, or defeated.Exchange. Choose Physical, Astral, or Lunar damage. Empty spaces in the zone become Dangerous Terrain (Agi, 5 damage) dealing damage of the chosen type. Reduction. The effects of Difficult Terrain, Dangerous Terrain, and non-cover terrain features in the zone are suppressed. Combat scene objectives are unaffected.",
+        "origin": "Alchemist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Disarming Strike",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(5) FIGHT",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Make an attack roll with a melee weapon. On Hit: The target takes half the normal damage and must pass a BLK save or be DISARMED until the end of their next turn.",
+        "origin": "Arsenal",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Weapon for the Job",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you make an attack with a weapon, you can spend 1 mana to change the damage type to another damage type of your choice (Physical, Astral, Lunar, or Force). This new damage type remains until you use this ability again.",
+        "origin": "Arsenal",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Death Strike",
+        "profile": "Skill",
+        "memory_cost": "4",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/round when you crit with a weapon or spell attack against a BLOODIED or BREAKING enemy, there is a chance they take an instant WOUND or OVERSTRESS. If the attack deals damage and the target is BLOODIED, they must pass a BULK save or take a WOUND instead of the normal damage. If the attack deals stress and the target is BREAKING, they must pass a MIND save or take an OVERSTRESS instead of the normal damage.",
+        "origin": "Assassin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Master of Stealth",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Enemies must be within [Range 10] of you in order to end your HIDDEN status at the end of a turn. Enemies have +1 Difficulty on SEARCH checks again you",
+        "origin": "Assassin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Brutal Critical",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You deal +1d6 bonus damage on critical hits.",
+        "origin": "Berserker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Charge",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(7) FULL ATTACK",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can move up to your Speed in a straight line. As long as you end this movement at least 3 spaces away from where you started, you can (5) FIGHT or (5) SHOVE as a free action when you end the movement.",
+        "origin": "Berserker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Cut Through",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/round when you make a character BLOODIED or defeated, you can immediately Shift up to your Speed, and can move through the spaces of enemies. You deal [2 PHYSICAL] to every enemy you move through. Each enemy can take this damage 1/turn. All adjacent enemies when you end this movement are MARKED.",
+        "origin": "Berserker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Victory Rush",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you defeat an enemy or give them a WOUND, gain temp HP equal to your GRIT + 2.",
+        "origin": "Berserker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Borrowed Time",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can take an extra action, which is resolved as if it was another PC turn, but doesn\u2019t count as a turn for any effects that care. At the start of each round after doing so, roll a MAGIC save against your save target until you fail this save. On a failure, you are removed from play for that round, appearing in the same location or nearest unoccupied location at the start of the next round. While removed from play, you can\u2019t take any damage, or be affected by anything. You take no turn. This effect persists between scenes until you take a Long Rest. You can\u2019t use this ability again until you fail the saving throw or take a Long Rest.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Front of the Timeline",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can always go first in any phase you act in if you want to. This does not count as a PC slot.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Haste",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: 1 ally within Scope becomes hasted, gaining the following effects until the end of the scene, you use this spell again, or they gain a WOUND or OVERSTRESS: They can (4) RUSH 1/turn as a free action. They can take their turns during PHASE 1, and all actions (except for (6) Release) are available during that phase.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Rewind",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Place a marker in one of the spaces of a character within Scope. Each character can only have 1 marker at a time. Gain the following Reaction.Trigger: A Character with a Rewind marker takes damage, Stress not caused by themself, or starts their turn. Effect: Negate any damage or STRESS taken and teleport them back to the marker or the closest unoccupied spaces. This counts as forced movement. Remove the marker. If they are unwilling, they can make a MGK save to resist the effects. If they resist, the marker is removed.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Slow",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: All characters in a Blast 1 area within Scope take [2 Stress] and are SLOWED until the end of their next turn.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Unwinding Beam",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "4"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack: Backstep: You can teleport the target up to 2 spaces.Repetition: During their next turn, if the target takes the same action they took on their previous turn, they become MARKED.",
+        "origin": "Chronomancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Aether Sight",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can see invisible characters, ignoring the INVISIBLE status. You gain +2 Accuracy to (3) SEARCH checks, and can (3) SEARCH to find HIDDEN characters as a Minor Action. 1/turn you can learn the current mana of one character within Scope.",
+        "origin": "Demon Hunter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Demon Leap",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(4) REPOSITION",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "As your Standard Action during PHASE 4: REPOSITION, pick an unoccupied space on the ground within a range of twice your Speed. Fly to that point and land, ignoring Reactions. All adjacent characters when you land must pass an AGI save or take [1d6 Physical].",
+        "origin": "Demon Hunter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Immolation Field",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "Free Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You activate a burning aura that lasts until the start of your next turn. Any character that starts their turn adjacent to you or hits you with a melee attack takes [2 Astral]. ",
+        "origin": "Demon Hunter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Let Loose",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "While you are BREAKING, you have resistance to Stress.",
+        "origin": "Demon Hunter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Agony",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "1"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Pain: The target has +1 DIF on Concentration saves triggered from this damage.Distraction: The target has +1 DIF on spell attack rolls while taking this Discord. ",
+        "origin": "Demonologist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Corruption Fiend",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Size \u00bd, 5 HP, 0 Armor, Dodge/A-Def 10) (6) Release: Summon a corruption fiend in a free space within Scope. Enemies that start their turn adjacent to it must pass a MND save or take [2 Discord].",
+        "origin": "Demonologist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Ravager",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Size 2, 8 HP, 1 Armor, Dodge/A-Def 10) (6) Release: Summon a ravager in free spaces within Scope. Enemies that start their turn adjacent to it take [3 Physical] and are Pushed 1 space. As a Minor Action, you can have the ravager make a [Line 3] melee weapon attack as a free action, adding your GRIT to the attack roll. On a hit, targets take [3 Physical] and are SUNDERED until the end of their next turn.",
+        "origin": "Demonologist",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Crash",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(7) FULL ATTACK",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can teleport up to your speed, and then create a [Burst 1] area around you. All enemies in the area must pass an AGI save or fall PRONE. You can then (3) VOLLEY, (5) FIGHT, (5) SHOVE, or (5) GRAPPLE.",
+        "origin": "Dragon Rider",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Jump Pads",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Create 2 jump pads in free spaces within Scope. When you or an ally enter a jump pad\u2019s space, they immediately fly up to 5 spaces, ignoring reactions. When an enemy enters a jump pad\u2019s space, they immediately fly 5 spaces in a direction of your choosing, ignoring reaction. Each pad is destroyed after being used, and using this ability again destroys all old pads. Jump pads last until the end of the scene.",
+        "origin": "Dragon Rider",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Transfuse",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "The damage of this attack increases by 1d3 if the target is BLOODIED or BREAKING, or by 2d3 if the target is both BLOODIED and BREAKING. For each damage die from this spell rolled (excluding bonus damage and other sources of damage), you can take the number rolled and either regain HP or mana equal to its value. If two or more dice are rolled, at least one must apply to HP, and one must apply to mana.",
+        "origin": "Dragon Rider",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Entangle",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY or Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Gain the following options:Spell(2) CHANNEL | Mana 2(6) Release: Create a [Blast 1] area within Scope. This area is difficult terrain until the end of the scene or until you dismiss it as a free action. All characters in the area when released take [2 Stress] and are IMMOBILIZED until cleared.Ranged Spell Attack(3) VOLLEY | Mana 1 [Range = Scope] [2 Stress] On Hit: The target must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
+        "origin": "Druid",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Gust of Wind",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY or Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Gain the following ranged spell attacks:(3) VOLLEY | Push 1[Range = Scope] | [1d6 Force](6) Release | Auto-Hit, Slide 2[Range = Scope] | [2d6 Force] ",
+        "origin": "Druid",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Skybeam",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Call down a beam of energy from the sky. Choose up to 10 spaces within Scope. Each space has to be adjacent to another chosen space, and can\u2019t overlap. All characters in these spaces must make a MGK save. Failure: [1d6+2 Force] Success: Half damage.",
+        "origin": "Druid",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Tether Vine",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: (Size \u00bd, 5 HP, Dodge/A-Def 10) You summon a Tether Vine in a free space within Scope. When summoned, or as a Minor Action on subsequent turns, you can select an enemy within [Range 3] of the Tether Vine and connect them to it. Only one target can be connected to the Tether Vine at a time. Whenever a character connected to a Tether Vine starts their turn, they are Pulled 1d6 spaces toward the Tether Vine. A connected target can attempt a BLK save as a Minor Action to break free.",
+        "origin": "Druid",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Wall of Thorns",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a wall of thorns. You can create X+3 pieces of Size 1 soft cover in free spaces within Scope, where X is the amount of mana you spend. The pieces must be adjacent to each other, but can be arranged in any way. These pieces of soft cover can be moved through. A character that enters one of these spaces takes [4 Piercing Physical], 1/turn.",
+        "origin": "Druid",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Celestial Ray",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "You gain the following spell attack options:Ray of Fire. The damage is Astral. On Hit: If the target was hit by Ray of Fire on your last turn, they also take [4 Discord].Ray of Cold. The damage is Lunar. On Hit: If the target is IMMOBILIZED, SLOWED, STUNNED, GRAPPLED, or PRONE, the damage becomes [2d6+1] Instead. ",
+        "origin": "Equinox",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Dividing Line",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a [Line 15] area. Designate one side of the length of the line as Astral, and the other as Lunar. All characters in or adjacent to the line, excluding yourself, must make an AGI save. Characters on the Astral side take the damage as Astral, characters on the Lunar side take the damage as Lunar, and characters in the middle of the line take the damage as Force. Characters in more than one area choose which damage they take. Failure: [2d6+6 Damage] and SUNDERED until the end of their next turn. Success: [1d6+6 Damage].",
+        "origin": "Equinox",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Exobomb",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Channel. Choose one of the following release options:Fireball. Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit, taking [2d6+2 Astral].Squall. Release: Select a character within Scope and create a [Burst 1] area around them. All characters in the area (excluding the selected character) are auto-hit for [2d6+2 Lunar] and are SLOWED until the end of their next turn.",
+        "origin": "Equinox",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Quickcast",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "Minor Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/scene, your next (2) CHANNEL ability this round releases immediately.",
+        "origin": "Equinox",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Scar",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Minor Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Deal [1 Piercing Force] to an enemy within Scope. If the target is BLOODIED, the damage is increased to [3 Piercing Force].",
+        "origin": "Equinox",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Entomb",
+        "profile": "Spell",
+        "memory_cost": "3",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: A character within Scope takes [2 Stress] and must make a BLK save. Success: They are DAZED and SLOWED until the end of their next turn. Failure: They are BLINDED, IMMOBILIZED, and SLOWED. The target can repeat the save at the end of each of their turns to end the effect, taking [2 Stress] on each subsequent failure. If the target is subjected to forced movement, the BLINDED and IMMOBILIZED conditions end. ",
+        "origin": "Gravewalker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Psychopomp",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Reaction, 1/round",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Trigger: A character within [Range 20] is defeated.Effect: You teleport to the closest unoccupied space adjacent to them.",
+        "origin": "Gravewalker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Specter of Sins",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Size= your size, HP= your HP when you (1) REFRESH, 0 armor, Dodge/A-Def=0)When you (1) REFRESH, you can Summon a ghostly manifestation of your sins in a free space within Range 5. As long as you are within Range 2 of the specter, it takes any damage that you would take before resistances and armor, and you take none of the damage. The damage the specter takes can\u2019t be reduced in any way. The specter\u2019s HP is equal to your current HP when you (1) REFRESH. You can only have one specter at a time.",
+        "origin": "Gravewalker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Touch of the Grave",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain resistance to Lunar damage and 1/turn when you make a WOUND or OVERSTRESS check, you can reroll the dice and take either result.",
+        "origin": "Gravewalker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Aim with Heart",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You can make ranged attacks when others could not. When making a ranged attack roll against a target within your Scope, you ignore up to 1 DIF. When you are BLINDED, you can target and draw line of sight up to your Scope.",
+        "origin": "Gunslinger",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Curse Bolt",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            },
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
+        "tags": [],
+        "effects": "This spell deals +1 damage for every condition the target had when attacked. Choose one of the following when you hit with this spell attack.Haze Curse: The target is MARKED. Until the mark is cleared, they treat you as INVISIBLE.Soul Curse: The target is MARKED. Until the mark is cleared, they gain +1 Difficulty on checks and saves.",
+        "origin": "Hexblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Curse of Weakness",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you make a character MARKED, you can spend 2 mana to make them WEAKENED until the end of their next turn.",
+        "origin": "Hexblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Hexing Aura",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Free Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain the following auras. These auras affect all enemies within its range.Intensify Hex: Enemies in the aura gain +2 Difficulty when DAZED, instead of +1 Difficulty.Lingering Hex: Enemies in the aura take [1 Stress] whenever one of their conditions is removed.",
+        "origin": "Hexblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shard of Doubt",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you make a character MARKED or hit a character with a weapon or spell attack, you can spend 1-3 Mana to implant a number of Shards of Doubt in them equal to the mana spent. A character can have up to 3 shards at a time, which count as a condition. Clearing one shard clears all shards. 1/turn when a character with shards is hit by a weapon or spell attack that deals Physical, Astral, Lunar, or Force, the base damage of the attack is increased by +1 for each shard they have.When a character within your Scope is defeated, you can spend 1 mana to move their shards to another character within [Range 3] of the defeated character as a reaction.As a (2) CHANNEL action, when you (6) RELEASE you can consume all shards within Scope, dealing [3 Force] per shard to the targets they are implanted in.",
+        "origin": "Hexblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Soul Strike",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you make a weapon attack, you can turn it into a soul strike for 1 mana. The attack gains the Aetheric tag, deals half damage, and all the damage becomes Stress instead of its normal damage types. On a hit, the target is DAZED until the end of their next turn. If the stress from this attack causes them to exceed their stress cap, they are also SUNDERED until the end of their next turn and until they are no longer exceeding their stress cap.",
+        "origin": "Hexblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Body Shields",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Physical, Astral, Lunar, and Force damage you receive is reduced by 1 for every character GRAPPLED by you (before armor and resistances). A character GRAPPLED by you doesn\u2019t count toward this damage reduction when they deal damage to you. This ability doesn\u2019t work while you are SUNDERED.",
+        "origin": "Knightmare",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Delirium",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Whenever you take damage, you can take [1 Stress] to lower the result needed for you to score a critical hit by 1 (critical hits are normally a 20+ on an attack roll). This effect stacks, and lasts until the end of the scene or until you score a critical hit with a weapon or spell attack.",
+        "origin": "Knightmare",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Dream Eater",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/turn when an adjacent character gains Stress, you gain 1 Focus.",
+        "origin": "Knightmare",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Night Terrors",
+        "profile": "Melee Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack: The One Where You\u2019re Being Changed: On Hit: The target has +1 Difficulty on all attacks that don\u2019t include you as the target. This effect stacks to a maximum of +3. If a character affected by this ability deals damage or stress to you, they remove this effect from themselves.The One Where Your Teeth Fall Out: On Hit: If the target is BREAKING, they take [4 Stress] instead.",
+        "origin": "Knightmare",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Heal",
+        "profile": "Spell",
+        "memory_cost": "3",
+        "type": "Spell",
+        "action": "(1) BOLSTER",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "One character within Scope can spend a recovery to heal all their HP. If you spend +2 mana, they don\u2019t need to spend a recovery.",
+        "origin": "Lifeweaver",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Inner Balance",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Choose one of the following effects:Balance: Choose two allies within Scope or yourself and an ally within Scope. The targets swap either their current HP, Stress, or mana, your choice.Imbalance: Target an enemy within Scope and roll 2d6. Add an extra die if the target is BLOODIED or BREAKING, for a maximum of 4d6. The target takes Stress equal to the result of one die, and Piercing Force damage equal to another.",
+        "origin": "Lifeweaver",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Serenity",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Choose one of the following effects:Lifewell: Create a [Blast 1] zone of healing energy within Scope. Any character that starts their turn in the area regains 3 HP. The zone lasts until the end of the scene or until you create a new one.Mend: An ally within Scope clears a WOUND or OVERSTRESS. Each ally can be affected by this ability 1/quest.",
+        "origin": "Lifeweaver",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Soul Shield",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "A character within Scope gains 1d3+1 temporary HP. Until they lose all their temp HP, the character doesn\u2019t need to make Concentration saves as long as they had the temp HP when the save was triggered. You can spend 1 mana to increase the temporary HP gained to 1d6+1.",
+        "origin": "Lifeweaver",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Stolen Life",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Drain Life: You or a character within [Range 5] of you regains up to 1d3 HP. You can spend 1 mana to increase the healing to 1d6 instead.Drain Vitality: You or a character within [Range 5] of you can clear up to 2 Stress. ",
+        "origin": "Lifeweaver",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Auras of Protection",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "Free Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain the following auras. These auras affect all allies within their range, but not you.Aura of Steel: Gain +1 armor (up to a max armor of 4).Aura of Retaliation: 1/turn when a character hits another character under the effects of this aura, they take [3 Astral]. ",
+        "origin": "Paladin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Auras of Resistance",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Free Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain the following auras. These auras affect you and all allies within its range.Aura of Elemental Resistance: Gain resistance to Astral or Lunar damage (chosen when activated).Aura of Freedom: Immunity to the SLOWED condition and can automatically break out of grapples as a free action.",
+        "origin": "Paladin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Lay on Hands",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You or an adjacent ally can spend a recovery to regain HP equal to their BLOODIED value.",
+        "origin": "Paladin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Smite",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/round, when you hit with a weapon attack, you can spend 1 mana to cause the entire attack to deal +1d6 bonus Astral damage. ",
+        "origin": "Paladin",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Immolate",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Building Fire: If the target already has Discord the damage increases to 1d3+1 instead.Spontaneous Combustion: You can spend 1 mana to create a [Burst 1] area around the target. All enemies in the area take [1 Discord].  ",
+        "origin": "Phoenix",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Inferno",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit for [3 Discord]. You can choose to reduce the spell\u2019s Blast size to increase the damage. For every size the Blast is reduced, the Discord damage increases by +2 (for example, from Blast 2 to Blast 1 would increase the damage to [5 Discord].) If the Blast\u2019s size would be reduced to 0, it instead targets a single space.",
+        "origin": "Phoenix",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Vent Heat",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Reaction",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When a character within [Range 20] (which doesn\u2019t require Line of Sight) clears all their Discord, you can choose to have them create a [Burst 1] area. They and all characters within the area take Astral damage equal to half of the Discord cleared. ",
+        "origin": "Phoenix",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Wall of Fire",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a line 4 wall of fire within Scope, 4 spaces high. This wall doesn\u2019t block line of sight, but attacks that pass through the wall gain +1 DIF. Characters that pass through the wall or that start their turn in it take [1d6+2 Astral]. The wall lasts until the end of the scene, you deactivate it, or you use this ability again. ",
+        "origin": "Phoenix",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Wildfire",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following:Blueflame. Choose an enemy within Scope that has Discord. Their level of Discord increases by +2. This doesn\u2019t cause upfront Discord damage.Flames of Rebirth. Choose a character within Scope that has Discord. Transfer all of their Discord to you. This doesn\u2019t cause upfront discord damage.Flashover. Choose an enemy within Scope. They gain Discord equal to the highest Discord among all characters within [Range 3] of them. This doesn\u2019t cause upfront Discord damage.",
+        "origin": "Phoenix",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Blink",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: You can teleport up to 1d6+1 spaces.",
+        "origin": "Riftblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Gravity Well",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Enemies must always stop moving when they become ENGAGED with you, regardless of their size. Adjacent enemies have to spend 2 spaces of movement when moving to a space that isn\u2019t adjacent to you.",
+        "origin": "Riftblade",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Coldguard",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you (1) DEFEND, adjacent allies gain 3 + your GRIT temp HP.",
+        "origin": "Rimeguard",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Frostbite",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Frozen: On Hit: At the end of their next turn, the target takes Stress equal to their Speed. The Stress taken is reduced by 1 for every space the target moves during their next turn.Numbing: On Hit: The next attack the target makes before the end of their next turn deals half damage.",
+        "origin": "Rimeguard",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Ice Spikes",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you use INTERPOSE, you can deal [2 Piercing Lunar] to the attacker after their attack if you became the target of the attack and they are within your Scope.",
+        "origin": "Rimeguard",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Siphon Heat",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "At the start of each of your turns, you gain Focus equal to the number of adjacent characters.",
+        "origin": "Rimeguard",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Chain Shot",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Grounding Chain: The target must pass a MGK save or be IMMOBILIZED until the end of their next turn. You can spend 1 mana to force all characters adjacent to the target to make the save as well.Linked Chain: Spend 1 mana to create a Burst 2 area around the target. All characters in the area must pass a BLK save or be pulled to the closest free space adjacent to the original target.",
+        "origin": "Seeker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Coiling Shot",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6+4"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Constricting Serpent: The target is unable to make Opportunity Attacks until the end of their next turn.Striking Serpent: A spectral serpent coils around the target. Until the end of their next turn, if the target ends their turn adjacent to one of their allies, the ally takes [3 Force] and is DAZED until the end of their next turn.",
+        "origin": "Seeker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Spectral Shot",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Your single target ranged attacks can phase through terrain and objects. If you have Line of Sight on a target, you can ignore cover when attacking. If you don\u2019t have Line of Sight, you can still attack, but the target benefits from Hard Cover.",
+        "origin": "Seeker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Swarming Shot",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            },
+            {
+                "type": "Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "effects": "Choose one of the following when you use this spell attack:Buzzing Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes DAZED until the end of their next turn.On Hit: Target is DAZED until the end of their next turn.Distracting Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes MARKEDOn Hit: Target is MARKED until the end of their next turn.",
+        "origin": "Seeker",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Familiar",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "Minor Action",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Tags: Summon, Size \u00bd, 1 HP, 10 Dodge/A-Def) This summon must be summoned adjacent to you, and can be automatically summoned at the start of a combat scene, paying the mana cost as normal. Choose BULK, AGILITY, MIND, or MAGIC when summoned. While you and the summon are adjacent to each other, you both gain +1 Accuracy to checks and saves with the chosen ability score.Whenever you move (excluding forced movement) while adjacent to this summon, it can also move to any space adjacent to you, benefiting from any special forms of movement that you had, like flight or teleportation.",
+        "origin": "Shadebinder",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Lifelink",
+        "profile": "Spell",
+        "memory_cost": "3",
+        "type": "Spell",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you create a summon, you can spend 1 mana to link yourself and that summon. As long as both characters are in play, whenever one of them takes damage (after armor and resistances), they instead take half of the damage, and the other character has their current HP reduced by the same amount. This HP reduction cannot be avoided or mitigated in any way, and does not count as being damaged (meaning it doesn\u2019t trigger additional lifelink effects). The link lasts until the end of the scene, one of the characters is defeated, or you dismiss the effect as a Free Action.",
+        "origin": "Shadebinder",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Teamwork",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Your summons can use your BULK/AGILITY/MIND/MAGIC score instead of theirs when they make ability checks/saves.As a Minor Action, you and your summons gain one of the following profiles. You must have at least 1 active summon to use this ability, and the effects last until the end of the scene, you choose another profile, deactivate it as a free action, or you have no more active summons.These profiles affect all your summons, including ones summoned after the profile is activated.Threatening Summons: Attack rolls against your summons gain +1 Accuracy, and attack rolls against you gain +1 Difficulty.Unassuming Summons: Attack rolls against your summons gain +1 Difficulty, and attack rolls against you gain +1 Accuracy.",
+        "origin": "Shadebinder",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Cloak of Darkness",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/turn as a Free Action, you can become HIDDEN when not in an enemy\u2019s Line of Sight and adjacent to hard cover. ",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Living Shadow",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Size=1/2, 5 HP, 10 Dodge/A-def)You create a living shadow within Scope, which emits a [Burst 2] zone. Enemies are BLINDED while fully within the zone. Enemies that start their turn partly within the zone must pass a MGK save or be WEAKENED until the start of their next turn.",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shadow Clones",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(Size=your Size, 5 HP, 10 Dodge/A-def)(6) Release: You create 3 shadow clones of yourself within Scope. They have your Speed and Size, and you can choose to move them instead of yourself with your Standard Move. As a Free Action 1/turn, you can teleport to one of your clones\u2019 spaces, destroying the clone.If you (4) RUSH and choose the movement option, you can also move your shadow clones up to their Speed.You can dismiss any of your shadow clones during your turn as a Free Action.You can\u2019t have more than 3 shadow clones at once. If you use this ability again, you only summon new clones until you have 3 (you can always destroy existing ones).",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shadow Meld",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: You become INVISIBLE until you make an attack or force a save. ",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shadow Sorcery",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Darkness: [2 Stress] On Hit: The target is unable to make non-Arcing or Homing attacks or abilities at targets beyond [Range 3], and treats all enemies as benefiting from Soft Cover. These effects last until the end of their next turn. Shadow Blade: [1d6+2 Lunar] If you are HIDDEN when you make this attack, you regain any mana spent on it.",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Shadow Step",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you (4) RUSH and choose the movement option, you can teleport the distance instead, and if you end your movement adjacent to Hard Cover, you can (4) HIDE as a free action.",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Strangle",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Gasp for Air: Target must pass a BULK save or be SILENCED and unable to (2) CHANNEL until the end of their next turn. If they are currently channeling, they have +1 Difficulty on the Concentration Save when hit by this attack.Hangman\u2019s Handshake: Until the end of the target\u2019s next turn, they gain +1 Stress whenever they take Stress.",
+        "origin": "Shadow Dancer",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Defender Form",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: You assume the form of a defender creature. Your Size increases by 1 (to a max size of 3). While in this form, allies gain the benefits of cover as if you were a piece of hard cover. When you enter this form or as a Minor action, you can select an ally within Scope. You can INTERPOSE for that ally without spending Focus, and your armor is increased by +2 against the triggering attack if you do. You can only have one ally selected at a time. You can only attack as a Reaction in this form.The form lasts until the end of the scene or until you end it as a free action.",
+        "origin": "Shapeshifter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Familiar Form",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Minor: You assume a form that is friendly or important to your foes. Any character that attacks you in this form takes [2 Stress], but all your attacks gain +1 DIF. The form lasts until the end of the scene or until you end it as a free action. ",
+        "origin": "Shapeshifter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Ferocious Bite",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Allies have +1 ACC on attack rolls against enemies GRAPPLED with you.",
+        "origin": "Shapeshifter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Scout Form",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Minor",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You assume a scouting form. Your Size becomes \u00bd. Your Speed increases by 2, and attacks against you have +1 Difficulty, but you can\u2019t make attacks or activate spells. As a Minor Action while in this form, you can (3) MARK a character in Scope. This form lasts until the end of the scene or until you end it as a free action. ",
+        "origin": "Shapeshifter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Snarl and Bite",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Reaction",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Trigger: A melee attack hits or misses you.Effect: You can make a melee attack against the attacker with a LIGHT or MAIN weapon.",
+        "origin": "Shapeshifter",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Mock",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "An enemy within Scope must make a MND save. Success: They take [1 Stress]. Failure: They take [2 Stress] and must move their Speed straight toward you. This movement doesn\u2019t count as Forced Movement, but doesn\u2019t provoke Reactions.",
+        "origin": "Skald",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Song of Defense",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: You and all allies within range 5 gain 1 Focus. During subsequent turns, you can spend 1 mana to continue using this ability as a Minor action. If you don\u2019t maintain this ability as a Minor action, it reverts to a (2) CHANNEL action as normal.",
+        "origin": "Skald",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Song of Rest",
+        "profile": "Spell",
+        "memory_cost": "3",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Allies within Burst 3 can spend a recovery to regain up to all their HP. During subsequent turns, you can spend 1 mana to use the following Minor Action until you take a turn and don\u2019t use this Minor action. Minor: All allies within a Burst 3 area gain 3 temp HP.",
+        "origin": "Skald",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Soundwave",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a [Blast 1] zone within Scope, and choose one of the following effects:\u2022Characters in the zone when it is created take [3 Stress]. Characters are SILENCED while partly within the area and VULNERABLE to Force damage.\u2022Characters fully within the area are immune to all spells and spell effects. Existing spell effects are not affected.Zones last until the end of the scene or until you are SILENCED or STUNNED. You can have up to 3 zones in play at once. You can dismiss a zone as a Free Action during your turn.",
+        "origin": "Skald",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Chain Lightning Strikes",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "(7) FULL ATTACK",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Choose a character within [Range 5]. Teleport to a free space adjacent to them and make a melee attack against them, dealing [4 Astral] on a hit. You can then repeat this, targeting a different character each time, and increasing the damage by +1 Astral every time you make the attack roll until the end of the turn. A character can only be targeted by this ability 1/turn",
+        "origin": "Thunderclaw",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Lightning Bolt",
+        "profile": "Melee Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you make this spell attack:Shocked: Characters in the area are DAZED and can\u2019t take Reactions until the end of their next turn.Drained: On Hit: Targets lose mana equal to the number of characters in the area, and you regain mana equal to the number of characters hit.",
+        "origin": "Thunderclaw",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Drown",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "1"
+            }
+        ],
+        "range": [],
+        "tags": [],
+        "effects": "Choose one of the following when you hit with this spell attack:Engulf Lungs: If the target gains Discord from this attack, they are SILENCED until they clear their Discord.Submerge: The target must pass a MGK save or be BLINDED until the end of their next turn.",
+        "origin": "Tidecaller",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Rainfall",
+        "profile": "Spell",
+        "memory_cost": "1",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Gain the following (6) RELEASE options:Soothing Rain: (6) Release: Create a [Blast 1] zone within Scope. When a character starts their turn in the zone, they remove all Discord and can clear 1 Stress. This zone lasts until you use this ability again.Downpour: (6) Release: Create a [Blast 1] zone within Scope. Characters are BLINDED while in the zone. This zone lasts until the end of your next turn, but can be repeatedly extended until the end of your following turn by spending 1 mana during your turn if you aren\u2019t SILENCED or STUNNED.",
+        "origin": "Tidecaller",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Storm Surge",
+        "profile": "Ranged Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            },
+            {
+                "type": "Line",
+                "val": "4"
+            }
+        ],
+        "tags": [],
+        "effects": "The line from this attack can be pointed in any direction. On Hit: Target is pushed to the furthest free spaces within the line, toward one end of the line. You can spend 1 mana to force all hit targets to make a BLK save, falling PRONE on a failure.",
+        "origin": "Tidecaller",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Tidal Healing",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: One ally within Scope heals up to 1d6+4 HP. Another ally within [Range 5] of them heals up to half of that amount. You can continue healing new allies within [Range 5] of the last target for half of the previous amount. You can keep repeating this until there are no other allies within [Range 5] of the last target, or the healing reaches 1. A character can only benefit from this healing 1/turn.",
+        "origin": "Tidecaller",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Whirlpool",
+        "profile": "Spell",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: Create a [Blast 2] zone within Scope, which counts as Difficult Terrain. You can slide characters in the zone to any free space within the zone. All characters in the zone when it is created are IMMOBILIZED. An IMMOBILIZED character can make a BLK save as a Minor Action, ending the condition on a success. The zone lasts until you dismiss it as a Free Action or use this ability again. As a Minor Action on subsequent turns, you can spend 1 mana to Slide characters in the zone again.",
+        "origin": "Tidecaller",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Inner Reserves",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you (1) REFRESH, you gain 2 Focus.",
+        "origin": "Warden",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Lifeblood",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "You gain +1 Accuracy on MAGIC saves. Immediately after you gain Discord, you can make the MAGIC check to clear it. On a success, you clear all Discord, and on a failure you don\u2019t take the ongoing damage. You still make the checks to clear Discord at the end of your turn as normal.",
+        "origin": "Warden",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Nature Vortex",
+        "profile": "Melee Spell Attack",
+        "memory_cost": "2",
+        "type": "Spell",
+        "action": "(2) Channel",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "(6) Release: All enemies of your choice within [Burst 3] are auto-hit, taking [2 Stress] and are Pulled to the closest free adjacent space to you and IMMOBILIZED until the end of their next turn. If there are no available adjacent spaces, pull them to the closest free space to you.",
+        "origin": "Warden",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Weight of Earth",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you hit a character with a reaction attack, they are IMMOBILIZED until the start of their next turn.",
+        "origin": "Warden",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Command",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "(3) SKIRMISH",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Choose an ally within Scope. They can immediately make a weapon or spell attack with +2 DIF as a Reaction. If you take 1 Stress, they do not gain the DIF from this skill.",
+        "origin": "Warlord",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Focus Target",
+        "profile": "Skill",
+        "memory_cost": "3",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "1/round when an ally within Scope consumes a MARK, another ally of your choice within Scope can make a weapon or spell attack against the target as a Reaction.",
+        "origin": "Warlord",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Lead From The Front",
+        "profile": "Skill",
+        "memory_cost": "1",
+        "type": "Skill",
+        "action": "-",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "When you (5) FIGHT or (7) FULL ATTACK with a melee weapon, one ally of your choice within Scope gains 2 temp HP.",
+        "origin": "Warlord",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    },
+    {
+        "name": "Rally",
+        "profile": "Skill",
+        "memory_cost": "2",
+        "type": "Skill",
+        "action": "Reaction",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "effects": "Trigger: An ally within Scope takes a WOUND or OVERSTRESS.Effect: Negate any carry over damage or stress. They gain 4 temp HP and clear any Discord and conditions.",
+        "origin": "Warlord",
+        "stat_effects": {
+            "armor": "0",
+            "hp": "0",
+            "mana": "0",
+            "speed": "0",
+            "dodge": "0"
+        }
+    }
+]
