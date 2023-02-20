@@ -818,17 +818,22 @@
 	var ancestry_data = []
 	var array_of_weapon_names = [];
 	
-	on("change:anc_trait_name", function(v){
-		console.log("changing ancestry trait");
-		getAttrs(["ancestry"], function(t){
-			let curr_ancestry = ancestry_data.find(x => x.origin.toUpperCase().replace(/\s+/g, '') === t.ancestry.toUpperCase().replace(/\s+/g, ''));
-			for (i in curr_ancestry.traits){
-				if (curr_ancestry.traits[i].name.toUpperCase().replace(/\s+/g, '') === v.newValue.toUpperCase().replace(/\s+/g, '')){
-					setAttrs({anctrait_info: curr_ancestry.traits[i].desc});
-					return;
+	const ancestryTraitSlots = ["1", "2"]
+	ancestryTraitSlots.forEach(function (num){
+		on("change:anc_trait_name" + num, function(v){
+			console.log("changing ancestry trait");
+			getAttrs(["ancestry"], function(t){
+				// let curr_ancestry = ancestry_data.find(x => x.origin.toUpperCase().replace(/\s+/g, '') === t.ancestry.toUpperCase().replace(/\s+/g, ''));
+				for (curr_ancestry of ancestry_data){
+					for (i in curr_ancestry.traits){
+					if (curr_ancestry.traits[i].name.toUpperCase().replace(/\s+/g, '') === v.newValue.toUpperCase().replace(/\s+/g, '')){
+						setAttrs({anctrait_info: curr_ancestry.traits[i].desc});
+						return;
+						}
+					}
 				}
-			}
-			setAttrs({anctrait_info: "Invalid ancestry trait."});
+				setAttrs({anctrait_info: "Invalid ancestry trait."});
+			});
 		});
 	});
 
