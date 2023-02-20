@@ -1,0 +1,479 @@
+[
+    {
+        "name": "Arcana Crystal",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "Expend a charge when you use a spell for one of the following effects: Seeking. If it\u2019s a spell attack, gain +1 ACC on the attack rolls. Potent. If it has a save, increase the save target by +2.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Armor, Heavy",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 Armor (to a max of +4). -1 Speed and Dodge",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-1",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Armor, Light",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor (to a max of +4). ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Armor, Medium",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+2 Armor (to a max of +4). -1 Dodge",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "2",
+            "speed": "0",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Battering Ram",
+        "slot": "Heavy",
+        "action": "",
+        "tags": [],
+        "effect": "Whenever you Push or Slide an ally or enemy, you can move them +2 spaces. Your Save Target is increased by +2. As a Minor Action, you can either Push an adjacent character 1 space or deal [10 Piercing Physical] to an adjacent piece of cover.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "2"
+        }
+    },
+    {
+        "name": "Caltrops",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "effect": "Expend a charge to use one of the following options: Nails. [Thrown 5] Throw at a character within range. On Hit, they take [1 Piercing Physical] for every space they move during their next turn. Spikes. [Trap] When triggered, the trap creates a [Blast 1] zone centered on itself that lasts until the end of this phase in the next round. Whenever a character starts their turn in the zone or enters it for the first time in a turn, they take [1d6 Piercing Physical]. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Climbing Gear",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "Climbing costs half as much movement as normal. When you climb, you can bring a willing adjacent ally with you as long as there is enough space for both of you to stand. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Companion",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
+        "effect": "(Tags: Summon, Size \u00bd, 5 HP, 10 Dodge/A-def) As a Minor Action, you summon your companion, which can be a beast, friend, or anything else willing to aid you in combat. Your companion is summoned in a free space within Scope. 1/turn when you attack a character adjacent to your companion, the companion deals [3 Physical] to them. Your companion can only be dismissed with a Minor Action. It keeps its current HP value when dismissed, and regains all HP during a REST. If defeated, this support item is destroyed. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Explosive Materials",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            },
+            {
+                "id": "tg_trap",
+                "val": ""
+            }
+        ],
+        "effect": "Choose either Physical, Astral, Lunar, or Force damage when you equip this item. Expend a charge to use one of the following options: Explosive Bomb: [Thrown 5] When thrown, create a [Blast 1] area at the target space. All characters in the area must pass an AGI save or take [1d6 Damage] of the chosen damage type. Explosive Trap. When triggered, create a [Burst 1] area. All characters in the area take [6 Damage] of the chosen damage type.  ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Healing Potion",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Spend a recovery and regain all of your HP.  ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Lore Book",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: You can identify an enemy unit in the scene. You learn all of their statistics and abilities.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Mana Potion",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Regain all your mana.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Poison",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Expend a charge when you hit with a weapon attack. The target must pass a BLK save or take [2 Stress], get MARKED, and be DAZED until the end of their next turn.   ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Resistance Enchantment",
+        "slot": "Main",
+        "action": "",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: You gain Resistance to Physical, Astral, Lunar, or Force damage (chosen when you equip this enchantment). Any Weapon or Skill/Spell Attack: This ability ignores Physical, Astral, Lunar, or Force Resistances (chosen when you equip this enchantment).",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Resistance Potion",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Gain Resistance to Physical, Astral, Lunar, and Force damage until the end of your next turn.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Shield",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Shield, Tower",
+        "slot": "Main",
+        "action": "-",
+        "tags": [],
+        "effect": "Allied characters gain the benefits of cover as if you were a piece of Hard Cover. 1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Smoke Charges",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            },
+            {
+                "id": "tg_trap",
+                "val": ""
+            }
+        ],
+        "effect": "Expend a charge to use one of the following options: Smoke Bomb. [Thrown 5] When thrown, create a [Blast 2] zone at the target space that lasts until the end of your next turn. The zone grants Soft Cover to anything fully within the zone. Smokestick. [Trap] When triggered, creates a [Burst 3] zone that lasts until the end of this Phase in the next Round. The zone grants Soft Cover to anything fully within the zone. ",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Stoneskin Potion",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "You gain 1d3+2 Focus.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Sunrod",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "effect": "You ignore all low visibility penalties. This effect is always active while equipped and remains even if this item has no charges. Expend a charge to use the following: Flash Bomb. [Thrown 5] When thrown, create a [Blast 1] area on the target space. All characters in the area must pass a BLK save or be BLINDED until the end of their next turn.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Supply Convoy",
+        "slot": "Heavy",
+        "action": "",
+        "tags": [
+            {
+                "id": "tg_limited",
+                "val": "4"
+            }
+        ],
+        "effect": "You have -1 Speed while this item has charges. You or adjacent allies can use a Minor Action to expend a charge from this support item and either a) regain all their mana, b) regain all their HP, c) clear all their stress, or d) repair one of their destroyed pieces of equipment or techniques.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "-1",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Thieves Tools",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "You can automatically open locks as a Free Action. You can attempt to disable HIDDEN traps, and have +1 ACC when disabling traps or on saves triggered by traps.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Water Maneuverability",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "You move normally in liquid-based Difficult Terrain, and have an Aquatic Adaptation.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Whetstone",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Expend a charge when you hit with a weapon attack. You deal the weapon\u2019s maximum damage. Bonus damage and other effects are rolled normally.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Wire Charges",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            },
+            {
+                "id": "tg_trap",
+                "val": ""
+            }
+        ],
+        "effect": "Expend a charge to use one of the following options: Wire Knot. [Thrown 5] Throw at a character within range. On Hit, they must pass an AGI save or be IMMOBILIZED until the end of their next turn. Wire Trap. [Trap] When triggered, creates a [Burst 1] area. All characters in the area must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
+        "origin": "Basic",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    }
+]

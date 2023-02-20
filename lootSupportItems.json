@@ -1,0 +1,1790 @@
+[
+    {
+        "name": "Adamantine Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            }
+        ],
+        "effect": "+3 armor (to a max of +4). -2 Speed and Dodge. When you would be hit by a critical hit, it becomes a normal hit instead.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-2",
+            "dodge": "-2",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Adamantine Construction",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            },
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: The armor gains +1 armor and is UNBREAKABLE. Any Weapon: The weapon gains PIERCING and UNBREAKABLE.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Aether Flask",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "You become suffused with aether. Until the end of your next turn, you cannot make attacks or activate spells, and are immune to Physical, Astral, and Lunar damage. You can move through solid objects as if they were difficult terrain, but you can\u2019t end your turn inside one. If you end your turn inside or partly inside an object, you are moved to the last space you occupied.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Ammo Kit",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Minor: You or an adjacent ally can expend a charge to reload a single weapon.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Amulet of Health",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "+1 ACC on BLK checks and saves. When you (1) RECOVER, you gain 4 temp HP.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Angelsteel Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+2 armor, -1 SPEED and DODGE. When you are hit by an attack, you can spend 1 mana to add your current armor to your DODGE or A-DEF against the attack, potentially turning a hit into a miss. This effect can be used once per attack, and can`t be used while you are SUNDERED.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "2",
+            "speed": "-1",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Animated Shield",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
+        "effect": "1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage. As a Minor Action, you can deploy this shield to a free space within Scope as a Summon, or return it to you. The shield becomes a Size 1 piece of hard cover while deployed, and you lose the previous effect until reclaimed. (Tags: Summon, Size 1, 5 HP, 10 Dodge/A-Def).",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Armor of Growing Endurance",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: When you gain a Wound, gain temp HP equal to your BLOODIED value. Any Armor: When you gain an Overstress, gain 1d6 charges. Until the end of the scene, whenever you would take Stress, you can instead remove 1 charge per Stress.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Armor Plates",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: +1 Armor Any Weapon: On Crit, gain +1 Armor until the end of your next turn. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Bag of Holding",
+        "slot": "Free",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            },
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            }
+        ],
+        "effect": "One of your other support slots increases by one size (light to main, main to heavy).",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Barbed Enchantment",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: You gain +1 ACC on GRAPPLE attacks and checks. When you end your turn GRAPPLED with a character, they take [2 Physical]. Any Melee Weapon or Skill/Spell Attack: On crit, you can choose to (5) GRAPPLE the target as a free action.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Barkskin Armor",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
+        "effect": "Minor: Spend X mana to increase your armor by the mana spent, to a maximum armor of 4. Whenever you take damage, reduce your armor by 1 until its normal value.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Belt of Giantkind",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "You count as one size larger for (5) SHOVE, (5) GRAPPLE, and and stopping movement from ENGAGEMENT.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Belt of Growing and Shrinking",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: Spend 1 mana to increase or decrease your size by +1, to a minimum of 1/2 or maximum of 4. The new size lasts until the end of the scene. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Blackiron Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 Armor (to a max of +4). -1 SPEED and DODGE. You gain resistance to [Astral] and [Lunar] damage.  ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-1",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Blinding Powder",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "Minor: An adjacent enemy is BLINDED until the end of their next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Bloodstone Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_consumable",
+                "val": "1"
+            }
+        ],
+        "effect": "+1 armor. When you become BLOODIED, you can expend a charge to gain resistance to all damage until the end of your next turn. You can regain 1 charge of this item during a SHORT REST by spending 1 recovery. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Bonecaller Armor",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. Minor: Summon a shambling skeleton in a free adjacent space. Enemies that end their turn adjacent to the summon take [3 Physical]. (Tags:Summon, Size 1, 5 HP, DODGE/A-DEF 10, SPEED 2). ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Book of Alternative Explosions",
+        "slot": "Light",
+        "action": "",
+        "tags": [],
+        "effect": "1/turn when you create an AOE area (Blast, Burst, Close Blast, Line), you can spend mana to apply one of the following effects. Each effect has its own mana cost. Restorative. [Mana 2] Instead of taking any damage, characters in the AOE instead regain HP equal to the damage that would have been dealt.  Flexible. [Mana 1] You can change the damage dealt from Physical, Astral, Lunar, or Force to any of those types. Eye of the Storm. [Mana 2] If the AOE is a Blast, the center space of the blast is excluded from the AOE. Phased. [Mana 2] Cover and terrain doesn\u2019t block line of sight for the AOE.  Reliable. [Mana X] If the AOE deals Physical, Astral, Lunar, or Force, it gains Reliable equal to the mana spent.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Book of Endless Pages",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "One of your equipped techniques has its MEM cost reduced to 1. You can continue to equip that technique if this item is destroyed, and the reverted MEM cost would put you over your maximum MEMORY. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Boots of Levitation",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [],
+        "effect": "You gain FLYING, but can`t move. You can only end this effect and status as a Minor Action.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Boots of Speed",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: You can RUSH.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Broom of Flying",
+        "slot": "Main",
+        "action": "-",
+        "tags": [],
+        "effect": "You can spend 1 mana as a free action to gain the FYING status until you end it.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Cloak of Protection",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": ""
+            }
+        ],
+        "effect": "Minor: Gain 1 Focus.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Cursesong Armor",
+        "slot": "Main",
+        "action": "Reaction (1/round)",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
+        "effect": "+2 Armor. As a Reaction when a character within Scope hits you with an attack, you can spend up to 3 mana to give them +1 Difficulty on all attacks, checks, and saves per mana spent. This Difficulty is reduced by 1 at the end of each of their turns.``+",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Darkleaf Armor",
+        "slot": "Light",
+        "action": "Reaction, 1/round",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 armor. 1/round when you are hit by a melee attack, you can spend 1 Focus as a reaction to deal [3 Lunar] damage to the attacker.`",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Darksight Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 armor. You ignore all low visibility penalties and don\u2019t treat HIDDEN characters as INVISIBLE in low visibility areas.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Death`s Gambit Dice",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "When you make a WOUND check, you can roll twice and take either result.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Defender`s Bond",
+        "slot": "Light",
+        "action": "",
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "When you equip this support item or during a Rest, you and one ally can attune to this item. Only one ally can be attuned at a time, and an attuned ally can unattune themselves at any time, including during combat, which doesn\u2019t require an action. You and the attuned ally each gain the following Reaction. Unbreakable Bond. Reaction (1/round). Trigger: The other ally attuned to this item is targeted by an attack and is within [Range 10]. Effect: You and the ally switch places, teleporting into each other\u2019s spaces, and you become the target of the attack instead. This effect counts as if you used INTERPOSE on that ally.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Defending Enchantment",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon: 1/turn when you hit with this weapon, you gain 1 Focus.  Any Armor: When you DEFEND or RECOVER, you gain +2 Focus.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Devil`s Crown",
+        "slot": "Light",
+        "action": "Reaction (1/round)",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Trigger: You take Physical, Astral, Lunar, or Force damage, after armor and resistance. Effect: Reduce the damage by 1d6. If the source of the damage is within your Scope, deal Piercing damage to them equal to the damage reduced.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Displacer Cloak",
+        "slot": "Main",
+        "action": "Reaction",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Trigger: You are hit by an attack Effect: You can teleport a number of spaces equal to the damage dealt (after armor and resistance), to a minimum of 1 space and maximum of 10 spaces.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Dragon Mask",
+        "slot": "Main",
+        "action": "(5) FIGHT",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Make a [Close Blast 2] melee spell attack, dealing [1d6+1 Astral or Lunar], chosen when equipped.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Durable Construction",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            },
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon, Support Item, or Technique: The item gains the UNBREAKABLE tag.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Electrical Pack",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Melee Weapon or Skill/Spell Attack: On a melee hit with this weapon, you can expend a charge to deal 1d3 bonus Astral damage.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Elemental Burst Armor",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+2 armor, -1 DODGE. Gain Astral or Lunar damage resistance. You automatically clear all your Discord at the end of your turn. When you do, you create a Burst 1 area. All enemies in the area take Astral or Lunar damage equal to the amount of Discord cleared.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "2",
+            "speed": "0",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Elemental Enchantment",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon or Skill/Spell Attack: The ability deals +1d3 Astral or Lunar damage. Any Armor: Gain Astral or Lunar resistance.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Elven Cloak",
+        "slot": "Main",
+        "action": "-",
+        "tags": [],
+        "effect": "3 SEARCH checks against you gain +1 Difficulty. If you are in Difficult Terrain, you don`t lose HIDDEN for being in an enemy`s Line of Sight unless they are adjacent to you.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Escape Enchantment",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: As a Minor Action, you can escape from any grapple.  Any Weapon or Skill/Spell Attack: You can attack with this ability as a Bonus Action against a character you are GRAPPLED by.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Flawless Job Crystal",
+        "slot": "Free",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            }
+        ],
+        "effect": "You unlock a class of your choice, without needing any levels in that class. Choose the class when you gain this loot. If you gain this loot again, you must pick a different class.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Fleetfoot Armor",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
+        "effect": "+1 Armor. As a Minor Action, you can spend up to 3 mana. Increase your speed by the mana you spent until the end of your turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Gambling Dice",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Instead of making an attack roll, expend a charge from this item and roll 1d6 to determine the effect. 1: The attack misses and you take 4 Stress. 2-3: The attack misses. 4-5: The attack hits. 6: The attack hits and is a crit.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Ghost Gloves",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "Your 5 IMPROVISED ATTACK gains the Aetheric tag, and deal Force damage. You can OPPORTUNITY ATTACK with it as if it had [Reach 1].",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Ghostwalker Armor",
+        "slot": "Light",
+        "action": "",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. As a Minor Action, you can spend 2 mana to be able to move through characters and objects until the end of your turn, and ignore ENGAGEMENT.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Headband of Intellect",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Gain +1 MEM and +1 ACC on MIND checks and saves.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Helm of Teleportation",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
+        "effect": "Teleport up to 1d6+2 spaces.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Homing Enchantment",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Ranged Weapon or Skill/Spell Attack: The weapon gains the HOMING tag.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Hydra Helmet",
+        "slot": "Main",
+        "action": "-",
+        "tags": [],
+        "effect": "When you take a Wound or Overstress, you regain 4 HP at the start of your next turn, and 2 HP at the start of the next turn after that one. As a Minor Action, you can switch any number of Wounds you have to an equal number of Overstress, and vice versa. Switching between Wounds and Overstress doesn\u2019t trigger Wound/Overstress rolls.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Invisibility Cloak",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: Spend 1 mana to become INVISIBLE until you make an attack, force a save, or take a hostile action.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Justicar Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "\"Any Armor: Gain resistance to Force damage. Any 2 CHANNEL Technique: Gain Resistance to Force damage while Channeling this ability.\"",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Lifedrinker Armor",
+        "slot": "Main",
+        "action": "Reaction, 1/round",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. When you would take Astral or Lunar damage, you can spend 1 mana as a reaction to gain 4 temp HP. You can spend an additional mana to give all allies within [Range 5] the same amount of temp HP.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Mithral Construction",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon or Support Item: The item`s size is reduced by one stage, to a minimum of free.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Mountainous Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 armor, -2 speed. When you are subjected to forced movement, you can choose to reduce the amount of movement by up to 3.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-2",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Orb of Power",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "1/turn as a free action, spend 1 mana to impose +1 DIF on one target`s save against one of your effects.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Orbital Strike",
+        "slot": "Heavy",
+        "action": "(2) CHANNEL",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Channel: Pick a space within line of sight. If you stop channeling for any reason, you regain the spent consumable charge.  Release: Create a [Blast 3] area centered on the selected space. All characters in the area must make an AGILITY save, with +1 Difficulty if they are in the center space, or +1 Accuracy if they are at least 3 spaces away from the center space. Failure: [14/16/18 Astral]. Success: [7/8/9 Astral].",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Oversized Enchantment",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon: This weapon deals 1 additional die of physical, force, astral, or lunar damage. If the weapon has multiple damage types, pick one of them. If the weapon doesn`t use damage dice, this enchantment has no effect.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Paired Enchant",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Equipment/Technique without Slow tag: When you (7) FULL ATTACK, you can attack with this weapon twice instead of with two different weapons.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Portable Cover",
+        "slot": "Heavy",
+        "action": "Minor",
+        "tags": [],
+        "effect": "Twice per scene you can create a piece of Size 1 or Size 2 hard cover in free adjacent spaces.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Potion of Climbing",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Until the end of the scene, any climbing only costs you 1 movement.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Potion of Giants",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "1"
+            }
+        ],
+        "effect": "Your size increases by +1, and you gain +2 Accuracy on BULK checks and saves, and your Reach with all effects with Reach increases by +1. These effects last until the end of the scene. This item can only be activated 1/scene.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Potion of Size",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "Change your size to \u00bd, 1, 2, or 3 until the end of the scene.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Power Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 Armor, -1 Dodge. You can fly and have an Aquatic Adaptation. You gain the following Ranged Weapon Attack: [Range 10] [1d6 Force].",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "0",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Prismatic Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+2 Armor, At the start of each combat scene, you are permanently VULNERABLE to Astral, Lunar, or Force, randomly chosen. The vulnerability lasts until the end of the scene.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "2",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Quickstep Boots",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: You can move up to 2 spaces",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Razorwire Enchant",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: As a Minor Action, spend 2 mana. Until the end of your next turn, when an adjacent enemy hits you with a melee attack, they take [2 Physical]. Any Weapon or Skill/Spell Attack: As a Minor Action, spend 1 mana. The next time you hit with this ability this turn, the target takes [2 Physical] if they make a melee attack against you until the end of their next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Recall Stone",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "1"
+            }
+        ],
+        "effect": "During narrative play, you can expend a charge to abandon the quest and return this character to a base or hub. During combat, as a Minor action this character can expend a charge to successfully extract.  ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Returning Weapon",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Melee Weapon with Reach: This weapon gains the Thrown 8 tag, and automatically returns back to you when thrown.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Revive Kit",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Minor: One defeated ally can spend 1 recovery to clear 1 WOUND or OVERSTRESS and return to play adjacent to you with their HP equal to their BLOODIED value and their Stress equal to their BREAKING value.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Ring of Regeneration",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "At the start of each of your turns while BLOODIED, you regain 1 HP.  ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Runic Tattoos",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "When you INTERPOSE, you gain 3 armor against the attack. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Runic Tattoos",
+        "slot": "Main",
+        "action": "",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "When you INTERPOSE, you gain 3 armor against the attack",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Scope",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "Minor: Spend 1 mana to (3) MARK a character within scope.  ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Scroll of Protection",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Minor: One ally within scope and line of sight becomes immune to all damage until the end of your next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Sharkskin Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. You move normally in liquid-based Difficult Terrain, and have an Aquatic Adaptation. Characters that successfully grapple you take [2 Physical].",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Shatterstone",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "2"
+            }
+        ],
+        "effect": "Minor: Make a ranged attack against a character within [Range 5]. On a hit, they are SUNDERED until the end of their next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Shield of the Evil Eye",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "effect": "1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.1/round when you are missed by an attack, you can spend 1 mana to make the attacker DAZED until the end of their next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Skeleton Key",
+        "slot": "Light",
+        "action": "-",
+        "tags": [],
+        "effect": "You can automatically open locks as a free action and have +1 ACC on saves triggered by traps. You automatically disable Traps, and can do so even while they\u2019re HIDDEN.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Spacewarp Enchant",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor: Increase the range of all of your teleports by your current armor value. Any (2) CHANNEL Technique: When you RELEASE this ability, you can teleport up to 3 spaces.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Spikes",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Armor. When you INTERPOSE, if you end the movement next to the attacker, you can deal [1 Piercing Physical] to them as part of the INTERPOSE reaction. Any (2) CHANNEL Technique: While channeling this ability, adjacent characters that hit you with a melee attack take [1 Physical].",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Sprinter`s Potion",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "Minor: Your speed is doubled until the end of your next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Tetherknot",
+        "slot": "Light",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            }
+        ],
+        "effect": "Minor: Throw this ball of wire at a character within [Range 5]. They must succeed on an AGI save or be IMMOBILIZED until the end of their next turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Thorium Armor",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 Armor, -2 Dodge and Speed",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-2",
+            "dodge": "-2",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Time`s Eclipse",
+        "slot": "Light",
+        "action": "Free Action",
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "3"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "This turn, instead of taking either your standard action, standard movement, or minor action, you can choose to give it to an ally within Scope. They gain an additional use of that action during their next turn. You can only affect an ally with this ability 1/scene.  The Stress cost of this ability is reduced by 1 for every other PC in the scene with this item equipped. Additionally, you can use this item\u2019s effect on any ally that also has this item equipped at any range, and don\u2019t need line of sight to them to do so.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Titan Blood",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_integrated",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Your size increases by 1, to a maximum of 3. You can\u2019t be knocked PRONE or suffer unwilling forced movement from smaller characters. ",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Tomblink Armor",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+3 armor, -1 speed and dodge. Gain the following Reaction. Trigger: An ally within range takes damage. Effect: Spend 1 Recovery. They regain HP equal to their BLOODIED value.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "3",
+            "speed": "-1",
+            "dodge": "-1",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Twin Death",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Light/Main Weapon or Skill/Spell Attack: 1/round when you crit with this ability, you can immediately attack with it again. This attack doesn\u2019t trigger linked attacks.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Vicious Enchant",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon or Skill/Spell Attack: The ability deals +1d6 bonus damage on crits.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Vorpal Enchant",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_enchantment",
+                "val": ""
+            }
+        ],
+        "effect": "Any Weapon or Skill/Spell Attack: 1/round when you crit with this ability, it deals the maximum damage.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Wallbreaker",
+        "slot": "Heavy",
+        "action": "-",
+        "tags": [],
+        "effect": "You can move through walls, cover, and solid pieces of impassable terrain, destroying pieces of them equal to your size. You take [1 Stress] per size of each piece of cover/terrain you destroy (minimum of 1 Stress).",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Weapon Ring",
+        "slot": "Main",
+        "action": "Minor",
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "effect": "During a REST or as a Minor action, you can expend a charge to replace one of your equipped weapons with a different weapon you have unlocked that could be equipped in that slot.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "0",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Windsprint Armor",
+        "slot": "Light",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. When you (4) REPOSITION, you are INVISIBLE until the end the turn.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    },
+    {
+        "name": "Windstep Armor",
+        "slot": "Main",
+        "action": "-",
+        "tags": [
+            {
+                "id": "tg_armor",
+                "val": ""
+            }
+        ],
+        "effect": "+1 Armor. 1/turn you become INVISIBLE whenever you move or are moved, which lasts until you make an attack, force a save, take a hostile action, or after an attack roll is made against you.",
+        "origin": "Loot",
+        "stat_effects": {
+            "armor": "1",
+            "speed": "0",
+            "dodge": "0",
+            "save_target": "0"
+        }
+    }
+]
