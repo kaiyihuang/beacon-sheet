@@ -1717,7 +1717,7 @@
                 "val": "X"
             }
         ],
-        "desc": "\"This weapon deals 3 Force damage per mana spent.On Crit: The damage becomes 4 Force per mana spent.\"",
+        "desc": "This weapon deals 3 Force damage per mana spent.On Crit: The damage becomes 4 Force per mana spent.",
         "origin": "Loot"
     },
     {

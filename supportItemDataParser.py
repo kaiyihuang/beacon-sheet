@@ -38,7 +38,7 @@ with open('supportItemDataClean.csv', 'r', newline='', encoding='utf-8') as csvf
                 "id": match_tag,
                 "val": val.strip()
             })
-        temp["effect"] = row["Effect"].replace("\n", " ")
+        temp["effect"] = row["Effect"].replace("\n", " ").replace("\"", "")
         temp["origin"] = row["Origin"]
         temp["stat_effects"] = {
             "armor": row["Armor Contribution"],
