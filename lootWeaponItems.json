@@ -1,0 +1,1860 @@
+[
+    {
+        "name": "Meteor Staff",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "xd6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            },
+            {
+                "type": "Blast",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
+        "desc": "This weapon deals 1d6 Astral damage per mana spent, to a maximum of 4d6 at 4 mana. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Scarab Staff",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            },
+            {
+                "type": "Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "desc": "On Hit: The target is DAZED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Harpoon",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_pull",
+                "val": "1"
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Spider Staff",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d6+6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "Gain the following (2) CHANNEL ability. [(2) CHANNEL] (6) Release: Spend 1 mana. One character you can see within scope takes [1d6+6 Lunar] and must make an AGI save. Failure: They are IMMOBILIZED + SLOWED until the end of their next turn. Success: They are SLOWED.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Splinter",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: This weapon deals its damage 3 times, but Armor applies to each instance of damage. Bonus damage applies only to the first instance of damage.On Crit: As a hit, but the weapons\u2019 base damage increases by +1.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Frost Fang",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            },
+            {
+                "type": "Line",
+                "val": "5"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Backstabber",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            }
+        ],
+        "desc": "On Crit: +1d6 bonus damage.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Beam Saber",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            }
+        ],
+        "desc": "You ignore all low visibility penalties",
+        "origin": "Loot"
+    },
+    {
+        "name": "Black Hole",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            },
+            {
+                "type": "Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "desc": "On Hit: Target is SUNDERED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Chain Blade",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "When you attack with this weapon, you can attack targets within [Range 5].",
+        "origin": "Loot"
+    },
+    {
+        "name": "Chainsaw Blade",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "Whenever you roll a 1 on any damage dice with this weapon, you take 1 Stress and roll that die again. This effect can trigger on the same die multiple times. It`s not optional",
+        "origin": "Loot"
+    },
+    {
+        "name": "Mind Lasher",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "On Crit: Deal +1d3 Stress",
+        "origin": "Loot"
+    },
+    {
+        "name": "Penance",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            },
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: The target loses Concentration on any ability they are channeling.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Conductor`s Baton",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "8"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: Spend 1 mana to force the target to make a MGK save. Failure: They are SILENCED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Cryo Cannon",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d6+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Line",
+                "val": "8"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: Target is SLOWED until the end of their next turn. If the target is already SLOWED, they are also IMMOBILIZED until the end of their next turn. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Dancing Blade",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
+        "desc": "As a Minor Action, you can deploy this weapon as a Summon with the ability to Fly. You can make attacks with this weapon from its space. During your turn, you can move it up to your Speed. If the dancing blade is reduced to 0 HP, it is destroyed and returns to your character. You can recall the weapon as a Minor Action if it is within Scope, but any damage it has taken remains until you REST The blade is size \u00bd, 10 HP, and Dodge/A-Def of 10.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Dimension Anchor",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: The target must pass a MGK save or be IMMOBILIZED until the end of their next turn. A target IMMOBILIZED by this weapon can`t be subject to forced movement while IMMOBILIZED, including teleportaion.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Dragon Force Fists",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            },
+            {
+                "type": "Close Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Fatigue",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: You can spend 1 mana to change the damage type of this attack to Stress.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Firebrand",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            },
+            {
+                "type": "Discord",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "You ignore all low visibility penalties. On Crit: Deal +2 Discord.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Flamethrower",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "5"
+            }
+        ],
+        "range": [
+            {
+                "type": "Close Blast",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Portalis",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "You can make attacks with this weapon against targets that are exactly [Range 5] from you. This doesn`t extend the weapon`s Reach.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Fusion Cannon",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "8"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "2"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "After you hit and deal damage with this weapon, its damage increases by 1d6 Astral, to a maximum of +4d6 Astral damage. The damage is only increased once per attack. This weapon returns to its normal value when you end a round without hitting a target with this weapon.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Hand Cannon",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "10"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "3"
+            },
+            {
+                "type": "Range",
+                "val": "5"
+            }
+        ],
+        "tags": [],
+        "desc": "Attacks with this weapon gain Push 1 if the target is within the weapon\u2019s Reach. This weapon\u2019s damage is reduced by 2 for every space beyond Range 1 the target is from you.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Healing Mace",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "This weapon gains +2 Accuracy when attacking an ally.On Hit: Instead of dealing damage, you can spend 1 mana to heal the target for the amount of damage that would have been dealt.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Hydrus",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(7) FULL ATTACK",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "As a Minor Action, create a [Line 15] area, auto-hitting all characters in the area with a ranged weapon attack for [5 Physical]. After being used, this Minor Action can\u2019t be used again until it is reloaded as if it were a Reloading weapon.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Leech",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: You regain HP equal to the amount of HP the target lost from this attack.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Lucky",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            }
+        ],
+        "desc": "On Miss: You deal [1d6 Physical] to the target.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Mace of Terror",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "On Crit: Target is DAZED and can\u2019t attack you until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Unstable Wand",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "X"
+            },
+            {
+                "id": "tg_reliable",
+                "val": "X"
+            }
+        ],
+        "desc": "This weapon deals 3 Astral per mana spent, and gains Reliable equal to the mana spent.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Challenge Seeker",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "This weapon deals +1d6 bonus damage against targets that are at their HP maximum.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Mithardain",
+        "profile": "Melee or Ranged",
+        "size": "Light",
+        "type": "Bow",
+        "action": "(3) VOLLEY or (5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "This weapon counts as a Bow (ranged weapon) and Blade (melee weapon), and effects that apply to either apply to this weapon.",
+        "modes": {
+            "melee": {
+                "range": [
+                    {
+                        "type": "Range",
+                        "val": "10"
+                    }
+                ]
+            },
+            "ranged": {
+                "range": [
+                    {
+                        "type": "Reach",
+                        "val": "1"
+                    }
+                ]
+            }
+        },
+        "origin": "Loot"
+    },
+    {
+        "name": "Momentum",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "8"
+            },
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            }
+        ],
+        "desc": "When thrown, this weapon returns to you automatically after the attack.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Mortar",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d6+4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            },
+            {
+                "type": "Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Mother Pharaoh",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_consumable",
+                "val": "3"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "As a Minor Action, you can expend a charge to heal yourself or an adjacent ally 1d6+1 HP.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Oathbow",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            }
+        ],
+        "desc": "This weapon gains the HOMING and RELIABLE 2 tags when attacking a MARKED character, but you must consume the mark when attacking with this weapon.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Charging Spear",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "When you (4) RUSH to move, you can (5) FIGHT with this weapon when you end the movement. You gain +1 DIF on the attack.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Piercer",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: Make a [Line 3] attack coming from the target, pointed in the direction opposite from the attack. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Lightning Javelin",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "8"
+            }
+        ],
+        "desc": "When thrown, the attack becomes a [Line 8] area.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Psi Blade",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Quick Arm",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "During the 1st round of combat, you can (5) FIGHT with this weapon as a Minor Action. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Rocket Sledge",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6+4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_push",
+                "val": "2"
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Wand of Fireballs",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d3+4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Blast",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Scimitar of Speed",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "You can attack with this weapon as a (3) VOLLEY or (5) FIGHT.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Scythe of Darkness",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "2d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "On Crit: The target is BLINDED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Shock Glove",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: The target can\u2019t take Reactions until the end of their next turn. 1/turn you can spend 1 mana to make another attack against a target adjacent to the hit target. Each target can only be hit by this effect 1/turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Shrapnel",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Close Blast",
+                "val": "2"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Wand of Magic Missiles",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "12"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_homing",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Soaring Light",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "You can make a ranged attack with this weapon with [Range 8].",
+        "origin": "Loot"
+    },
+    {
+        "name": "Sonar Bow",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            }
+        ],
+        "desc": "As a Minor Action, you can spend 1 mana to fire a sonar arrow at a space within this weapon`s range. You can immediately (3) SEARCH against all HIDDEN characters in that space or adjacent to it. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Spiked Fist",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "Whenever you roll a 1 on any damage dice with this weapon, you take 1 Stress and roll that die again. This effect can trigger on the same die multiple times. It`s not optional",
+        "origin": "Loot"
+    },
+    {
+        "name": "Starbow",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "20"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Sundyr",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unbreakable",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "This weapon deals double damage to terrain.On Crit: You can spend 1 mana. If you do, the target must pass a BLK save or one of their weapons or support items is destroyed (their choice) and can`t be repaired.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Swordbreaker",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "2"
+            }
+        ],
+        "desc": "This weapon gains +1 Accuracy on attacks against a character with a melee weapon equipped.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Tentacle Rod",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "If you hit with an opportunity attack with this weapon, the target is DAZED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Thunderstruck",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            },
+            {
+                "id": "tg_reliable",
+                "val": "3"
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: Target must pass a BULK save or be STUNNED until the end of their next turn. On Miss: Target is DAZED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Timber",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "3"
+            }
+        ],
+        "desc": "Does +1d3 bonus damage against characters that are larger than you.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Torch Mace",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d3+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "You ignore all low visibility penalties",
+        "origin": "Loot"
+    },
+    {
+        "name": "Tracker",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: The target loses the HIDDEN and INVISIBLE statuses and can`t gain those statuses until the end of its next turn. ",
+        "origin": "Loot"
+    },
+    {
+        "name": "Absorption",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "On Crit: Target\u2019s current mana is reduced by 1, and you gain 1 mana.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Venom",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "On Hit: Target is DAZED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Caduceus Staff",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Stress",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "8"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: One ally within scope gains 3 temporary HP.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Slime Staff",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "desc": "On Crit: One enemy adjacent to the crit target gains [3 Discord].",
+        "origin": "Loot"
+    },
+    {
+        "name": "Spellstrike",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(5) FIGHT",
+        "damage": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
+        "desc": "\"This weapon deals 3 Force damage per mana spent.On Crit: The damage becomes 4 Force per mana spent.\"",
+        "origin": "Loot"
+    },
+    {
+        "name": "Wind Boomerang",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Club",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: Spend 1 mana to create a [Burst 1] area around the target. All characters in the area must pass a BULK save or be pushed 1 space directly away from the target.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Warstaff",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Loot"
+    },
+    {
+        "name": "Railgun",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(7) FULL ATTACK",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "3d6+5"
+            }
+        ],
+        "range": [
+            {
+                "type": "Line",
+                "val": "25"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "6"
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "Create a [Burst 1] area around every character in the line. Characters in the Burst area are also targeted by this attack (a character can be targeted by this attack only once per attack).On Crit: Target is SUNDERED until the end of their next turn.",
+        "origin": "Loot"
+    },
+    {
+        "name": "Minibow",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            }
+        ],
+        "desc": "",
+        "origin": "Loot"
+    },
+    {
+        "name": "Wand of Time",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: You can spend 1 mana to make the target SLOWED until the end of their next turn.",
+        "origin": "Loot"
+    }
+]

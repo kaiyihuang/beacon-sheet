@@ -1,0 +1,1116 @@
+[
+    {
+        "name": "Scorpion Gauntlet",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Discord",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: You regain 1 Consumable charge to a weapon, support item, or technique. This effect only happens if you hit an enemy, once per attack.",
+        "origin": "Alchemist"
+    },
+    {
+        "name": "Gunblade",
+        "profile": "Melee or Ranged",
+        "size": "Light",
+        "type": "Magitech",
+        "action": "(3) VOLLEY or (5) FIGHT",
+        "damage": [],
+        "range": [],
+        "tags": [],
+        "desc": "You can (3) VOLLEY with the ranged profile, or (5) FIGHT with the melee profile. 1/turn when you attack with one of the profiles, you can spend 2 mana to also attack with the other profile.",
+        "modes": {
+            "melee": {
+                "damage": [
+                    {
+                        "type": "Physical",
+                        "val": "1d3+1"
+                    }
+                ],
+                "range": [
+                    {
+                        "type": "Reach",
+                        "val": "1"
+                    }
+                ]
+            },
+            "ranged": {
+                "damage": [
+                    {
+                        "type": "Lunar",
+                        "val": "1d3"
+                    }
+                ],
+                "range": [
+                    {
+                        "type": "Range",
+                        "val": "5"
+                    }
+                ]
+            }
+        },
+        "origin": "Arsenal"
+    },
+    {
+        "name": "Masamune",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "6"
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "Whenever you roll a 1 on any damage dice with this weapon, you take 1 stress and roll that die again. This effect can trigger on the same die multiple times. It\u2019s not optional.",
+        "origin": "Arsenal"
+    },
+    {
+        "name": "Powerstone",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            },
+            {
+                "type": "Close Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "",
+        "origin": "Arsenal"
+    },
+    {
+        "name": "Throatcutter",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "You can (5) FIGHT with this weapon during PHASE 3: SKIRMISH.",
+        "origin": "Assassin"
+    },
+    {
+        "name": "Longinus",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+4"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [],
+        "desc": "This weapon gains PIERCING if attacking a target at the weapon\u2019s maximum reach.",
+        "origin": "Dragon Rider"
+    },
+    {
+        "name": "Wraith Chain",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Longarm",
+        "action": "(7) FULL ATTACK",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "3d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_pull",
+                "val": "2"
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            },
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "You can attack with this weapon as a Minor Action during any phase. You can only attack with this weapon 1/turn, and if you attack with it as a Minor Action, it deals no damage.On Hit: If the target is Pulled adjacent to you, you can automatically succeed on a (5) GRAPPLE against them.",
+        "origin": "Knightmare"
+    },
+    {
+        "name": "Rageblade",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "4d6+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            },
+            {
+                "id": "tg_reliable",
+                "val": "5"
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "If you are BLOODIED when you attack with this weapon, you ignore the INACCURATE tag.",
+        "origin": "Berserker"
+    },
+    {
+        "name": "Mantis Blade",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "When you attack with this weapon, you can attack two different targets at the same time.",
+        "origin": "Demon Hunter"
+    },
+    {
+        "name": "Sinbow",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            },
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: If you are BREAKING, this weapon deals bonus damage equal to half your Stress.",
+        "origin": "Demon Hunter"
+    },
+    {
+        "name": "Vine Whip",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "4"
+            }
+        ],
+        "tags": [],
+        "desc": "On crit: You can slide the target 3 spaces.",
+        "origin": ""
+    },
+    {
+        "name": "Gravedigger`s Shovel",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "3"
+            }
+        ],
+        "desc": "Deals double damage to objects, terrain, and summons. You can attack these targets as a Minor Action. ",
+        "origin": "Gravewalker"
+    },
+    {
+        "name": "Slugthrower",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "8"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            },
+            {
+                "id": "tg_reliable",
+                "val": "2"
+            }
+        ],
+        "desc": "",
+        "origin": "Gunslinger"
+    },
+    {
+        "name": "Widowmaker",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "On Crit: The damage from this weapon is Armor Piercing.",
+        "origin": "Gunslinger"
+    },
+    {
+        "name": "Edge of Darkness",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "1/turn when you defeat, wound, or overstress an enemy with this weapon, you gain 3 temp HP and this weapon\u2019s damage increases by +1, to a maximum of +6. This extra damage lasts until you take a long rest.",
+        "origin": "Hexblade"
+    },
+    {
+        "name": "Sewing Needle",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: If the target is BLOODIED, you can spend 1 mana to make them IMMOBILIZED until the end of their next turn. Any BLOODIED enemies of your choice adjacent to the target are SLOWED until the end of their next turn if you spend the mana.",
+        "origin": "Lifeweaver"
+    },
+    {
+        "name": "Displacer Rod",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "This weapon\u2019s damage is equal to the distance between you and the target, to a maximum of [20 Force].",
+        "origin": "Riftblade"
+    },
+    {
+        "name": "Gert`s Backbone",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
+        "desc": "As a Minor Action you can deploy this weapon as a Summon in a free space within Scope. (Size 1, 10 HP, Dodge/A-def 10). You can (5) FIGHT with this weapon while it is summoned, but draw line of sight and reach from the summon. If the weapon is thrown while summoned, the summon can pick it up for you. The summon can use the OPPORTUNITY ATTACK reaction, using the weapon\u2019s stats. If this summon is destroyed, so is the weapon, and vice versa. You can return the summon to a weapon as a Minor Action if it is within Scope, but any damage it has taken remains until you rest.",
+        "origin": "Demonologist"
+    },
+    {
+        "name": "Saturn Rod",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_homing",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "desc": "",
+        "origin": "Equinox"
+    },
+    {
+        "name": "Holy Avenger",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "This weapon gains the Accurate tag when it\u2019s not your turn.On Crit: You or an ally within [RANGE 5] can end a condition or clear all DISCORD on themselves. ",
+        "origin": "Paladin"
+    },
+    {
+        "name": "Solar Flare",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d3"
+            },
+            {
+                "type": "Discord",
+                "val": "1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [],
+        "desc": "+1 ACC on the attack if the target has Discord.",
+        "origin": "Phoenix"
+    },
+    {
+        "name": "White Wind",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            },
+            {
+                "type": "Close Blast",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: Target is SLOWED until the end of their next turn.",
+        "origin": "Rimeguard"
+    },
+    {
+        "name": "Astral Barrage",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "20"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "Instead of attacking normally, you can choose to attack every MARKED enemy within the weapon\u2019s range. You must consume the marks, and you take [1 Stress] for every additional target attacked beyond the first.",
+        "origin": "Seeker"
+    },
+    {
+        "name": "Heartseeker",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3"
+            },
+            {
+                "type": "Discord",
+                "val": "1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_homing",
+                "val": ""
+            }
+        ],
+        "desc": "If you consume a mark, this weapon gains Piercing for the attack. ",
+        "origin": "Seeker"
+    },
+    {
+        "name": "Flash Step Dagger",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_thrown",
+                "val": "3"
+            }
+        ],
+        "desc": "On Hit: You can teleport to a free space adjacent to the target.",
+        "origin": "Shadow Dancer"
+    },
+    {
+        "name": "Apex Weapon",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [],
+        "desc": "On Hit: You can successfully (5) GRAPPLE the target. They take [1 Piercing Physical] at the start of each of their turns while remaining (5) GRAPPLEd by you.",
+        "origin": "Shapeshifter"
+    },
+    {
+        "name": "Wit",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: The target is DAZED until the end of their next turn and MARKED.",
+        "origin": "Skald"
+    },
+    {
+        "name": "Experimental Weapon(Melee)",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022Damage Type: Physical, Astral, Lunar, or ForceAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Experimental Weapon(Ranged)",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Improved Experimental Weapon(Melee)",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1After you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Improved Experimental Weapon(Ranged)",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1After you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Perfect Experimental Weapon(Melee)",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u2022 Punch Through. Your weapon gains Piercing.  After you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Perfect Experimental Weapon(Ranged)",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "damage",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u2022 Punch Through. Your weapon gains Piercing.  After you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.",
+        "origin": "Talent"
+    },
+    {
+        "name": "Chakram",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "When thrown, this weapon gains ARCING and deals +1 damage for every space traveled beyond range 1. ",
+        "origin": "Thunderclaw"
+    },
+    {
+        "name": "Wolf Claws",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            }
+        ],
+        "desc": "On Damage: You can Shift a number of spaces equal to the total damage. If you end this movement next to a different enemy than the one you attacked, you can deal [1 Piercing Physical] to them. ",
+        "origin": "Thunderclaw"
+    },
+    {
+        "name": "Abyssal Scepter",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "8"
+            },
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: You can spend 1 mana to create a Burst 2 area around the target. All characters in the area are Pulled to the closest free space adjacent to the target.",
+        "origin": "Tidecaller"
+    },
+    {
+        "name": "Greatoak Mauler",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
+        "desc": "On Hit: All enemies adjacent to you take physical damage equal to the highest d6 roll for this weapon\u2019s damage.",
+        "origin": "Warden"
+    },
+    {
+        "name": "Frontline",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "On Crit: you can teleport one willing ally within your Scope up to 5 spaces.",
+        "origin": "Warlord"
+    },
+    {
+        "name": "Shardgun Revolver",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "",
+        "origin": "Gunslinger"
+    }
+]

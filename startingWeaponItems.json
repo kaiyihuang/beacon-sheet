@@ -1,0 +1,618 @@
+[
+    {
+        "name": "Aetherbreaker",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Bloodpike",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "2d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Crossbow",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2d6+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Crystal Staff",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "2d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            },
+            {
+                "type": "Blast",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            },
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Hammer",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "5"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Lunar Cannon",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Magitech",
+        "action": "(7) FULL ATTACK",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "3d6+3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Line",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reloading",
+                "val": ""
+            },
+            {
+                "id": "tg_slow",
+                "val": ""
+            },
+            {
+                "id": "tg_reliable",
+                "val": "4"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Maul",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Club",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "3d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_inaccurate",
+                "val": ""
+            },
+            {
+                "id": "tg_push",
+                "val": "1"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Moonknife",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_thrown",
+                "val": "3"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Photon Axe",
+        "profile": "Melee",
+        "size": "Heavy",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d6+7"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "4"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Rapier",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "2"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Shardgun rifle",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "2"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Shortbow",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "10"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Shardgun pistol",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "1"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Sigilcaster",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_piercing",
+                "val": ""
+            },
+            {
+                "id": "tg_reloading",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Stormbow",
+        "profile": "Ranged",
+        "size": "Heavy",
+        "type": "Bow",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "2d6"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            },
+            {
+                "id": "tg_push",
+                "val": "1"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Sword",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Blade",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "2"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Whip",
+        "profile": "Melee",
+        "size": "Light",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Physical",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Starwand",
+        "profile": "Ranged",
+        "size": "Light",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Astral",
+                "val": "1d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Runespear",
+        "profile": "Melee",
+        "size": "Main",
+        "type": "Longarm",
+        "action": "(5) FIGHT",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "1d6+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_thrown",
+                "val": "3"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Forbidden Tome",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Artifact",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Lunar",
+                "val": "1d3+1"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "15"
+            },
+            {
+                "type": "Blast",
+                "val": "1"
+            }
+        ],
+        "tags": [
+            {
+                "id": "tg_arcing",
+                "val": ""
+            },
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
+        "desc": "-",
+        "origin": "Basic"
+    },
+    {
+        "name": "Shardshredder",
+        "profile": "Ranged",
+        "size": "Main",
+        "type": "Magitech",
+        "action": "(3) VOLLEY",
+        "damage": [
+            {
+                "type": "Force",
+                "val": "2d3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            },
+            {
+                "type": "Reach",
+                "val": "3"
+            }
+        ],
+        "tags": [],
+        "desc": "",
+        "origin": "Basic"
+    }
+]

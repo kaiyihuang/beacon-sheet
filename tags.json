@@ -169,7 +169,7 @@
   },
   {
     "id": "tg_pull",
-    "name": "PUSH {VAL}",
+    "name": "PULL {VAL}",
     "description": "A type of forced movement. On a hit, the target is moved {VAL} spaces directly towards the origin."
   },
   {
@@ -247,6 +247,11 @@
     "id": "tg_slide",
     "name": "SLIDE {VAL}",
     "description": "A type of forced movement. On a hit, the target is moved {VAL} spaces in any direction"
+  },
+  {
+    "id": "tg_slow",
+    "name": "SLOW",
+    "description": "This weapon or technique can only be used as a (7) FULL ATTACK action or when explicitly stated"
   },
   {
     "id": "tg_standard_action",
