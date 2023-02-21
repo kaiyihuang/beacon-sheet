@@ -66,7 +66,7 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
                 print(taggy)
                 print("L + Ratio")
             temp["tags"].append({"id": match_tag, "val": val.strip()})
-            
+
         match row["Source"]:
             case "Basic":
                 starting_items.append(temp)
