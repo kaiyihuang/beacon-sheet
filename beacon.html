@@ -201,11 +201,11 @@
   *Example C: Sord and Forbiden Tom (❌)</textarea></div>
     <br> 
     <input type="checkbox" class="sheet-toggle-show1">
-    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{dmgtype1}}} {{Secondary Damage=@{seconddamage1}}} {{Effect=@{attackeffects1}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body1">
     <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage1" value="" style="width: 25%"><br></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
     <div class="sheet-body1">
     <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -215,23 +215,23 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{dmgtype2}}} {{Secondary Damage=@{seconddamage2}}} {{Effect=@{attackeffects2}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
     <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage2" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
     <div class="sheet-body2">
     <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
     </div>
     </div>
     <input type="checkbox" class="sheet-toggle-show3">
-    <button type="roll" name="roll_attack3" style="margin-left: -1px;" value="&{template:default} {{title=@{slots3}}} {{Type=@{attacktype3}}} {{Range=@{attackrange3}}} {{Tags=@{attacktags3}}} {{To Hit= [[1d20+@{hitbonus3}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage3}]] @{damagetype3}}} {{Effect=@{attackeffects3}}}"></button>
+    <button type="roll" name="roll_attack3" style="margin-left: -1px;" value="&{template:default} {{title=@{slots3}}} {{Type=@{attacktype3}}} {{Range=@{attackrange3}}} {{Tags=@{attacktags3}}} {{To Hit= [[1d20+@{hitbonus3}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage3}]] @{dmgtype3}}} {{Secondary Damage=@{seconddamage3}}} {{Effect=@{attackeffects3}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots3" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body3">
     <span>Type<input type="text" name="attr_attacktype3" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange3" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus3" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage3" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype3" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags3" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage3" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage3" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags3" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show3"><br>
     <div class="sheet-body3">
     <textarea class=textAtks name="attr_attackeffects3" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -241,23 +241,23 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack4" style="margin-left: -1px;" value="&{template:default} {{title=@{slots4}}} {{Type=@{attacktype4}}} {{Range=@{attackrange4}}} {{Tags=@{attacktags4}}} {{To Hit= [[1d20+@{hitbonus4}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage4}]] @{damagetype4}}} {{Effect=@{attackeffects4}}}"></button>
+    <button type="roll" name="roll_attack4" style="margin-left: -1px;" value="&{template:default} {{title=@{slots4}}} {{Type=@{attacktype4}}} {{Range=@{attackrange4}}} {{Tags=@{attacktags4}}} {{To Hit= [[1d20+@{hitbonus4}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage4}]] @{dmgtype4}}} {{Secondary Damage=@{seconddamage4}}} {{Effect=@{attackeffects4}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots4" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show4" style="margin-left: -4px;">
     <div class="sheet-body4">
     <span>Type<input type="text" name="attr_attacktype4" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange4" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus4" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage4" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype4" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags4" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage4" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage4" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags4" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show4"><br>
     <div class="sheet-body4">
     <textarea class=textAtks name="attr_attackeffects4" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
     </div>
     </div>    
     <input type="checkbox" class="sheet-toggle-show5">
-    <button type="roll" name="roll_attack5" style="margin-left: -1px;" value="&{template:default} {{title=@{slots5}}} {{Type=@{attacktype5}}} {{Range=@{attackrange5}}} {{Tags=@{attacktags5}}} {{To Hit= [[1d20+@{hitbonus5}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage5}]] @{damagetype5}}} {{Effect=@{attackeffects5}}}"></button>
+    <button type="roll" name="roll_attack5" style="margin-left: -1px;" value="&{template:default} {{title=@{slots5}}} {{Type=@{attacktype5}}} {{Range=@{attackrange5}}} {{Tags=@{attacktags5}}} {{To Hit= [[1d20+@{hitbonus5}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage5}]] @{dmgtype5}}} {{Secondary Damage=@{seconddamage5}}} {{Effect=@{attackeffects5}}}"></button>
     <input type="text" name="attr_slots5" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body5">
     <span>Type<input type="text" name="attr_attacktype5" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange5" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus5" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage5" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype5" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags5" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage5" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage5" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags5" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show5"><br>
     <div class="sheet-body5">
     <textarea class=textAtks name="attr_attackeffects5" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -267,22 +267,22 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
-    <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
+    <button type="roll" name="roll_attack6" style="margin-left: -1px;" value="&{template:default} {{title=@{slots6}}} {{Type=@{attacktype6}}} {{Range=@{attackrange6}}} {{Tags=@{attacktags6}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage6}]] @{seconddamage6}}} {{Secondary Damage=@{seconddamage6}}} {{Effect=@{attackeffects2}}}"></button>
+    <input type="text" name="attr_slots6" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
-    <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    <span>Type<input type="text" name="attr_attacktype6" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange6" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus6" value="0" style="width: 10%"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage6" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage6" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags6" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
     <div class="sheet-body2">
-    <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
+    <textarea class=textAtks name="attr_attackeffects6" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
     </div>
     </div>    <input type="checkbox" class="sheet-toggle-show1">
-    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{seconddamage1}}} {{Effect=@{attackeffects1}}}"></button>
     <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body1">
     <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage1" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
     <div class="sheet-body1">
     <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -292,23 +292,23 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{seconddamage2}}} {{Effect=@{attackeffects2}}}"></button>
     <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
     <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage2" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
     <div class="sheet-body2">
     <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
     </div>
     </div>
     <input type="checkbox" class="sheet-toggle-show1">
-    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{damagetype1}}} {{Effect=@{attackeffects1}}}"></button>
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{seconddamage1}}} {{Effect=@{attackeffects1}}}"></button>
     <input type="text" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body1">
     <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype1" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage1" value="" style="width: 25%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage1" value="" style="width: 25%"></span><br><span>Tags<input type="text" name="attr_attacktags1" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show1"><br>
     <div class="sheet-body1">
     <textarea class=textAtks name="attr_attackeffects1" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -318,12 +318,12 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{damagetype2}}} {{Effect=@{attackeffects2}}}"></button>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{seconddamage2}}} {{Effect=@{attackeffects2}}}"></button>
     <input type="text" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
     <span>Type<input type="text" name="attr_attacktype2" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange2" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus2" value="0" style="width: 10%"></span><br>
-    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>D.Type<input type="text" name="attr_damagetype2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
+    <span>Damage<input type="text" name="attr_attackdamage2" value="" style="width: 15%"></span><span>2nd Dmg<input type="text" name="attr_seconddamage2" value="" style="width: 15%"></span><span>Tags<input type="text" name="attr_attacktags2" value="" style="width: 35%;"></span><br>
     Description or Effects? <input type="checkbox" class="sheet-toggle-show2"><br>
     <div class="sheet-body2">
     <textarea class=textAtks name="attr_attackeffects2" value="" style="width: 90%; height: 75px; resize: none;"></textarea></div>
@@ -341,10 +341,11 @@
         <span><input name="attr_powerslots3" type="text" list="power_slots" style="width: auto;"></select></span></div>
         <fieldset class="repeating_powers">
         <input type="checkbox" class="sheet-toggle-show" >
-        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}}   {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{Effect=@{powereffects}}}" > </button>
+        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}} {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{powerdamage}]]}} {{Effect=@{powereffects}}}" > </button>
         <input type="text" class=resizedTextbox name="attr_powername" value="0" placeholder="{Power goes here}"><br>
         <div class="sheet-body">
         <span>Type<input type="text" class=text40 name="attr_powertype" value=" "style="width:28%"></span><span>Action<input type="text" class=text80 Textbox name="attr_poweraction" value=" " style="width:28%"></span><br><span>Range<input type="text" class="text105" name="attr_powerrange" value=" " style="width:95%"></span><br>
+		<span>Damage<input type="text" name="attr_powerdamage" value=" " style="width:95%"></span><br>
         <span>Tags<input type="text" name="attr_powertags" value=" " style="width:95%"></span><br>
         <span>Description<textarea name="attr_powereffects" style="width:95%"></textarea></span>
         </div>
@@ -902,8 +903,9 @@
 			[row_string+"powerrange"]: range_string,
 			[row_string+"powertype"]: tech_data.type,
 			[row_string+"poweraction"]: tech_data.action,
+			[row_string+"powerdamage"]: damage_string,
 			[row_string+"powertags"]: tag_string,
-			[row_string+"powereffects"]: "[Damage: " + damage_string + "] " + tech_data.effects
+			[row_string+"powereffects"]: tech_data.effects
 		});
 		});
 	});
@@ -944,11 +946,17 @@
 			}
 			
 			var damage_string = "";
+			var second_dmg_string = "";
+			var dmg_type = "";
+			var second_dmg_type = "";
 			if ('modes' in weapon_data)
 			{
 				if ('damage' in weapon_data.modes.melee)
 				{
-					damage_string = "Melee: " + weapon_data.modes.melee.damage[0].val + " " + weapon_data.modes.melee.damage[0].type + ", Ranged: " + weapon_data.modes.ranged.damage[0].val  + " " + weapon_data.modes.ranged.damage[0].type; 
+					damage_string = weapon_data.modes.melee.damage[0].val + " Melee: " + weapon_data.modes.melee.damage[0].type;
+					dmg_type = weapon_data.modes.melee.damage[0].type + " (Melee)";
+					second_dmg_string = weapon_data.modes.ranged.damage[0].val + " Ranged: " + weapon_data.modes.ranged.damage[0].type;
+					second_dmg_type = weapon_data.modes.ranged.damage[0].type + " (Ranged)";
 				}
 				
 			}
@@ -957,8 +965,8 @@
 				let iter = 0
 				for (damagey of weapon_data.damage)
 				{
-					if (iter > 0){damage_string = damage_string + "+";}
-					damage_string = damage_string + damagey.val + " " + damagey.type;
+					if (iter > 0){second_dmg_string = "+ " + damagey.val + " " + damagey.type; second_dmg_type = " " + damagey.type;}
+					else{damage_string = damagey.val + " " + damagey.type; dmg_type = " " + damagey.type;}
 					iter++;
 				}
 			}
@@ -981,6 +989,9 @@
 				["attackrange"+ num]: range_string,
 				["attacktype"+ num]: weapon_data.size+" "+weapon_data.type,
 				["attackdamage"+ num]: damage_string,
+				["seconddamage"+ num]: second_dmg_string,
+				["dmgtype"+ num]: dmg_type,
+				["seconddmgtype"+ num]: second_dmg_type,
 				["attacktags"+ num]: tag_string,
 				["attackeffects"+ num]: weapon_data.desc,
 			});
