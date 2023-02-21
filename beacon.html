@@ -201,7 +201,7 @@
   *Example C: Sord and Forbiden Tom (❌)</textarea></div>
     <br> 
     <input type="checkbox" class="sheet-toggle-show1">
-    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{dmgtype1}}} {{Secondary Damage=@{seconddamage1}}} {{Effect=@{attackeffects1}}}"></button>
+    <button type="roll" name="roll_attack1" style="margin-left: -1px;" value="&{template:default} {{title=@{slots1}}} {{Type=@{attacktype1}}} {{Range=@{attackrange1}}} {{Tags=@{attacktags1}}} {{To Hit= [[1d20+@{hitbonus1}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage1}]] @{dmgtype1}}} {{Secondary Damage=[[@{seconddamage1}]] @{seconddmgtype1}}} {{Effect=@{attackeffects1}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots1" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body1">
     <span>Type<input type="text" name="attr_attacktype1" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange1" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus1" value="0" style="width: 10%"></span><br>
@@ -215,7 +215,7 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{dmgtype2}}} {{Secondary Damage=@{seconddamage2}}} {{Effect=@{attackeffects2}}}"></button>
+    <button type="roll" name="roll_attack2" style="margin-left: -1px;" value="&{template:default} {{title=@{slots2}}} {{Type=@{attacktype2}}} {{Range=@{attackrange2}}} {{Tags=@{attacktags2}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage2}]] @{dmgtype2}}} {{Secondary Damage=[[@{seconddamage2}]] @{seconddmgtype2}} {{Effect=@{attackeffects2}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots2" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
@@ -227,7 +227,7 @@
     </div>
     </div>
     <input type="checkbox" class="sheet-toggle-show3">
-    <button type="roll" name="roll_attack3" style="margin-left: -1px;" value="&{template:default} {{title=@{slots3}}} {{Type=@{attacktype3}}} {{Range=@{attackrange3}}} {{Tags=@{attacktags3}}} {{To Hit= [[1d20+@{hitbonus3}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage3}]] @{dmgtype3}}} {{Secondary Damage=@{seconddamage3}}} {{Effect=@{attackeffects3}}}"></button>
+    <button type="roll" name="roll_attack3" style="margin-left: -1px;" value="&{template:default} {{title=@{slots3}}} {{Type=@{attacktype3}}} {{Range=@{attackrange3}}} {{Tags=@{attacktags3}}} {{To Hit= [[1d20+@{hitbonus3}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage3}]] @{dmgtype3}}} {{Secondary Damage=[[@{seconddamage3}]] @{seconddmgtype3}} {{Effect=@{attackeffects3}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots3" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body3">
     <span>Type<input type="text" name="attr_attacktype3" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange3" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus3" value="0" style="width: 10%"></span><br>
@@ -241,7 +241,7 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack4" style="margin-left: -1px;" value="&{template:default} {{title=@{slots4}}} {{Type=@{attacktype4}}} {{Range=@{attackrange4}}} {{Tags=@{attacktags4}}} {{To Hit= [[1d20+@{hitbonus4}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage4}]] @{dmgtype4}}} {{Secondary Damage=@{seconddamage4}}} {{Effect=@{attackeffects4}}}"></button>
+    <button type="roll" name="roll_attack4" style="margin-left: -1px;" value="&{template:default} {{title=@{slots4}}} {{Type=@{attacktype4}}} {{Range=@{attackrange4}}} {{Tags=@{attacktags4}}} {{To Hit= [[1d20+@{hitbonus4}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage4}]] @{dmgtype4}}} {{Secondary Damage=[[@{seconddamage4}]] @{seconddmgtype4}} {{Effect=@{attackeffects4}}}"></button>
     <input type="text" placeholder="{Name}" name="attr_slots4" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show4" style="margin-left: -4px;">
     <div class="sheet-body4">
@@ -253,7 +253,7 @@
     </div>
     </div>    
     <input type="checkbox" class="sheet-toggle-show5">
-    <button type="roll" name="roll_attack5" style="margin-left: -1px;" value="&{template:default} {{title=@{slots5}}} {{Type=@{attacktype5}}} {{Range=@{attackrange5}}} {{Tags=@{attacktags5}}} {{To Hit= [[1d20+@{hitbonus5}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage5}]] @{dmgtype5}}} {{Secondary Damage=@{seconddamage5}}} {{Effect=@{attackeffects5}}}"></button>
+    <button type="roll" name="roll_attack5" style="margin-left: -1px;" value="&{template:default} {{title=@{slots5}}} {{Type=@{attacktype5}}} {{Range=@{attackrange5}}} {{Tags=@{attacktags5}}} {{To Hit= [[1d20+@{hitbonus5}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage5}]] @{dmgtype5}}} {{Secondary Damage=[[@{seconddamage5}]] @{seconddmgtype5}} {{Effect=@{attackeffects5}}}"></button>
     <input type="text" name="attr_slots5" value="" style="width: 28%; margin-left: -2px;">
     <div class="sheet-body5">
     <span>Type<input type="text" name="attr_attacktype5" value="" style="width: 25%;"></span><span>Range<input type="text" name="attr_attackrange5" value="" style="width: 20%;"></span><span>Hit Bonus<input type="text" name="attr_hitbonus5" value="0" style="width: 10%"></span><br>
@@ -267,7 +267,7 @@
         <option value="Unlinked"></option>
         <option value="Linked">🔗</option>
         </select>
-    <button type="roll" name="roll_attack6" style="margin-left: -1px;" value="&{template:default} {{title=@{slots6}}} {{Type=@{attacktype6}}} {{Range=@{attackrange6}}} {{Tags=@{attacktags6}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage6}]] @{seconddamage6}}} {{Secondary Damage=@{seconddamage6}}} {{Effect=@{attackeffects2}}}"></button>
+    <button type="roll" name="roll_attack6" style="margin-left: -1px;" value="&{template:default} {{title=@{slots6}}} {{Type=@{attacktype6}}} {{Range=@{attackrange6}}} {{Tags=@{attacktags6}}} {{To Hit= [[1d20+@{hitbonus2}+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{attackdamage6}]] @{seconddamage6}}} {{Secondary Damage=[[@{seconddamage6}]] @{seconddmgtype6}} {{Effect=@{attackeffects2}}}"></button>
     <input type="text" name="attr_slots6" value="" style="width: 29%; margin-left: -2px;">
     <input type="checkbox" class="sheet-toggle-show2" style="margin-left: -4px;">
     <div class="sheet-body2">
@@ -341,11 +341,11 @@
         <span><input name="attr_powerslots3" type="text" list="power_slots" style="width: auto;"></select></span></div>
         <fieldset class="repeating_powers">
         <input type="checkbox" class="sheet-toggle-show" >
-        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}} {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{powerdamage}]]}} {{Effect=@{powereffects}}}" > </button>
+        <button type="roll" name="roll_power" value="&{template:default} {{title=@{powername}}} {{Type=@{powertype}}} {{Action=@{poweraction}}} {{Range=@{powerrange}}} {{Tags=@{powertags}}} {{To Hit= [[1d20+@{grit} +?{Accuracy/Difficulty|0}d6k1]]}} {{Damage=[[@{powerdamage}]] @{powerdamagetype}}} {{Effect=@{powereffects}}}" > </button>
         <input type="text" class=resizedTextbox name="attr_powername" value="0" placeholder="{Power goes here}"><br>
         <div class="sheet-body">
         <span>Type<input type="text" class=text40 name="attr_powertype" value=" "style="width:28%"></span><span>Action<input type="text" class=text80 Textbox name="attr_poweraction" value=" " style="width:28%"></span><br><span>Range<input type="text" class="text105" name="attr_powerrange" value=" " style="width:95%"></span><br>
-		<span>Damage<input type="text" name="attr_powerdamage" value=" " style="width:95%"></span><br>
+		<span>Damage<input type="text" name="attr_powerdamage" value=" " style="width:95%"></span><span hidden>DmgType<input type="text" name="attr_powerdamagetype" value="" style="width:95%"></span><br>
         <span>Tags<input type="text" name="attr_powertags" value=" " style="width:95%"></span><br>
         <span>Description<textarea name="attr_powereffects" style="width:95%"></textarea></span>
         </div>
@@ -877,11 +877,13 @@
 		}
 		
 		var damage_string = "";
+		var dmg_type = "";
 		iter = 0
 		for (damagey of tech_data.damage)
 		{
 			if (iter > 0){damage_string = damage_string + "+";}
 			damage_string = damage_string + damagey.val + " " + damagey.type;
+			dmg_type = dmg_type + damagey.type
 			iter++;
 		}
 		
@@ -904,6 +906,7 @@
 			[row_string+"powertype"]: tech_data.type,
 			[row_string+"poweraction"]: tech_data.action,
 			[row_string+"powerdamage"]: damage_string,
+			[row_string+"powerdamagetype"]: dmg_type,
 			[row_string+"powertags"]: tag_string,
 			[row_string+"powereffects"]: tech_data.effects
 		});
@@ -946,7 +949,7 @@
 			}
 			
 			var damage_string = "";
-			var second_dmg_string = "";
+			var second_dmg_string = "0";
 			var dmg_type = "";
 			var second_dmg_type = "";
 			if ('modes' in weapon_data)
@@ -965,7 +968,7 @@
 				let iter = 0
 				for (damagey of weapon_data.damage)
 				{
-					if (iter > 0){second_dmg_string = "+ " + damagey.val + " " + damagey.type; second_dmg_type = " " + damagey.type;}
+					if (iter > 0){second_dmg_string = damagey.val + " " + damagey.type; second_dmg_type = " " + damagey.type;}
 					else{damage_string = damagey.val + " " + damagey.type; dmg_type = " " + damagey.type;}
 					iter++;
 				}
