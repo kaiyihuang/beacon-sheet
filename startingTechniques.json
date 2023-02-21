@@ -36,7 +36,20 @@
                 "val": "[SCOPE]"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_indirect",
+                "val": ""
+            }
+        ],
         "effects": "-",
         "origin": "Basic",
         "stat_effects": {
@@ -112,7 +125,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "+2 HP",
         "origin": "Basic",
         "stat_effects": {
@@ -160,7 +178,16 @@
                 "val": "[SCOPE]"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_aetheric",
+                "val": ""
+            },
+            {
+                "id": "tg_indirect",
+                "val": ""
+            }
+        ],
         "effects": "On Hit: Target is DAZED until the end of their next turn. On Miss: You can spend 1 mana to inflict [2 Stress] to the target.",
         "origin": "Basic",
         "stat_effects": {
@@ -179,7 +206,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
         "effects": "For every mana spent, a different character you can see within Scope takes [1d6 Force]. Roll the damage once for all targets.",
         "origin": "Basic",
         "stat_effects": {
@@ -217,7 +249,12 @@
         "action": "",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_focus",
+                "val": "1"
+            }
+        ],
         "effects": "1/turn when you make a saving throw, you can increase the result by +1 for each additional point of Focus spent. You can\u2019t use this ability if you are unable to take Reactions.",
         "origin": "Basic",
         "stat_effects": {
@@ -284,7 +321,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can equip a MAIN support item in a LIGHT slot. ",
         "origin": "Basic",
         "stat_effects": {
@@ -303,7 +345,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can equip a HEAVY support item in a MAIN slot.",
         "origin": "Basic",
         "stat_effects": {
@@ -322,7 +369,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round immediately after you (3) VOLLEY or (5) FIGHT with a LIGHT weapon, you can make an attack with a different LIGHT weapon as a free action. The extra attack can\u2019t include a weapon used as part of the original action, and doesn\u2019t trigger additional linked attacks. ",
         "origin": "Basic",
         "stat_effects": {

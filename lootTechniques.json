@@ -7,7 +7,12 @@
         "action": "Reaction",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "Trigger: You or an ally within Scope would take Astral or Lunar damage. Effect: They gain resistance to the damage",
         "origin": "Loot",
         "stat_effects": {
@@ -26,7 +31,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you would take damage (after armor and resistances), you can spend mana to reduce the damage taken. You can reduce the damage by 2 for every 1 point of mana spent. You can`t use this ability on Piercing damage or Discord, or if you are incapable of taking reactions.",
         "origin": "Loot",
         "stat_effects": {
@@ -64,7 +74,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "Trigger: An ally within Scope makes an ability check or save.Effect: You grant them +1 ACC on the check or save.",
         "origin": "Loot",
         "stat_effects": {
@@ -83,7 +98,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
         "effects": "1/round as a Reaction when you take damage (after armor and resistance) or as part of the INTERPOSE reaction, you can take half as of the damage (after armor and resistance, rounded up) as Stress, and half of the damage as normal.As a Minor Action, you can deploy this shield to a free space within Scope as a Summon, or return it to you. The shield becomes a Size 1 piece of hard cover while deployed, and you lose the previous effect until reclaimed. (Tags: Summon, Size 1, 5 HP, 10 Dodge/A-Def).",
         "origin": "Loot",
         "stat_effects": {
@@ -102,7 +122,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.Any Weapon: On Hit: Deals +1d6 bonus Astral damage.",
         "origin": "Loot",
         "stat_effects": {
@@ -121,7 +146,16 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            },
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
         "effects": "(Tags: Summon, Size=Yours, 5 HP, Dodge/A-Def 10)You create a summon of your size in free spaces within Scope that doesn`t require Line of Sight. The summon is immune to Physical damage. You can use this summon as the point of origin for any spell or AETHERIC attacks you make. In addition, 1/turn the summon can (3) MARK a target during your turn as a free action, using your Scope. ",
         "origin": "Loot",
         "stat_effects": {
@@ -140,7 +174,16 @@
         "action": "(2) Channel",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            },
+            {
+                "id": "tg_polymorph",
+                "val": ""
+            }
+        ],
         "effects": "(6) Release: One character in Scope is transformed into a size \u00bd creature that can\u2019t attack or activate spells. It can make a MAGIC save at the end of each of its turns to end this effect, and it automatically reverts to its normal form if it takes any damage. Each character can only be affected by this spell 1/scene.",
         "origin": "Loot",
         "stat_effects": {
@@ -159,7 +202,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "Trigger: An enemy within Scope makes an attack roll. Effect: You impose +1 DIF  on the roll. ",
         "origin": "Loot",
         "stat_effects": {
@@ -178,7 +226,12 @@
         "action": "(2) Channel",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "(6) Release: One target within Scope is removed from play. They return to play during PHASE 8: DELAY of the next round in the spaces they left or the nearest empty spaces. Each character can only be affected by this ability 1/combat. ",
         "origin": "Loot",
         "stat_effects": {
@@ -216,7 +269,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: Adjacent allies gain +1 ACC on their next attack roll before the end of the round. ",
         "origin": "Loot",
         "stat_effects": {
@@ -254,7 +312,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "Minor: An adjacent enemy must pass a MGK save or be DAZED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -283,7 +346,16 @@
                 "val": "1"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_accurate",
+                "val": ""
+            },
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "On Crit: You regain HP equal to the damage the target takes from the attack, after armor and resistance.",
         "origin": "Loot",
         "stat_effects": {
@@ -302,7 +374,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +2 DODGE.",
         "origin": "Loot",
         "stat_effects": {
@@ -340,7 +417,12 @@
         "action": "Free Action",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "During your turn, you can spend Focus to regain 1 HP per Focus spent.",
         "origin": "Loot",
         "stat_effects": {
@@ -359,7 +441,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: Deal [2 Lunar] to an adjacent target.",
         "origin": "Loot",
         "stat_effects": {
@@ -378,7 +465,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "Minor:  Spend 2 mana to remove a Condition from an adjacent ally.",
         "origin": "Loot",
         "stat_effects": {
@@ -397,7 +489,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "Trigger: A character in Scope uses a spell.Effect: The character must pass a MGK save or the spell is cancelled and the action lost.",
         "origin": "Loot",
         "stat_effects": {
@@ -416,7 +513,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you restore HP to a BLOODIED character, they regain an additional 2 HP. ",
         "origin": "Loot",
         "stat_effects": {
@@ -435,7 +537,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You get +1 ACC on saves against AOE effects.",
         "origin": "Loot",
         "stat_effects": {
@@ -454,7 +561,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round when you crit with an attack, you gain 1 Focus.",
         "origin": "Loot",
         "stat_effects": {
@@ -473,7 +585,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Trigger: You are hit by an attack and reduce the damage to 0 through armor or other effects. Effect: You negate all effects of the attack against you, and can force the attack to instead target a character or object adjacent to you. The attacker rerolls the attack against the new target.",
         "origin": "Loot",
         "stat_effects": {
@@ -492,7 +609,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you would regain HP from any source, you only regain half the amount. At the start of your next turn, you regain HP equal to the original full amount, which isn\u2019t halved by this skill. This effect isn\u2019t optional.",
         "origin": "Loot",
         "stat_effects": {
@@ -511,7 +633,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You are immune to the DAZED condition, and your stress cap increases by +2",
         "origin": "Loot",
         "stat_effects": {
@@ -530,7 +657,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Whenever you take a WOUND or OVERSTRESS, you can choose to be removed from play until the start of your next turn. You can\u2019t affect or be affected by anything while removed from play except for effects already in play, like summons and traps. You enter play in the space you left, or the nearest empty space.",
         "origin": "Loot",
         "stat_effects": {
@@ -549,7 +681,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: A character in Scope that is channeling must make a Concentration save. ",
         "origin": "Loot",
         "stat_effects": {
@@ -616,7 +753,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            }
+        ],
         "effects": "1/round, when you activate a spell, you can spend 3 mana to activate a duplicate of the spell that must target something within [Range 5] of the original target. Characters can only be affected by one of these spells per turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -654,7 +796,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When an enemy within Scope fails the check to clear Discord you contributed to, you regain 1 mana.",
         "origin": "Loot",
         "stat_effects": {
@@ -706,7 +853,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round you can spend 1 mana when activating a spell to increase the save target by 2.",
         "origin": "Loot",
         "stat_effects": {
@@ -725,7 +877,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your SURGE cost never goes above 1d6 Stress.",
         "origin": "Loot",
         "stat_effects": {
@@ -744,7 +901,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
         "effects": "You or an ally within Scope gains 1 temp HP per mana spent, to a maximum of 5 mana. Until they lose all their temp HP, they have Resistance to Astral or Lunar damage, chosen by the caster when activated.",
         "origin": "Loot",
         "stat_effects": {
@@ -763,7 +925,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "You enter the ethereal plane, which gives you resistance to Physical damage but are permanently VULNERABLE to Force damage while in this state. You can return to your normal state as a Minor Action.",
         "origin": "Loot",
         "stat_effects": {
@@ -782,7 +949,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You deal +1d6 bonus damage on critical hits against BLOODIED characters. ",
         "origin": "Loot",
         "stat_effects": {
@@ -811,7 +983,12 @@
                 "val": "1"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_slow",
+                "val": ""
+            }
+        ],
         "effects": "On Hit: The target must make a BULK save.Failure: The Stress the target takes from this attack is instead equal to their BREAKING value if it is greater and they are STUNNED until the end of their next turn. Success: They are SLOWED until the end of their next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -830,7 +1007,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can spend mana to increase the range of a spell with range or Scope by +2 for every mana spent.",
         "origin": "Loot",
         "stat_effects": {
@@ -849,7 +1031,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your SCOPE is increased by +3",
         "origin": "Loot",
         "stat_effects": {
@@ -868,7 +1055,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You have +1 SPEED.",
         "origin": "Loot",
         "stat_effects": {
@@ -887,7 +1079,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you have 3 or more WOUNDS, you gain resistance to all damage. When you have 3 or more OVERSTRESS, you gain resistance to Stress. When at 4 WOUNDS / OVERSTRESS, you aren\u2019t defeated and can keep acting as normal. Roll 1d6 whenever you take damage or Stress in this state. On a 1, you are defeated. You can\u2019t regain HP or clear stress in this state until you REST.",
         "origin": "Loot",
         "stat_effects": {
@@ -930,7 +1127,12 @@
                 "val": "[SCOPE]"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
         "effects": "This spell consumes all your mana, and you must have at least 2 mana to use it. (6) Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit, taking [4d6 Force].",
         "origin": "Loot",
         "stat_effects": {
@@ -949,7 +1151,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can teleport your standard move. You take 1 stress when you do this.",
         "origin": "Loot",
         "stat_effects": {
@@ -968,7 +1175,12 @@
         "action": "(5) FIGHT",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "All enemies in a [Burst 1] area must make a MND save. Failure: They take [2 Stress] and are unable to willingly move further away from you during their next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -1064,7 +1276,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "One of your Summons within Scope can move up to 4 spaces, even if they don\u2019t have a Speed.",
         "origin": "Loot",
         "stat_effects": {
@@ -1083,7 +1300,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
         "effects": "Create a summon within Scope with the following stats: Size \u00bd, 15 HP, Speed 1, can take no actions. As a free action during following turns, you can spend 2 mana. If you don\u2019t, the summon is dismissed. After 6 mana is spent on this ability, the summon evolves into a Size 3 summon, pushing other characters out of its spaces and destroying non-objective objects and terrain it grows into. The summon heals all its HP, clears all conditions, and gains the ability to take actions. It gains the ability to fly, a speed of 4, and 2 armor. It gains the below Dragonflame weapon that it can use as a Standard Action.You must continue spending 2 mana as a free action during your turns to keep the summon active. Failure to do so dismisses the summon.Dragonflame. Melee Weapon [Line 15] | [6 Discord] On Attack: The area within the Line becomes Dangerous Terrain (AGI, 5 Astral). This terrain lasts until the end of the scene or until the summon is defeated/dismissed",
         "origin": "Loot",
         "stat_effects": {
@@ -1102,7 +1324,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round when you crit with a spell attack, the ground around you becomes supercharged until start of your next turn. Any non-flying characters that start their turn adjacent to you take [2 Astral].",
         "origin": "Loot",
         "stat_effects": {
@@ -1198,7 +1425,16 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            },
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
         "effects": "(Tags: Summon, Size 1/2, 5 HP, 10 Dodge/A-Def) You create this summon in a free space within Scope. As a minor action while it exists, you can restore 4 HP to an ally within [Range 3] of it.",
         "origin": "Loot",
         "stat_effects": {
@@ -1246,7 +1482,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your weapons with range gain +3 range.",
         "origin": "Loot",
         "stat_effects": {
@@ -1265,7 +1506,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you crit with a weapon attack, the target gains [1 Discord]",
         "origin": "Loot",
         "stat_effects": {
@@ -1284,7 +1530,16 @@
         "action": "RUSH",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You teleport up to your Speed, to a minimum of 2 spaces, and create a [Burst 1] area when you end the teleport. All adjacent characters take [2 Force]. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1303,7 +1558,12 @@
         "action": "(2) Channel",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "(6) Release: One target within Scope takes [2d6 Lunar] and they are connected to a continuous beam of magic. As long as the target is within your Scope, you can use a Minor Action on subsequent turns to deal [2 Lunar] to the target automatically. The connection lasts until the target is no longer within your Scope, you use this ability again, or you become STUNNED or SILENCED",
         "origin": "Loot",
         "stat_effects": {
@@ -1322,7 +1582,12 @@
         "action": "(2) Channel",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "(6) Release: One target within Scope takes [2 Stress] and is IMMOBILIZED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1341,7 +1606,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "You gain 3 ice shards, and you can have a maximum of 3 ice shards. As a Minor Action, you can expend a shard to make a ranged spell attack against a target within Scope, dealing [3 Lunar] on a hit.",
         "origin": "Loot",
         "stat_effects": {
@@ -1360,7 +1630,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "X"
+            }
+        ],
         "effects": "You or an ally within Scope gains 2 temp HP per mana spent, to a maximum of 5 mana. Until they lose all their temp HP, they have resistance to Astral or Lunar damage, chosen by the caster when activated.",
         "origin": "Loot",
         "stat_effects": {
@@ -1379,7 +1654,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your INTERPOSE reaction triggers with +1 range, and you can shift +1 space when doing so. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1398,7 +1678,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You deal +1 damage with all spells that deal Physical, Force, Astral, or Lunar damage (Stress and Discord is unaffected).",
         "origin": "Loot",
         "stat_effects": {
@@ -1417,7 +1702,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You deal +1 damage with all weapons that deal Physical, Force, Astral, or Lunar damage (Stress and Discord is unaffected).",
         "origin": "Loot",
         "stat_effects": {
@@ -1436,7 +1726,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +1 ACC on all ability checks.",
         "origin": "Loot",
         "stat_effects": {
@@ -1484,7 +1779,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "As a Minor Action, you instantly climb to the top of something you are adjacent to.",
         "origin": "Loot",
         "stat_effects": {
@@ -1503,7 +1803,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +1 ACC on MGK checks and saves, and +2 A-DEF. You lose these benefits while SILENCED.",
         "origin": "Loot",
         "stat_effects": {
@@ -1522,7 +1827,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.Any Weapon: On Hit: Deals +1d6 bonus Lunar damage.",
         "origin": "Loot",
         "stat_effects": {
@@ -1541,7 +1851,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You regain 1 mana at the start of each of your turns if you aren`t SILENCED and haven`t spent any mana since the start of your last turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1579,7 +1894,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "+1 ACC on MND checks and saves. +1 reach with all weapons that have reach.",
         "origin": "Loot",
         "stat_effects": {
@@ -1598,7 +1918,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "1/turn when you 5 FIGHT and hit a target, you can take 1 Stress to make the attack a Mortal Strike. The target can`t regain HP or gain temp HP until the start of your next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -1617,7 +1942,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_focus",
+                "val": "2"
+            }
+        ],
         "effects": "Minor: You provide an adjacent ally with protective energy. They next time they take damage, they regain 3 HP. A character can only have one mote shield effect on them at a time.",
         "origin": "Loot",
         "stat_effects": {
@@ -1636,7 +1966,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your SURGE cost never goes above 1d6+2 Stress.",
         "origin": "Loot",
         "stat_effects": {
@@ -1655,7 +1990,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Your save target is increased by +2. Whenever a character fails a save against you, they take [1 Stress]",
         "origin": "Loot",
         "stat_effects": {
@@ -1674,7 +2014,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can pick two ancestry traits each quest.",
         "origin": "Loot",
         "stat_effects": {
@@ -1693,7 +2038,12 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            }
+        ],
         "effects": "You and all adjacent allies become INVISIBLE. Invisibility lasts until the start of your next turn. If a character forces a save, makes an attack, or targets something with a hostile effect, their invisibility ends.",
         "origin": "Loot",
         "stat_effects": {
@@ -1712,7 +2062,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can use the REROLL TABLE options an unlimited number of times per turn, as long as the conditions are met for each option. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1750,7 +2105,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "3"
+            }
+        ],
         "effects": "1/round when you (3) VOLLEY or (5) FIGHT, you can attack with two different weapons. All attacks must target the same thing. You can\u2019t use this ability when using a (7) FULL ATTACK.",
         "origin": "Loot",
         "stat_effects": {
@@ -1769,7 +2129,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "Minor:  Deal [2 Physical] to an adjacent target.",
         "origin": "Loot",
         "stat_effects": {
@@ -1788,7 +2153,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "Minor: One character within Scope must pass a MGK save or you can remove one ongoing effect on them. This cannot be a status or condition.",
         "origin": "Loot",
         "stat_effects": {
@@ -1826,7 +2196,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You deal +2 Stress against BREAKING characters with abilities that deal stress.",
         "origin": "Loot",
         "stat_effects": {
@@ -1845,7 +2220,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "2"
+            }
+        ],
         "effects": "You can (4) HIDE as a Minor Action. ",
         "origin": "Loot",
         "stat_effects": {
@@ -1902,7 +2282,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can take Stress in place of spending mana, at a rate of 2 Stress per mana.",
         "origin": "Loot",
         "stat_effects": {
@@ -1921,7 +2306,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You can MARK yourself to reroll the damage of a melee attack (if you\u2019re not already MARKED).",
         "origin": "Loot",
         "stat_effects": {
@@ -1940,7 +2330,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Trigger: You are hit by an attack and reduce the damage to 0 through armor or other effects. Effect: You can force the attack to instead target the attacker or another character or object within Range 8 of you. The attacker rerolls the attack against the new target.",
         "origin": "Loot",
         "stat_effects": {
@@ -1959,7 +2354,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Heal 1 HP at the start of each of your turns while you are undefeated.",
         "origin": "Loot",
         "stat_effects": {
@@ -1978,7 +2378,16 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_limited",
+                "val": "1"
+            },
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you would be defeated, you immediately return to your HP maximum, 0 Stress, and remove the WOUND or OVERSTRESS that would have defeated you. All conditions, statuses, and discord on you are cleared. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2016,7 +2425,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: You place a magical shield on an ally within Scope. Until the end of their next turn, they deal [2 Astral] to any character that hits them with a melee weapon attack.",
         "origin": "Loot",
         "stat_effects": {
@@ -2035,7 +2449,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You have +1 ACC with attacks that cost Focus to make.",
         "origin": "Loot",
         "stat_effects": {
@@ -2073,7 +2492,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_limited",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: Regain all your HP.",
         "origin": "Loot",
         "stat_effects": {
@@ -2092,7 +2516,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "Minor: An adjacent enemy must pass a BLK save or be DAZED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2130,7 +2559,12 @@
         "action": "(4) RUSH",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "You (4) RUSH, and can move through characters and objects when using movement from this action, and ignore ENGAGEMENT. You can\u2019t end your turn sharing a space with something.",
         "origin": "Loot",
         "stat_effects": {
@@ -2149,7 +2583,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "The next time you 3 VOLLEY a spell this turn, you become INVISIBLE until the start of your next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -2168,7 +2607,16 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "3"
+            },
+            {
+                "id": "tg_summon",
+                "val": ""
+            }
+        ],
         "effects": "(Tags: Summon, Size 1/2, 1 {HP}, 10 Dodge/A-Def)You create this summon in a free space within Scope. At the end of the next round it explodes in a [Burst 2] area. All characters in the area are STUNNED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2187,7 +2635,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you use your ultimate, you also regain all HP, remove all stress, and roll 1d20. On a 20, your ultimate recharges. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2206,7 +2659,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you (4) RUSH, your speed is increased by +2 until the end of the turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -2225,7 +2683,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round you can deal +1d6 bonus damage on a melee attack if the character has no adjacent characters aside from you.",
         "origin": "Loot",
         "stat_effects": {
@@ -2282,7 +2745,12 @@
         "action": "(5) SHOVE",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "You can (5) SHOVE a target within Scope, and you count as Size 3 when doing so. Instead of choosing to Push them 1 space, you can Slide them 3 spaces. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2301,7 +2769,12 @@
         "action": "",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "When you teleport, you can choose to bring an adjacent character with you. If they are unwilling, they must make a MGK save. On a failure, they are teleported.",
         "origin": "Loot",
         "stat_effects": {
@@ -2320,7 +2793,12 @@
         "action": "Reaction, 1/round",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Trigger: An ally starts their turn.Effect: You can make an enemy MARKED.",
         "origin": "Loot",
         "stat_effects": {
@@ -2339,7 +2817,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You have +1 ACC on (5) GRAPPLE attacks and checks. You can still take reactions while grappling.",
         "origin": "Loot",
         "stat_effects": {
@@ -2358,7 +2841,12 @@
         "action": "Reaction (1/round)",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "Trigger: An adjacent character activates a spell or begins channeling.Effect: They take [2 Stress] and are DAZED until the end of their next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -2377,7 +2865,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "You can make Opportunity Attacks when a character enters one of your weapon\u2019s reach, not just beginning their movement.",
         "origin": "Loot",
         "stat_effects": {
@@ -2415,7 +2908,12 @@
         "action": "(5) FIGHT",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_stress_self",
+                "val": "1"
+            }
+        ],
         "effects": "Create a [Burst 1] area. All characters in the area must pass an AGILITY save or take [1 Stress] and become SLOWED until the end of their next turn.",
         "origin": "Loot",
         "stat_effects": {
@@ -2434,7 +2932,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "If you have two HEAVY weapons equipped, you can turn them into a linked HEAVY-HEAVY weapon. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2453,7 +2956,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +5 HP.",
         "origin": "Loot",
         "stat_effects": {
@@ -2491,7 +2999,16 @@
         "action": "(3) VOLLEY",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_summon",
+                "val": ""
+            },
+            {
+                "id": "tg_mana",
+                "val": "2"
+            }
+        ],
         "effects": "(Tags: Summon, Size 1/2, 5 HP, 10 Dodge/A-Def)Create a Summon in a free space within Scope. At the end of each of your turns, each enemy adjacent to the summon must pass an AGI save or be SLOWED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
@@ -2510,7 +3027,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +1 Focus whenever you gain Focus.",
         "origin": "Loot",
         "stat_effects": {
@@ -2529,7 +3051,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +1 armor if you don\u2019t have a support item with the [armor] tag, and this armor still applies while you are SUNDERED.",
         "origin": "Loot",
         "stat_effects": {
@@ -2548,7 +3075,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +1 armor, to a max of 4 armor.",
         "origin": "Loot",
         "stat_effects": {
@@ -2567,7 +3099,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "Increase all forced movement you inflict by +1, and you can reduce forced movement on you by 1 (to a minimum of 0). ",
         "origin": "Loot",
         "stat_effects": {
@@ -2596,7 +3133,12 @@
                 "val": "1"
             }
         ],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_reliable",
+                "val": "2"
+            }
+        ],
         "effects": "On Hit: You can spend 1 mana to regain {HP} equal to the damage the target takes from this attack, after {Armor} and resistance.",
         "origin": "Loot",
         "stat_effects": {
@@ -2615,7 +3157,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain an additional MAIN support slot.",
         "origin": "Loot",
         "stat_effects": {
@@ -2634,7 +3181,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain an additional MAIN weapon slot.",
         "origin": "Loot",
         "stat_effects": {
@@ -2672,7 +3224,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "You gain +2 Mana.",
         "origin": "Loot",
         "stat_effects": {
@@ -2691,7 +3248,12 @@
         "action": "-",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_unique",
+                "val": ""
+            }
+        ],
         "effects": "1/round when you crit with a melee weapon attack, you deal [3 physical] to all adjacent enemies.",
         "origin": "Loot",
         "stat_effects": {
@@ -2710,7 +3272,12 @@
         "action": "Minor",
         "damage": [],
         "range": [],
-        "tags": [],
+        "tags": [
+            {
+                "id": "tg_mana",
+                "val": "1"
+            }
+        ],
         "effects": "An ally within Scope gains an enchantment on a weapon of their choice, as per the Enchantment tag. The Enchantment lasts until its effect is triggered.Any Weapon: On Crit: You can attack with this weapon again after the attack resolves",
         "origin": "Loot",
         "stat_effects": {

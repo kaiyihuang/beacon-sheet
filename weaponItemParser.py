@@ -67,7 +67,6 @@ with open('weaponItemDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
             name_regex = taggy.strip().upper().replace("(", "(").replace(")", ")")
             name_regex = re.sub("[0-9|X]", "{VAL}", name_regex)
             try:
-
                 match_tag = next(x["id"] for x in tags_data if x["name"] == name_regex)
             except Exception as e:
                 print (taggy)

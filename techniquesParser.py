@@ -49,6 +49,24 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
             if any(char.isdigit() for char in token):
                 temp["damage"].append({"type": dmg_string[index + 1], "val": dmg_string[index]})
 
+        tags_list = row["Tags"].split(",")
+        for taggy in tags_list:
+            if taggy == "-" or taggy == "":
+                break
+            if taggy == 'AP':
+                taggy = "PIERCING"
+            tag_pair = taggy.strip().split(" ")
+            name = tag_pair[0]
+            val = tag_pair[1] if len(tag_pair) > 1 else ""
+            name_regex = taggy.strip().upper().replace("(", "(").replace(")", ")")
+            name_regex = re.sub("[0-9|X]", "{VAL}", name_regex)
+            try:
+                match_tag = next(x["id"] for x in tags_data if x["name"] == name_regex)
+            except Exception as e:
+                print(taggy)
+                print("L + Ratio")
+            temp["tags"].append({"id": match_tag, "val": val.strip()})
+            
         match row["Source"]:
             case "Basic":
                 starting_items.append(temp)
