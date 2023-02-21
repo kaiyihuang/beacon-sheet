@@ -277,7 +277,12 @@
                 "val": "1d3+1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Crit: You regain HP equal to the damage the target takes from the attack, after armor and resistance.",
         "origin": "Loot",
@@ -567,7 +572,12 @@
                 "val": "3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: Target is MARKED.",
         "origin": "Loot",
@@ -671,7 +681,12 @@
                 "val": "1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "-",
         "origin": "Loot",
@@ -790,7 +805,12 @@
                 "val": "3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: The target must make a BULK save.Failure: The Stress the target takes from this attack is instead equal to their BREAKING value if it is greater and they are STUNNED until the end of their next turn. Success: They are SLOWED until the end of their next turn.",
         "origin": "Loot",
@@ -904,7 +924,12 @@
         "type": "Spell",
         "action": "(2) Channel",
         "damage": [],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "This spell consumes all your mana, and you must have at least 2 mana to use it. (6) Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit, taking [4d6 Force].",
         "origin": "Loot",
@@ -966,7 +991,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: Target must pass a BLK save or be SLOWED until the end of their next turn.",
         "origin": "Loot",
@@ -990,7 +1020,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Line",
+                "val": "10"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: Target must pass a BLK save or be SLOWED until the end of their next turn. On Crit: Target is automatically SLOWED until the end of their next turn, and also IMMOBILIZED if they fail a BLK save.",
         "origin": "Loot",
@@ -1090,7 +1125,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: The target can\u2019t take reactions and is unable to INTERPOSE, take damage on the behalf of others, or make themselves the target of an attack on the behalf of their allies. These effects last until the end of their next turn.",
         "origin": "Loot",
@@ -1114,7 +1154,12 @@
                 "val": "3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: The target takes [2 Stress] every time they make an attack or activate a spell until the end of their next turn.",
         "origin": "Loot",
@@ -1176,7 +1221,12 @@
                 "val": "1d6+3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Range",
+                "val": "5"
+            }
+        ],
         "tags": [],
         "effects": "",
         "origin": "Loot",
@@ -1409,7 +1459,12 @@
                 "val": "1d6"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "If the target of this spell has Discord, a hit with this spell becomes a crit.",
         "origin": "Loot",
@@ -2535,7 +2590,12 @@
                 "val": "1d6+1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: You can spend 1 mana to regain {HP} equal to the damage the target takes from this attack, after {Armor} and resistance.",
         "origin": "Loot",

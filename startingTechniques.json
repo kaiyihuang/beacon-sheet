@@ -30,7 +30,12 @@
                 "val": "1d3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "-",
         "origin": "Basic",
@@ -149,7 +154,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: Target is DAZED until the end of their next turn. On Miss: You can spend 1 mana to inflict [2 Stress] to the target.",
         "origin": "Basic",
@@ -249,7 +259,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "1"
+            }
+        ],
         "tags": [],
         "effects": "On Hit: Target can\u2019t take Reactions until the end of their next turn.",
         "origin": "Basic",

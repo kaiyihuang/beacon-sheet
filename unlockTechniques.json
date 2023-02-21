@@ -87,7 +87,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Gain the following options if you hit with this spell attack. Shield Crush: The target is SUNDERED until the end of their next turn.Stasis Field: The target must make a MGK save. Failure: They are IMMOBILIZED + SLOWED until the end of their next turn. Success: They are SLOWED until the end of their next turn. ",
         "origin": "Aegis",
@@ -453,7 +458,12 @@
                 "val": "4"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack: Backstep: You can teleport the target up to 2 spaces.Repetition: During their next turn, if the target takes the same action they took on their previous turn, they become MARKED.",
         "origin": "Chronomancer",
@@ -553,7 +563,12 @@
                 "val": "1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Pain: The target has +1 DIF on Concentration saves triggered from this damage.Distraction: The target has +1 DIF on spell attack rolls while taking this Discord. ",
         "origin": "Demonologist",
@@ -653,7 +668,12 @@
                 "val": "1d3+1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "The damage of this attack increases by 1d3 if the target is BLOODIED or BREAKING, or by 2d3 if the target is both BLOODIED and BREAKING. For each damage die from this spell rolled (excluding bonus damage and other sources of damage), you can take the number rolled and either regain HP or mana equal to its value. If two or more dice are rolled, at least one must apply to HP, and one must apply to mana.",
         "origin": "Dragon Rider",
@@ -691,7 +711,12 @@
         "type": "Spell",
         "action": "(3) VOLLEY or Channel",
         "damage": [],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Gain the following ranged spell attacks:(3) VOLLEY | Push 1[Range = Scope] | [1d6 Force](6) Release | Auto-Hit, Slide 2[Range = Scope] | [2d6 Force] ",
         "origin": "Druid",
@@ -772,7 +797,12 @@
                 "val": "1d6+1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "You gain the following spell attack options:Ray of Fire. The damage is Astral. On Hit: If the target was hit by Ray of Fire on your last turn, they also take [4 Discord].Ray of Cold. The damage is Lunar. On Hit: If the target is IMMOBILIZED, SLOWED, STUNNED, GRAPPLED, or PRONE, the damage becomes [2d6+1] Instead. ",
         "origin": "Equinox",
@@ -1133,7 +1163,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Reach",
+                "val": "2"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack: The One Where You\u2019re Being Changed: On Hit: The target has +1 Difficulty on all attacks that don\u2019t include you as the target. This effect stacks to a maximum of +3. If a character affected by this ability deals damage or stress to you, they remove this effect from themselves.The One Where Your Teeth Fall Out: On Hit: If the target is BREAKING, they take [4 Stress] instead.",
         "origin": "Knightmare",
@@ -1233,7 +1268,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Drain Life: You or a character within [Range 5] of you regains up to 1d3 HP. You can spend 1 mana to increase the healing to 1d6 instead.Drain Vitality: You or a character within [Range 5] of you can clear up to 2 Stress. ",
         "origin": "Lifeweaver",
@@ -1333,7 +1373,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Building Fire: If the target already has Discord the damage increases to 1d3+1 instead.Spontaneous Combustion: You can spend 1 mana to create a [Burst 1] area around the target. All enemies in the area take [1 Discord].  ",
         "origin": "Phoenix",
@@ -1490,7 +1535,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Frozen: On Hit: At the end of their next turn, the target takes Stress equal to their Speed. The Stress taken is reduced by 1 for every space the target moves during their next turn.Numbing: On Hit: The next attack the target makes before the end of their next turn deals half damage.",
         "origin": "Rimeguard",
@@ -1552,7 +1602,12 @@
                 "val": "1d3"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Grounding Chain: The target must pass a MGK save or be IMMOBILIZED until the end of their next turn. You can spend 1 mana to force all characters adjacent to the target to make the save as well.Linked Chain: Spend 1 mana to create a Burst 2 area around the target. All characters in the area must pass a BLK save or be pulled to the closest free space adjacent to the original target.",
         "origin": "Seeker",
@@ -1576,7 +1631,12 @@
                 "val": "1d6+4"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Constricting Serpent: The target is unable to make Opportunity Attacks until the end of their next turn.Striking Serpent: A spectral serpent coils around the target. Until the end of their next turn, if the target ends their turn adjacent to one of their allies, the ally takes [3 Force] and is DAZED until the end of their next turn.",
         "origin": "Seeker",
@@ -1780,7 +1840,12 @@
         "type": "Spell",
         "action": "(3) VOLLEY",
         "damage": [],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Darkness: [2 Stress] On Hit: The target is unable to make non-Arcing or Homing attacks or abilities at targets beyond [Range 3], and treats all enemies as benefiting from Soft Cover. These effects last until the end of their next turn. Shadow Blade: [1d6+2 Lunar] If you are HIDDEN when you make this attack, you regain any mana spent on it.",
         "origin": "Shadow Dancer",
@@ -1823,7 +1888,12 @@
                 "val": "2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Gasp for Air: Target must pass a BULK save or be SILENCED and unable to (2) CHANNEL until the end of their next turn. If they are currently channeling, they have +1 Difficulty on the Concentration Save when hit by this attack.Hangman\u2019s Handshake: Until the end of the target\u2019s next turn, they gain +1 Stress whenever they take Stress.",
         "origin": "Shadow Dancer",
@@ -2037,7 +2107,12 @@
                 "val": "1d6+2"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Line",
+                "val": "10"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you make this spell attack:Shocked: Characters in the area are DAZED and can\u2019t take Reactions until the end of their next turn.Drained: On Hit: Targets lose mana equal to the number of characters in the area, and you regain mana equal to the number of characters hit.",
         "origin": "Thunderclaw",
@@ -2061,7 +2136,12 @@
                 "val": "1"
             }
         ],
-        "range": [],
+        "range": [
+            {
+                "type": "Scope",
+                "val": "[SCOPE]"
+            }
+        ],
         "tags": [],
         "effects": "Choose one of the following when you hit with this spell attack:Engulf Lungs: If the target gains Discord from this attack, they are SILENCED until they clear their Discord.Submerge: The target must pass a MGK save or be BLINDED until the end of their next turn.",
         "origin": "Tidecaller",

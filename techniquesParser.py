@@ -27,12 +27,16 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
                                  "dodge": row["dodge"]}}
 
         range_string = row["range"].replace("[", "").replace("]", "").split(",")
+        if "Hinder" in row["Name"]:
+            print(range_string)
         for element in range_string:
-            if len(range_string) < 2:
-                break
+
             makeshift = element.split()
+            if len(makeshift) < 2:
+                break
             typey = ' '.join(makeshift[:-1])
             val = makeshift[-1]
+
             if typey == "Scope =":
                 temp["range"].append({"type": "Scope", "val": "[SCOPE]"})
             else:
@@ -40,7 +44,7 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
 
         dmg_string = row["Damage"].replace("-", "").split()
         for index, token in enumerate(dmg_string):
-            if len(dmg_string) < 2:
+            if not dmg_string:
                 break
             if any(char.isdigit() for char in token):
                 temp["damage"].append({"type": dmg_string[index + 1], "val": dmg_string[index]})
