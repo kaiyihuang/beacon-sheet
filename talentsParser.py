@@ -20,7 +20,7 @@ with open('talentsClean.csv', 'r', newline='', encoding='utf-8') as csvfile:
                 "id": row["uniqueID"],
                 "talent": row["Talent"],
                 "name": row["Name"],
-                "effect": row["Effect"].replace("\n", "\u0085"),
+                "effect": row["Effect"].replace("\n", "\u2028"),
                 "rank": row["Rank "],
             }
         )

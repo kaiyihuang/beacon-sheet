@@ -17,7 +17,7 @@
         "id": "Archmage3",
         "talent": "Archmage",
         "name": "Focused Caster",
-        "effect": "The following option is added to the REROLL TABLE:\u0085a. Spend 1 mana to reroll.",
+        "effect": "The following option is added to the REROLL TABLE:\u2028a. Spend 1 mana to reroll.",
         "rank": "3 "
     },
     {
@@ -45,21 +45,21 @@
         "id": "Artificer1",
         "talent": "Artificer",
         "name": "Experimental Weapon",
-        "effect": "When you gain this talent and during a Long Rest, you create an experimental weapon which is equipped for free. You can only have one experimental weapon at a time.\u0085[WEAPON] Main Magitech, Unique\u0085[Custom Range] [1d6+1 Damage]\u0085When this weapon is created and during a Long Rest, you can choose to change the following:\u0085\u2022 Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u0085\u2022 Damage Type: Physical, Astral, Lunar, or Force\u0085After you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "effect": "When you gain this talent and during a Long Rest, you create an experimental weapon which is equipped for free. You can only have one experimental weapon at a time.\u2028[WEAPON] Main Magitech, Unique\u2028[Custom Range] [1d6+1 Damage]\u2028When this weapon is created and during a Long Rest, you can choose to change the following:\u2028\u2022 Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2028\u2022 Damage Type: Physical, Astral, Lunar, or Force\u2028After you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
         "rank": "1 "
     },
     {
         "id": "Artificer2",
         "talent": "Artificer",
         "name": "Improvements",
-        "effect": "Your experimental weapon malfunctions on a 5-6. When you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\u0085\u2022 Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\u0085\u2022 Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\u0085i. Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range. \u0085ii. Melee Weapon: Burst 1 or Close Blast 1",
+        "effect": "Your experimental weapon malfunctions on a 5-6. When you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\u2028\u2022 Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\u2028\u2022 Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\u2028i. Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range. \u2028ii. Melee Weapon: Burst 1 or Close Blast 1",
         "rank": "2 "
     },
     {
         "id": "Artificer3",
         "talent": "Artificer",
         "name": "Perfection",
-        "effect": "Your experimental weapon only malfunctions on a d6. When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u0085\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range. \u0085\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u0085\u2022 Punch Through. Your weapon gains Piercing.",
+        "effect": "Your experimental weapon only malfunctions on a d6. When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u2028\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range. \u2028\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u2028\u2022 Punch Through. Your weapon gains Piercing.",
         "rank": "3 "
     },
     {
@@ -73,7 +73,7 @@
         "id": "Artillerist2",
         "talent": "Artillerist",
         "name": "Siege Ammo",
-        "effect": "1/round when you make a ranged weapon attack while in Siege Mode, you can spend 1 mana to create a [Burst 1] area around one of the attack\u2019s target and choose one of the following effects. The primary target is included in the area.\u0085\u2022 Aethermarker Round. All characters in the area must pass a MGK save or become MARKED.\u0085\u2022 Concussion Round. All characters in the area must pass a MND save or be DAZED until the end of their next turn.\u0085\u2022 Grounding Round. All characters in the area must pass a BLK save or be knocked PRONE.\u0085\u2022 Shrapnel Round. All characters in the area must pass an AGI save or take [2 Piercing Physical].",
+        "effect": "1/round when you make a ranged weapon attack while in Siege Mode, you can spend 1 mana to create a [Burst 1] area around one of the attack\u2019s target and choose one of the following effects. The primary target is included in the area.\u2028\u2022 Aethermarker Round. All characters in the area must pass a MGK save or become MARKED.\u2028\u2022 Concussion Round. All characters in the area must pass a MND save or be DAZED until the end of their next turn.\u2028\u2022 Grounding Round. All characters in the area must pass a BLK save or be knocked PRONE.\u2028\u2022 Shrapnel Round. All characters in the area must pass an AGI save or take [2 Piercing Physical].",
         "rank": "2 "
     },
     {
@@ -94,14 +94,14 @@
         "id": "Brawler2",
         "talent": "Brawler",
         "name": "Fisticuffs",
-        "effect": "Your IMPROVISED ATTACK deals [1d6 Physical], and gains a Reach of 1 which allows it to be used for opportunity attacks. On a crit, choose one: \u0085\u2022 The target is DAZED until the end of their next turn. \u0085\u2022 You can automatically succeed on a (5) SHOVE against the target.",
+        "effect": "Your IMPROVISED ATTACK deals [1d6 Physical], and gains a Reach of 1 which allows it to be used for opportunity attacks. On a crit, choose one: \u2028\u2022 The target is DAZED until the end of their next turn. \u2028\u2022 You can automatically succeed on a (5) SHOVE against the target.",
         "rank": "2 "
     },
     {
         "id": "Brawler3",
         "talent": "Brawler",
         "name": "Submission",
-        "effect": "You gain the following (2) CHANNEL ability.  \u0085(6) Release: Make a melee attack with a club, including SLOW ones.  \u0085On Hit: The weapon deals its normal damage and effects, and the target is STUNNED until the end of their next turn.  \u0085On Miss: The weapon deals its normal damage and effects, but doesn\u2019t trigger any on hit effects or tags like Push, Pull, etc.  ",
+        "effect": "You gain the following (2) CHANNEL ability.  \u2028(6) Release: Make a melee attack with a club, including SLOW ones.  \u2028On Hit: The weapon deals its normal damage and effects, and the target is STUNNED until the end of their next turn.  \u2028On Miss: The weapon deals its normal damage and effects, but doesn\u2019t trigger any on hit effects or tags like Push, Pull, etc.  ",
         "rank": "3 "
     },
     {
@@ -122,7 +122,7 @@
         "id": "Breaker3",
         "talent": "Breaker",
         "name": "Ring the Bell",
-        "effect": "You gain the following (2) CHANNEL ability.  \u0085(6) Release: Make a melee attack with a club, including SLOW ones.  \u0085On Hit: The weapon deals its normal damage and effects, and the target is STUNNED until the end of their next turn. A target can only be stunned by this ability 1/scene. \u0085On Miss: The weapon deals its normal damage and effects, but doesn\u2019t trigger any on hit effects or tags like Push, Pull, etc.  ",
+        "effect": "You gain the following (2) CHANNEL ability.  \u2028(6) Release: Make a melee attack with a club, including SLOW ones.  \u2028On Hit: The weapon deals its normal damage and effects, and the target is STUNNED until the end of their next turn. A target can only be stunned by this ability 1/scene. \u2028On Miss: The weapon deals its normal damage and effects, but doesn\u2019t trigger any on hit effects or tags like Push, Pull, etc.  ",
         "rank": "3 "
     },
     {
@@ -136,14 +136,14 @@
         "id": "Called Shots2",
         "talent": "Called Shots",
         "name": "Body Parts",
-        "effect": "1/round when you crit with an attack roll, you can choose to deal half damage in order to apply one of the following additional effects:\u0085a. Foot. Target is IMMOBILIZED until the end of their next turn.\u0085b. Head. Target is DAZED until the end of their next turn.\u0085c. Leg. Target is SLOWED until the end of their next turn",
+        "effect": "1/round when you crit with an attack roll, you can choose to deal half damage in order to apply one of the following additional effects:\u2028a. Foot. Target is IMMOBILIZED until the end of their next turn.\u2028b. Head. Target is DAZED until the end of their next turn.\u2028c. Leg. Target is SLOWED until the end of their next turn",
         "rank": "2 "
     },
     {
         "id": "Called Shots3",
         "talent": "Called Shots",
         "name": "Pinpoint Lethality",
-        "effect": "The following options are added to the body parts list:\u0085a. Arm. Target is DISARMED until the end of their next turn.\u0085b. Throat. Target is SILENCED until the end of their next turn.\u0085c. Eye. Target is BLINDED until the end of their next turn",
+        "effect": "The following options are added to the body parts list:\u2028a. Arm. Target is DISARMED until the end of their next turn.\u2028b. Throat. Target is SILENCED until the end of their next turn.\u2028c. Eye. Target is BLINDED until the end of their next turn",
         "rank": "3 "
     },
     {
@@ -220,28 +220,28 @@
         "id": "Soldier2",
         "talent": "Soldier",
         "name": "Stances",
-        "effect": "As a Minor Action, you take [1 Stress] and enter one of the following stances, which last until the end of the scene or until you use this Minor Action again. When you enter a stance, you gain a Stance die, a d6 that starts at 6. Each stance can be entered 1/scene.\u0085After you make an attack with a MAIN melee weapon, reduce your stance die by 2. If it reaches 0, the stance ends.\u0085Wolf Stance. Your MAIN melee weapon attacks gain Reliable equal to your stance die. The reliable damage can\u2019t exceed the weapon\u2019s maximum damage.\u0085Snake Stance. Your MAIN melee weapon attacks can\u2019t have their damage reduced by armor below your stance die.\u0085Eagle Stance. When you attack with a MAIN melee weapon, before you roll any dice you can choose to treat one Accuracy die as if it had rolled your stance die value. If you roll with Difficulty, you can choose to treat one Difficulty die as if it had rolled 7 minus your stance die. (For example, if your stance die is 4, you could treat a Difficulty die as a 3. 7-4=3).",
+        "effect": "As a Minor Action, you take [1 Stress] and enter one of the following stances, which last until the end of the scene or until you use this Minor Action again. When you enter a stance, you gain a Stance die, a d6 that starts at 6. Each stance can be entered 1/scene.\u2028After you make an attack with a MAIN melee weapon, reduce your stance die by 2. If it reaches 0, the stance ends.\u2028Wolf Stance. Your MAIN melee weapon attacks gain Reliable equal to your stance die. The reliable damage can\u2019t exceed the weapon\u2019s maximum damage.\u2028Snake Stance. Your MAIN melee weapon attacks can\u2019t have their damage reduced by armor below your stance die.\u2028Eagle Stance. When you attack with a MAIN melee weapon, before you roll any dice you can choose to treat one Accuracy die as if it had rolled your stance die value. If you roll with Difficulty, you can choose to treat one Difficulty die as if it had rolled 7 minus your stance die. (For example, if your stance die is 4, you could treat a Difficulty die as a 3. 7-4=3).",
         "rank": "2 "
     },
     {
         "id": "Soldier3",
         "talent": "Soldier",
         "name": "Practiced",
-        "effect": "Your stance die is only reduced by 1 after you make an attack with a MAIN melee weapon. \u0085The following option is added to the REROLL TABLE: \u0085\u2022 Reduce your stance die by 2 to reroll.",
+        "effect": "Your stance die is only reduced by 1 after you make an attack with a MAIN melee weapon. \u2028The following option is added to the REROLL TABLE: \u2028\u2022 Reduce your stance die by 2 to reroll.",
         "rank": "3 "
     },
     {
         "id": "Enchanter1",
         "talent": "Enchanter",
         "name": "Enchantments",
-        "effect": "Each mission, you can equip one of the following Enchantment support items for free.\u0085Keen | Variable | Aspected",
+        "effect": "Each mission, you can equip one of the following Enchantment support items for free.\u2028Keen | Variable | Aspected",
         "rank": "1 "
     },
     {
         "id": "Enchanter2",
         "talent": "Enchanter",
         "name": "Portfolio of Enchantments",
-        "effect": "You can apply one of your enchantments to two different things. The following enchantments are added to your list of available enchantments from rank 1 of this talent.\u0085Adamant | Speed | Vorpal",
+        "effect": "You can apply one of your enchantments to two different things. The following enchantments are added to your list of available enchantments from rank 1 of this talent.\u2028Adamant | Speed | Vorpal",
         "rank": "2 "
     },
     {
@@ -262,14 +262,14 @@
         "id": "Great Weapon Master2",
         "talent": "Great Weapon Master",
         "name": "Carry Through",
-        "effect": "When you roll damage from a HEAVY melee weapon, you can choose to treat any 1s as a 2.  \u0085When you use Cleave, instead of dealing the damage, you can choose to gain temp HP equal to the cleave damage amount. You lose this amount of temp HP at the start of your next turn. \u0085If the attack was a crit, you get both options (deal cleave damage and gain temp HP).",
+        "effect": "When you roll damage from a HEAVY melee weapon, you can choose to treat any 1s as a 2.  \u2028When you use Cleave, instead of dealing the damage, you can choose to gain temp HP equal to the cleave damage amount. You lose this amount of temp HP at the start of your next turn. \u2028If the attack was a crit, you get both options (deal cleave damage and gain temp HP).",
         "rank": "2 "
     },
     {
         "id": "Great Weapon Master3",
         "talent": "Great Weapon Master",
         "name": "Wide Cleave",
-        "effect": "When you roll damage from a HEAVY melee weapon, you can choose to treat any rolled 1s or 2s as if they rolled a 3. \u0085If you defeat an enemy with Cleave\u2019s damaging effect, you can trigger Cleave again that turn, bypassing the 1/round limitation. This effect can trigger multiple times.  ",
+        "effect": "When you roll damage from a HEAVY melee weapon, you can choose to treat any rolled 1s or 2s as if they rolled a 3. \u2028If you defeat an enemy with Cleave\u2019s damaging effect, you can trigger Cleave again that turn, bypassing the 1/round limitation. This effect can trigger multiple times.  ",
         "rank": "3 "
     },
     {
@@ -311,7 +311,7 @@
         "id": "Juggernaut3",
         "talent": "Juggernaut",
         "name": "Runaway Train",
-        "effect": "You gain the following 4 RUSH action:  \u0085(4) RUSH: You move up to your speed in a straight line, and can move through the space of other characters. Deal [10 Piercing Physical] per your size (minimum 10) to any objects in your path. If an object is destroyed, you continue moving. You ignore ENGAGEMENT and Difficult Terrain. If you move through a character, they must succeed on an AGI or be automatically affected by a (5) SHOVE from you, and be pushed out of your path.",
+        "effect": "You gain the following 4 RUSH action:  \u2028(4) RUSH: You move up to your speed in a straight line, and can move through the space of other characters. Deal [10 Piercing Physical] per your size (minimum 10) to any objects in your path. If an object is destroyed, you continue moving. You ignore ENGAGEMENT and Difficult Terrain. If you move through a character, they must succeed on an AGI or be automatically affected by a (5) SHOVE from you, and be pushed out of your path.",
         "rank": "3 "
     },
     {
@@ -339,7 +339,7 @@
         "id": "Lichdom1",
         "talent": "Lichdom",
         "name": "Soul Vessel",
-        "effect": "You gain a Soul Vessel, which is a FREE Support Item with the [CONSUMABLE 1] tag.:\u0085Soul Vessel\u0085[SUPPORT] Free | Minor, Consumable 1, Summon\u0085Minor: You expend a charge and summon your Soul Vessel in a free adjacent space. While summoned, you gain the Reformed reaction. (Size 1/2, 10 HP, Dodge/A-Def 5).\u0085\u0085Reformed\u0085[Reaction]\u0085Trigger: You would take damage or Stress from another character.\u0085Effect: Negate the damage / stress and any other effects. Immediately teleport to your Soul Vessel, destroying it.",
+        "effect": "You gain a Soul Vessel, which is a FREE Support Item with the [CONSUMABLE 1] tag.:\u2028Soul Vessel\u2028[SUPPORT] Free | Minor, Consumable 1, Summon\u2028Minor: You expend a charge and summon your Soul Vessel in a free adjacent space. While summoned, you gain the Reformed reaction. (Size 1/2, 10 HP, Dodge/A-Def 5).\u2028\u2028Reformed\u2028[Reaction]\u2028Trigger: You would take damage or Stress from another character.\u2028Effect: Negate the damage / stress and any other effects. Immediately teleport to your Soul Vessel, destroying it.",
         "rank": "1 "
     },
     {
@@ -388,7 +388,7 @@
         "id": "Parkour2",
         "talent": "Parkour",
         "name": "Rollout",
-        "effect": "You can move through the spaces of hostile characters, and when you become ENGAGED, you can take [1 Stress] to not have your unused movement lost.  \u0085At the start of your turn, you can Shift 1.  \u0085When you are subjected to forced movement from another character, you can Slide yourself 1 space. You can\u2019t Slide into a space the triggering forced movement moved you out of.",
+        "effect": "You can move through the spaces of hostile characters, and when you become ENGAGED, you can take [1 Stress] to not have your unused movement lost.  \u2028At the start of your turn, you can Shift 1.  \u2028When you are subjected to forced movement from another character, you can Slide yourself 1 space. You can\u2019t Slide into a space the triggering forced movement moved you out of.",
         "rank": "2 "
     },
     {
@@ -577,7 +577,7 @@
         "id": "Sun Blotter2",
         "talent": "Sun Blotter",
         "name": "Power Shot",
-        "effect": "When you make a bow attack while benefiting from this talent\u2019s Overdraw ability, you can take [1 Stress] to choose one of the following:\u0085a. Ballista. The attack becomes a Line attack with a distance equal to the weapon\u2019s Range, replacing the original range, but it can\u2019t benefit from the Arcing tag.\u0085b. Catapult. On a hit, the target must pass a BLK save or be automatically affected by a SHOVE from you.\u0085c. Rain of Arrows. Create a Burst 1 area around the target, and MARK all enemies in the area. ",
+        "effect": "When you make a bow attack while benefiting from this talent\u2019s Overdraw ability, you can take [1 Stress] to choose one of the following:\u2028a. Ballista. The attack becomes a Line attack with a distance equal to the weapon\u2019s Range, replacing the original range, but it can\u2019t benefit from the Arcing tag.\u2028b. Catapult. On a hit, the target must pass a BLK save or be automatically affected by a SHOVE from you.\u2028c. Rain of Arrows. Create a Burst 1 area around the target, and MARK all enemies in the area. ",
         "rank": "2 "
     },
     {
@@ -605,7 +605,7 @@
         "id": "Technician3",
         "talent": "Technician",
         "name": "Unstable Power Core",
-        "effect": "1/round when you crit with a magitech weapon, you can apply one of the following effects:\u0085o Magnetic. The target is DISARMED until the end of their next turn.\u0085o Shielded. You gain 2 Focus.\u0085o Shock. The target is DAZED and SLOWED until the end of their next turn.\u0085o Soul Gem. The target is WEAKENED until the end of their next turn and MARKED.\u0085o Volatile. The target is SUNDERED until the end of their next turn and knocked PRONE.",
+        "effect": "1/round when you crit with a magitech weapon, you can apply one of the following effects:\u2028o Magnetic. The target is DISARMED until the end of their next turn.\u2028o Shielded. You gain 2 Focus.\u2028o Shock. The target is DAZED and SLOWED until the end of their next turn.\u2028o Soul Gem. The target is WEAKENED until the end of their next turn and MARKED.\u2028o Volatile. The target is SUNDERED until the end of their next turn and knocked PRONE.",
         "rank": "3 "
     },
     {
@@ -626,7 +626,7 @@
         "id": "Thaumaturge3",
         "talent": "Thaumaturge",
         "name": "Empowerment",
-        "effect": "1/round when you hit a target with an artifact, you can spend 1 mana for one of the following effects:\u0085o Cold: Target is SLOWED until the end of their next turn. \u0085o Dark: Target is must pass a MGK save or be BLINDED until the end of their next turn. \u0085o Fire: Target takes 1 Piercing Fire damage for every space they move during their next turn.\u0085o Force: Attack gains PUSH 1 and the target is DAZED until the end of their next turn.\u0085o Light: Target is MARKED.\u0085o Lightning: Target is unable to take any reactions until the end of their next turn.\u0085o Toxic: Target gains [1 Discord].  ",
+        "effect": "1/round when you hit a target with an artifact, you can spend 1 mana for one of the following effects:\u2028o Cold: Target is SLOWED until the end of their next turn. \u2028o Dark: Target is must pass a MGK save or be BLINDED until the end of their next turn. \u2028o Fire: Target takes 1 Piercing Fire damage for every space they move during their next turn.\u2028o Force: Attack gains PUSH 1 and the target is DAZED until the end of their next turn.\u2028o Light: Target is MARKED.\u2028o Lightning: Target is unable to take any reactions until the end of their next turn.\u2028o Toxic: Target gains [1 Discord].  ",
         "rank": "3 "
     },
     {
@@ -675,7 +675,7 @@
         "id": "Knight1",
         "talent": "Knight",
         "name": "Phalanx",
-        "effect": "When you (1) DEFEND, you can choose one of the following effects instead of gaining Focus normally:\u0085a. Roll 1d3 for each adjacent ally and take the highest result. You gain that much Focus plus your Armor.\u0085b. Gain Focus equal to 1d3 + the number of adjacent allies.",
+        "effect": "When you (1) DEFEND, you can choose one of the following effects instead of gaining Focus normally:\u2028a. Roll 1d3 for each adjacent ally and take the highest result. You gain that much Focus plus your Armor.\u2028b. Gain Focus equal to 1d3 + the number of adjacent allies.",
         "rank": "1 "
     },
     {
@@ -696,7 +696,7 @@
         "id": "Spellblade1",
         "talent": "Spellblade",
         "name": "Spellweaver",
-        "effect": "1/turn when you hit the same target with both a weapon and spell attack in the same turn, you gain 1 Spellblade point, to a maximum of 3. Spellblade points last until you Rest. During your turn, you can spend 3 Spellblade points to gain the following Minor Action until the end of the turn:\u0085Minor: You can make an attack with a LIGHT or MAIN weapon, or a spell with a (3) VOLLEY or (5) FIGHT action. This attack can\u2019t deal bonus damage or trigger linked weapon attacks. ",
+        "effect": "1/turn when you hit the same target with both a weapon and spell attack in the same turn, you gain 1 Spellblade point, to a maximum of 3. Spellblade points last until you Rest. During your turn, you can spend 3 Spellblade points to gain the following Minor Action until the end of the turn:\u2028Minor: You can make an attack with a LIGHT or MAIN weapon, or a spell with a (3) VOLLEY or (5) FIGHT action. This attack can\u2019t deal bonus damage or trigger linked weapon attacks. ",
         "rank": "1 "
     },
     {
@@ -717,14 +717,14 @@
         "id": "Metamagic1",
         "talent": "Metamagic",
         "name": "Metamagic Upgrade",
-        "effect": "You can spend mana to apply one of the following effects to a Spell. A spell can only be subject to one metamagic upgrade at a time:\u0085\u2022 Distant Spell. You can spend 1 mana when you use a spell to increase the range of a spell or your Scope by +5. This can cause the spell to exceed your Scope.\u0085\u2022 Fast Spell. During your turn, you can spend mana to use a spell with a (3) SKIRMISH or (5) FIGHT action during an earlier Phase. For each Phase earlier than its normal Phase, you spend 1 mana, to a minimum of PHASE 1: BOLSTER.\u0085\u2022 Quiet Spell. You can spend 2 mana when you use a spell while HIDDEN. If you do, you remain HIDDEN after the spell resolves.",
+        "effect": "You can spend mana to apply one of the following effects to a Spell. A spell can only be subject to one metamagic upgrade at a time:\u2028\u2022 Distant Spell. You can spend 1 mana when you use a spell to increase the range of a spell or your Scope by +5. This can cause the spell to exceed your Scope.\u2028\u2022 Fast Spell. During your turn, you can spend mana to use a spell with a (3) SKIRMISH or (5) FIGHT action during an earlier Phase. For each Phase earlier than its normal Phase, you spend 1 mana, to a minimum of PHASE 1: BOLSTER.\u2028\u2022 Quiet Spell. You can spend 2 mana when you use a spell while HIDDEN. If you do, you remain HIDDEN after the spell resolves.",
         "rank": "1 "
     },
     {
         "id": "Metamagic2",
         "talent": "Metamagic",
         "name": "Advanced Metamagic Upgrade",
-        "effect": "You add the following effects to your list of metamagic upgrades.\u0085\u2022 Flexible Spell. When you make a spell attack, you can spend 1 mana to change the defense that is targeted (DODGE or A-DEF).                                 \u0085\u2022 Heightened Spell. When you use a spell that involves a save, you can spend 2 mana to impose +1 DIF on any triggered saves when the spell is used.\u0085\u2022 RepeatedSpell. When you make a non-AOE spell attack, you can spend 3 mana to cause it to have 2 targets. Both targets must be within [Range 5] of each other and within your Scope.",
+        "effect": "You add the following effects to your list of metamagic upgrades.\u2028\u2022 Flexible Spell. When you make a spell attack, you can spend 1 mana to change the defense that is targeted (DODGE or A-DEF).                                 \u2028\u2022 Heightened Spell. When you use a spell that involves a save, you can spend 2 mana to impose +1 DIF on any triggered saves when the spell is used.\u2028\u2022 RepeatedSpell. When you make a non-AOE spell attack, you can spend 3 mana to cause it to have 2 targets. Both targets must be within [Range 5] of each other and within your Scope.",
         "rank": "2 "
     },
     {
@@ -766,14 +766,14 @@
         "id": "Gun Kata2",
         "talent": "Gun Kata",
         "name": "Bullet Time",
-        "effect": "Your LIGHT ranged weapons gain [Reach 1] if they don\u2019t already have Reach.  \u00851/turn when you crit with a ranged attack against a target within that weapon\u2019s Reach, you gain 1 Focus. ",
+        "effect": "Your LIGHT ranged weapons gain [Reach 1] if they don\u2019t already have Reach.  \u20281/turn when you crit with a ranged attack against a target within that weapon\u2019s Reach, you gain 1 Focus. ",
         "rank": "2 "
     },
     {
         "id": "Gun Kata3",
         "talent": "Gun Kata",
         "name": "Death Blossom",
-        "effect": "You have a Gun Kata die, a d6 that starts at 1. Each time you make a Reaction attack, increase the Gun Kata die by 1, to a maximum of 6. When the die reaches 6, you can reset it to 1 during your turn as a free action to deal [6 Physical] split however you like among any enemies of your choice within [Range 3]. \u00851/turn as a Free Action you can spend 1 Focus to increase your Gun Kata die by 1. \u0085Your Gun Kata die keeps its value between scenes, but resets to 1 during a Long Rest.",
+        "effect": "You have a Gun Kata die, a d6 that starts at 1. Each time you make a Reaction attack, increase the Gun Kata die by 1, to a maximum of 6. When the die reaches 6, you can reset it to 1 during your turn as a free action to deal [6 Physical] split however you like among any enemies of your choice within [Range 3]. \u20281/turn as a Free Action you can spend 1 Focus to increase your Gun Kata die by 1. \u2028Your Gun Kata die keeps its value between scenes, but resets to 1 during a Long Rest.",
         "rank": "3 "
     }
 ]
