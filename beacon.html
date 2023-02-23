@@ -428,9 +428,10 @@
       </section>
 
 <section class="npc-base">
-    <div>Name <input name="attr_character_name" type="text" class=resizedTextbox></div>
-    <div><span>Tier </span><input name="attr_tier" type="number" value="1" min="1" max="99" ><span>Size</span><input name="attr_size" type="number" value="1" min="1" max="5"></div>
-    <div>Initiative<input name="attr_initiative" type="number" value="1" min="1" max="7"></div>
+    <div>Name <input name="attr_npc_character_name" type="text" class=resizedTextbox></div>
+    <div>Type<input name="attr_npc_type" type="text" style=width:50%;></div> 
+    <div><span>Tier </span><input name="attr_tier" type="number" value="1" min="1" max="99" style=width:30%; ></div>
+    <div></div><span>Size</span><input name="attr_size" type="number" value="1" min="1" max="5">Initiative<input name="attr_initiative" type="number" value="1" min="1" max="8"></div>
     <div class="f-row nowrap">
       <div>Bulk</div>
       <input type="number" name="attr_npc_bulk" value="0">
@@ -516,16 +517,17 @@
   
   <section class="npc-inventory">
     <h3>Support Items</h3>
-    <fieldset class="repeating_support">
+    <fieldset class="repeating_npc_support">
         <input type="checkbox" class="sheet-toggle-show" >
-        <button type="roll" name="roll_support" value="&{template:default} {{title=@{supportname}}}   {{Type=@{supporttype}}} {{Tags=@{supporttags}}} {{Effect=@{supporteffects}}}"> </button>
-        <input type="text" name="attr_supportname" value=" ">
+        <button type="roll" name="roll_npc_support" value="&{template:default} {{title=@{npc_supportname}}} {{Type=@{npc_supporttype}}} {{Tags=@{npc_supporttagslong}}} {{Effects=@{npc_supporteffects}}}"> </button>
+        <input type="text" name="attr_npc_supportname" value=" ">
         <div class="sheet-body">
-        <label>Type<input type="text" name="attr_supporttype" value=" "></label>
-        <label>Tags<input type="text" name="attr_supporttags" value=" "></label>
-        <label>Effect</label>
-        <textarea name="attr_supporteffects"></textarea>
+		<span hidden>TagsLong<input type="text" name="attr_npc_supporttagslong" value="" style="width:95%"></span>
+        <span>Type<input type="text" name="attr_npc_supporttype" style="width: 20%" value=" "></span>
+        <span>Tags<input type="text" name="attr_npc_supporttags" style="width: 60%" value=" "></span>
+        <textarea name="attr_npc_supporteffects" style="resize: none; width: 95%; height: 60px; margin-bottom: -5px;"></textarea>
         </div>
+    </fieldset>
   </section>
 
   
