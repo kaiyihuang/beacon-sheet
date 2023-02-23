@@ -26,7 +26,7 @@
             },
             {
                 "name": "Gust",
-                "desc": "You gain the following spell, which is equipped for free. Gust | Melee Spell Attack {5} FIGHT | Innate, Push 1, Unique [Reach 1, Line 5] | [1d6 Force]",
+                "desc": "You gain the following spell, which is equipped for free.\\nGust | Melee Spell Attack\\n{5} FIGHT | Innate, Push 1, Unique\\n[Reach 1, Line 5] | [1d6 Force]",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -39,7 +39,7 @@
         "traits": [
             {
                 "name": "Dragonfire",
-                "desc": "You gain the following weapon, which is equipped for free.  Dragonfire |        Melee Weapon (3) VOLLEY or (5) FIGHT| Main Artifact: Innate, Unique [Reach 1, Close Blast 1] | [2 Discord] You can (3) VOLLEY or (5) FIGHT with this weapon, and can use it even while DISARMED.",
+                "desc": "You gain the following weapon, which is equipped for free. \\nDragonfire |        Melee Weapon\\n(3) VOLLEY or (5) FIGHT| Main Artifact: Innate, Unique\\n[Reach 1, Close Blast 1] | [2 Discord]\\nYou can (3) VOLLEY or (5) FIGHT with this weapon, and can use it even while DISARMED.",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "origin": "Elemental",
+        "origin": "Elementals",
         "size": "1",
         "traits": [
             {
@@ -114,14 +114,14 @@
             },
             {
                 "name": "Energy Aura",
-                "desc": "Reaction Trigger: You are hit by an attack from an adjacent enemy.  Effect: Deal [2 Piercing Astral or Lunar] to them (chosen when this trait is selected)",
+                "desc": "Reaction\\nTrigger: You are hit by an attack from an adjacent enemy. \\nEffect: Deal [2 Piercing Astral or Lunar] to them (chosen when this trait is selected)",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
             },
             {
                 "name": "Elemental Nova",
-                "desc": "You gain the following spell attack, which is equipped for free. Elemental Nova | Melee Spell Attack (5) FIGHT | Innate, Unique [Burst 1] | [1d6 Astral or Lunar] On Attack: The area, including your spaces, becomes a zone of Soft Cover until the start of your next turn.",
+                "desc": "You gain the following spell attack, which is equipped for free.\\nElemental Nova | Melee Spell Attack\\n(5) FIGHT | Innate, Unique\\n[Burst 1] | [1d6 Astral or Lunar]\\nOn Attack: The area, including your spaces, becomes a zone of Soft Cover until the start of your next turn.",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -216,7 +216,7 @@
             },
             {
                 "name": "Fade Away",
-                "desc": "Reaction (1/round) | Mana 2 Trigger: You are targeted by an attack. Effect: You become INVISIBLE before any attack rolls from the attack, and INVISIBLE lasts until the end of your next turn.",
+                "desc": "Reaction (1/round) | Mana 2\\nTrigger: You are targeted by an attack.\\nEffect: You become INVISIBLE before any attack rolls from the attack, and INVISIBLE lasts until the end of your next turn.",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -277,7 +277,7 @@
         "traits": [
             {
                 "name": "Lucky",
-                "desc": "Reaction (1/round) | Stress 2 (Self) Trigger: You are hit by an attack roll.  Effect: You force the attacker to reroll the attack roll, using the 2nd result. ",
+                "desc": "Reaction (1/round) | Stress 2 (Self)\\nTrigger: You are hit by an attack roll. \\nEffect: You force the attacker to reroll the attack roll, using the 2nd result. ",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -345,7 +345,7 @@
         "traits": [
             {
                 "name": "Trap Array",
-                "desc": "You gain the following support item, which is equipped for free. Trap Array        Support Minor | Consumable 2, Innate, Trap, Unique As a Minor Action, you can use one of the following traps. \u2022        Explosive Trap. When triggered, creates a [Burst 1] area. All characters in the area take [1d6+3 Force].  \u2022        Paint Marker. When triggered, creates a [Burst 1] area. All characters in the area are MARKED.  \u2022        Snare Trap. When triggered, creates a [Burst 1] area. All characters in area must pass an AGI save or be IMMOBILIZED until cleared. A character can make a BLK check as a Minor Action to clear the condition, but only after they\u2019ve ended a turn IMMOBILIZED by this ability.",
+                "desc": "You gain the following support item, which is equipped for free.\\nTrap Array        Support\\nMinor | Consumable 2, Innate, Trap, Unique\\nAs a Minor Action, you can use one of the following traps.\\n\u2022        Explosive Trap. When triggered, creates a [Burst 1] area. All characters in the area take [1d6+3 Force]. \\n\u2022        Paint Marker. When triggered, creates a [Burst 1] area. All characters in the area are MARKED. \\n\u2022        Snare Trap. When triggered, creates a [Burst 1] area. All characters in area must pass an AGI save or be IMMOBILIZED until cleared. A character can make a BLK check as a Minor Action to clear the condition, but only after they\u2019ve ended a turn IMMOBILIZED by this ability.",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -393,14 +393,14 @@
             },
             {
                 "name": "Sneaky Form",
-                "desc": "Minor | Polymorph You assume a small sneaky form. Your size becomes \u00bd if it was larger and you can (4) HIDE as a free action 1/turn. You can\u2019t activate spells or make attacks in this form. You can revert to your normal form as a Minor Action. ",
+                "desc": "Minor | Polymorph\\nYou assume a small sneaky form. Your size becomes \u00bd if it was larger and you can (4) HIDE as a free action 1/turn. You can\u2019t activate spells or make attacks in this form. You can revert to your normal form as a Minor Action. ",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
             },
             {
                 "name": "Travel Form",
-                "desc": "Minor | Polymorph You assume a travel form. Your speed increases by +2, but you can\u2019t activate spells or make attacks. You can revert to your normal form as a Minor Action. ",
+                "desc": "Minor | Polymorph\\nYou assume a travel form. Your speed increases by +2, but you can\u2019t activate spells or make attacks. You can revert to your normal form as a Minor Action. ",
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
@@ -506,6 +506,19 @@
                 "armor": "0",
                 "HP": "0",
                 "speed": "0"
+            }
+        ]
+    },
+    {
+        "origin": "",
+        "size": "",
+        "traits": [
+            {
+                "name": "--Select Ancestry Trait--",
+                "desc": "",
+                "armor": "",
+                "HP": "",
+                "speed": ""
             }
         ]
     }

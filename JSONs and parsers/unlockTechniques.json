@@ -37,7 +37,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Gain the following abilities: Minor: Create 1 piece of Size 1 soft cover in a free space within Scope. It isn`t an obstruction.(6) Release: Create up to 3 pieces of Size 1 hard cover in free spaces within Scope. ",
+        "effects": "Gain the following abilities: \\nMinor: Create 1 piece of Size 1 soft cover in a free space within Scope. It isn`t an obstruction.\\n(6) Release: Create up to 3 pieces of Size 1 hard cover in free spaces within Scope. \\n",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -61,7 +61,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Target a character within Scope and place one of the following protective barriers on them. The effects last until the start of this phase next round.Protect: The target has Resistance to Physical, Astral, Lunar, and Force damage.Shell: The target has Resistance to Stress and Discord from other characters.",
+        "effects": "Target a character within Scope and place one of the following protective barriers on them. The effects last until the start of this phase next round.\\r\\nProtect: The target has Resistance to Physical, Astral, Lunar, and Force damage.\\r\\nShell: The target has Resistance to Stress and Discord from other characters.",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -89,7 +89,7 @@
                 "val": ""
             }
         ],
-        "effects": "(Tags: Summon, Size 4, 20 HP, Dodge/A-Def 5)(6) Release: Place a Size 4 Summon within Scope. Characters can share spaces with this summon. 1/turn when a character or object fully within the barrier is targeted by an attack from outside the barrier, you can roll a d6. On a 4+, the attack instead targets the barrier. This Summon can\u2019t take any actions or reactions.",
+        "effects": "(Tags: Summon, Size 4, 20 HP, Dodge/A-Def 5)\\n(6) Release: Place a Size 4 Summon within Scope. Characters can share spaces with this summon. 1/turn when a character or object fully within the barrier is targeted by an attack from outside the barrier, you can roll a d6. On a 4+, the attack instead targets the barrier. This Summon can\u2019t take any actions or reactions.",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -131,7 +131,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Gain the following options if you hit with this spell attack. Shield Crush: The target is SUNDERED until the end of their next turn.Stasis Field: The target must make a MGK save. Failure: They are IMMOBILIZED + SLOWED until the end of their next turn. Success: They are SLOWED until the end of their next turn. ",
+        "effects": "Gain the following options if you hit with this spell attack. \\nShield Crush: The target is SUNDERED until the end of their next turn.\\nStasis Field: The target must make a MGK save. Failure: They are IMMOBILIZED + SLOWED until the end of their next turn. Success: They are SLOWED until the end of their next turn. ",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -159,7 +159,7 @@
                 "val": "1"
             }
         ],
-        "effects": "(Tags: Summon, Size \u00bd, 5 HP, Dodge/A-Def 10) Minor: You can place a proximity shield in a space within Scope, including occupied ones. Characters can share spaces with this summon. A character partially in this space gains soft cover. This Summon can\u2019t take any actions or reactions.",
+        "effects": "(Tags: Summon, Size \u00bd, 5 HP, Dodge/A-Def 10) \\nMinor: You can place a proximity shield in a space within Scope, including occupied ones. Characters can share spaces with this summon. A character partially in this space gains soft cover. This Summon can\u2019t take any actions or reactions.",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -183,7 +183,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Create a [Line 1], [Line 2], or [Line 3] zone in free spaces within Scope facing any direction. Attacks that pass through this zone gain +1 Difficulty. The zone counts as Difficult Terrain, and 1/turn characters that enter the zone take [2 Stress]. Warding Walls last until the end of the scene, until dismiss as a free action, or until you use this ability again.",
+        "effects": "Create a [Line 1], [Line 2], or [Line 3] zone in free spaces within Scope facing any direction. Attacks that pass through this zone gain +1 Difficulty. The zone counts as Difficult Terrain, and 1/turn characters that enter the zone take [2 Stress]. \\r\\nWarding Walls last until the end of the scene, until dismiss as a free action, or until you use this ability again.\\r",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -250,7 +250,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Create a [Blast 1] zone within Scope and choose one of the following effects. The zone lasts until the end of the scene, you use this ability again, or you become SILENCED, STUNNED, or defeated.Exchange. Choose Physical, Astral, or Lunar damage. Empty spaces in the zone become Dangerous Terrain (Agi, 5 damage) dealing damage of the chosen type. Reduction. The effects of Difficult Terrain, Dangerous Terrain, and non-cover terrain features in the zone are suppressed. Combat scene objectives are unaffected.",
+        "effects": "Create a [Blast 1] zone within Scope and choose one of the following effects. The zone lasts until the end of the scene, you use this ability again, or you become SILENCED, STUNNED, or defeated.\\nExchange. Choose Physical, Astral, or Lunar damage. Empty spaces in the zone become Dangerous Terrain (Agi, 5 damage) dealing damage of the chosen type. \\nReduction. The effects of Difficult Terrain, Dangerous Terrain, and non-cover terrain features in the zone are suppressed. Combat scene objectives are unaffected.",
         "origin": "Alchemist",
         "stat_effects": {
             "armor": "0",
@@ -293,7 +293,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "When you make an attack with a weapon, you can spend 1 mana to change the damage type to another damage type of your choice (Physical, Astral, Lunar, or Force). This new damage type remains until you use this ability again.",
+        "effects": "When you make an attack with a weapon, you can spend 1 mana to change the damage type to another damage type of your choice (Physical, Astral, Lunar, or Force). \\r\\nThis new damage type remains until you use this ability again.",
         "origin": "Arsenal",
         "stat_effects": {
             "armor": "0",
@@ -455,7 +455,7 @@
                 "val": ""
             }
         ],
-        "effects": "You can take an extra action, which is resolved as if it was another PC turn, but doesn\u2019t count as a turn for any effects that care. At the start of each round after doing so, roll a MAGIC save against your save target until you fail this save. On a failure, you are removed from play for that round, appearing in the same location or nearest unoccupied location at the start of the next round. While removed from play, you can\u2019t take any damage, or be affected by anything. You take no turn. This effect persists between scenes until you take a Long Rest. You can\u2019t use this ability again until you fail the saving throw or take a Long Rest.",
+        "effects": "You can take an extra action, which is resolved as if it was another PC turn, but doesn\u2019t count as a turn for any effects that care. At the start of each round after doing so, roll a MAGIC save against your save target until you fail this save. On a failure, you are removed from play for that round, appearing in the same location or nearest unoccupied location at the start of the next round. While removed from play, you can\u2019t take any damage, or be affected by anything. You take no turn. \\r\\nThis effect persists between scenes until you take a Long Rest. You can\u2019t use this ability again until you fail the saving throw or take a Long Rest.",
         "origin": "Chronomancer",
         "stat_effects": {
             "armor": "0",
@@ -522,7 +522,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(6) Release: Place a marker in one of the spaces of a character within Scope. Each character can only have 1 marker at a time. Gain the following Reaction.Trigger: A Character with a Rewind marker takes damage, Stress not caused by themself, or starts their turn. Effect: Negate any damage or STRESS taken and teleport them back to the marker or the closest unoccupied spaces. This counts as forced movement. Remove the marker. If they are unwilling, they can make a MGK save to resist the effects. If they resist, the marker is removed.",
+        "effects": "(6) Release: Place a marker in one of the spaces of a character within Scope. Each character can only have 1 marker at a time. Gain the following Reaction.\\nTrigger: A Character with a Rewind marker takes damage, Stress not caused by themself, or starts their turn. \\nEffect: Negate any damage or STRESS taken and teleport them back to the marker or the closest unoccupied spaces. This counts as forced movement. Remove the marker. If they are unwilling, they can make a MGK save to resist the effects. If they resist, the marker is removed.",
         "origin": "Chronomancer",
         "stat_effects": {
             "armor": "0",
@@ -580,7 +580,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack: Backstep: You can teleport the target up to 2 spaces.Repetition: During their next turn, if the target takes the same action they took on their previous turn, they become MARKED.",
+        "effects": "Choose one of the following when you hit with this spell attack: \\nBackstep: You can teleport the target up to 2 spaces.\\nRepetition: During their next turn, if the target takes the same action they took on their previous turn, they become MARKED.",
         "origin": "Chronomancer",
         "stat_effects": {
             "armor": "0",
@@ -708,7 +708,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Pain: The target has +1 DIF on Concentration saves triggered from this damage.Distraction: The target has +1 DIF on spell attack rolls while taking this Discord. ",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nPain: The target has +1 DIF on Concentration saves triggered from this damage.\\nDistraction: The target has +1 DIF on spell attack rolls while taking this Discord. ",
         "origin": "Demonologist",
         "stat_effects": {
             "armor": "0",
@@ -732,7 +732,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(Size \u00bd, 5 HP, 0 Armor, Dodge/A-Def 10) (6) Release: Summon a corruption fiend in a free space within Scope. Enemies that start their turn adjacent to it must pass a MND save or take [2 Discord].",
+        "effects": "(Size \u00bd, 5 HP, 0 Armor, Dodge/A-Def 10) \\n(6) Release: Summon a corruption fiend in a free space within Scope. Enemies that start their turn adjacent to it must pass a MND save or take [2 Discord].",
         "origin": "Demonologist",
         "stat_effects": {
             "armor": "0",
@@ -780,7 +780,7 @@
                 "val": "1"
             }
         ],
-        "effects": "You can teleport up to your speed, and then create a [Burst 1] area around you. All enemies in the area must pass an AGI save or fall PRONE. You can then (3) VOLLEY, (5) FIGHT, (5) SHOVE, or (5) GRAPPLE.",
+        "effects": "You can teleport up to your speed, and then create a [Burst 1] area around you. All enemies in the area must pass an AGI save or fall PRONE. \\nYou can then (3) VOLLEY, (5) FIGHT, (5) SHOVE, or (5) GRAPPLE.",
         "origin": "Dragon Rider",
         "stat_effects": {
             "armor": "0",
@@ -852,7 +852,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Gain the following options:Spell(2) CHANNEL | Mana 2(6) Release: Create a [Blast 1] area within Scope. This area is difficult terrain until the end of the scene or until you dismiss it as a free action. All characters in the area when released take [2 Stress] and are IMMOBILIZED until cleared.Ranged Spell Attack(3) VOLLEY | Mana 1 [Range = Scope] [2 Stress] On Hit: The target must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
+        "effects": "Gain the following options:\\r\\nSpell\\r\\n(2) CHANNEL | Mana 2\\r\\n(6) Release: Create a [Blast 1] area within Scope. This area is difficult terrain until the end of the scene or until you dismiss it as a free action. All characters in the area when released take [2 Stress] and are IMMOBILIZED until cleared.\\r\\nRanged Spell Attack\\r\\n(3) VOLLEY | Mana 1 \\r\\n[Range = Scope] [2 Stress] \\r\\nOn Hit: The target must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
         "origin": "Druid",
         "stat_effects": {
             "armor": "0",
@@ -876,7 +876,7 @@
             }
         ],
         "tags": [],
-        "effects": "Gain the following ranged spell attacks:(3) VOLLEY | Push 1[Range = Scope] | [1d6 Force](6) Release | Auto-Hit, Slide 2[Range = Scope] | [2d6 Force] ",
+        "effects": "Gain the following ranged spell attacks:\\r\\n(3) VOLLEY | Push 1\\r\\n[Range = Scope] | [1d6 Force]\\r\\n(6) Release | Auto-Hit, Slide 2\\r\\n[Range = Scope] | [2d6 Force] ",
         "origin": "Druid",
         "stat_effects": {
             "armor": "0",
@@ -936,7 +936,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(6) Release: (Size \u00bd, 5 HP, Dodge/A-Def 10) You summon a Tether Vine in a free space within Scope. When summoned, or as a Minor Action on subsequent turns, you can select an enemy within [Range 3] of the Tether Vine and connect them to it. Only one target can be connected to the Tether Vine at a time. Whenever a character connected to a Tether Vine starts their turn, they are Pulled 1d6 spaces toward the Tether Vine. A connected target can attempt a BLK save as a Minor Action to break free.",
+        "effects": "(6) Release: (Size \u00bd, 5 HP, Dodge/A-Def 10) \\r\\nYou summon a Tether Vine in a free space within Scope. When summoned, or as a Minor Action on subsequent turns, you can select an enemy within [Range 3] of the Tether Vine and connect them to it. Only one target can be connected to the Tether Vine at a time. Whenever a character connected to a Tether Vine starts their turn, they are Pulled 1d6 spaces toward the Tether Vine. A connected target can attempt a BLK save as a Minor Action to break free.",
         "origin": "Druid",
         "stat_effects": {
             "armor": "0",
@@ -989,7 +989,7 @@
             }
         ],
         "tags": [],
-        "effects": "You gain the following spell attack options:Ray of Fire. The damage is Astral. On Hit: If the target was hit by Ray of Fire on your last turn, they also take [4 Discord].Ray of Cold. The damage is Lunar. On Hit: If the target is IMMOBILIZED, SLOWED, STUNNED, GRAPPLED, or PRONE, the damage becomes [2d6+1] Instead. ",
+        "effects": "You gain the following spell attack options:\\r\\nRay of Fire. The damage is Astral. On Hit: If the target was hit by Ray of Fire on your last turn, they also take [4 Discord].\\r\\nRay of Cold. The damage is Lunar. On Hit: If the target is IMMOBILIZED, SLOWED, STUNNED, GRAPPLED, or PRONE, the damage becomes [2d6+1] Instead. ",
         "origin": "Equinox",
         "stat_effects": {
             "armor": "0",
@@ -1037,7 +1037,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Channel. Choose one of the following release options:Fireball. Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit, taking [2d6+2 Astral].Squall. Release: Select a character within Scope and create a [Burst 1] area around them. All characters in the area (excluding the selected character) are auto-hit for [2d6+2 Lunar] and are SLOWED until the end of their next turn.",
+        "effects": "Channel. Choose one of the following release options:\\r\\nFireball. Release: Create a [Blast 2] area within Scope. All characters in the area are auto-hit, taking [2d6+2 Astral].\\r\\nSquall. Release: Select a character within Scope and create a [Burst 1] area around them. All characters in the area (excluding the selected character) are auto-hit for [2d6+2 Lunar] and are SLOWED until the end of their next turn.\\r",
         "origin": "Equinox",
         "stat_effects": {
             "armor": "0",
@@ -1133,7 +1133,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Trigger: A character within [Range 20] is defeated.Effect: You teleport to the closest unoccupied space adjacent to them.",
+        "effects": "Trigger: A character within [Range 20] is defeated.\\nEffect: You teleport to the closest unoccupied space adjacent to them.",
         "origin": "Gravewalker",
         "stat_effects": {
             "armor": "0",
@@ -1161,7 +1161,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(Size= your size, HP= your HP when you (1) REFRESH, 0 armor, Dodge/A-Def=0)When you (1) REFRESH, you can Summon a ghostly manifestation of your sins in a free space within Range 5. As long as you are within Range 2 of the specter, it takes any damage that you would take before resistances and armor, and you take none of the damage. The damage the specter takes can\u2019t be reduced in any way. The specter\u2019s HP is equal to your current HP when you (1) REFRESH. You can only have one specter at a time.",
+        "effects": "(Size= your size, HP= your HP when you (1) REFRESH, 0 armor, Dodge/A-Def=0)\\nWhen you (1) REFRESH, you can Summon a ghostly manifestation of your sins in a free space within Range 5. As long as you are within Range 2 of the specter, it takes any damage that you would take before resistances and armor, and you take none of the damage. The damage the specter takes can\u2019t be reduced in any way. The specter\u2019s HP is equal to your current HP when you (1) REFRESH. You can only have one specter at a time.",
         "origin": "Gravewalker",
         "stat_effects": {
             "armor": "0",
@@ -1246,7 +1246,7 @@
                 "val": "1"
             }
         ],
-        "effects": "This spell deals +1 damage for every condition the target had when attacked. Choose one of the following when you hit with this spell attack.Haze Curse: The target is MARKED. Until the mark is cleared, they treat you as INVISIBLE.Soul Curse: The target is MARKED. Until the mark is cleared, they gain +1 Difficulty on checks and saves.",
+        "effects": "This spell deals +1 damage for every condition the target had when attacked. Choose one of the following when you hit with this spell attack.\\r\\nHaze Curse: The target is MARKED. Until the mark is cleared, they treat you as INVISIBLE.\\r\\nSoul Curse: The target is MARKED. Until the mark is cleared, they gain +1 Difficulty on checks and saves.",
         "origin": "Hexblade",
         "stat_effects": {
             "armor": "0",
@@ -1289,7 +1289,7 @@
                 "val": "5"
             }
         ],
-        "effects": "You gain the following auras. These auras affect all enemies within its range.Intensify Hex: Enemies in the aura gain +2 Difficulty when DAZED, instead of +1 Difficulty.Lingering Hex: Enemies in the aura take [1 Stress] whenever one of their conditions is removed.",
+        "effects": "You gain the following auras. These auras affect all enemies within its range.\\r\\nIntensify Hex: Enemies in the aura gain +2 Difficulty when DAZED, instead of +1 Difficulty.\\r\\nLingering Hex: Enemies in the aura take [1 Stress] whenever one of their conditions is removed.\\r\\n",
         "origin": "Hexblade",
         "stat_effects": {
             "armor": "0",
@@ -1308,7 +1308,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "When you make a character MARKED or hit a character with a weapon or spell attack, you can spend 1-3 Mana to implant a number of Shards of Doubt in them equal to the mana spent. A character can have up to 3 shards at a time, which count as a condition. Clearing one shard clears all shards. 1/turn when a character with shards is hit by a weapon or spell attack that deals Physical, Astral, Lunar, or Force, the base damage of the attack is increased by +1 for each shard they have.When a character within your Scope is defeated, you can spend 1 mana to move their shards to another character within [Range 3] of the defeated character as a reaction.As a (2) CHANNEL action, when you (6) RELEASE you can consume all shards within Scope, dealing [3 Force] per shard to the targets they are implanted in.",
+        "effects": "When you make a character MARKED or hit a character with a weapon or spell attack, you can spend 1-3 Mana to implant a number of Shards of Doubt in them equal to the mana spent. A character can have up to 3 shards at a time, which count as a condition. Clearing one shard clears all shards. \\n1/turn when a character with shards is hit by a weapon or spell attack that deals Physical, Astral, Lunar, or Force, the base damage of the attack is increased by +1 for each shard they have.\\nWhen a character within your Scope is defeated, you can spend 1 mana to move their shards to another character within [Range 3] of the defeated character as a reaction.\\nAs a (2) CHANNEL action, when you (6) RELEASE you can consume all shards within Scope, dealing [3 Force] per shard to the targets they are implanted in.",
         "origin": "Hexblade",
         "stat_effects": {
             "armor": "0",
@@ -1442,7 +1442,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack: The One Where You\u2019re Being Changed: On Hit: The target has +1 Difficulty on all attacks that don\u2019t include you as the target. This effect stacks to a maximum of +3. If a character affected by this ability deals damage or stress to you, they remove this effect from themselves.The One Where Your Teeth Fall Out: On Hit: If the target is BREAKING, they take [4 Stress] instead.",
+        "effects": "Choose one of the following when you hit with this spell attack: \\r\\nThe One Where You\u2019re Being Changed: On Hit: The target has +1 Difficulty on all attacks that don\u2019t include you as the target. This effect stacks to a maximum of +3. If a character affected by this ability deals damage or stress to you, they remove this effect from themselves.\\r\\nThe One Where Your Teeth Fall Out: On Hit: If the target is BREAKING, they take [4 Stress] instead.\\r",
         "origin": "Knightmare",
         "stat_effects": {
             "armor": "0",
@@ -1490,7 +1490,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(6) Release: Choose one of the following effects:Balance: Choose two allies within Scope or yourself and an ally within Scope. The targets swap either their current HP, Stress, or mana, your choice.Imbalance: Target an enemy within Scope and roll 2d6. Add an extra die if the target is BLOODIED or BREAKING, for a maximum of 4d6. The target takes Stress equal to the result of one die, and Piercing Force damage equal to another.",
+        "effects": "(6) Release: Choose one of the following effects:\\r\\n\\tBalance: Choose two allies within Scope or yourself and an ally within Scope. The targets swap either their current HP, Stress, or mana, your choice.\\r\\n\\tImbalance: Target an enemy within Scope and roll 2d6. Add an extra die if the target is BLOODIED or BREAKING, for a maximum of 4d6. The target takes Stress equal to the result of one die, and Piercing Force damage equal to another.",
         "origin": "Lifeweaver",
         "stat_effects": {
             "armor": "0",
@@ -1514,7 +1514,7 @@
                 "val": "3"
             }
         ],
-        "effects": "(6) Release: Choose one of the following effects:Lifewell: Create a [Blast 1] zone of healing energy within Scope. Any character that starts their turn in the area regains 3 HP. The zone lasts until the end of the scene or until you create a new one.Mend: An ally within Scope clears a WOUND or OVERSTRESS. Each ally can be affected by this ability 1/quest.",
+        "effects": "(6) Release: Choose one of the following effects:\\r\\n\\tLifewell: Create a [Blast 1] zone of healing energy within Scope. Any character that starts their turn in the area regains 3 HP. The zone lasts until the end of the scene or until you create a new one.\\r\\n\\tMend: An ally within Scope clears a WOUND or OVERSTRESS. Each ally can be affected by this ability 1/quest.",
         "origin": "Lifeweaver",
         "stat_effects": {
             "armor": "0",
@@ -1571,7 +1571,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Drain Life: You or a character within [Range 5] of you regains up to 1d3 HP. You can spend 1 mana to increase the healing to 1d6 instead.Drain Vitality: You or a character within [Range 5] of you can clear up to 2 Stress. ",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nDrain Life: You or a character within [Range 5] of you regains up to 1d3 HP. You can spend 1 mana to increase the healing to 1d6 instead.\\nDrain Vitality: You or a character within [Range 5] of you can clear up to 2 Stress. ",
         "origin": "Lifeweaver",
         "stat_effects": {
             "armor": "0",
@@ -1595,7 +1595,7 @@
                 "val": "5"
             }
         ],
-        "effects": "You gain the following auras. These auras affect all allies within their range, but not you.Aura of Steel: Gain +1 armor (up to a max armor of 4).Aura of Retaliation: 1/turn when a character hits another character under the effects of this aura, they take [3 Astral]. ",
+        "effects": "You gain the following auras. These auras affect all allies within their range, but not you.\\nAura of Steel: Gain +1 armor (up to a max armor of 4).\\nAura of Retaliation: 1/turn when a character hits another character under the effects of this aura, they take [3 Astral]. ",
         "origin": "Paladin",
         "stat_effects": {
             "armor": "0",
@@ -1619,7 +1619,7 @@
                 "val": "5"
             }
         ],
-        "effects": "You gain the following auras. These auras affect you and all allies within its range.Aura of Elemental Resistance: Gain resistance to Astral or Lunar damage (chosen when activated).Aura of Freedom: Immunity to the SLOWED condition and can automatically break out of grapples as a free action.",
+        "effects": "You gain the following auras. These auras affect you and all allies within its range.\\nAura of Elemental Resistance: Gain resistance to Astral or Lunar damage (chosen when activated).\\nAura of Freedom: Immunity to the SLOWED condition and can automatically break out of grapples as a free action.",
         "origin": "Paladin",
         "stat_effects": {
             "armor": "0",
@@ -1709,7 +1709,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Building Fire: If the target already has Discord the damage increases to 1d3+1 instead.Spontaneous Combustion: You can spend 1 mana to create a [Burst 1] area around the target. All enemies in the area take [1 Discord].  ",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nBuilding Fire: If the target already has Discord the damage increases to 1d3+1 instead.\\nSpontaneous Combustion: You can spend 1 mana to create a [Burst 1] area around the target. All enemies in the area take [1 Discord].  ",
         "origin": "Phoenix",
         "stat_effects": {
             "armor": "0",
@@ -1800,7 +1800,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following:Blueflame. Choose an enemy within Scope that has Discord. Their level of Discord increases by +2. This doesn\u2019t cause upfront Discord damage.Flames of Rebirth. Choose a character within Scope that has Discord. Transfer all of their Discord to you. This doesn\u2019t cause upfront discord damage.Flashover. Choose an enemy within Scope. They gain Discord equal to the highest Discord among all characters within [Range 3] of them. This doesn\u2019t cause upfront Discord damage.",
+        "effects": "Choose one of the following:\\nBlueflame. Choose an enemy within Scope that has Discord. Their level of Discord increases by +2. This doesn\u2019t cause upfront Discord damage.\\nFlames of Rebirth. Choose a character within Scope that has Discord. Transfer all of their Discord to you. This doesn\u2019t cause upfront discord damage.\\nFlashover. Choose an enemy within Scope. They gain Discord equal to the highest Discord among all characters within [Range 3] of them. This doesn\u2019t cause upfront Discord damage.",
         "origin": "Phoenix",
         "stat_effects": {
             "armor": "0",
@@ -1900,7 +1900,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Frozen: On Hit: At the end of their next turn, the target takes Stress equal to their Speed. The Stress taken is reduced by 1 for every space the target moves during their next turn.Numbing: On Hit: The next attack the target makes before the end of their next turn deals half damage.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nFrozen: On Hit: At the end of their next turn, the target takes Stress equal to their Speed. The Stress taken is reduced by 1 for every space the target moves during their next turn.\\nNumbing: On Hit: The next attack the target makes before the end of their next turn deals half damage.",
         "origin": "Rimeguard",
         "stat_effects": {
             "armor": "0",
@@ -1982,7 +1982,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Grounding Chain: The target must pass a MGK save or be IMMOBILIZED until the end of their next turn. You can spend 1 mana to force all characters adjacent to the target to make the save as well.Linked Chain: Spend 1 mana to create a Burst 2 area around the target. All characters in the area must pass a BLK save or be pulled to the closest free space adjacent to the original target.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nGrounding Chain: The target must pass a MGK save or be IMMOBILIZED until the end of their next turn. You can spend 1 mana to force all characters adjacent to the target to make the save as well.\\nLinked Chain: Spend 1 mana to create a Burst 2 area around the target. All characters in the area must pass a BLK save or be pulled to the closest free space adjacent to the original target.",
         "origin": "Seeker",
         "stat_effects": {
             "armor": "0",
@@ -2016,7 +2016,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Constricting Serpent: The target is unable to make Opportunity Attacks until the end of their next turn.Striking Serpent: A spectral serpent coils around the target. Until the end of their next turn, if the target ends their turn adjacent to one of their allies, the ally takes [3 Force] and is DAZED until the end of their next turn.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nConstricting Serpent: The target is unable to make Opportunity Attacks until the end of their next turn.\\nStriking Serpent: A spectral serpent coils around the target. Until the end of their next turn, if the target ends their turn adjacent to one of their allies, the ally takes [3 Force] and is DAZED until the end of their next turn.",
         "origin": "Seeker",
         "stat_effects": {
             "armor": "0",
@@ -2086,7 +2086,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following when you use this spell attack:Buzzing Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes DAZED until the end of their next turn.On Hit: Target is DAZED until the end of their next turn.Distracting Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes MARKEDOn Hit: Target is MARKED until the end of their next turn.",
+        "effects": "Choose one of the following when you use this spell attack:\\r\\nBuzzing Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes DAZED until the end of their next turn.\\r\\nOn Hit: Target is DAZED until the end of their next turn.\\r\\nDistracting Swarm: On Attack: The Blast area becomes a zone until the start of your next turn. Any character that starts their turn in the zone or enters it during their turn becomes MARKED\\r\\nOn Hit: Target is MARKED until the end of their next turn.",
         "origin": "Seeker",
         "stat_effects": {
             "armor": "0",
@@ -2110,7 +2110,7 @@
                 "val": "1"
             }
         ],
-        "effects": "(Tags: Summon, Size \u00bd, 1 HP, 10 Dodge/A-Def) This summon must be summoned adjacent to you, and can be automatically summoned at the start of a combat scene, paying the mana cost as normal. Choose BULK, AGILITY, MIND, or MAGIC when summoned. While you and the summon are adjacent to each other, you both gain +1 Accuracy to checks and saves with the chosen ability score.Whenever you move (excluding forced movement) while adjacent to this summon, it can also move to any space adjacent to you, benefiting from any special forms of movement that you had, like flight or teleportation.",
+        "effects": "(Tags: Summon, Size \u00bd, 1 HP, 10 Dodge/A-Def) This summon must be summoned adjacent to you, and can be automatically summoned at the start of a combat scene, paying the mana cost as normal. Choose BULK, AGILITY, MIND, or MAGIC when summoned. While you and the summon are adjacent to each other, you both gain +1 Accuracy to checks and saves with the chosen ability score.\\nWhenever you move (excluding forced movement) while adjacent to this summon, it can also move to any space adjacent to you, benefiting from any special forms of movement that you had, like flight or teleportation.",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -2148,7 +2148,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Your summons can use your BULK/AGILITY/MIND/MAGIC score instead of theirs when they make ability checks/saves.As a Minor Action, you and your summons gain one of the following profiles. You must have at least 1 active summon to use this ability, and the effects last until the end of the scene, you choose another profile, deactivate it as a free action, or you have no more active summons.These profiles affect all your summons, including ones summoned after the profile is activated.Threatening Summons: Attack rolls against your summons gain +1 Accuracy, and attack rolls against you gain +1 Difficulty.Unassuming Summons: Attack rolls against your summons gain +1 Difficulty, and attack rolls against you gain +1 Accuracy.",
+        "effects": "Your summons can use your BULK/AGILITY/MIND/MAGIC score instead of theirs when they make ability checks/saves.\\r\\nAs a Minor Action, you and your summons gain one of the following profiles. You must have at least 1 active summon to use this ability, and the effects last until the end of the scene, you choose another profile, deactivate it as a free action, or you have no more active summons.\\r\\nThese profiles affect all your summons, including ones summoned after the profile is activated.\\r\\nThreatening Summons: Attack rolls against your summons gain +1 Accuracy, and attack rolls against you gain +1 Difficulty.\\r\\nUnassuming Summons: Attack rolls against your summons gain +1 Difficulty, and attack rolls against you gain +1 Accuracy.\\r",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -2195,7 +2195,7 @@
                 "val": "3"
             }
         ],
-        "effects": "(Size=1/2, 5 HP, 10 Dodge/A-def)You create a living shadow within Scope, which emits a [Burst 2] zone. Enemies are BLINDED while fully within the zone. Enemies that start their turn partly within the zone must pass a MGK save or be WEAKENED until the start of their next turn.",
+        "effects": "(Size=1/2, 5 HP, 10 Dodge/A-def)\\r\\nYou create a living shadow within Scope, which emits a [Burst 2] zone. Enemies are BLINDED while fully within the zone. Enemies that start their turn partly within the zone must pass a MGK save or be WEAKENED until the start of their next turn.",
         "origin": "Shadow Dancer",
         "stat_effects": {
             "armor": "0",
@@ -2223,7 +2223,7 @@
                 "val": "3"
             }
         ],
-        "effects": "(Size=your Size, 5 HP, 10 Dodge/A-def)(6) Release: You create 3 shadow clones of yourself within Scope. They have your Speed and Size, and you can choose to move them instead of yourself with your Standard Move. As a Free Action 1/turn, you can teleport to one of your clones\u2019 spaces, destroying the clone.If you (4) RUSH and choose the movement option, you can also move your shadow clones up to their Speed.You can dismiss any of your shadow clones during your turn as a Free Action.You can\u2019t have more than 3 shadow clones at once. If you use this ability again, you only summon new clones until you have 3 (you can always destroy existing ones).",
+        "effects": "(Size=your Size, 5 HP, 10 Dodge/A-def)\\r\\n(6) Release: You create 3 shadow clones of yourself within Scope. They have your Speed and Size, and you can choose to move them instead of yourself with your Standard Move. As a Free Action 1/turn, you can teleport to one of your clones\u2019 spaces, destroying the clone.\\r\\nIf you (4) RUSH and choose the movement option, you can also move your shadow clones up to their Speed.\\r\\nYou can dismiss any of your shadow clones during your turn as a Free Action.\\r\\nYou can\u2019t have more than 3 shadow clones at once. If you use this ability again, you only summon new clones until you have 3 (you can always destroy existing ones).",
         "origin": "Shadow Dancer",
         "stat_effects": {
             "armor": "0",
@@ -2276,7 +2276,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Darkness: [2 Stress] On Hit: The target is unable to make non-Arcing or Homing attacks or abilities at targets beyond [Range 3], and treats all enemies as benefiting from Soft Cover. These effects last until the end of their next turn. Shadow Blade: [1d6+2 Lunar] If you are HIDDEN when you make this attack, you regain any mana spent on it.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\r\\nDarkness: [2 Stress] On Hit: The target is unable to make non-Arcing or Homing attacks or abilities at targets beyond [Range 3], and treats all enemies as benefiting from Soft Cover. These effects last until the end of their next turn. \\r\\nShadow Blade: [1d6+2 Lunar] If you are HIDDEN when you make this attack, you regain any mana spent on it.",
         "origin": "Shadow Dancer",
         "stat_effects": {
             "armor": "0",
@@ -2342,7 +2342,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Gasp for Air: Target must pass a BULK save or be SILENCED and unable to (2) CHANNEL until the end of their next turn. If they are currently channeling, they have +1 Difficulty on the Concentration Save when hit by this attack.Hangman\u2019s Handshake: Until the end of the target\u2019s next turn, they gain +1 Stress whenever they take Stress.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\nGasp for Air: Target must pass a BULK save or be SILENCED and unable to (2) CHANNEL until the end of their next turn. If they are currently channeling, they have +1 Difficulty on the Concentration Save when hit by this attack.\\nHangman\u2019s Handshake: Until the end of the target\u2019s next turn, they gain +1 Stress whenever they take Stress.",
         "origin": "Shadow Dancer",
         "stat_effects": {
             "armor": "0",
@@ -2370,7 +2370,7 @@
                 "val": ""
             }
         ],
-        "effects": "Minor: You assume the form of a defender creature. Your Size increases by 1 (to a max size of 3). While in this form, allies gain the benefits of cover as if you were a piece of hard cover. When you enter this form or as a Minor action, you can select an ally within Scope. You can INTERPOSE for that ally without spending Focus, and your armor is increased by +2 against the triggering attack if you do. You can only have one ally selected at a time. You can only attack as a Reaction in this form.The form lasts until the end of the scene or until you end it as a free action.",
+        "effects": "Minor: You assume the form of a defender creature. Your Size increases by 1 (to a max size of 3). While in this form, allies gain the benefits of cover as if you were a piece of hard cover. When you enter this form or as a Minor action, you can select an ally within Scope. You can INTERPOSE for that ally without spending Focus, and your armor is increased by +2 against the triggering attack if you do. You can only have one ally selected at a time. You can only attack as a Reaction in this form.\\nThe form lasts until the end of the scene or until you end it as a free action.",
         "origin": "Shapeshifter",
         "stat_effects": {
             "armor": "0",
@@ -2469,7 +2469,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Trigger: A melee attack hits or misses you.Effect: You can make a melee attack against the attacker with a LIGHT or MAIN weapon.",
+        "effects": "Trigger: A melee attack hits or misses you.\\nEffect: You can make a melee attack against the attacker with a LIGHT or MAIN weapon.\\n",
         "origin": "Shapeshifter",
         "stat_effects": {
             "armor": "0",
@@ -2550,7 +2550,7 @@
                 "val": "1"
             }
         ],
-        "effects": "(6) Release: Create a [Blast 1] zone within Scope, and choose one of the following effects:\u2022Characters in the zone when it is created take [3 Stress]. Characters are SILENCED while partly within the area and VULNERABLE to Force damage.\u2022Characters fully within the area are immune to all spells and spell effects. Existing spell effects are not affected.Zones last until the end of the scene or until you are SILENCED or STUNNED. You can have up to 3 zones in play at once. You can dismiss a zone as a Free Action during your turn.",
+        "effects": "(6) Release: Create a [Blast 1] zone within Scope, and choose one of the following effects:\\r\\n\u2022\\tCharacters in the zone when it is created take [3 Stress]. Characters are SILENCED while partly within the area and VULNERABLE to Force damage.\\r\\n\u2022\\tCharacters fully within the area are immune to all spells and spell effects. Existing spell effects are not affected.\\r\\nZones last until the end of the scene or until you are SILENCED or STUNNED. You can have up to 3 zones in play at once. You can dismiss a zone as a Free Action during your turn.",
         "origin": "Skald",
         "stat_effects": {
             "armor": "0",
@@ -2603,7 +2603,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Choose one of the following when you make this spell attack:Shocked: Characters in the area are DAZED and can\u2019t take Reactions until the end of their next turn.Drained: On Hit: Targets lose mana equal to the number of characters in the area, and you regain mana equal to the number of characters hit.",
+        "effects": "Choose one of the following when you make this spell attack:\\r\\nShocked: Characters in the area are DAZED and can\u2019t take Reactions until the end of their next turn.\\r\\nDrained: On Hit: Targets lose mana equal to the number of characters in the area, and you regain mana equal to the number of characters hit.",
         "origin": "Thunderclaw",
         "stat_effects": {
             "armor": "0",
@@ -2641,7 +2641,7 @@
                 "val": ""
             }
         ],
-        "effects": "Choose one of the following when you hit with this spell attack:Engulf Lungs: If the target gains Discord from this attack, they are SILENCED until they clear their Discord.Submerge: The target must pass a MGK save or be BLINDED until the end of their next turn.",
+        "effects": "Choose one of the following when you hit with this spell attack:\\r\\nEngulf Lungs: If the target gains Discord from this attack, they are SILENCED until they clear their Discord.\\r\\nSubmerge: The target must pass a MGK save or be BLINDED until the end of their next turn.",
         "origin": "Tidecaller",
         "stat_effects": {
             "armor": "0",
@@ -2660,7 +2660,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Gain the following (6) RELEASE options:Soothing Rain: (6) Release: Create a [Blast 1] zone within Scope. When a character starts their turn in the zone, they remove all Discord and can clear 1 Stress. This zone lasts until you use this ability again.Downpour: (6) Release: Create a [Blast 1] zone within Scope. Characters are BLINDED while in the zone. This zone lasts until the end of your next turn, but can be repeatedly extended until the end of your following turn by spending 1 mana during your turn if you aren\u2019t SILENCED or STUNNED.",
+        "effects": "Gain the following (6) RELEASE options:\\nSoothing Rain: (6) Release: Create a [Blast 1] zone within Scope. When a character starts their turn in the zone, they remove all Discord and can clear 1 Stress. This zone lasts until you use this ability again.\\nDownpour: (6) Release: Create a [Blast 1] zone within Scope. Characters are BLINDED while in the zone. This zone lasts until the end of your next turn, but can be repeatedly extended until the end of your following turn by spending 1 mana during your turn if you aren\u2019t SILENCED or STUNNED.",
         "origin": "Tidecaller",
         "stat_effects": {
             "armor": "0",
@@ -2706,7 +2706,7 @@
                 "val": ""
             }
         ],
-        "effects": "The line from this attack can be pointed in any direction. On Hit: Target is pushed to the furthest free spaces within the line, toward one end of the line. You can spend 1 mana to force all hit targets to make a BLK save, falling PRONE on a failure.",
+        "effects": "The line from this attack can be pointed in any direction. \\r\\nOn Hit: Target is pushed to the furthest free spaces within the line, toward one end of the line. You can spend 1 mana to force all hit targets to make a BLK save, falling PRONE on a failure.",
         "origin": "Tidecaller",
         "stat_effects": {
             "armor": "0",
@@ -2792,7 +2792,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "You gain +1 Accuracy on MAGIC saves. Immediately after you gain Discord, you can make the MAGIC check to clear it. On a success, you clear all Discord, and on a failure you don\u2019t take the ongoing damage. You still make the checks to clear Discord at the end of your turn as normal.",
+        "effects": "You gain +1 Accuracy on MAGIC saves. \\r\\nImmediately after you gain Discord, you can make the MAGIC check to clear it. On a success, you clear all Discord, and on a failure you don\u2019t take the ongoing damage. You still make the checks to clear Discord at the end of your turn as normal.",
         "origin": "Warden",
         "stat_effects": {
             "armor": "0",
@@ -2925,7 +2925,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Trigger: An ally within Scope takes a WOUND or OVERSTRESS.Effect: Negate any carry over damage or stress. They gain 4 temp HP and clear any Discord and conditions.",
+        "effects": "Trigger: An ally within Scope takes a WOUND or OVERSTRESS.\\nEffect: Negate any carry over damage or stress. They gain 4 temp HP and clear any Discord and conditions.",
         "origin": "Warlord",
         "stat_effects": {
             "armor": "0",

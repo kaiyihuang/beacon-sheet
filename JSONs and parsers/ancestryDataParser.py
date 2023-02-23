@@ -27,7 +27,7 @@ with open('ancestryclean.csv', 'r', newline='', encoding='utf-8') as csvfile:
             rick["traits"] = []
         rick["traits"].append({
             "name": row["Trait"],
-            "desc": row["Desc"].replace("\n", " "),
+            "desc": row["Desc"].replace("\"", "").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t"),
             "armor": row["Armor Contribution"],
             "HP": row["HP Contribution"],
             "speed": row["Speed "],

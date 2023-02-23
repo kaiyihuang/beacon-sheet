@@ -13,7 +13,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Trigger: You or an ally within Scope would take Astral or Lunar damage. Effect: They gain resistance to the damage",
+        "effects": "Trigger: You or an ally within Scope would take Astral or Lunar damage. \\nEffect: They gain resistance to the damage",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -80,7 +80,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Trigger: An ally within Scope makes an ability check or save.Effect: You grant them +1 ACC on the check or save.",
+        "effects": "Trigger: An ally within Scope makes an ability check or save.\\r\\nEffect: You grant them +1 ACC on the check or save.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -104,7 +104,7 @@
                 "val": "X"
             }
         ],
-        "effects": "1/round as a Reaction when you take damage (after armor and resistance) or as part of the INTERPOSE reaction, you can take half as of the damage (after armor and resistance, rounded up) as Stress, and half of the damage as normal.As a Minor Action, you can deploy this shield to a free space within Scope as a Summon, or return it to you. The shield becomes a Size 1 piece of hard cover while deployed, and you lose the previous effect until reclaimed. (Tags: Summon, Size 1, 5 HP, 10 Dodge/A-Def).",
+        "effects": "1/round as a Reaction when you take damage (after armor and resistance) or as part of the INTERPOSE reaction, you can take half as of the damage (after armor and resistance, rounded up) as Stress, and half of the damage as normal.\\r\\nAs a Minor Action, you can deploy this shield to a free space within Scope as a Summon, or return it to you. The shield becomes a Size 1 piece of hard cover while deployed, and you lose the previous effect until reclaimed. (Tags: Summon, Size 1, 5 HP, 10 Dodge/A-Def).",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -128,7 +128,7 @@
                 "val": "1"
             }
         ],
-        "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.Any Weapon: On Hit: Deals +1d6 bonus Astral damage.",
+        "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.\\r\\nAny Weapon: On Hit: Deals +1d6 bonus Astral damage.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -156,7 +156,7 @@
                 "val": ""
             }
         ],
-        "effects": "(Tags: Summon, Size=Yours, 5 HP, Dodge/A-Def 10)You create a summon of your size in free spaces within Scope that doesn`t require Line of Sight. The summon is immune to Physical damage. You can use this summon as the point of origin for any spell or AETHERIC attacks you make. In addition, 1/turn the summon can (3) MARK a target during your turn as a free action, using your Scope. ",
+        "effects": "(Tags: Summon, Size=Yours, 5 HP, Dodge/A-Def 10)\\r\\nYou create a summon of your size in free spaces within Scope that doesn`t require Line of Sight. The summon is immune to Physical damage. You can use this summon as the point of origin for any spell or AETHERIC attacks you make. In addition, 1/turn the summon can (3) MARK a target during your turn as a free action, using your Scope. ",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -208,7 +208,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Trigger: An enemy within Scope makes an attack roll. Effect: You impose +1 DIF  on the roll. ",
+        "effects": "Trigger: An enemy within Scope makes an attack roll. \\nEffect: You impose +1 DIF  on the roll. ",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -495,7 +495,7 @@
                 "val": "2"
             }
         ],
-        "effects": "Trigger: A character in Scope uses a spell.Effect: The character must pass a MGK save or the spell is cancelled and the action lost.",
+        "effects": "Trigger: A character in Scope uses a spell.\\nEffect: The character must pass a MGK save or the spell is cancelled and the action lost.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -989,7 +989,7 @@
                 "val": ""
             }
         ],
-        "effects": "On Hit: The target must make a BULK save.Failure: The Stress the target takes from this attack is instead equal to their BREAKING value if it is greater and they are STUNNED until the end of their next turn. Success: They are SLOWED until the end of their next turn.",
+        "effects": "On Hit: The target must make a BULK save.\\r\\nFailure: The Stress the target takes from this attack is instead equal to their BREAKING value if it is greater and they are STUNNED until the end of their next turn. \\r\\nSuccess: They are SLOWED until the end of their next turn.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -1239,7 +1239,7 @@
             }
         ],
         "tags": [],
-        "effects": "On Hit: Target must pass a BLK save or be SLOWED until the end of their next turn. On Crit: Target is automatically SLOWED until the end of their next turn, and also IMMOBILIZED if they fail a BLK save.",
+        "effects": "On Hit: Target must pass a BLK save or be SLOWED until the end of their next turn. \\r\\nOn Crit: Target is automatically SLOWED until the end of their next turn, and also IMMOBILIZED if they fail a BLK save.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -1306,7 +1306,7 @@
                 "val": ""
             }
         ],
-        "effects": "Create a summon within Scope with the following stats: Size \u00bd, 15 HP, Speed 1, can take no actions. As a free action during following turns, you can spend 2 mana. If you don\u2019t, the summon is dismissed. After 6 mana is spent on this ability, the summon evolves into a Size 3 summon, pushing other characters out of its spaces and destroying non-objective objects and terrain it grows into. The summon heals all its HP, clears all conditions, and gains the ability to take actions. It gains the ability to fly, a speed of 4, and 2 armor. It gains the below Dragonflame weapon that it can use as a Standard Action.You must continue spending 2 mana as a free action during your turns to keep the summon active. Failure to do so dismisses the summon.Dragonflame. Melee Weapon [Line 15] | [6 Discord] On Attack: The area within the Line becomes Dangerous Terrain (AGI, 5 Astral). This terrain lasts until the end of the scene or until the summon is defeated/dismissed",
+        "effects": "Create a summon within Scope with the following stats: Size \u00bd, 15 HP, Speed 1, can take no actions. As a free action during following turns, you can spend 2 mana. If you don\u2019t, the summon is dismissed. \\r\\nAfter 6 mana is spent on this ability, the summon evolves into a Size 3 summon, pushing other characters out of its spaces and destroying non-objective objects and terrain it grows into. The summon heals all its HP, clears all conditions, and gains the ability to take actions. It gains the ability to fly, a speed of 4, and 2 armor. It gains the below Dragonflame weapon that it can use as a Standard Action.\\r\\nYou must continue spending 2 mana as a free action during your turns to keep the summon active. Failure to do so dismisses the summon.\\r\\nDragonflame. Melee Weapon [Line 15] | [6 Discord] On Attack: The area within the Line becomes Dangerous Terrain (AGI, 5 Astral). This terrain lasts until the end of the scene or until the summon is defeated/dismissed\\r",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -1833,7 +1833,7 @@
                 "val": "1"
             }
         ],
-        "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.Any Weapon: On Hit: Deals +1d6 bonus Lunar damage.",
+        "effects": "An ally within Scope gains an enchantment on a weapon of their choice until the end of their next turn, as per the Enchantment tag.\\r\\nAny Weapon: On Hit: Deals +1d6 bonus Lunar damage.\\r\\n",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -2178,7 +2178,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Trigger: You would take damage.Effect: The damage taken (after armor and resistances) becomes Stress damage instead of its normal damage type.",
+        "effects": "Trigger: You would take damage.\\nEffect: The damage taken (after armor and resistances) becomes Stress damage instead of its normal damage type.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -2617,7 +2617,7 @@
                 "val": ""
             }
         ],
-        "effects": "(Tags: Summon, Size 1/2, 1 {HP}, 10 Dodge/A-Def)You create this summon in a free space within Scope. At the end of the next round it explodes in a [Burst 2] area. All characters in the area are STUNNED until the end of their next turn. ",
+        "effects": "(Tags: Summon, Size 1/2, 1 {HP}, 10 Dodge/A-Def)\\nYou create this summon in a free space within Scope. At the end of the next round it explodes in a [Burst 2] area. All characters in the area are STUNNED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -2799,7 +2799,7 @@
                 "val": ""
             }
         ],
-        "effects": "Trigger: An ally starts their turn.Effect: You can make an enemy MARKED.",
+        "effects": "Trigger: An ally starts their turn.\\r\\nEffect: You can make an enemy MARKED.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -2847,7 +2847,7 @@
                 "val": "1"
             }
         ],
-        "effects": "Trigger: An adjacent character activates a spell or begins channeling.Effect: They take [2 Stress] and are DAZED until the end of their next turn.",
+        "effects": "Trigger: An adjacent character activates a spell or begins channeling.\\nEffect: They take [2 Stress] and are DAZED until the end of their next turn.",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -3009,7 +3009,7 @@
                 "val": "2"
             }
         ],
-        "effects": "(Tags: Summon, Size 1/2, 5 HP, 10 Dodge/A-Def)Create a Summon in a free space within Scope. At the end of each of your turns, each enemy adjacent to the summon must pass an AGI save or be SLOWED until the end of their next turn. ",
+        "effects": "(Tags: Summon, Size 1/2, 5 HP, 10 Dodge/A-Def)\\nCreate a Summon in a free space within Scope. At the end of each of your turns, each enemy adjacent to the summon must pass an AGI save or be SLOWED until the end of their next turn. ",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",
@@ -3278,7 +3278,7 @@
                 "val": "1"
             }
         ],
-        "effects": "An ally within Scope gains an enchantment on a weapon of their choice, as per the Enchantment tag. The Enchantment lasts until its effect is triggered.Any Weapon: On Crit: You can attack with this weapon again after the attack resolves",
+        "effects": "An ally within Scope gains an enchantment on a weapon of their choice, as per the Enchantment tag. The Enchantment lasts until its effect is triggered.\\r\\nAny Weapon: On Crit: You can attack with this weapon again after the attack resolves",
         "origin": "Loot",
         "stat_effects": {
             "armor": "0",

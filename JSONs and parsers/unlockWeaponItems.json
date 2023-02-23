@@ -219,7 +219,7 @@
                 "val": "5"
             }
         ],
-        "desc": "You can attack with this weapon as a Minor Action during any phase. You can only attack with this weapon 1/turn, and if you attack with it as a Minor Action, it deals no damage.On Hit: If the target is Pulled adjacent to you, you can automatically succeed on a (5) GRAPPLE against them.",
+        "desc": "You can attack with this weapon as a Minor Action during any phase. You can only attack with this weapon 1/turn, and if you attack with it as a Minor Action, it deals no damage.\\nOn Hit: If the target is Pulled adjacent to you, you can automatically succeed on a (5) GRAPPLE against them.\\n",
         "origin": "Knightmare"
     },
     {
@@ -528,7 +528,7 @@
                 "val": ""
             }
         ],
-        "desc": "As a Minor Action you can deploy this weapon as a Summon in a free space within Scope. (Size 1, 10 HP, Dodge/A-def 10). You can (5) FIGHT with this weapon while it is summoned, but draw line of sight and reach from the summon. If the weapon is thrown while summoned, the summon can pick it up for you. The summon can use the OPPORTUNITY ATTACK reaction, using the weapon\u2019s stats. If this summon is destroyed, so is the weapon, and vice versa. You can return the summon to a weapon as a Minor Action if it is within Scope, but any damage it has taken remains until you rest.",
+        "desc": "As a Minor Action you can deploy this weapon as a Summon in a free space within Scope. (Size 1, 10 HP, Dodge/A-def 10). You can (5) FIGHT with this weapon while it is summoned, but draw line of sight and reach from the summon. If the weapon is thrown while summoned, the summon can pick it up for you. The summon can use the OPPORTUNITY ATTACK reaction, using the weapon\u2019s stats. \\nIf this summon is destroyed, so is the weapon, and vice versa. You can return the summon to a weapon as a Minor Action if it is within Scope, but any damage it has taken remains until you rest.",
         "origin": "Demonologist"
     },
     {
@@ -585,7 +585,7 @@
             }
         ],
         "tags": [],
-        "desc": "This weapon gains the Accurate tag when it\u2019s not your turn.On Crit: You or an ally within [RANGE 5] can end a condition or clear all DISCORD on themselves. ",
+        "desc": "This weapon gains the Accurate tag when it\u2019s not your turn.\\nOn Crit: You or an ally within [RANGE 5] can end a condition or clear all DISCORD on themselves. ",
         "origin": "Paladin"
     },
     {
@@ -806,7 +806,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022Damage Type: Physical, Astral, Lunar, or ForceAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022Damage Type: Physical, Astral, Lunar, or Force\\nAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
         "origin": "Talent"
     },
     {
@@ -833,7 +833,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022        Damage Type: Physical, Astral, Lunar, or Force\\nAfter you use this weapon roll a d6. On a 4-6 the weapon malfunctions and must be RELOADED before being used again.",
         "origin": "Talent"
     },
     {
@@ -860,7 +860,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1After you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022        Damage Type: Physical, Astral, Lunar, or Force\\nWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\\nTags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\\nArea Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\\nRanged Weapon: Line 8, or Blast 1 with weapon\u2019s range.\\nMelee Weapon: Burst 1 or Close Blast 1\\n\\nAfter you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.\\n",
         "origin": "Talent"
     },
     {
@@ -887,7 +887,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1After you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022        Damage Type: Physical, Astral, Lunar, or Force\\nWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\\nTags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\\nArea Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\\nRanged Weapon: Line 8, or Blast 1 with weapon\u2019s range.\\nMelee Weapon: Burst 1 or Close Blast 1\\n\\nAfter you use this weapon roll a d6. On a 5-6 the weapon malfunctions and must be RELOADED before being used again.\\n",
         "origin": "Talent"
     },
     {
@@ -914,7 +914,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u2022 Punch Through. Your weapon gains Piercing.  After you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022        Damage Type: Physical, Astral, Lunar, or Force\\nWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\\nTags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\\nArea Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\\nRanged Weapon: Line 8, or Blast 1 with weapon\u2019s range.\\nMelee Weapon: Burst 1 or Close Blast 1\\nWhen you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\\n\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\\n\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \\n\u2022 Punch Through. Your weapon gains Piercing.  \\nAfter you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.\\n",
         "origin": "Talent"
     },
     {
@@ -941,7 +941,7 @@
                 "val": ""
             }
         ],
-        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\u2022        Damage Type: Physical, Astral, Lunar, or ForceWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.Tags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.Area Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.Ranged Weapon: Line 8, or Blast 1 with weapon\u2019s range.Melee Weapon: Burst 1 or Close Blast 1When you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \u2022 Punch Through. Your weapon gains Piercing.  After you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.",
+        "desc": "When this weapon is created and during a Long Rest, you can choose to change the following:\\n\u2022        Range: Reach 1 (Counts as melee weapon) or Range 10 (counts as ranged weapon)\\n\u2022        Damage Type: Physical, Astral, Lunar, or Force\\nWhen you create your experimental weapon or during a Long Rest, choose two of the following improvements for your weapon.\\nTags (Can be Chosen Twice). Your Experimental weapon gains one of the following tags: Accurate, Aetheric, Arcing, Push 1, Reliable 2, Thrown 5.\\nArea Pattern. When you attack with your experimental weapon, you can choose to make it one of the following AOEs instead of a normal attack. If you do so, you roll twice to determine malfunction and keep the highest result.\\nRanged Weapon: Line 8, or Blast 1 with weapon\u2019s range.\\nMelee Weapon: Burst 1 or Close Blast 1\\nWhen you create your experimental weapon or during a Long Rest, choose one of the following improvements to your weapon.\\n\u2022 Increased Range. If your weapon is melee, it gains +1 reach. If it is ranged, it gains +5 range.\\n\u2022 Increased Damage. Your weapon\u2019s damage becomes 1d6+3 \\n\u2022 Punch Through. Your weapon gains Piercing.  \\nAfter you use this weapon roll a d6. On a 6 the weapon malfunctions and must be RELOADED before being used again.\\n",
         "origin": "Talent"
     },
     {

@@ -20,7 +20,7 @@ with open('weaponItemDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
     for row in reader:
         temp = {"name": row["Name"], "profile": row["Melee/Ranged"], "size": row["Size"],
                 "type": row["Type"], "action": row["ACTION"], "damage": [], "range": [], "tags": [],
-            "desc": row["Desc"].replace("\n", "").replace("\"", "")}
+            "desc": row["Desc"].replace("\"", "").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t")}
 
         if "Melee" in temp["profile"] and "Ranged" in temp["profile"]:
             temp["modes"] = {"melee": {}, "ranged": {}}

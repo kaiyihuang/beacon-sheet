@@ -7,7 +7,7 @@ unlock_items = []
 loot_items = []
 
 with open('techniquesData.csv', newline='', encoding='utf-8') as csvfile:
-    cbt = csvfile.read().replace("'", "`").replace("\r", "").replace("\t", "")
+    cbt = csvfile.read().replace("'", "`")
 
 with open('techniquesDataClean.csv', 'w', newline='', encoding='utf-8') as csvfile:
     csvfile.write(cbt)
@@ -20,7 +20,7 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
     for row in reader:
         temp = {"name": row["Name"], "profile": row["Melee/Ranged"], "memory_cost": row["MEM"],
                 "type": row["Type"], "action": row["Action"], "damage": [], "range": [], "tags": [],
-                "effects": row["Effects"].replace("\n", "").replace("\"", ""),
+                "effects": row["Effects"].replace("\"", "").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t"),
                 "origin": row["Source"],
                 "stat_effects": {"armor": row["Armor Contribution"], "hp": row["HP Contribution"],
                                  "mana": row["mana contribution"], "speed": row["speed"],

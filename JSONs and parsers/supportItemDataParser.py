@@ -7,7 +7,7 @@ unlock_items = []
 loot_items = []
 
 with open('supportItemData.csv', newline='', encoding='utf-8') as csvfile:
-    cbt = csvfile.read().replace("'", "`").replace("\r", "").replace("\t", "")
+    cbt = csvfile.read().replace("'", "`")
 
 
 with open('supportItemDataClean.csv', 'w', newline='', encoding='utf-8') as csvfile:
@@ -38,7 +38,7 @@ with open('supportItemDataClean.csv', 'r', newline='', encoding='utf-8') as csvf
                 "id": match_tag,
                 "val": val.strip()
             })
-        temp["effect"] = row["Effect"].replace("\n", " ").replace("\"", "")
+        temp["effect"] = row["Effect"].replace("\"", "").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t")
         temp["origin"] = row["Origin"]
         temp["stat_effects"] = {
             "armor": row["Armor Contribution"],

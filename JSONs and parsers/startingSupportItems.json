@@ -9,7 +9,7 @@
                 "val": "3"
             }
         ],
-        "effect": "Expend a charge when you use a spell for one of the following effects: Seeking. If it\u2019s a spell attack, gain +1 ACC on the attack rolls. Potent. If it has a save, increase the save target by +2.",
+        "effect": "Expend a charge when you use a spell for one of the following effects:\\r\\nSeeking. If it\u2019s a spell attack, gain +1 ACC on the attack rolls.\\r\\nPotent. If it has a save, increase the save target by +2.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -103,7 +103,7 @@
                 "val": "5"
             }
         ],
-        "effect": "Expend a charge to use one of the following options: Nails. [Thrown 5] Throw at a character within range. On Hit, they take [1 Piercing Physical] for every space they move during their next turn. Spikes. [Trap] When triggered, the trap creates a [Blast 1] zone centered on itself that lasts until the end of this phase in the next round. Whenever a character starts their turn in the zone or enters it for the first time in a turn, they take [1d6 Piercing Physical]. ",
+        "effect": "Expend a charge to use one of the following options:\\nNails. [Thrown 5] Throw at a character within range. On Hit, they take [1 Piercing Physical] for every space they move during their next turn.\\nSpikes. [Trap] When triggered, the trap creates a [Blast 1] zone centered on itself that lasts until the end of this phase in the next round. Whenever a character starts their turn in the zone or enters it for the first time in a turn, they take [1d6 Piercing Physical]. ",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -136,7 +136,7 @@
                 "val": ""
             }
         ],
-        "effect": "(Tags: Summon, Size \u00bd, 5 HP, 10 Dodge/A-def) As a Minor Action, you summon your companion, which can be a beast, friend, or anything else willing to aid you in combat. Your companion is summoned in a free space within Scope. 1/turn when you attack a character adjacent to your companion, the companion deals [3 Physical] to them. Your companion can only be dismissed with a Minor Action. It keeps its current HP value when dismissed, and regains all HP during a REST. If defeated, this support item is destroyed. ",
+        "effect": "(Tags: Summon, Size \u00bd, 5 HP, 10 Dodge/A-def)\\nAs a Minor Action, you summon your companion, which can be a beast, friend, or anything else willing to aid you in combat. Your companion is summoned in a free space within Scope. 1/turn when you attack a character adjacent to your companion, the companion deals [3 Physical] to them.\\nYour companion can only be dismissed with a Minor Action. It keeps its current HP value when dismissed, and regains all HP during a REST. If defeated, this support item is destroyed. ",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -163,7 +163,7 @@
                 "val": ""
             }
         ],
-        "effect": "Choose either Physical, Astral, Lunar, or Force damage when you equip this item. Expend a charge to use one of the following options: Explosive Bomb: [Thrown 5] When thrown, create a [Blast 1] area at the target space. All characters in the area must pass an AGI save or take [1d6 Damage] of the chosen damage type. Explosive Trap. When triggered, create a [Burst 1] area. All characters in the area take [6 Damage] of the chosen damage type.  ",
+        "effect": "Choose either Physical, Astral, Lunar, or Force damage when you equip this item. Expend a charge to use one of the following options:\\nExplosive Bomb: [Thrown 5] When thrown, create a [Blast 1] area at the target space. All characters in the area must pass an AGI save or take [1d6 Damage] of the chosen damage type.\\nExplosive Trap. When triggered, create a [Burst 1] area. All characters in the area take [6 Damage] of the chosen damage type.  ",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -258,7 +258,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Armor: You gain Resistance to Physical, Astral, Lunar, or Force damage (chosen when you equip this enchantment). Any Weapon or Skill/Spell Attack: This ability ignores Physical, Astral, Lunar, or Force Resistances (chosen when you equip this enchantment).",
+        "effect": "Any Armor: You gain Resistance to Physical, Astral, Lunar, or Force damage (chosen when you equip this enchantment).\\r\\nAny Weapon or Skill/Spell Attack: This ability ignores Physical, Astral, Lunar, or Force Resistances (chosen when you equip this enchantment).\\r",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -305,7 +305,7 @@
         "slot": "Main",
         "action": "-",
         "tags": [],
-        "effect": "Allied characters gain the benefits of cover as if you were a piece of Hard Cover. 1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
+        "effect": "Allied characters gain the benefits of cover as if you were a piece of Hard Cover.\\r\\n1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -332,7 +332,7 @@
                 "val": ""
             }
         ],
-        "effect": "Expend a charge to use one of the following options: Smoke Bomb. [Thrown 5] When thrown, create a [Blast 2] zone at the target space that lasts until the end of your next turn. The zone grants Soft Cover to anything fully within the zone. Smokestick. [Trap] When triggered, creates a [Burst 3] zone that lasts until the end of this Phase in the next Round. The zone grants Soft Cover to anything fully within the zone. ",
+        "effect": "Expend a charge to use one of the following options:\\r\\nSmoke Bomb. [Thrown 5] When thrown, create a [Blast 2] zone at the target space that lasts until the end of your next turn. The zone grants Soft Cover to anything fully within the zone.\\r\\nSmokestick. [Trap] When triggered, creates a [Burst 3] zone that lasts until the end of this Phase in the next Round. The zone grants Soft Cover to anything fully within the zone. ",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -374,7 +374,7 @@
                 "val": "5"
             }
         ],
-        "effect": "You ignore all low visibility penalties. This effect is always active while equipped and remains even if this item has no charges. Expend a charge to use the following: Flash Bomb. [Thrown 5] When thrown, create a [Blast 1] area on the target space. All characters in the area must pass a BLK save or be BLINDED until the end of their next turn.",
+        "effect": "You ignore all low visibility penalties. This effect is always active while equipped and remains even if this item has no charges. Expend a charge to use the following:\\r\\nFlash Bomb. [Thrown 5] When thrown, create a [Blast 1] area on the target space. All characters in the area must pass a BLK save or be BLINDED until the end of their next turn.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -467,7 +467,7 @@
                 "val": ""
             }
         ],
-        "effect": "Expend a charge to use one of the following options: Wire Knot. [Thrown 5] Throw at a character within range. On Hit, they must pass an AGI save or be IMMOBILIZED until the end of their next turn. Wire Trap. [Trap] When triggered, creates a [Burst 1] area. All characters in the area must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
+        "effect": "Expend a charge to use one of the following options:\\r\\nWire Knot. [Thrown 5] Throw at a character within range. On Hit, they must pass an AGI save or be IMMOBILIZED until the end of their next turn.\\r\\nWire Trap. [Trap] When triggered, creates a [Burst 1] area. All characters in the area must pass an AGI save or be IMMOBILIZED until the end of their next turn.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",

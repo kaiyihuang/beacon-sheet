@@ -3,7 +3,7 @@ import json
 import re
 
 with open('talentsData.csv', newline='', encoding='utf-8') as csvfile:
-    cbt = csvfile.read().replace("'", "`").replace("\r", " ").replace("\t", " ")
+    cbt = csvfile.read().replace("'", "`")
 
 
 with open('talentsClean.csv', 'w', newline='', encoding='utf-8') as csvfile:
@@ -20,8 +20,8 @@ with open('talentsClean.csv', 'r', newline='', encoding='utf-8') as csvfile:
                 "id": row["uniqueID"],
                 "talent": row["Talent"],
                 "name": row["Name"],
-                "effect": row["Effect"].replace("\n", "\u2028"),
-                "rank": row["Rank "],
+                "effect": row["Effect"].replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t"),
+                "rank": row["Rank"],
             }
         )
 with open("talents.json", "w", encoding='utf-8') as outfile:

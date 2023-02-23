@@ -4,7 +4,7 @@
         "slot": "Light",
         "action": "-",
         "tags": [],
-        "effect": "Whenever you take damage and you\u2019re not STUNNED, you can choose to treat your Armor as equal to half your current mana. After you do so, your mana is reduced by 1. 1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
+        "effect": "Whenever you take damage and you\u2019re not STUNNED, you can choose to treat your Armor as equal to half your current mana. After you do so, your mana is reduced by 1.\\r\\n1/round as a Reaction when you take Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to gain Resistance to that damage.",
         "origin": "Aegis",
         "stat_effects": {
             "armor": "0",
@@ -23,7 +23,7 @@
                 "val": "2"
             }
         ],
-        "effect": "You gain the following options usable on yourself or an adjacent ally: \u2022 Cleanse. Clear all conditions from the target. \u2022 Expertise. Roll 2d6. The target\u2019s next attack roll, check, or saving throw can\u2019t be below this number. You can spend 1 mana to reroll one of the dice. You can reroll multiple times. \u2022 False Life. Until the end of the target\u2019s next turn, if they are reduced to 0 HP or below, or are over their stress cap, they don\u2019t take the WOUND/OVERSTRESS. Damage and stress still continue to accumulate. If, at the end of their next turn they are still at 0 HP or less or over their stress cap, they then take the WOUND/OVERSTRESS.",
+        "effect": "You gain the following options usable on yourself or an adjacent ally:\\n\u2022 Cleanse. Clear all conditions from the target.\\n\u2022 Expertise. Roll 2d6. The target\u2019s next attack roll, check, or saving throw can\u2019t be below this number. You can spend 1 mana to reroll one of the dice. You can reroll multiple times.\\n\u2022 False Life. Until the end of the target\u2019s next turn, if they are reduced to 0 HP or below, or are over their stress cap, they don\u2019t take the WOUND/OVERSTRESS. Damage and stress still continue to accumulate. If, at the end of their next turn they are still at 0 HP or less or over their stress cap, they then take the WOUND/OVERSTRESS.",
         "origin": "Alchemist",
         "stat_effects": {
             "armor": "0",
@@ -42,7 +42,7 @@
                 "val": "3"
             }
         ],
-        "effect": "You gain the following options: \u2022 Panacea. You or an adjacent ally clears all Discord and a condition. \u2022 Vigor. Your or an adjacent ally gains 4 temp HP and gains +1 ACC on their next ability check or save.",
+        "effect": "You gain the following options:\\n\u2022 Panacea. You or an adjacent ally clears all Discord and a condition.\\n\u2022 Vigor. Your or an adjacent ally gains 4 temp HP and gains +1 ACC on their next ability check or save.",
         "origin": "Alchemist",
         "stat_effects": {
             "armor": "0",
@@ -61,7 +61,7 @@
                 "val": "3"
             }
         ],
-        "effect": "Trigger: You or a character within Scope fails an attack roll, saving throw, or check. Effect: Roll 1d6 and add the result to their total, potentially turning a failure into a success.",
+        "effect": "Trigger: You or a character within Scope fails an attack roll, saving throw, or check.\\nEffect: Roll 1d6 and add the result to their total, potentially turning a failure into a success.",
         "origin": "Alchemist",
         "stat_effects": {
             "armor": "0",
@@ -98,7 +98,7 @@
                 "val": "5"
             }
         ],
-        "effect": "You gain the following options: Explosive Concoction. [Thrown 5] A character within the thrown range is auto-hit by a weapon attack for [3 Astral]. You can spend 1 mana to make it a [Blast 1] area. Sticky Bomb. [Thrown 5] When thrown at a target, on a hit, they are IMMOBILIZED. They can attempt to clear the condition by succeeding on a BLK save as a Minor Action, but can\u2019t do so until they\u2019ve ended a turn IMMOBILIZED by this ability. When they clear the condition, they create a [Burst 1] area, dealing [2 Astral] to themselves and any characters in the area.",
+        "effect": "You gain the following options:\\nExplosive Concoction. [Thrown 5] A character within the thrown range is auto-hit by a weapon attack for [3 Astral]. You can spend 1 mana to make it a [Blast 1] area.\\nSticky Bomb. [Thrown 5] When thrown at a target, on a hit, they are IMMOBILIZED. They can attempt to clear the condition by succeeding on a BLK save as a Minor Action, but can\u2019t do so until they\u2019ve ended a turn IMMOBILIZED by this ability. When they clear the condition, they create a [Burst 1] area, dealing [2 Astral] to themselves and any characters in the area.",
         "origin": "Alchemist",
         "stat_effects": {
             "armor": "0",
@@ -117,7 +117,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any LIGHT Weapon: On a crit with this weapon, the target loses 1 mana and you regain mana equal to the amount they lost.  Any MAIN Weapon: On a crit with this weapon, the target loses 2 mana and you regain mana equal to the amount they lost. Any HEAVY Weapon: On a crit with this weapon, the target loses 3 mana and you regain mana equal to the amount they lost.",
+        "effect": "Any LIGHT Weapon: On a crit with this weapon, the target loses 1 mana and you regain mana equal to the amount they lost. \\r\\nAny MAIN Weapon: On a crit with this weapon, the target loses 2 mana and you regain mana equal to the amount they lost.\\r\\nAny HEAVY Weapon: On a crit with this weapon, the target loses 3 mana and you regain mana equal to the amount they lost.",
         "origin": "Arsenal",
         "stat_effects": {
             "armor": "0",
@@ -131,7 +131,7 @@
         "slot": "Light",
         "action": "",
         "tags": [],
-        "effect": "When you successfully (5) GRAPPLE a target, they are SILENCED until they are no longer GRAPPLED by you. They take [1 Piercing Physical] for every space moved while GRAPPLED in this way, to a maximum amount of damage each turn equal to your Speed. You can only garrote one target at a time, and a character can only be garroted by one character at a time. ",
+        "effect": "When you successfully (5) GRAPPLE a target, they are SILENCED until they are no longer GRAPPLED by you. They take [1 Piercing Physical] for every space moved while GRAPPLED in this way, to a maximum amount of damage each turn equal to your Speed.\\r\\nYou can only garrote one target at a time, and a character can only be garroted by one character at a time. ",
         "origin": "Assassin",
         "stat_effects": {
             "armor": "0",
@@ -150,7 +150,7 @@
                 "val": "3"
             }
         ],
-        "effect": "Expend a charge when you hit with a non-Aetheric weapon attack roll. The target takes [2 Discord] and is inflicted with one of the following poisons of your choice as long as they gain the Discord. Deathbite. Until the target clears their Discord, whenever they fail the MGK check to clear their Discord, their level of Discord doubles before taking the damage. Ghoulblood. The target is WEAKENED until they clear their Discord. Midnight Malice. The target is BLINDED and can\u2019t reveal HIDDEN enemies until they clear their Discord.",
+        "effect": "Expend a charge when you hit with a non-Aetheric weapon attack roll. The target takes [2 Discord] and is inflicted with one of the following poisons of your choice as long as they gain the Discord.\\nDeathbite. Until the target clears their Discord, whenever they fail the MGK check to clear their Discord, their level of Discord doubles before taking the damage.\\nGhoulblood. The target is WEAKENED until they clear their Discord.\\nMidnight Malice. The target is BLINDED and can\u2019t reveal HIDDEN enemies until they clear their Discord.",
         "origin": "Assassin",
         "stat_effects": {
             "armor": "0",
@@ -169,7 +169,7 @@
                 "val": ""
             }
         ],
-        "effect": "+1 Armor.  Whenever you defeat an enemy, you become INVISIBLE until the start of your next turn.",
+        "effect": "+1 Armor. \\nWhenever you defeat an enemy, you become INVISIBLE until the start of your next turn.",
         "origin": "Assassin",
         "stat_effects": {
             "armor": "1",
@@ -221,7 +221,7 @@
         "slot": "Main",
         "action": "-",
         "tags": [],
-        "effect": "When a character or summon within Scope is defeated, gain 1 soul essence, to a max of 6. Unused soul essence is lost during a LONG REST. Soul essence can be spent for the following effects: \u2022 Summoning Essence. Soul Essence can be spent in place of mana for abilities with the SUMMON tag. \u2022 Double Summon. 1/scene when you create a summon, you can spend 6 Soul Essence to summon another copy of that summon, which is summoned within the ability\u2019s normal summoning restrictions. This allows a summoning ability to exceed the normal number of summons.",
+        "effect": "When a character or summon within Scope is defeated, gain 1 soul essence, to a max of 6. Unused soul essence is lost during a LONG REST. Soul essence can be spent for the following effects:\\n\u2022 Summoning Essence. Soul Essence can be spent in place of mana for abilities with the SUMMON tag.\\n\u2022 Double Summon. 1/scene when you create a summon, you can spend 6 Soul Essence to summon another copy of that summon, which is summoned within the ability\u2019s normal summoning restrictions. This allows a summoning ability to exceed the normal number of summons.",
         "origin": "Demonologist",
         "stat_effects": {
             "armor": "0",
@@ -254,7 +254,7 @@
                 "val": ""
             }
         ],
-        "effect": "Choose one of the following enchantments: Any Weapon or Technique with Reach: It gains +1 Reach and ignores the DIF from making a melee attack against a flying character. Any Weapon or Technique with Range: It gains +3 Range. Any Weapon or Technique with [Range = Scope]: Its range becomes [Scope +3].",
+        "effect": "Choose one of the following enchantments:\\r\\nAny Weapon or Technique with Reach: It gains +1 Reach and ignores the DIF from making a melee attack against a flying character.\\r\\nAny Weapon or Technique with Range: It gains +3 Range.\\r\\nAny Weapon or Technique with [Range = Scope]: Its range becomes [Scope +3].",
         "origin": "Dragon Rider",
         "stat_effects": {
             "armor": "0",
@@ -338,7 +338,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Weapon: The weapon gains the Unbreakable tag, and returns to you if thrown after the attack resolves. This weapon can be used even if you are DISARMED. Any Technique: The technique gains the Unbreakable tag. If it\u2019s a spell, it can be used even if you are SILENCED.",
+        "effect": "Any Weapon: The weapon gains the Unbreakable tag, and returns to you if thrown after the attack resolves. This weapon can be used even if you are DISARMED.\\r\\nAny Technique: The technique gains the Unbreakable tag. If it\u2019s a spell, it can be used even if you are SILENCED.",
         "origin": "Hexblade",
         "stat_effects": {
             "armor": "0",
@@ -357,7 +357,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Weapon: Whenever you hit with this weapon, you can VOLLEY, FIGHT, or in the case of SLOW weapons, FULL ATTACK with it 1 phase sooner than normal as long as you attack the same target, to a minimum of PHASE 1. This effect stacks and lasts until the end of the scene or until you attack a different target with this weapon Any Technique that forces a Save: 1/turn if a target pass a save triggered by this technique, its save target increases by +1 until the end of the scene or until a target fails the save, at which point it resets back to normal. This effect can stack.",
+        "effect": "Any Weapon: Whenever you hit with this weapon, you can VOLLEY, FIGHT, or in the case of SLOW weapons, FULL ATTACK with it 1 phase sooner than normal as long as you attack the same target, to a minimum of PHASE 1. This effect stacks and lasts until the end of the scene or until you attack a different target with this weapon\\r\\nAny Technique that forces a Save: 1/turn if a target pass a save triggered by this technique, its save target increases by +1 until the end of the scene or until a target fails the save, at which point it resets back to normal. This effect can stack.\\r",
         "origin": "Knightmare",
         "stat_effects": {
             "armor": "0",
@@ -376,7 +376,7 @@
                 "val": ""
             }
         ],
-        "effect": "+1 Armor Allied characters gain the benefits of cover as if you were a piece of Hard Cover. 1/round as a Reaction when you or an adjacent ally takes Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to grant yourself or the ally Resistance to that damage.",
+        "effect": "+1 Armor\\r\\nAllied characters gain the benefits of cover as if you were a piece of Hard Cover.\\r\\n1/round as a Reaction when you or an adjacent ally takes Physical, Astral, Lunar, or Force or when you take that damage as part of the INTERPOSE reaction, you can take [2 Stress] to grant yourself or the ally Resistance to that damage.",
         "origin": "Paladin",
         "stat_effects": {
             "armor": "1",
@@ -399,7 +399,7 @@
                 "val": ""
             }
         ],
-        "effect": "+1 Armor.  Enemies within [Range 5] of you must use your Save Target when making the check to clear their Discord instead of the normal target number of 10. Adjacent enemies must use your Save Target +2. ",
+        "effect": "+1 Armor. \\nEnemies within [Range 5] of you must use your Save Target when making the check to clear their Discord instead of the normal target number of 10. Adjacent enemies must use your Save Target +2. ",
         "origin": "Phoenix",
         "stat_effects": {
             "armor": "1",
@@ -418,7 +418,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Armor: 1/round as a REACTION when you take damage, you can immediately teleport up to 1d6 spaces.  Any Weapon: 1/round when you crit with this weapon, you can teleport the target up to 1d6 spaces.",
+        "effect": "Any Armor: 1/round as a REACTION when you take damage, you can immediately teleport up to 1d6 spaces. \\nAny Weapon: 1/round when you crit with this weapon, you can teleport the target up to 1d6 spaces.",
         "origin": "Riftblade",
         "stat_effects": {
             "armor": "0",
@@ -470,7 +470,7 @@
                 "val": "2"
             }
         ],
-        "effect": "You create a [Burst 1] area of growing cold around you. Enemies that start their turn in this area take [2 Lunar]. At the start of each of your turns while activated, the damage of this ability increases by +2, and you take the current damage (after it is increased), which bypasses your Armor.   You can deactivate this ability as a Free Action, which resets the damage back to its base value of 2.",
+        "effect": "You create a [Burst 1] area of growing cold around you. Enemies that start their turn in this area take [2 Lunar]. At the start of each of your turns while activated, the damage of this ability increases by +2, and you take the current damage (after it is increased), which bypasses your Armor. \\n You can deactivate this ability as a Free Action, which resets the damage back to its base value of 2.",
         "origin": "Rimeguard",
         "stat_effects": {
             "armor": "0",
@@ -493,7 +493,7 @@
                 "val": ""
             }
         ],
-        "effect": "You gain the following trap options: Mana Collector. When triggered, creates a [Burst 2] area. All enemies in the area must make a MGK save. Failure: they lose all their mana. Success: They lose mana equal to half their mana maximum. The trap collects all of the mana lost from this ability and remains on the field as a special terrain feature. You or an ally can use a Minor Action while adjacent to the trap to regain mana equal to the amount it has collected. The trap is then removed from play Vitality Collector. When triggered, creates a [Burst 2] area. All enemies in the area must make a MGK save. Failure: They take [4 Stress] and are WEAKENED until the end of their next turn. Success: They take [4 Stress]. The trap counts all of the Stress given from this effect and remains on the field as a special terrain feature. You or an ally can use a Minor Action while adjacent to the trap to regain HP up to the total Stress it had given. The trap is then removed from play. ",
+        "effect": "You gain the following trap options:\\nMana Collector. When triggered, creates a [Burst 2] area. All enemies in the area must make a MGK save. Failure: they lose all their mana. Success: They lose mana equal to half their mana maximum. The trap collects all of the mana lost from this ability and remains on the field as a special terrain feature. You or an ally can use a Minor Action while adjacent to the trap to regain mana equal to the amount it has collected. The trap is then removed from play\\nVitality Collector. When triggered, creates a [Burst 2] area. All enemies in the area must make a MGK save. Failure: They take [4 Stress] and are WEAKENED until the end of their next turn. Success: They take [4 Stress]. The trap counts all of the Stress given from this effect and remains on the field as a special terrain feature. You or an ally can use a Minor Action while adjacent to the trap to regain HP up to the total Stress it had given. The trap is then removed from play.\\n",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -516,7 +516,7 @@
                 "val": ""
             }
         ],
-        "effect": "You gain the following trap options: Focused. Choose either Astral or Lunar damage when deployed. When triggered, this trap creates a [Line 8] area aimed in any direction. All characters in the area take [6 Damage] of the chosen type. Nova. Choose either Astral or Lunar damage when deployed. When triggered, this trap creates a [Burst 3] area, dealing [8 Damage] of the chosen type to all characters in the area. The damage is reduced by 2 for every space beyond [Range 1] a character is from the trap. All characters in the Burst area must make an AGI save, reducing this damage by half on a success ",
+        "effect": "You gain the following trap options:\\nFocused. Choose either Astral or Lunar damage when deployed. When triggered, this trap creates a [Line 8] area aimed in any direction. All characters in the area take [6 Damage] of the chosen type.\\nNova. Choose either Astral or Lunar damage when deployed. When triggered, this trap creates a [Burst 3] area, dealing [8 Damage] of the chosen type to all characters in the area. The damage is reduced by 2 for every space beyond [Range 1] a character is from the trap. All characters in the Burst area must make an AGI save, reducing this damage by half on a success\\n",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -535,7 +535,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Support Item/Technique that Doesn\u2019t Require an Action to Activate: When you create a summon, you can choose for them to also benefit from this ability, which lasts until they are defeated or dismissed. The summon doesn\u2019t gain the ability to use any actions granted by this item/technique, they only gain the passive benefits. Only 1 summon can benefit from this ability at a time. Any Equipment/Technique with the Summon Tag: Whenever you regain HP, this summon regains half as much HP. This only affects the summon if they are currently summoned. ",
+        "effect": "Any Support Item/Technique that Doesn\u2019t Require an Action to Activate: When you create a summon, you can choose for them to also benefit from this ability, which lasts until they are defeated or dismissed. The summon doesn\u2019t gain the ability to use any actions granted by this item/technique, they only gain the passive benefits. Only 1 summon can benefit from this ability at a time.\\nAny Equipment/Technique with the Summon Tag: Whenever you regain HP, this summon regains half as much HP. This only affects the summon if they are currently summoned.\\n",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -558,7 +558,7 @@
                 "val": "5"
             }
         ],
-        "effect": "This item starts with the Empty profile. Empty. As a Minor Action, expend a charge and make a thrown melee weapon attack at a character within range. On a hit, they must make a MAGIC save. They have +1 Difficulty if they are BLOODIED, +1 Difficulty if they are BREAKING, and an additional +1 Difficulty for every condition they have. Failure: They are STUNNED and IMMOBILIZED until the end of their next turn. Success: They are DAZED until the end of their next turn. When a target fails this save, make note of their current HP and Mana. Gain the Full profile. Full. As a Minor Action, one character within the item\u2019s Thrown range gains temp HP equal to the noted HP plus mana from the Empty profile. The item gains the Empty profile. This effect does not consume a charge. ",
+        "effect": "This item starts with the Empty profile.\\nEmpty. As a Minor Action, expend a charge and make a thrown melee weapon attack at a character within range. On a hit, they must make a MAGIC save. They have +1 Difficulty if they are BLOODIED, +1 Difficulty if they are BREAKING, and an additional +1 Difficulty for every condition they have. Failure: They are STUNNED and IMMOBILIZED until the end of their next turn. Success: They are DAZED until the end of their next turn.\\nWhen a target fails this save, make note of their current HP and Mana. Gain the Full profile.\\nFull. As a Minor Action, one character within the item\u2019s Thrown range gains temp HP equal to the noted HP plus mana from the Empty profile. The item gains the Empty profile. This effect does not consume a charge. ",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -577,7 +577,7 @@
                 "val": "3"
             }
         ],
-        "effect": "You gain the following Reactions: Revive. Reaction (1/Round)  Trigger: One of your summons within Scope would be defeated.  Effect: Expend a charge. The summon is not defeated, and has their HP set to their BLOODIED value. Return. Reaction (1/Round)  Trigger: A character starts their turn.  Effect: Expend a charge. One of your summons in the scene (ignoring Line of Sight) is teleported to a free space adjacent to you.",
+        "effect": "You gain the following Reactions:\\r\\nRevive. Reaction (1/Round) \\r\\nTrigger: One of your summons within Scope would be defeated. \\r\\nEffect: Expend a charge. The summon is not defeated, and has their HP set to their BLOODIED value.\\r\\nReturn. Reaction (1/Round) \\r\\nTrigger: A character starts their turn. \\r\\nEffect: Expend a charge. One of your summons in the scene (ignoring Line of Sight) is teleported to a free space adjacent to you.\\r",
         "origin": "Shadebinder",
         "stat_effects": {
             "armor": "0",
@@ -591,7 +591,7 @@
         "slot": "Main",
         "action": "REACTION, 1/round",
         "tags": [],
-        "effect": "Trigger: An attack roll would hit your DODGE. Effect: Make a melee attack roll. Your DODGE for the triggering attack becomes this attack roll value, potentially turning a hit into a miss.  If the attack misses, you can spend 1 Focus to deal [3 Stress] to the attacker.",
+        "effect": "Trigger: An attack roll would hit your DODGE.\\nEffect: Make a melee attack roll. Your DODGE for the triggering attack becomes this attack roll value, potentially turning a hit into a miss. \\r\\nIf the attack misses, you can spend 1 Focus to deal [3 Stress] to the attacker.",
         "origin": "Skald",
         "stat_effects": {
             "armor": "0",
@@ -610,7 +610,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Armor: As a Minor Action, gain 1 Focus. Any Weapon or Spell Attack: On Crit, gain 1 Focus.",
+        "effect": "Any Armor: As a Minor Action, gain 1 Focus.\\r\\nAny Weapon or Spell Attack: On Crit, gain 1 Focus.",
         "origin": "Talent",
         "stat_effects": {
             "armor": "0",
@@ -629,7 +629,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Armor: This armor gains +1 ACC to checks and saves with BULK, AGILITY, MIND, or MAGIC, chosen when you equip this enchantment. Any Weapon, Support, Spell, or Skill Attack: When you attack with it, you can spend 1 mana to give the attack the Aetheric tag, or to remove the Aetheric tag. The change lasts until the end of the scene or you use this ability again.",
+        "effect": "Any Armor: This armor gains +1 ACC to checks and saves with BULK, AGILITY, MIND, or MAGIC, chosen when you equip this enchantment.\\nAny Weapon, Support, Spell, or Skill Attack: When you attack with it, you can spend 1 mana to give the attack the Aetheric tag, or to remove the Aetheric tag. The change lasts until the end of the scene or you use this ability again.",
         "origin": "Talent",
         "stat_effects": {
             "armor": "0",
@@ -648,7 +648,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Weapon or Skill/Spell Attack That Deals Damage: On Crit: Deal +1d3 bonus damage. Any Weapon or Skill/Spell Attack That Deals Stress: On Crit: Deal +2 Stress. Any Weapon or Skill/Spell Attack that Deals Discord: On Crit: Deal +1 Discord.",
+        "effect": "Any Weapon or Skill/Spell Attack That Deals Damage: On Crit: Deal +1d3 bonus damage.\\r\\nAny Weapon or Skill/Spell Attack That Deals Stress: On Crit: Deal +2 Stress.\\r\\nAny Weapon or Skill/Spell Attack that Deals Discord: On Crit: Deal +1 Discord.",
         "origin": "Talent",
         "stat_effects": {
             "armor": "0",
@@ -690,7 +690,7 @@
                 "val": ""
             }
         ],
-        "effect": "Any Weapon without Slow: You can (3) VOLLEY or (5) FIGHT with this weapon during PHASE 1: BOLSTER. Any Armor: You can RUSH, HIDE, or take actions only available during PHASE 4: REPOSITION during PHASE 1: BOLSTER.",
+        "effect": "Any Weapon without Slow: You can (3) VOLLEY or (5) FIGHT with this weapon during PHASE 1: BOLSTER.\\r\\nAny Armor: You can RUSH, HIDE, or take actions only available during PHASE 4: REPOSITION during PHASE 1: BOLSTER.",
         "origin": "Talent",
         "stat_effects": {
             "armor": "0",
@@ -761,7 +761,7 @@
         "slot": "Main",
         "action": "REACTION (1/round)",
         "tags": [],
-        "effect": "Trigger: A ranged attack roll is made against you.  Effect: Choose to either impose +1 DIF on the attack, or gain 2 Focus.",
+        "effect": "Trigger: A ranged attack roll is made against you. \\nEffect: Choose to either impose +1 DIF on the attack, or gain 2 Focus.",
         "origin": "Thunderclaw",
         "stat_effects": {
             "armor": "0",

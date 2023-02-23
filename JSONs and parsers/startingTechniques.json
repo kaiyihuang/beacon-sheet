@@ -88,7 +88,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Trigger: You are hit by an attackEffect: Increase your DODGE by 1 against the triggering attack. You can increase your DODGE by +1 for every additional Focus you spend. If this brings your DODGE above the attack roll, the attack misses.",
+        "effects": "Trigger: You are hit by an attack\\nEffect: Increase your DODGE by 1 against the triggering attack. You can increase your DODGE by +1 for every additional Focus you spend. If this brings your DODGE above the attack roll, the attack misses.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -107,7 +107,7 @@
         "damage": [],
         "range": [],
         "tags": [],
-        "effects": "Trigger: You are hit by an attackEffect: Increase your A-DEF by 1 against the triggering attack. You can increase your A-DEF by +1 for every additional Focus you spend. If this brings your A-DEF above the attack roll, the attack misses.",
+        "effects": "Trigger: You are hit by an attack\\nEffect: Increase your A-DEF by 1 against the triggering attack. You can increase your A-DEF by +1 for every additional Focus you spend. If this brings your A-DEF above the attack roll, the attack misses.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
@@ -188,7 +188,7 @@
                 "val": ""
             }
         ],
-        "effects": "On Hit: Target is DAZED until the end of their next turn. On Miss: You can spend 1 mana to inflict [2 Stress] to the target.",
+        "effects": "On Hit: Target is DAZED until the end of their next turn. \\nOn Miss: You can spend 1 mana to inflict [2 Stress] to the target.",
         "origin": "Basic",
         "stat_effects": {
             "armor": "0",
