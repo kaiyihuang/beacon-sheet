@@ -266,7 +266,7 @@ input#mycheckbox5:checked ~ #modal {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  color: #fff;
+  color: black;
   background: #434a54;
   font-size: 8px;
   cursor: pointer;
@@ -487,6 +487,7 @@ section.bars div {
 .charsheet label{
   margin: 3px;
   padding: 3px 0 0 0;
+  color: #000000;
 }
 
 .charsheet input[type="text"], input[type="number"]{

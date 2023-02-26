@@ -74,6 +74,7 @@ with open('techniquesDataClean.csv', 'r', newline='', encoding='utf-8') as csvfi
                 loot_items.append(temp)
             case other:
                 unlock_items.append(temp)
+    tags_file.close()
 
 with open("startingTechniques.json", "w") as outfile:
     obj = json.dumps(starting_items, indent=4)

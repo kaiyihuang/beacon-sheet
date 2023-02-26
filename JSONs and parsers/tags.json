@@ -25,6 +25,11 @@
     "description": "Auras affect certain characters within {VAL} spaces of the character that activates the aura. Characters can only have 1 aura activated at a time, and can change auras 1/turn"
   },
   {
+    "id": "tg_aura_e",
+    "name": "AURA",
+    "description": "Auras affect certain characters within SCOPE spaces of the character that activates the aura. Characters can only have 1 aura activated at a time, and can change auras 1/turn"
+  },
+  {
     "id": "tg_auto_hit",
     "name": "AUTO HIT",
     "description": "This attack automatically hits, no attack roll is made."
