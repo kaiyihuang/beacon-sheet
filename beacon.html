@@ -1047,6 +1047,34 @@
 		});
 	});
 	
+	on("change:tier", function(v){
+		getAttrs(["npc_type"], function(t){
+			var unit_data = unit_stats_data.find(x => x.type.toUpperCase().replace(/\s+/g, '') === t.npc_type.toUpperCase().replace(/\s+/g, ''));
+			if(parseInt(v.newValue) < 1 || parseInt(v.newValue) > 3){return;}
+			let curr_iter = parseInt(v.newValue)
+			var unit_tier_data = unit_data.tiers.find(x => x.tier === v.newValue);
+			setAttrs({
+				npc_bulk: unit_tier_data.BLK,
+				npc_agility: unit_tier_data.AGI,
+				npc_mind: unit_tier_data.MND,
+				npc_magic: unit_tier_data.MGK,
+				initiative: unit_tier_data.init,
+				npc_dodge: unit_tier_data.dodge,
+				npc_a_def: unit_tier_data.adef,
+				npc_save: unit_tier_data.save,
+				npc_scope: unit_tier_data.scope,
+				npc_speed: unit_tier_data.speed,
+				npc_armor: unit_tier_data.armor,
+				npc_hp: unit_tier_data.HP,
+				npc_hp_max: unit_tier_data.HP,
+				npc_stress: unit_tier_data.stress,
+				npc_stress_max: unit_tier_data.stress,
+				npc_mana: unit_tier_data.mana,
+				npc_mana_max: unit_tier_data.mana,
+			});
+		});
+	});
+	
 	on("change:repeating_talent:talentslots1", function(v){
 		row_string = v.sourceAttribute.replace("_talentslots1","_");
 		var tal_data = talents_data.find(x => x.id.toUpperCase().replace(/\s+/g, '') === v.newValue.toUpperCase().replace(/\s+/g, ''));
