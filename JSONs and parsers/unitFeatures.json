@@ -1,11 +1,5 @@
 [
     {
-        "name": "--Select Feature--",
-        "origin": "",
-        "features": {},
-        "effect": ""
-    },
-    {
         "name": "Blasting Charges",
         "origin": "Architect",
         "features": {
@@ -272,20 +266,22 @@
                 "T1": "8",
                 "T2": "10"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "2",
+                    "T1": "3",
+                    "T2": "4"
+                },
+                {
+                    "id": "tg_push",
+                    "val": "1"
+                }
+            ],
             "range": [
                 {
                     "type": "Reach",
                     "val": "1"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_push",
-                    "val": "1"
-                },
-                {
-                    "id": "tg_reliable",
-                    "val": "2"
                 }
             ]
         },
@@ -399,16 +395,18 @@
                 "T1": "7",
                 "T2": "9"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "2",
+                    "T1": "3",
+                    "T2": "4"
+                }
+            ],
             "range": [
                 {
                     "type": "Reach",
                     "val": "1"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "2"
                 }
             ]
         },
@@ -1335,16 +1333,18 @@
                 "T1": "9",
                 "T2": "10"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "3",
+                    "T1": "4",
+                    "T2": "5"
+                }
+            ],
             "range": [
                 {
                     "type": "Reach",
                     "val": "2"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "3"
                 }
             ]
         },
@@ -2792,16 +2792,18 @@
                 "T1": "3",
                 "T2": "4"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "1",
+                    "T1": "2",
+                    "T2": "3"
+                }
+            ],
             "range": [
                 {
                     "type": "Range",
                     "val": "8"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "1"
                 }
             ]
         },
@@ -5040,16 +5042,18 @@
                 "T1": "8",
                 "T2": "10"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "6",
+                    "T1": "8",
+                    "T2": "10"
+                }
+            ],
             "range": [
                 {
                     "type": "Reach",
                     "val": "2"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "6"
                 }
             ]
         },
@@ -5076,16 +5080,18 @@
                 "T1": "6",
                 "T2": "8"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "4",
+                    "T1": "6",
+                    "T2": "8"
+                }
+            ],
             "range": [
                 {
                     "type": "Range",
                     "val": "20"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "4"
                 }
             ]
         },
@@ -5690,16 +5696,18 @@
                 "T1": "6",
                 "T2": "7"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "2",
+                    "T1": "3",
+                    "T2": "4"
+                }
+            ],
             "range": [
                 {
                     "type": "Range",
                     "val": "10"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "2"
                 }
             ]
         },
@@ -7069,16 +7077,18 @@
                 "T1": "6",
                 "T2": "7"
             },
+            "tags": [
+                {
+                    "id": "tg_reliable",
+                    "T0": "3",
+                    "T1": "4",
+                    "T2": "5"
+                }
+            ],
             "range": [
                 {
                     "type": "Reach",
                     "val": "1"
-                }
-            ],
-            "tags": [
-                {
-                    "id": "tg_reliable",
-                    "val": "3"
                 }
             ]
         },

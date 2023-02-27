@@ -3,6 +3,8 @@ import json
 import re
 
 output_list = []
+
+# IN HELL WE LIVE, LAMENT
 with open('unitFeaturesData.csv', newline='', encoding='utf-8') as csvfile:
     tags_file = open("tags.json")
     tags_data = json.load(tags_file)
@@ -21,15 +23,16 @@ with open('unitFeaturesData.csv', newline='', encoding='utf-8') as csvfile:
     pattern_recharge = re.compile(r"Recharge [0-9]\+", re.M)
     pattern_ranges = re.compile(r"\[([ A-Za-z]+ [0-9]+|Range = Scope)(,([ A-Za-z]+ [0-9]+)|Range = Scope)*\]", re.M)
     pattern_range_sub = re.compile(r"([ A-Za-z]+ [0-9]+|Range = Scope)", re.M)
-    pattern_reliable = re.compile(r"Reliable \[[0-9]+\/[0-9]+\/[0-9]+\]", re.M)
+    pattern_reliable = re.compile(r"Reliable [0-9]+\/[0-9]+\/[0-9]+", re.M)
     pattern_tags = re.compile(r"[A-Za-z]+ *[0-9|X]* *[(Self)]*", re.M)
     reader = csv.DictReader(csvfile)
     for row in reader:
+        if row["Name"] == "--Select Feature--":
+            continue;
         new_feature = {"name": row["Name"].replace("'", "`"), "origin": row["Origin"], "features": {},
                        "effect": row["Effect"].replace("'", "`").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t")}
         type_line = re.split(r"[, ]", row["Type"])
         type_line = [element.upper() for element in type_line]
-
         work_string = row["Top Line"]
         if "TRAIT" in type_line:
             new_feature["type"] = "Trait"
@@ -171,13 +174,14 @@ with open('unitFeaturesData.csv', newline='', encoding='utf-8') as csvfile:
             try:
                 match_tag = next(x["id"] for x in tags_data if x["name"] == name_regex)
             except Exception as e:
-                print(new_feature['name'])
-                print(tags_list)
-                print(tag_pair)
+                #print(new_feature['name'])
+                #print(tags_list)
+                #print(tag_pair)
                 print("L + Ratio")
             new_feature["features"]["tags"].append({"id": match_tag, "val": val.strip()})
         work_string = re.sub(pattern_tags, "", work_string)
-
+        if "type" not in new_feature:
+            print(new_feature["name"])
         output_list.append(new_feature)
     tags_file.close()
 
