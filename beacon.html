@@ -80,6 +80,7 @@
                 <ul>
                   <li>+2 HP for every point of Bulk</li>
                   <li>+1 Recovery for every two points of Bulk</li>
+				</ul>
             </span>
           </span>        
         <button type="roll" style="margin-left: 5px;" name="roll_bulk" value="&{template:default} {{title=bulk}}   {{roll= [[1d20+@{bulk} +?{Accuracy/Difficulty|0}d6k1]]}}"> </button> 
@@ -94,6 +95,7 @@
                 <ul>
                   <li>+1 Dodge for every point of Agility</li>
                   <li>+1 Speed for every two points of Agility</li>
+				 </ul>
             </span>
           </span>     
         <button type="roll" style="margin-left: 5px;" name="roll_agility" value="&{template:default} {{title=agility}}   {{roll= [[d20+@{agility}[agility] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
@@ -108,6 +110,7 @@
                 <ul>
                   <li>+1 Stress for every point of Mind</li>
                   <li>+1 Memory for every two points of Mind</li>
+				</ul>
             </span>
           </span>     
         <button type="roll" style="margin-left: 5px;" name="roll_mind" value="&{template:default} {{title=mind}}   {{roll= [[d20+@{mind}[mind] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>
@@ -122,6 +125,7 @@
                 <ul>
                     <li>+1 A-Def for every point of Magic</li>
                     <li>+1 Mana for every two points of Magic</li>
+				</ul>
             </span>
           </span>     
         <button type="roll" style="margin-left: 5px;" name="roll_magic" value="&{template:default} {{title=magic}}   {{roll= [[d20+@{magic}[magic] +?{Accuracy/Difficulty|0}d6k1 ]]}}"> </button>   
@@ -154,9 +158,9 @@
             </span>
           </span>  
         <button type="roll" name="roll_anc" value="&{template:default} {{Name=@{lb_name}}} {{Description=@{lb_info}}}"></button>
-        <Label>Name <input type=text class=text160 name="attr_lb_name" ></label>
+        <label>Name <input type=text class=text160 name="attr_lb_name" ></label>
         <div class="sheet-body">
-            <textarea name="attr_lb_info" style="resize: none; width: 97%; height: 125px;">
+            <textarea name="attr_lb_info" style="resize: none; width: 97%; height: 125px;"></textarea>
         </div>
       </section>
 
@@ -305,8 +309,8 @@
 <section class="inv">
     <h3>Support Items</h3>
     <div class="container hidden">
-        <span><input name="attr_inv_slots1" type="text" list="inv_slots" style="width: auto;"> <span><input name="attr_inv_slots2" type="text" list="inv_slots" style="width: auto;"></span><br>
-        <span><input name="attr_inv_slots3" type="text" list="inv_slots" style="width: auto;"> <span><input name="attr_inv_slots4" type="text" list="inv_slots" style="width: auto;"></span><br>
+        <span><input name="attr_inv_slots1" type="text" list="inv_slots" style="width: auto;"></span> <span><input name="attr_inv_slots2" type="text" list="inv_slots" style="width: auto;"></span><br>
+        <span><input name="attr_inv_slots3" type="text" list="inv_slots" style="width: auto;"></span> <span><input name="attr_inv_slots4" type="text" list="inv_slots" style="width: auto;"></span><br>
       </div>
     <fieldset class="repeating_support">
         <input type="checkbox" class="sheet-toggle-show" >
@@ -331,13 +335,14 @@
         <div class="sheet-body">
         <textarea name="attr_talent_info"></textarea>
         </div>
+	</fieldset>
 </section>
 
 <section class="misc">
     <h3>Ancestry</h3>
     <input type="checkbox" class="sheet-toggle-show">
     <button type="roll" name="roll_anc" value="&{template:default} {{title=@{anc_trait_name}}} {{Description=@{anc_trait_info}}}"></button>
-    <Label>Trait<input type=text class=text160 name="attr_anc_trait_name"></label>
+    <label>Trait<input type=text class=text160 name="attr_anc_trait_name"></label>
     <div class="sheet-body">
         <textarea name="attr_anctrait_info" style="resize: none; width: 95%; height: 40px; margin-bottom: -25px;"></textarea>
     </div>
@@ -345,21 +350,21 @@
     <h3>Job</h3>
     <input type="checkbox" class="sheet-toggle-show1">
     <button type="roll" name="roll_job1" value="&{template:default} {{title=@{job_trait1}}} {{Description=@{job_trait1_info}}}" ></button>
-    <Label>Trait<input type=text class=text160 name="attr_job_trait1" readonly></label>
+    <label>Trait<input type=text class=text160 name="attr_job_trait1" readonly></label>
     <div class="sheet-body1">
         <textarea name="attr_job_trait1_info" style="resize: none; width: 95%; height: 70px; margin-bottom: -25px;"></textarea>
     </div>
     <br>
     <input type="checkbox" class="sheet-toggle-show2">
     <button type="roll" name="roll_job2" value="&{template:default} {{title=@{job_trait2}}} {{Description=@{job_trait2_info}}}" ></button>
-    <Label>Trait<input type=text class=text160 name="attr_job_trait2" readonly></label>
+    <label>Trait<input type=text class=text160 name="attr_job_trait2" readonly></label>
     <div class="sheet-body2">
         <textarea name="attr_job_trait2_info" style="resize: none; width: 95%; height: 70px; margin-bottom: -25px;"></textarea>
     </div>
     <br>
     <input type="checkbox" class="sheet-toggle-show3">
     <button type="roll" name="roll_job3" value="&{template:default} {{title=@{job_trait3}}} {{Description=@{job_trait3_info}}}" ></button>
-    <Label>Trait<input type=text class=text160 name="attr_job_trait3" readonly></label>
+    <label>Trait<input type=text class=text160 name="attr_job_trait3" readonly></label>
     <div class="sheet-body3">
         <textarea name="attr_job_trait3_info" style="resize: none; width: 95%; height: 70px; margin-bottom: -25px;"></textarea>
     </div>
@@ -430,7 +435,7 @@
         <input type="text" class=text160 name="attr_attackname" value=" "><span>Range<input type="text" class=text105 name="attr_attackrange" value=" "></span><br>
         <div class="sheet-body">
         <span>Type<input type="text" name="attr_attacktype" value=" "></span><br><span>Wpn.Type<input type="text" name="attr_weapontype" value=" "></span><br>
-        <span>To Hit<input type="text" name="attr_npctohit" class=smallerTextbox value=" "><span>Accuracy<input type="text" name="attr_npctohitacc" class=smallerTextbox value=" "></span><span>Defense<input type="text" name="attr_npctohitdef" class=smallerTextbox value=" "></span><br>
+        <span>To Hit<input type="text" name="attr_npctohit" class=smallerTextbox value=" "></span><span>Accuracy<input type="text" name="attr_npctohitacc" class=smallerTextbox value=" "></span><span>Defense<input type="text" name="attr_npctohitdef" class=smallerTextbox value=" "></span><br>
 		<span>Damage<input type="text" class=smallerTextbox name="attr_attackdamage" value=" "></span><span>Type<input type="text" name="attr_damagetype" class=smallerTextbox value=" "></span><br>
 		<span>Snd. Damage<input type="text" class=smallerTextbox name="attr_attackdamage2" value=" "></span><span>Snd. Type<input type="text" name="attr_damagetype2" class=smallerTextbox value=" "></span><br>
         <span>Tags<input type="text" name="attr_attacktags" value=" "></span><span hidden>TagsLong<input type="text" name="attr_attacktagslong" value=" "></span>Effects? <input type="checkbox" class="sheet-toggle-show"><br>
@@ -1271,55 +1276,62 @@
 		
 		});
 	});
+	
+	on("change:level", function(v){
+		currLevel = parseInt(v.newValue);
+		setAttrs({grit: Math.floor(currLevel/2)});
+	});
 
 	
     on("change:bulk change:agility change:mind change:magic change:grit", function(v) {
+	console.log(v.sourceAttribute);
         getAttrs(["grit", "job", "bulk", "mind"], function(t) {
         const source_attribute = v.sourceAttribute;
         const previous_value = parseInt(v.previousValue);
         const new_value = parseInt(v.newValue);
 		const current_grit = parseInt(t.grit);
 		const curr_class_data = class_data.find(x => x.class.toUpperCase().replace(/\s+/g, '') === t.job.toUpperCase().replace(/\s+/g, ''));
-        switch (v.sourceAttribute) {
+		
+        switch (v.sourceAttribute.toString()) {
             
             case "bulk":
-                    const total_hp_max = class_data.HP + Math.floor(new_value * 2) + current_grit;
-                    setAttrs({ hp_max: total_hp_max});
-                    const new_recoveries_max = class_data.recoveries + Math.floor(new_value / 2);
-                    setAttrs({recoveries_max: new_recoveries_max});
-					break;
+				setAttrs({ hp_max: parseInt(curr_class_data.HP) + Math.floor(new_value * 2) + current_grit});
+				const new_recoveries_max = parseInt(curr_class_data.recoveries) + Math.floor(new_value / 2);
+				setAttrs({recoveries_max: new_recoveries_max.toString()});
+				break;
 
             case "agility":
-                    const total_dodge_max = class_data.dodge + new_value;
-                    setAttrs({dodge_max: total_dodge_max});
-                    const total_speed_max = class_data.speed + Math.floor(new_value / 2);
-                    setAttrs({speed_max: total_speed_max});
+                    const total_dodge_max = parseInt(curr_class_data.dodge) + new_value;
+					console.log(total_dodge_max);
+                    setAttrs({dodge_max: total_dodge_max.toString()});
+                    const total_speed_max = parseInt(curr_class_data.speed) + Math.floor(new_value / 2);
+                    setAttrs({speed_max: total_speed_max.toString()});
 					break;
 
             case "mind":
-                const total_stress_max = class_data.stress + new_value;
+                const total_stress_max = parseInt(curr_class_data.stress) + new_value;
                 setAttrs({stress_max: total_stress_max});
-                const new_memory_max = class_data.memory + Math.floor(new_value / 2) + current_grit;
+                const new_memory_max = parseInt(curr_class_data.memory) + Math.floor(new_value / 2) + current_grit;
                 setAttrs({memory_max: new_memory_max});
 				break;
 
 			case "magic":
-				const total_adef_max = class_data.adef + new_value;
+				const total_adef_max = parseInt(curr_class_data.adef) + new_value;
 				setAttrs({a_def: total_adef_max});
-				const total_mana_max = class_data.mana + Math.floor(new_value / 2);
+				const total_mana_max = parseInt(curr_class_data.mana) + Math.floor(new_value / 2);
 				setAttrs({mana_max: total_speed_max});
 				break;
 
             case "grit":
 				const current_bulk = parseInt(t.bulk);
-                const total_hp_max = class_data.HP + (current_bulk * 2) + new_value;
+                let total_hp_max = parseInt(curr_class_data.HP) + (current_bulk * 2) + new_value;
                 setAttrs({hp_max: total_hp_max});
 
                 const current_mind = parseInt(t.mind);
-                const totalmemory_max = class_data.memory + Math.floor(current_mind / 2) + new_value;
+                const total_memory_max = parseInt(curr_class_data.memory) + Math.floor(current_mind / 2) + new_value;
                 setAttrs({memory_max: total_memory_max});
 
-                const total_save_max = class_data.save_target + new_value;
+                const total_save_max = parseInt(curr_class_data.save_target) + new_value;
                 setAttrs({save_max: total_save_max});
 
 				break;
