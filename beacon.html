@@ -1301,15 +1301,15 @@
 				break;
 
             case "agility":
-                    const total_dodge_max = parseInt(curr_class_data.dodge) + new_value;
-					console.log(total_dodge_max);
-                    setAttrs({dodge_max: total_dodge_max.toString()});
-                    const total_speed_max = parseInt(curr_class_data.speed) + Math.floor(new_value / 2);
-                    setAttrs({speed_max: total_speed_max.toString()});
-					break;
+				const total_dodge_max = parseInt(curr_class_data.dodge) + new_value;
+				console.log(total_dodge_max);
+				setAttrs({dodge_max: total_dodge_max.toString()});
+				const total_speed_max = parseInt(curr_class_data.speed) + Math.floor(new_value / 2);
+				setAttrs({speed_max: total_speed_max.toString()});
+				break;
 
             case "mind":
-                const total_stress_max = parseInt(curr_class_data.stress) + new_value;
+                const total_stress_max = parseInt(curr_class_data.stress_cap) + new_value;
                 setAttrs({stress_max: total_stress_max});
                 const new_memory_max = parseInt(curr_class_data.memory) + Math.floor(new_value / 2) + current_grit;
                 setAttrs({memory_max: new_memory_max});
@@ -1319,7 +1319,7 @@
 				const total_adef_max = parseInt(curr_class_data.adef) + new_value;
 				setAttrs({a_def: total_adef_max});
 				const total_mana_max = parseInt(curr_class_data.mana) + Math.floor(new_value / 2);
-				setAttrs({mana_max: total_speed_max});
+				setAttrs({mana_max: total_mana_max});
 				break;
 
             case "grit":
